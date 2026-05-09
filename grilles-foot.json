@@ -1091,5 +1091,8376 @@
         "Nicolas Anelka"
       ]
     }
+  },
+  {
+    "date": "2026-05-16",
+    "seed": 20260516,
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne_joueurs_par_case": 7.0,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      },
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry"
+      ],
+      "1": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "William Gallas",
+        "Benjamin Mendy",
+        "William Saliba",
+        "Jonathan Clauss"
+      ],
+      "2": [
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Samir Nasri",
+        "Loïc Rémy"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "4": [
+        "Lilian Thuram",
+        "Bixente Lizarazu",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry"
+      ],
+      "7": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Eric Abidal",
+        "Djibril Sidibé"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Eric Abidal",
+        "Karim Benzema"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-17",
+    "seed": 20260517,
+    "difficulte": 0.82,
+    "stats": {
+      "moyenne_joueurs_par_case": 6.0,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "pos_attaquant",
+        "label": "Attaquant",
+        "icon": "⚡"
+      },
+      {
+        "id": "euro_1996",
+        "label": "Euro 1996",
+        "icon": "🥈"
+      },
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Thierry Henry",
+        "David Trezeguet",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Nicolas Anelka"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Sylvain Wiltord",
+        "Nicolas Anelka",
+        "Olivier Giroud",
+        "Florian Thauvin",
+        "Loïc Rémy"
+      ],
+      "2": [
+        "Christophe Dugarry",
+        "Florian Thauvin",
+        "Loïc Rémy"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff"
+      ],
+      "5": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Fabien Barthez"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "7": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Fabien Barthez",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda"
+      ],
+      "8": [
+        "Fabien Barthez",
+        "William Gallas",
+        "Franck Ribéry"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "seed": 20260518,
+    "difficulte": 0.3,
+    "stats": {
+      "moyenne_joueurs_par_case": 14.9,
+      "min_joueurs_par_case": 10
+    },
+    "lignes": [
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Yoann Gourcuff"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Theo Hernandez"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "seed": 20260519,
+    "difficulte": 0.25,
+    "stats": {
+      "moyenne_joueurs_par_case": 15.8,
+      "min_joueurs_par_case": 11
+    },
+    "lignes": [
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Adrien Rabiot"
+      ],
+      "2": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Hugo Lloris"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "7": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "seed": 20260520,
+    "difficulte": 0.42,
+    "stats": {
+      "moyenne_joueurs_par_case": 12.9,
+      "min_joueurs_par_case": 7
+    },
+    "lignes": [
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "cdm_2022",
+        "label": "Coupe du Monde 2022",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry",
+        "Patrice Evra",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Yoann Gourcuff",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "4": [
+        "Thierry Henry",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Bixente Lizarazu",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Karim Benzema",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ],
+      "6": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez",
+        "Randal Kolo Muani",
+        "Jonathan Clauss"
+      ],
+      "8": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "seed": 20260521,
+    "difficulte": 0.54,
+    "stats": {
+      "moyenne_joueurs_par_case": 10.8,
+      "min_joueurs_par_case": 6
+    },
+    "lignes": [
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry",
+        "William Gallas"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "3": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "6": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry",
+        "William Gallas"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-22",
+    "seed": 20260522,
+    "difficulte": 0.65,
+    "stats": {
+      "moyenne_joueurs_par_case": 8.9,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      },
+      {
+        "id": "pos_milieu",
+        "label": "Milieu",
+        "icon": "⚙️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "1": [
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Samir Nasri",
+        "Loïc Rémy"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Samir Nasri",
+        "Aurélien Tchouaméni"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry",
+        "William Gallas"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry",
+        "Grégory Coupet"
+      ],
+      "7": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Fabien Barthez",
+        "Christophe Dugarry"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Florent Malouda",
+        "Yoann Gourcuff",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Adrien Rabiot"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-23",
+    "seed": 20260523,
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne_joueurs_par_case": 7.1,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "cdm_2022",
+        "label": "Coupe du Monde 2022",
+        "icon": "🏆"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "euro_2016",
+        "label": "Euro 2016",
+        "icon": "🥈"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Adrien Rabiot",
+        "William Saliba"
+      ],
+      "2": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry"
+      ],
+      "6": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman"
+      ],
+      "7": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Djibril Sidibé"
+      ],
+      "8": [
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-24",
+    "seed": 20260524,
+    "difficulte": 0.84,
+    "stats": {
+      "moyenne_joueurs_par_case": 5.7,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "bund",
+        "label": "Bundesliga",
+        "icon": "🇩🇪"
+      },
+      {
+        "id": "ch18",
+        "label": "Champion du Monde 2018",
+        "icon": "🥇"
+      },
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Dayot Upamecano",
+        "Marcus Thuram"
+      ],
+      "1": [
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé"
+      ],
+      "2": [
+        "Christophe Dugarry",
+        "William Gallas",
+        "Samir Nasri"
+      ],
+      "3": [
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Franck Ribéry",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Dayot Upamecano"
+      ],
+      "4": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "5": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "William Gallas",
+        "Franck Ribéry",
+        "Benjamin Mendy"
+      ],
+      "6": [
+        "Youri Djorkaeff",
+        "Franck Ribéry",
+        "Kingsley Coman",
+        "Marcus Thuram"
+      ],
+      "7": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman"
+      ],
+      "8": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Christophe Dugarry",
+        "Franck Ribéry"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "seed": 20260525,
+    "difficulte": 0.42,
+    "stats": {
+      "moyenne_joueurs_par_case": 12.9,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas"
+      ],
+      "6": [
+        "Patrick Vieira",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Yoann Gourcuff",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Christophe Dugarry",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ],
+      "8": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "seed": 20260526,
+    "difficulte": 0.38,
+    "stats": {
+      "moyenne_joueurs_par_case": 13.6,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "6": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre"
+      ],
+      "8": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Raphaël Varane"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "seed": 20260527,
+    "difficulte": 0.45,
+    "stats": {
+      "moyenne_joueurs_par_case": 12.3,
+      "min_joueurs_par_case": 6
+    },
+    "lignes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "euro_2016",
+        "label": "Euro 2016",
+        "icon": "🥈"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "euro_2020",
+        "label": "Euro 2020",
+        "icon": "🥈"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Mike Maignan"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "3": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Bixente Lizarazu",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Karim Benzema",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ],
+      "5": [
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "6": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Corentin Tolisso"
+      ],
+      "7": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "8": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "seed": 20260528,
+    "difficulte": 0.52,
+    "stats": {
+      "moyenne_joueurs_par_case": 11.2,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Franck Ribéry"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Yoann Gourcuff"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Theo Hernandez"
+      ],
+      "6": [
+        "Lilian Thuram",
+        "Bixente Lizarazu",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal"
+      ],
+      "7": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra"
+      ],
+      "8": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "seed": 20260529,
+    "difficulte": 0.65,
+    "stats": {
+      "moyenne_joueurs_par_case": 8.9,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "bund",
+        "label": "Bundesliga",
+        "icon": "🇩🇪"
+      },
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Franck Ribéry"
+      ],
+      "1": [
+        "Youri Djorkaeff",
+        "Franck Ribéry",
+        "Kingsley Coman",
+        "Marcus Thuram"
+      ],
+      "2": [
+        "Franck Ribéry",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Randal Kolo Muani",
+        "Jonathan Clauss"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Christophe Dugarry"
+      ],
+      "5": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Nicolas Anelka"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-30",
+    "seed": 20260530,
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne_joueurs_par_case": 7.0,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "s21",
+        "label": "21 à 50 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "bund",
+        "label": "Bundesliga",
+        "icon": "🇩🇪"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Yoann Gourcuff",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "Loïc Rémy",
+        "Mike Maignan",
+        "Randal Kolo Muani",
+        "Jonathan Clauss",
+        "Wissam Ben Yedder"
+      ],
+      "1": [
+        "Yoann Gourcuff",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Mike Maignan"
+      ],
+      "2": [
+        "Corentin Tolisso",
+        "Randal Kolo Muani",
+        "Jonathan Clauss"
+      ],
+      "3": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "4": [
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "5": [
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso"
+      ],
+      "6": [
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "Dayot Upamecano",
+        "Theo Hernandez",
+        "Jonathan Clauss"
+      ],
+      "7": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Eric Abidal",
+        "Djibril Sidibé"
+      ],
+      "8": [
+        "Bixente Lizarazu",
+        "Willy Sagnol",
+        "Dayot Upamecano",
+        "Jonathan Clauss"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-31",
+    "seed": 20260531,
+    "difficulte": 0.87,
+    "stats": {
+      "moyenne_joueurs_par_case": 5.2,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "mco",
+        "label": "A joué à Monaco",
+        "icon": "🔴"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      },
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "1": [
+        "Raphaël Varane",
+        "Benjamin Mendy",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "William Saliba",
+        "Theo Hernandez",
+        "Jonathan Clauss"
+      ],
+      "2": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé"
+      ],
+      "4": [
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Theo Hernandez"
+      ],
+      "5": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry",
+        "Patrice Evra",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Theo Hernandez"
+      ],
+      "6": [
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "7": [
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Aurélien Tchouaméni",
+        "Wissam Ben Yedder"
+      ],
+      "8": [
+        "Lilian Thuram",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Patrice Evra"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "seed": 20260601,
+    "difficulte": 0.25,
+    "stats": {
+      "moyenne_joueurs_par_case": 15.7,
+      "min_joueurs_par_case": 13
+    },
+    "lignes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "seed": 20260602,
+    "difficulte": 0.34,
+    "stats": {
+      "moyenne_joueurs_par_case": 14.2,
+      "min_joueurs_par_case": 10
+    },
+    "lignes": [
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "3": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "4": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "5": [
+        "Patrick Vieira",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Yoann Gourcuff",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Bixente Lizarazu",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Franck Ribéry",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "seed": 20260603,
+    "difficulte": 0.41,
+    "stats": {
+      "moyenne_joueurs_par_case": 13.0,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "ch18",
+        "label": "Champion du Monde 2018",
+        "icon": "🥇"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Christophe Dugarry",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Patrick Vieira",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Yoann Gourcuff",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "5": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "6": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "seed": 20260604,
+    "difficulte": 0.55,
+    "stats": {
+      "moyenne_joueurs_par_case": 10.7,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "euro_2016",
+        "label": "Euro 2016",
+        "icon": "🥈"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez",
+        "Randal Kolo Muani",
+        "Jonathan Clauss",
+        "Wissam Ben Yedder"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Loïc Rémy",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ],
+      "2": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "3": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Christophe Dugarry",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ],
+      "5": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman"
+      ],
+      "6": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy"
+      ],
+      "7": [
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti"
+      ],
+      "8": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "seed": 20260605,
+    "difficulte": 0.65,
+    "stats": {
+      "moyenne_joueurs_par_case": 9.0,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "mco",
+        "label": "A joué à Monaco",
+        "icon": "🔴"
+      },
+      {
+        "id": "euro_2016",
+        "label": "Euro 2016",
+        "icon": "🥈"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Aurélien Tchouaméni",
+        "Wissam Ben Yedder"
+      ],
+      "1": [
+        "Lilian Thuram",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Kylian Mbappé"
+      ],
+      "2": [
+        "Thierry Henry",
+        "Emmanuel Petit",
+        "Patrice Evra",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "3": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Corentin Tolisso"
+      ],
+      "4": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ],
+      "5": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Djibril Sidibé"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez",
+        "Randal Kolo Muani",
+        "Jonathan Clauss",
+        "Wissam Ben Yedder"
+      ],
+      "7": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "Loïc Rémy",
+        "Adrien Rabiot"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-06",
+    "seed": 20260606,
+    "difficulte": 0.71,
+    "stats": {
+      "moyenne_joueurs_par_case": 7.9,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "mco",
+        "label": "A joué à Monaco",
+        "icon": "🔴"
+      },
+      {
+        "id": "pos_attaquant",
+        "label": "Attaquant",
+        "icon": "⚡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "3": [
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Aurélien Tchouaméni",
+        "Wissam Ben Yedder"
+      ],
+      "4": [
+        "Lilian Thuram",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Kylian Mbappé"
+      ],
+      "5": [
+        "Lilian Thuram",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Willy Sagnol",
+        "Eric Abidal",
+        "Patrice Evra"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Marcus Thuram",
+        "Randal Kolo Muani",
+        "Wissam Ben Yedder"
+      ],
+      "7": [
+        "Thierry Henry",
+        "David Trezeguet",
+        "Karim Benzema",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Kylian Mbappé"
+      ],
+      "8": [
+        "Thierry Henry",
+        "David Trezeguet",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Nicolas Anelka",
+        "Karim Benzema"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-07",
+    "seed": 20260607,
+    "difficulte": 0.83,
+    "stats": {
+      "moyenne_joueurs_par_case": 5.9,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "euro_2016",
+        "label": "Euro 2016",
+        "icon": "🥈"
+      },
+      {
+        "id": "lyon",
+        "label": "A joué à Lyon",
+        "icon": "🦁"
+      },
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      },
+      {
+        "id": "s21",
+        "label": "21 à 50 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "1": [
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "2": [
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Samuel Umtiti"
+      ],
+      "3": [
+        "Hugo Lloris",
+        "Samuel Umtiti",
+        "Corentin Tolisso"
+      ],
+      "4": [
+        "Yoann Gourcuff",
+        "Samuel Umtiti",
+        "Corentin Tolisso"
+      ],
+      "5": [
+        "Eric Abidal",
+        "Karim Benzema",
+        "Samuel Umtiti"
+      ],
+      "6": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy"
+      ],
+      "7": [
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Mike Maignan",
+        "William Saliba",
+        "Randal Kolo Muani",
+        "Jonathan Clauss",
+        "Wissam Ben Yedder"
+      ],
+      "8": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "seed": 20260608,
+    "difficulte": 0.29,
+    "stats": {
+      "moyenne_joueurs_par_case": 15.0,
+      "min_joueurs_par_case": 8
+    },
+    "lignes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "2": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "Loïc Rémy",
+        "Adrien Rabiot"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Eric Abidal",
+        "Karim Benzema"
+      ],
+      "5": [
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Loïc Rémy"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "8": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "William Saliba"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "seed": 20260609,
+    "difficulte": 0.37,
+    "stats": {
+      "moyenne_joueurs_par_case": 13.8,
+      "min_joueurs_par_case": 7
+    },
+    "lignes": [
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "seed": 20260610,
+    "difficulte": 0.45,
+    "stats": {
+      "moyenne_joueurs_par_case": 12.3,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "euro_2020",
+        "label": "Euro 2020",
+        "icon": "🥈"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "pos_milieu",
+        "label": "Milieu",
+        "icon": "⚙️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Patrick Vieira",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Franck Ribéry",
+        "Florent Malouda",
+        "Paul Pogba",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni"
+      ],
+      "3": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Loïc Rémy"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Samir Nasri",
+        "Aurélien Tchouaméni"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Mike Maignan"
+      ],
+      "7": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Adrien Rabiot"
+      ],
+      "8": [
+        "Paul Pogba",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "seed": 20260611,
+    "difficulte": 0.54,
+    "stats": {
+      "moyenne_joueurs_par_case": 10.9,
+      "min_joueurs_par_case": 6
+    },
+    "lignes": [
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "1": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "2": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry"
+      ],
+      "3": [
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "4": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "William Saliba"
+      ],
+      "5": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "William Gallas",
+        "Benjamin Mendy",
+        "William Saliba",
+        "Jonathan Clauss"
+      ],
+      "6": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Loïc Rémy",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ],
+      "7": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "Loïc Rémy",
+        "Adrien Rabiot"
+      ],
+      "8": [
+        "William Gallas",
+        "Franck Ribéry",
+        "Samir Nasri",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Loïc Rémy",
+        "Jonathan Clauss"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "seed": 20260612,
+    "difficulte": 0.66,
+    "stats": {
+      "moyenne_joueurs_par_case": 8.8,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "mco",
+        "label": "A joué à Monaco",
+        "icon": "🔴"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "2": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre"
+      ],
+      "4": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf"
+      ],
+      "5": [
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "6": [
+        "Lilian Thuram",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Willy Sagnol"
+      ],
+      "7": [
+        "Lilian Thuram",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Emmanuel Petit"
+      ],
+      "8": [
+        "Emmanuel Petit",
+        "Willy Sagnol",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Aurélien Tchouaméni"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "seed": 20260613,
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne_joueurs_par_case": 7.1,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "pos_milieu",
+        "label": "Milieu",
+        "icon": "⚙️"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "euro_2020",
+        "label": "Euro 2020",
+        "icon": "🥈"
+      },
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "euro_1996",
+        "label": "Euro 1996",
+        "icon": "🥈"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paul Pogba",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Emmanuel Petit",
+        "Youri Djorkaeff"
+      ],
+      "3": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Kylian Mbappé"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Emmanuel Petit"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-14",
+    "seed": 20260614,
+    "difficulte": 0.9,
+    "stats": {
+      "moyenne_joueurs_par_case": 4.8,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "cdm_2014",
+        "label": "Coupe du Monde 2014",
+        "icon": "🏆"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      },
+      {
+        "id": "pos_attaquant",
+        "label": "Attaquant",
+        "icon": "⚡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Mamadou Sakho"
+      ],
+      "1": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ],
+      "2": [
+        "Karim Benzema",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Loïc Rémy"
+      ],
+      "3": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ],
+      "4": [
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman"
+      ],
+      "5": [
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Olivier Giroud",
+        "Kingsley Coman",
+        "Marcus Thuram"
+      ],
+      "6": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Eric Abidal",
+        "Djibril Sidibé"
+      ],
+      "7": [
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "8": [
+        "Thierry Henry",
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Karim Benzema",
+        "Olivier Giroud"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "seed": 20260615,
+    "difficulte": 0.31,
+    "stats": {
+      "moyenne_joueurs_par_case": 14.7,
+      "min_joueurs_par_case": 8
+    },
+    "lignes": [
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry",
+        "Grégory Coupet"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Grégory Coupet",
+        "Florent Malouda",
+        "Eric Abidal"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Bixente Lizarazu",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Karim Benzema",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "seed": 20260616,
+    "difficulte": 0.33,
+    "stats": {
+      "moyenne_joueurs_par_case": 14.4,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "1": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "4": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "6": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "7": [
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "Dayot Upamecano",
+        "Theo Hernandez",
+        "Jonathan Clauss"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Loïc Rémy",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "seed": 20260617,
+    "difficulte": 0.48,
+    "stats": {
+      "moyenne_joueurs_par_case": 11.9,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "1": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Adrien Rabiot"
+      ],
+      "2": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Patrice Evra",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Adrien Rabiot"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kingsley Coman",
+        "Adrien Rabiot",
+        "Theo Hernandez"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "7": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Bixente Lizarazu",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "seed": 20260618,
+    "difficulte": 0.51,
+    "stats": {
+      "moyenne_joueurs_par_case": 11.3,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "2": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "6": [
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal"
+      ],
+      "7": [
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "8": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "seed": 20260619,
+    "difficulte": 0.63,
+    "stats": {
+      "moyenne_joueurs_par_case": 9.3,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry",
+        "Grégory Coupet"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry"
+      ],
+      "2": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Fabien Barthez",
+        "Christophe Dugarry"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Christophe Dugarry"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "5": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Christophe Dugarry",
+        "Franck Ribéry"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "8": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "seed": 20260620,
+    "difficulte": 0.78,
+    "stats": {
+      "moyenne_joueurs_par_case": 6.8,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "pos_attaquant",
+        "label": "Attaquant",
+        "icon": "⚡"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "bund",
+        "label": "Bundesliga",
+        "icon": "🇩🇪"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Olivier Giroud",
+        "Kingsley Coman",
+        "Marcus Thuram"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Sylvain Wiltord",
+        "Nicolas Anelka",
+        "Olivier Giroud",
+        "Florian Thauvin",
+        "Loïc Rémy"
+      ],
+      "2": [
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Marcus Thuram",
+        "Randal Kolo Muani"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Willy Sagnol"
+      ],
+      "6": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "William Saliba"
+      ],
+      "8": [
+        "Bixente Lizarazu",
+        "Willy Sagnol",
+        "Dayot Upamecano",
+        "Jonathan Clauss"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-21",
+    "seed": 20260621,
+    "difficulte": 0.87,
+    "stats": {
+      "moyenne_joueurs_par_case": 5.2,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "mco",
+        "label": "A joué à Monaco",
+        "icon": "🔴"
+      },
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "ch18",
+        "label": "Champion du Monde 2018",
+        "icon": "🥇"
+      },
+      {
+        "id": "pos_attaquant",
+        "label": "Attaquant",
+        "icon": "⚡"
+      },
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "1": [
+        "Thierry Henry",
+        "David Trezeguet",
+        "Kylian Mbappé",
+        "Wissam Ben Yedder"
+      ],
+      "2": [
+        "Lilian Thuram",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Willy Sagnol",
+        "Eric Abidal"
+      ],
+      "3": [
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé"
+      ],
+      "4": [
+        "Thierry Henry",
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Karim Benzema",
+        "Olivier Giroud"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Grégory Coupet",
+        "Florent Malouda",
+        "Eric Abidal"
+      ],
+      "6": [
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé"
+      ],
+      "7": [
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Nicolas Anelka",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Marcus Thuram"
+      ],
+      "8": [
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "seed": 20260622,
+    "difficulte": 0.28,
+    "stats": {
+      "moyenne_joueurs_par_case": 15.2,
+      "min_joueurs_par_case": 11
+    },
+    "lignes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "d90",
+        "label": "Actif dans les années 90",
+        "icon": "📅"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Nicolas Anelka"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "7": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "seed": 20260623,
+    "difficulte": 0.31,
+    "stats": {
+      "moyenne_joueurs_par_case": 14.8,
+      "min_joueurs_par_case": 11
+    },
+    "lignes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Loïc Rémy",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "6": [
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Loïc Rémy"
+      ],
+      "7": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ],
+      "8": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "seed": 20260624,
+    "difficulte": 0.38,
+    "stats": {
+      "moyenne_joueurs_par_case": 13.6,
+      "min_joueurs_par_case": 9
+    },
+    "lignes": [
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      },
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Franck Ribéry",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Christophe Dugarry"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "seed": 20260625,
+    "difficulte": 0.52,
+    "stats": {
+      "moyenne_joueurs_par_case": 11.2,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "cdm_2014",
+        "label": "Coupe du Monde 2014",
+        "icon": "🏆"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "1": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "3": [
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ],
+      "4": [
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Mamadou Sakho"
+      ],
+      "5": [
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Loïc Rémy"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "7": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "seed": 20260626,
+    "difficulte": 0.63,
+    "stats": {
+      "moyenne_joueurs_par_case": 9.3,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "ch98",
+        "label": "Champion du Monde 1998",
+        "icon": "🥇"
+      },
+      {
+        "id": "cdm_1998",
+        "label": "Coupe du Monde 1998",
+        "icon": "🏆"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Eric Abidal",
+        "Djibril Sidibé"
+      ],
+      "1": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf"
+      ],
+      "2": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Frank Leboeuf"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Yoann Gourcuff",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Christophe Dugarry"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry",
+        "Grégory Coupet"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "seed": 20260627,
+    "difficulte": 0.72,
+    "stats": {
+      "moyenne_joueurs_par_case": 7.8,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "euro_2020",
+        "label": "Euro 2020",
+        "icon": "🥈"
+      },
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "bund",
+        "label": "Bundesliga",
+        "icon": "🇩🇪"
+      },
+      {
+        "id": "mco",
+        "label": "A joué à Monaco",
+        "icon": "🔴"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Adrien Rabiot"
+      ],
+      "1": [
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Dayot Upamecano",
+        "Marcus Thuram"
+      ],
+      "2": [
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Aurélien Tchouaméni"
+      ],
+      "3": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Adrien Rabiot"
+      ],
+      "4": [
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Dayot Upamecano",
+        "Marcus Thuram"
+      ],
+      "5": [
+        "Emmanuel Petit",
+        "Willy Sagnol",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Aurélien Tchouaméni"
+      ],
+      "6": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "Loïc Rémy",
+        "Adrien Rabiot"
+      ],
+      "7": [
+        "Franck Ribéry",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Randal Kolo Muani",
+        "Jonathan Clauss"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Wissam Ben Yedder"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-28",
+    "seed": 20260628,
+    "difficulte": 0.88,
+    "stats": {
+      "moyenne_joueurs_par_case": 5.1,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "euro_2012",
+        "label": "Euro 2012",
+        "icon": "🥈"
+      },
+      {
+        "id": "bx",
+        "label": "A joué à Bordeaux",
+        "icon": "🟣"
+      },
+      {
+        "id": "ch18",
+        "label": "Champion du Monde 2018",
+        "icon": "🥇"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ],
+      "1": [
+        "Patrice Evra",
+        "Olivier Giroud",
+        "Blaise Matuidi"
+      ],
+      "2": [
+        "Samir Nasri",
+        "Patrice Evra",
+        "Loïc Rémy"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Laurent Blanc",
+        "Bixente Lizarazu"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Jules Koundé"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Laurent Blanc",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Jules Koundé"
+      ],
+      "6": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ],
+      "7": [
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "8": [
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "seed": 20260629,
+    "difficulte": 0.34,
+    "stats": {
+      "moyenne_joueurs_par_case": 14.2,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Bixente Lizarazu",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Karim Benzema",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ],
+      "1": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Fabien Barthez",
+        "Christophe Dugarry"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Samir Nasri",
+        "Loïc Rémy"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "6": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "William Gallas",
+        "Franck Ribéry",
+        "Samir Nasri",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Loïc Rémy",
+        "Jonathan Clauss"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "seed": 20260630,
+    "difficulte": 0.41,
+    "stats": {
+      "moyenne_joueurs_par_case": 13.0,
+      "min_joueurs_par_case": 7
+    },
+    "lignes": [
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_2022",
+        "label": "Coupe du Monde 2022",
+        "icon": "🏆"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "cdm_2006",
+        "label": "Coupe du Monde 2006",
+        "icon": "🏆"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal"
+      ],
+      "3": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Adrien Rabiot",
+        "William Saliba"
+      ],
+      "4": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot"
+      ],
+      "5": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Fabien Barthez",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "Theo Hernandez",
+        "Randal Kolo Muani",
+        "Jonathan Clauss"
+      ],
+      "7": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "seed": 20260701,
+    "difficulte": 0.44,
+    "stats": {
+      "moyenne_joueurs_par_case": 12.4,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "bx",
+        "label": "A joué à Bordeaux",
+        "icon": "🟣"
+      },
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "s100",
+        "label": "100+ sélections",
+        "icon": "⭐"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Bixente Lizarazu",
+        "Franck Ribéry",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "Kylian Mbappé"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Laurent Blanc",
+        "Bixente Lizarazu"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Yoann Gourcuff"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Laurent Blanc",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry"
+      ],
+      "6": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Fabien Barthez",
+        "Bixente Lizarazu"
+      ],
+      "7": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "8": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "seed": 20260702,
+    "difficulte": 0.54,
+    "stats": {
+      "moyenne_joueurs_par_case": 10.9,
+      "min_joueurs_par_case": 6
+    },
+    "lignes": [
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "cdm_2022",
+        "label": "Coupe du Monde 2022",
+        "icon": "🏆"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d20",
+        "label": "Actif dans les années 2020",
+        "icon": "📅"
+      },
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Benjamin Mendy",
+        "Adrien Rabiot",
+        "William Saliba"
+      ],
+      "1": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "William Saliba"
+      ],
+      "2": [
+        "Emmanuel Petit",
+        "Youri Djorkaeff",
+        "Sylvain Wiltord",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Adrien Rabiot"
+      ],
+      "3": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ],
+      "4": [
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "5": [
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Mike Maignan",
+        "William Saliba",
+        "Theo Hernandez",
+        "Randal Kolo Muani",
+        "Jonathan Clauss"
+      ],
+      "7": [
+        "Raphaël Varane",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "William Saliba",
+        "Theo Hernandez",
+        "Jonathan Clauss"
+      ],
+      "8": [
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Theo Hernandez"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "seed": 20260703,
+    "difficulte": 0.65,
+    "stats": {
+      "moyenne_joueurs_par_case": 8.9,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "tl1",
+        "label": "Vainqueur Ligue 1",
+        "icon": "🏅"
+      },
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      },
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cdm_2022",
+        "label": "Coupe du Monde 2022",
+        "icon": "🏆"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "s21",
+        "label": "21 à 50 sélections",
+        "icon": "👕"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "1": [
+        "Thierry Henry",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Mike Maignan"
+      ],
+      "2": [
+        "Yoann Gourcuff",
+        "Corentin Tolisso",
+        "Djibril Sidibé",
+        "Mike Maignan"
+      ],
+      "3": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé"
+      ],
+      "4": [
+        "Hugo Lloris",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "5": [
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Florian Thauvin",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "6": [
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Loïc Rémy",
+        "Theo Hernandez",
+        "Wissam Ben Yedder"
+      ],
+      "8": [
+        "Frank Leboeuf",
+        "Samuel Umtiti",
+        "Loïc Rémy",
+        "Wissam Ben Yedder"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "seed": 20260704,
+    "difficulte": 0.78,
+    "stats": {
+      "moyenne_joueurs_par_case": 6.8,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "pos_défenseur",
+        "label": "Défenseur",
+        "icon": "🛡️"
+      },
+      {
+        "id": "cdm_2010",
+        "label": "Coupe du Monde 2010",
+        "icon": "🏆"
+      },
+      {
+        "id": "pos_attaquant",
+        "label": "Attaquant",
+        "icon": "⚡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "serieA",
+        "label": "Serie A",
+        "icon": "🇮🇹"
+      },
+      {
+        "id": "pl",
+        "label": "Premier League",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Samuel Umtiti",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Patrice Evra",
+        "Theo Hernandez"
+      ],
+      "2": [
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Patrice Evra",
+        "Raphaël Varane",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Mamadou Sakho",
+        "William Saliba"
+      ],
+      "3": [
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra"
+      ],
+      "4": [
+        "Franck Ribéry",
+        "Patrice Evra",
+        "Yoann Gourcuff"
+      ],
+      "5": [
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Hugo Lloris"
+      ],
+      "6": [
+        "Thierry Henry",
+        "David Trezeguet",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Nicolas Anelka",
+        "Karim Benzema",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Loïc Rémy",
+        "Wissam Ben Yedder"
+      ],
+      "7": [
+        "David Trezeguet",
+        "Christophe Dugarry",
+        "Olivier Giroud",
+        "Kingsley Coman",
+        "Marcus Thuram"
+      ],
+      "8": [
+        "Thierry Henry",
+        "Sylvain Wiltord",
+        "Nicolas Anelka",
+        "Olivier Giroud",
+        "Florian Thauvin",
+        "Loïc Rémy"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-05",
+    "seed": 20260705,
+    "difficulte": 0.86,
+    "stats": {
+      "moyenne_joueurs_par_case": 5.3,
+      "min_joueurs_par_case": 3
+    },
+    "lignes": [
+      {
+        "id": "bund",
+        "label": "Bundesliga",
+        "icon": "🇩🇪"
+      },
+      {
+        "id": "lyon",
+        "label": "A joué à Lyon",
+        "icon": "🦁"
+      },
+      {
+        "id": "mco",
+        "label": "A joué à Monaco",
+        "icon": "🔴"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      },
+      {
+        "id": "cdm_2018",
+        "label": "Coupe du Monde 2018",
+        "icon": "🏆"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Franck Ribéry",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Randal Kolo Muani",
+        "Jonathan Clauss"
+      ],
+      "1": [
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso"
+      ],
+      "2": [
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Franck Ribéry"
+      ],
+      "3": [
+        "Florent Malouda",
+        "Eric Abidal",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris",
+        "Samuel Umtiti",
+        "Corentin Tolisso"
+      ],
+      "4": [
+        "Hugo Lloris",
+        "Samuel Umtiti",
+        "Corentin Tolisso"
+      ],
+      "5": [
+        "Grégory Coupet",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "6": [
+        "Thierry Henry",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Wissam Ben Yedder"
+      ],
+      "7": [
+        "Kylian Mbappé",
+        "Benjamin Mendy",
+        "Djibril Sidibé"
+      ],
+      "8": [
+        "Lilian Thuram",
+        "Thierry Henry",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Willy Sagnol",
+        "Eric Abidal",
+        "Patrice Evra"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "seed": 20260706,
+    "difficulte": 0.37,
+    "stats": {
+      "moyenne_joueurs_par_case": 13.7,
+      "min_joueurs_par_case": 4
+    },
+    "lignes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "bund",
+        "label": "Bundesliga",
+        "icon": "🇩🇪"
+      },
+      {
+        "id": "d10",
+        "label": "Actif dans les années 2010",
+        "icon": "📅"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      },
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "s51",
+        "label": "51 à 100 sélections",
+        "icon": "👕"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "2": [
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Ousmane Dembélé",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Franck Ribéry",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Corentin Tolisso",
+        "Dayot Upamecano"
+      ],
+      "4": [
+        "Bixente Lizarazu",
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Franck Ribéry"
+      ],
+      "5": [
+        "Youri Djorkaeff",
+        "Willy Sagnol",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Dayot Upamecano",
+        "Marcus Thuram"
+      ],
+      "6": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Paul Pogba",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Blaise Matuidi",
+        "N'Golo Kanté",
+        "Kylian Mbappé",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Corentin Tolisso",
+        "Benjamin Mendy",
+        "Djibril Sidibé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Theo Hernandez"
+      ],
+      "7": [
+        "Thierry Henry",
+        "Patrick Vieira",
+        "William Gallas",
+        "Franck Ribéry",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Yoann Gourcuff",
+        "Karim Benzema",
+        "Hugo Lloris"
+      ],
+      "8": [
+        "William Gallas",
+        "Nicolas Anelka",
+        "Florent Malouda",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "N'Golo Kanté",
+        "Kingsley Coman",
+        "Ousmane Dembélé",
+        "Adrien Rabiot",
+        "Dayot Upamecano",
+        "Marcus Thuram",
+        "Theo Hernandez"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "seed": 20260707,
+    "difficulte": 0.35,
+    "stats": {
+      "moyenne_joueurs_par_case": 14.1,
+      "min_joueurs_par_case": 5
+    },
+    "lignes": [
+      {
+        "id": "liga",
+        "label": "La Liga",
+        "icon": "🇪🇸"
+      },
+      {
+        "id": "cdm_2002",
+        "label": "Coupe du Monde 2002",
+        "icon": "🏆"
+      },
+      {
+        "id": "mrs",
+        "label": "A joué à Marseille",
+        "icon": "🔵"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "d00",
+        "label": "Actif dans les années 2000",
+        "icon": "📅"
+      },
+      {
+        "id": "euro_2000",
+        "label": "Euro 2000",
+        "icon": "🏅"
+      },
+      {
+        "id": "teu",
+        "label": "Vainqueur Coupe Europe",
+        "icon": "🌟"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Samir Nasri",
+        "Patrice Evra",
+        "Karim Benzema"
+      ],
+      "1": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "2": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Sylvain Wiltord",
+        "Frank Leboeuf",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka",
+        "Eric Abidal",
+        "Patrice Evra",
+        "Karim Benzema",
+        "Raphaël Varane",
+        "Antoine Griezmann",
+        "Kylian Mbappé",
+        "Ousmane Dembélé",
+        "Samuel Umtiti",
+        "Aurélien Tchouaméni",
+        "Jules Koundé",
+        "Theo Hernandez"
+      ],
+      "3": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "4": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "Robert Pires",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Fabien Barthez",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Christophe Dugarry",
+        "Grégory Coupet",
+        "Willy Sagnol",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "5": [
+        "Zinedine Zidane",
+        "Didier Deschamps",
+        "Lilian Thuram",
+        "Marcel Desailly",
+        "Thierry Henry",
+        "Patrick Vieira",
+        "David Trezeguet",
+        "Emmanuel Petit",
+        "Bixente Lizarazu",
+        "Sylvain Wiltord",
+        "Willy Sagnol",
+        "Mikael Silvestre",
+        "William Gallas",
+        "Nicolas Anelka"
+      ],
+      "6": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry",
+        "William Gallas",
+        "Franck Ribéry",
+        "Samir Nasri"
+      ],
+      "7": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "Laurent Blanc",
+        "Robert Pires",
+        "Fabien Barthez",
+        "Christophe Dugarry",
+        "William Gallas"
+      ],
+      "8": [
+        "Didier Deschamps",
+        "Marcel Desailly",
+        "William Gallas",
+        "Franck Ribéry",
+        "Benjamin Mendy"
+      ]
+    }
   }
 ]
