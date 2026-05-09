@@ -219,7 +219,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
   <div class="modal">
     <div class="mhead">
       <div class="mctx" id="mctx"></div>
-      <input type="text" class="sinput" id="sinput" placeholder="Tapez le nom d'un joueur..." autocomplete="off" autocorrect="off" spellcheck="false">
+      <input type="text" class="sinput" id="sinput" placeholder="Tapez le nom d'une ville..."  id="sinput" autocomplete="off" autocorrect="off" spellcheck="false">
     </div>
     <div class="rcnt" id="rcnt"></div>
     <div class="results" id="results"></div>
@@ -635,7 +635,7 @@ document.getElementById('sinput').addEventListener('input',function(){
       <div class="av">${ini}</div>
       <div class="ri-info">
         <div class="ri-name">${p.name}</div>
-        <div class="ri-meta">${cap(p.pos)}${used?' · Déjà utilisé':''}</div>
+        <div class="ri-meta">${p.pos?cap(p.pos):(THEME==='foot'?'Joueur':'Ville')}${used?' · Déjà utilisé':''}</div>
       </div>
       ${valid
         ?`<div class="ri-badge${few?' few':''}">${few?'⭐ ':''} ${n} rép.</div>`
@@ -651,7 +651,7 @@ document.getElementById('ovSearch').addEventListener('click',e=>{if(e.target===e
 function pick(name){
   if(!G.cell)return;
   const {idx,ri,ci}=G.cell;
-  const player=PLAYERS.find(p=>p.name===name);
+  const player=getDB().find(p=>p.name===name);
   if(!player)return;
   const row=GRILLE.lignes[ri],col=GRILLE.colonnes[ci];
   if(!matchCell(player,row.id,col.id)){
@@ -779,6 +779,7 @@ const backLink = document.getElementById('backLink');
 if(backLink) backLink.style.display = 'flex';
 
 document.getElementById('dateLbl').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
+document.getElementById('sinput').placeholder = THEME==='foot' ? "Tapez le nom d'un joueur..." : "Tapez le nom d'une ville...";
 
 // Streak par thème
 G.streak = +localStorage.getItem('fg_s_'+THEME) || 0;
