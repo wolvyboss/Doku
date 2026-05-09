@@ -267,6 +267,11 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 <div class="toast" id="toast"></div>
 
 <script>
+// ── THÈME (lu depuis l'URL dès le départ) ────
+const PARAMS = new URLSearchParams(window.location.search);
+const THEME = PARAMS.get('theme') || 'foot';
+const THEME_JSON = 'grilles-' + THEME + '.json';
+
 // ── DONNÉES ──────────────────────────────────
 const PLAYERS=[
   {name:"Zinedine Zidane",pos:"milieu",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","liga","serieA","d90","d00","bx","tl1","teu","s100"]},
@@ -614,7 +619,8 @@ document.getElementById('sinput').addEventListener('input',function(){
   }
   const row=GRILLE.lignes[G.cell.ri],col=GRILLE.colonnes[G.cell.ci];
   const matches=getDB().filter(p=>p.name.toLowerCase().includes(q)).slice(0,8);
-  rcnt.textContent=`${matches.length} joueur${matches.length>1?'s':''} · ${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
+  const itemWord = THEME==='foot' ? 'joueur' : 'ville';
+  rcnt.textContent=`${matches.length} ${itemWord}${matches.length>1?'s':''} · ${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
   if(!matches.length){
     document.getElementById('results').innerHTML=`<div class="no-res">Aucun résultat pour "${this.value}"</div>`;
     return;
@@ -767,9 +773,6 @@ function showToast(msg,type=''){
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 
 // ── INIT ──────────────────────────────────────
-const PARAMS = new URLSearchParams(window.location.search);
-const THEME = PARAMS.get('theme') || 'foot';
-const THEME_JSON = 'grilles-' + THEME + '.json';
 
 // Lien retour accueil
 const backLink = document.getElementById('backLink');
