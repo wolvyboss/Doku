@@ -78,9 +78,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .ri-info{flex:1;min-width:0}
 .ri-name{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase}
 .ri-meta{font-size:11px;color:var(--text2);margin-top:1px}
-.ri-badge{font-size:11px;font-weight:600;padding:2px 7px;border-radius:10px;background:var(--surface2);border:1px solid var(--border);color:var(--text2);white-space:nowrap;flex-shrink:0}
-.ri-badge.few{border-color:var(--gold);color:var(--gold)}
-.ri-badge.invalid{color:var(--text3);border-color:var(--border)}
 .no-res{text-align:center;padding:26px;color:var(--text2);font-size:13px}
 .mfoot{padding:7px 13px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
 .mfoot-hint{font-size:11px;color:var(--text3)}
@@ -627,8 +624,6 @@ document.getElementById('sinput').addEventListener('input',function(){
   }
   document.getElementById('results').innerHTML=matches.map(p=>{
     const used=G.used.has(p.name);
-    const valid=matchCell(p,row.id,col.id);
-    const few=n<=5;
     const ini=p.name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
     const nameE=p.name.replace(/'/g,"\\'");
     return `<div class="ri${used?' used':''}" onclick="${used?'':(`pick('${nameE}')`)}">
@@ -637,9 +632,6 @@ document.getElementById('sinput').addEventListener('input',function(){
         <div class="ri-name">${p.name}</div>
         <div class="ri-meta">${p.pos?cap(p.pos):(THEME==='foot'?'Joueur':'Ville')}${used?' · Déjà utilisé':''}</div>
       </div>
-      ${valid
-        ?`<div class="ri-badge${few?' few':''}">${few?'⭐ ':''} ${n} rép.</div>`
-        :`<div class="ri-badge invalid">✗ invalide</div>`}
     </div>`;
   }).join('');
 });
