@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FootGrille — Le quiz foot quotidien</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b0b;--surface:#161616;--surface2:#202020;--border:#2c2c2c;--border2:#3c3c3c;--green:#b5ff4d;--green-dim:#6a9e1f;--text:#efefef;--text2:#888;--text3:#4a4a4a;--red:#ff5252;--gold:#ffc94d;--r:10px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;font-size:15px;min-height:100vh}
+button{cursor:pointer;font-family:'Barlow',sans-serif}
+.app{max-width:860px;margin:0 auto;padding:0 16px 80px}
+header{display:flex;align-items:center;justify-content:space-between;padding:20px 0 16px;border-bottom:1px solid var(--border);margin-bottom:24px;flex-wrap:wrap;gap:12px}
+.logo{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:26px;text-transform:uppercase;letter-spacing:-.5px}
+.logo span{color:var(--green)}
+.header-right{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.nav-links{display:flex;gap:10px}
+.nav-link{font-size:13px;color:var(--text2);font-weight:500;cursor:pointer;padding:3px 0;border-bottom:1px solid transparent;transition:all .15s;background:none;border-top:none;border-left:none;border-right:none}
+.nav-link:hover{color:var(--text)}
+.nav-link.active{color:var(--green);border-color:var(--green)}
+.date-lbl{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:1px}
+.streak-pill{display:flex;align-items:center;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:4px 11px;font-size:13px;font-weight:600;color:var(--gold)}
+.stats-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;gap:12px}
+.score-n{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:42px;letter-spacing:-2px;line-height:1}
+.score-n small{font-size:15px;font-weight:600;color:var(--text2);letter-spacing:0}
+.prog-lbl{font-size:12px;color:var(--text2);margin-top:3px}
+.right-ctrl{display:flex;flex-direction:column;align-items:flex-end;gap:9px}
+.err-row{display:flex;align-items:center;gap:5px}
+.err-lbl{font-size:11px;color:var(--text3)}
+.err-dot{width:8px;height:8px;border-radius:50%;background:var(--border2);transition:background .3s}
+.err-dot.on{background:var(--red)}
+.btn-g{background:none;border:1px solid var(--border);color:var(--text3);border-radius:7px;padding:6px 13px;font-size:12px;transition:all .15s}
+.btn-g:hover{border-color:var(--red);color:var(--red)}
+.btn-g.sol{border-color:var(--border2);color:var(--text2)}
+.btn-g.sol:hover{border-color:var(--border2);color:var(--text)}
+.btns-row{display:flex;gap:7px}
+.grid-scroll{width:100%}
+.grid{display:grid;grid-template-columns:clamp(72px,22vw,118px) repeat(3,1fr);grid-template-rows:clamp(68px,18vw,88px) repeat(3,1fr);gap:clamp(3px,1vw,5px);width:100%}
+.corner{background:transparent}
+.cat-h{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:9px 7px;text-align:center;gap:3px}
+.cat-h.row-h{align-items:flex-start;text-align:left;padding:9px 11px}
+.cat-icon{font-size:15px;line-height:1}
+.cat-label{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.4px;line-height:1.2}
+.cat-sub{font-size:10px;color:var(--text2);font-weight:500}
+.col-bg{background:#0d1400;border-color:#283300}
+.row-bg{background:#000f1a;border-color:#002444}
+.cell{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);min-height:102px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;position:relative;transition:all .15s;overflow:hidden;user-select:none}
+.cell:hover:not(.filled):not(.done){border-color:var(--green);background:#121a00}
+.cell.done{cursor:default;opacity:.4}
+.cell.filled{border-color:var(--green-dim);background:#0d1600;cursor:default}
+.cell-plus{width:28px;height:28px;border:2px solid var(--border2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px;color:var(--text3);transition:all .15s}
+.cell:hover:not(.filled):not(.done) .cell-plus{border-color:var(--green);color:var(--green)}
+.cell-name{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.3px;color:var(--green);text-align:center;padding:0 6px;line-height:1.2}
+.cell-pct{font-size:11px;color:var(--text2);margin-top:3px;font-weight:500}
+.cell-pct.rare{color:var(--gold)}
+.rarity-bar{position:absolute;bottom:0;left:0;height:2px;background:var(--green-dim);transition:width .4s ease}
+/* overlays */
+.ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.83);z-index:100;align-items:flex-start;justify-content:center;padding-top:10vh;backdrop-filter:blur(3px)}
+.ov.open{display:flex}
+.ov-center{align-items:center;padding-top:0}
+.modal{background:var(--surface);border:1px solid var(--border2);border-radius:15px;width:100%;max-width:450px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.6);animation:sd .18s ease}
+@keyframes sd{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes zi{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
+.mhead{padding:13px 15px 9px;border-bottom:1px solid var(--border)}
+.mctx{font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:7px}
+.mctx strong{color:var(--green)}
+.sinput{width:100%;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:10px 13px;font-family:'Barlow',sans-serif;font-size:15px;color:var(--text);outline:none;transition:border-color .15s}
+.sinput:focus{border-color:var(--green)}
+.sinput::placeholder{color:var(--text3)}
+.rcnt{font-size:11px;color:var(--text3);padding:7px 15px 0;font-weight:500;min-height:24px}
+.results{max-height:290px;overflow-y:auto;padding:5px}
+.ri{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:8px;cursor:pointer;transition:background .1s}
+.ri:hover{background:var(--surface2)}
+.ri.used{opacity:.38;pointer-events:none}
+.av{width:32px;height:32px;border-radius:50%;background:var(--surface2);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;color:var(--text2);flex-shrink:0}
+.ri-info{flex:1;min-width:0}
+.ri-name{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase}
+.ri-meta{font-size:11px;color:var(--text2);margin-top:1px}
+.ri-badge{font-size:11px;font-weight:600;padding:2px 7px;border-radius:10px;background:var(--surface2);border:1px solid var(--border);color:var(--text2);white-space:nowrap;flex-shrink:0}
+.ri-badge.few{border-color:var(--gold);color:var(--gold)}
+.ri-badge.invalid{color:var(--text3);border-color:var(--border)}
+.no-res{text-align:center;padding:26px;color:var(--text2);font-size:13px}
+.mfoot{padding:7px 13px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.mfoot-hint{font-size:11px;color:var(--text3)}
+.btn-x{background:none;border:1px solid var(--border);color:var(--text2);border-radius:6px;padding:3px 9px;font-size:12px;transition:all .15s}
+.btn-x:hover{border-color:var(--border2);color:var(--text)}
+/* end modal */
+.emodal{background:var(--surface);border:1px solid var(--border2);border-radius:18px;padding:32px 28px;max-width:400px;width:90%;text-align:center;animation:zi .22s ease}
+.eemoji{font-size:44px;margin-bottom:10px}
+.etitle{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:30px;text-transform:uppercase;letter-spacing:-1px;margin-bottom:4px}
+.escore{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:60px;color:var(--green);letter-spacing:-3px;line-height:1;margin:10px 0 4px}
+.esub{font-size:12px;color:var(--text2);margin-bottom:18px}
+.egrid{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-bottom:18px}
+.ecell{background:var(--surface2);border-radius:6px;padding:7px 4px;font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;color:var(--text3);line-height:1.2}
+.ecell.ok{background:#0d1600;color:var(--green);border:1px solid var(--green-dim)}
+.ecell-pct{font-size:10px;color:var(--green-dim);font-weight:500;margin-top:1px}
+.btn-share{background:var(--green);color:#000;border:none;border-radius:8px;padding:12px 22px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:16px;text-transform:uppercase;letter-spacing:.8px;width:100%;margin-bottom:7px;transition:opacity .15s}
+.btn-share:hover{opacity:.88}
+.btn-sol-e{background:none;border:1px solid var(--border2);color:var(--text2);border-radius:8px;padding:9px 22px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:13px;text-transform:uppercase;width:100%;transition:all .15s;margin-bottom:4px}
+.btn-sol-e:hover{border-color:var(--text2);color:var(--text)}
+.enext{margin-top:12px;font-size:11px;color:var(--text3)}
+/* solutions */
+.smodal{background:var(--surface);border:1px solid var(--border2);border-radius:14px;width:90%;max-width:660px;max-height:82vh;overflow-y:auto;padding:24px;animation:zi .2s ease}
+.stitle{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:20px;text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;justify-content:space-between}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.scell{background:var(--surface2);border-radius:8px;padding:11px 9px}
+.scell-h{font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.7px;font-weight:600;margin-bottom:7px;line-height:1.3}
+.sp{font-size:12px;padding:4px 0;border-bottom:1px solid var(--border);color:var(--text2);display:flex;align-items:center;justify-content:space-between;gap:4px}
+.sp:last-child{border-bottom:none}
+.sp.chosen{color:var(--green);font-weight:600}
+.sp-pct{font-size:10px;color:var(--text3);flex-shrink:0}
+/* abandon */
+.abandon-modal{background:var(--surface);border:1px solid var(--border2);border-radius:13px;padding:26px;max-width:320px;width:90%;text-align:center;animation:zi .2s ease}
+.at{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;text-transform:uppercase;margin-bottom:7px}
+.as{font-size:13px;color:var(--text2);margin-bottom:18px}
+.ab{display:flex;gap:9px}
+.btn-yes{flex:1;background:var(--red);color:#fff;border:none;border-radius:7px;padding:10px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;text-transform:uppercase;transition:opacity .15s}
+.btn-yes:hover{opacity:.85}
+.btn-no{flex:1;background:none;border:1px solid var(--border2);color:var(--text2);border-radius:7px;padding:10px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:14px;text-transform:uppercase;transition:all .15s}
+.btn-no:hover{border-color:var(--text2);color:var(--text)}
+/* archives */
+.arch-entry{display:flex;align-items:center;justify-content:space-between;padding:13px 15px;background:var(--surface);border:1px solid var(--border);border-radius:9px;margin-bottom:7px}
+.arch-date{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;text-transform:uppercase}
+.arch-meta{font-size:12px;color:var(--text2);margin-top:2px}
+.arch-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:26px;color:var(--green)}
+/* toast */
+.toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(14px);background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:10px 18px;font-size:13px;font-weight:500;opacity:0;transition:all .22s;z-index:500;white-space:nowrap;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast.err{border-color:var(--red);color:var(--red)}
+.toast.ok{border-color:var(--green);color:var(--green)}
+@media(max-width:480px){
+  .app{padding:0 10px 60px}
+  .logo{font-size:20px}
+  .date-lbl{display:none}
+  .score-n{font-size:28px}
+  .prog-lbl{font-size:11px}
+  header{flex-direction:column;align-items:flex-start;gap:8px;padding:14px 0 12px}
+  .header-right{width:100%;justify-content:space-between}
+  .stats-bar{align-items:flex-start}
+  .btns-row{gap:5px}
+  .btn-g{padding:5px 8px;font-size:11px}
+  .cat-h{padding:clamp(4px,1.5vw,9px) clamp(3px,1vw,7px);gap:2px}
+  .cat-icon{font-size:clamp(11px,3.5vw,16px)}
+  .cat-label{font-size:clamp(9px,2.8vw,12px)}
+  .cat-sub{font-size:clamp(8px,2.2vw,10px)}
+  .cell{min-height:clamp(70px,20vw,102px)}
+  .cell-plus{width:22px;height:22px;font-size:13px}
+  .cell-name{font-size:clamp(10px,2.8vw,14px);padding:0 3px}
+  .cell-pct{font-size:9px;margin-top:2px}
+  .ov{padding-top:0;align-items:flex-end}
+  .modal{border-radius:16px 16px 0 0;max-width:100%}
+  .results{max-height:48vh}
+  .emodal,.smodal,.abandon-modal{border-radius:16px 16px 0 0;max-width:100%;width:100%}
+  .ov-center{align-items:flex-end;padding-top:0}
+  .emodal{padding:22px 14px}
+  .escore{font-size:50px}
+  .smodal{padding:18px 12px}
+  .sgrid{grid-template-columns:repeat(2,1fr);gap:6px}
+}
+@media(max-width:360px){
+  .cat-label{font-size:8px}
+  .cat-sub{font-size:7px}
+  .cell-name{font-size:9px}
+  .btn-g{font-size:10px;padding:4px 7px}
+  .score-n{font-size:24px}
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+<header>
+  <div class="logo">Foot<span>Grille</span></div>
+  <div class="header-right">
+    <div class="nav-links">
+      <button class="nav-link active" onclick="showView('game')">Jouer</button>
+      <button class="nav-link" onclick="showView('archives')">Archives</button>
+    </div>
+    <div class="date-lbl" id="dateLbl"></div>
+    <div class="streak-pill">🔥 <span id="streakNum">0</span></div>
+  </div>
+</header>
+
+<!-- VUE JEU -->
+<div id="vGame">
+  <div class="stats-bar">
+    <div>
+      <div class="score-n" id="scoreN">0 <small>/ 900</small></div>
+      <div class="prog-lbl" id="progLbl">0 / 9 cases · Joueur le plus rare : —</div>
+    </div>
+    <div class="right-ctrl">
+      <div class="err-row">
+        <span class="err-lbl">Erreurs</span>
+        <div class="err-dot" id="d0"></div><div class="err-dot" id="d1"></div>
+        <div class="err-dot" id="d2"></div>
+      </div>
+      <div class="btns-row">
+        <button class="btn-g sol" onclick="openSol()">Voir solutions</button>
+        <button class="btn-g" onclick="tryAbandon()">Abandonner</button>
+      </div>
+    </div>
+  </div>
+  <div class="grid-scroll"><div class="grid" id="grid"></div></div>
+</div>
+
+<!-- VUE ARCHIVES -->
+<div id="vArchives" style="display:none;padding-top:4px">
+  <div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;text-transform:uppercase;margin-bottom:14px">Archives</div>
+  <div style="font-size:13px;color:var(--text2);margin-bottom:18px">Grilles passées. Les archives n'affectent ni les statistiques ni les scores quotidiens.</div>
+  <div id="archList"></div>
+</div>
+
+</div>
+
+<!-- SEARCH -->
+<div class="ov" id="ovSearch">
+  <div class="modal">
+    <div class="mhead">
+      <div class="mctx" id="mctx"></div>
+      <input type="text" class="sinput" id="sinput" placeholder="Tapez le nom d'un joueur..." autocomplete="off" autocorrect="off" spellcheck="false">
+    </div>
+    <div class="rcnt" id="rcnt"></div>
+    <div class="results" id="results"></div>
+    <div class="mfoot">
+      <span class="mfoot-hint">Échap pour fermer</span>
+      <button class="btn-x" onclick="closeSrch()">✕ Fermer</button>
+    </div>
+  </div>
+</div>
+
+<!-- END -->
+<div class="ov ov-center" id="ovEnd">
+  <div class="emodal">
+    <div class="eemoji" id="eemoji">⚽</div>
+    <div class="etitle" id="etitle">Bien joué !</div>
+    <div class="escore" id="escore">0</div>
+    <div class="esub" id="esub"></div>
+    <div class="egrid" id="egrid"></div>
+    <button class="btn-share" onclick="shareResult()">📤 Partager mon résultat</button>
+    <button class="btn-sol-e" onclick="closeEnd();openSol()">Voir toutes les solutions</button>
+    <div class="enext">Nouvelle grille demain à minuit 🌙</div>
+  </div>
+</div>
+
+<!-- SOLUTIONS -->
+<div class="ov ov-center" id="ovSol">
+  <div class="smodal">
+    <div class="stitle"><span>Solutions</span><button class="btn-x" onclick="closeSol()">✕</button></div>
+    <div class="sgrid" id="sgrid"></div>
+  </div>
+</div>
+
+<!-- ABANDON -->
+<div class="ov ov-center" id="ovAbandon">
+  <div class="abandon-modal">
+    <div class="at">Abandonner la partie ?</div>
+    <div class="as">Vous pourrez voir les solutions, mais votre score ne sera pas enregistré.</div>
+    <div class="ab">
+      <button class="btn-yes" onclick="confirmAbandon()">Oui, abandonner</button>
+      <button class="btn-no" onclick="closeAbandon()">Continuer</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── DONNÉES ──────────────────────────────────
+const PLAYERS=[
+  {name:"Zinedine Zidane",pos:"milieu",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","liga","serieA","d90","d00","bx","tl1","teu","s100"]},
+  {name:"Didier Deschamps",pos:"milieu",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","liga","serieA","d90","d00","mrs","tl1","teu","s100"]},
+  {name:"Lilian Thuram",pos:"défenseur",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","liga","serieA","d90","d00","mco","teu","s100"]},
+  {name:"Marcel Desailly",pos:"défenseur",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","serieA","d90","d00","mrs","tl1","teu","s100"]},
+  {name:"Laurent Blanc",pos:"défenseur",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","liga","serieA","d90","d00","mrs","bx","tl1","s100"]},
+  {name:"Thierry Henry",pos:"attaquant",a:["cdm_1998","cdm_2002","cdm_2006","euro_2000","ch98","pl","liga","d90","d00","d10","mco","tl1","teu","s100"]},
+  {name:"Patrick Vieira",pos:"milieu",a:["cdm_1998","cdm_2002","cdm_2006","euro_2000","ch98","pl","liga","serieA","d90","d00","d10","teu","s100"]},
+  {name:"Robert Pires",pos:"milieu",a:["cdm_1998","cdm_2002","euro_2000","ch98","pl","liga","d90","d00","mrs","s100"]},
+  {name:"David Trezeguet",pos:"attaquant",a:["cdm_1998","cdm_2002","cdm_2006","euro_2000","ch98","liga","serieA","d90","d00","mco","tl1","teu","s100"]},
+  {name:"Emmanuel Petit",pos:"milieu",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","liga","serieA","d90","d00","mco","teu","s51"]},
+  {name:"Fabien Barthez",pos:"gardien",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","pl","d90","d00","mrs","tl1","s100"]},
+  {name:"Bixente Lizarazu",pos:"défenseur",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","bund","d90","d00","bx","tl1","teu","s100"]},
+  {name:"Youri Djorkaeff",pos:"milieu",a:["cdm_1998","euro_1996","ch98","serieA","bund","pl","d90","d00","teu","s51"]},
+  {name:"Sylvain Wiltord",pos:"attaquant",a:["cdm_1998","cdm_2002","euro_2000","ch98","pl","liga","d90","d00","bx","teu","s51"]},
+  {name:"Christophe Dugarry",pos:"attaquant",a:["cdm_1998","cdm_2002","euro_2000","ch98","serieA","liga","d90","d00","mrs","bx","tl1","s51"]},
+  {name:"Frank Leboeuf",pos:"défenseur",a:["cdm_1998","ch98","pl","liga","d90","d00","teu","s21"]},
+  {name:"Grégory Coupet",pos:"gardien",a:["cdm_2002","cdm_2006","euro_2000","d90","d00","lyon","tl1","s51"]},
+  {name:"Willy Sagnol",pos:"défenseur",a:["cdm_2002","cdm_2006","euro_2000","bund","d90","d00","mco","teu","s51"]},
+  {name:"Mikael Silvestre",pos:"défenseur",a:["cdm_2002","cdm_2006","pl","liga","d90","d00","teu","s51"]},
+  {name:"William Gallas",pos:"défenseur",a:["cdm_2002","cdm_2006","euro_2000","pl","liga","d00","d10","mrs","teu","s51"]},
+  {name:"Franck Ribéry",pos:"milieu",a:["cdm_2006","cdm_2010","cdm_2014","euro_2008","bund","serieA","d00","d10","mrs","teu","s100"]},
+  {name:"Nicolas Anelka",pos:"attaquant",a:["cdm_2002","cdm_2006","cdm_2010","euro_2000","pl","liga","d90","d00","d10","teu","s51"]},
+  {name:"Florent Malouda",pos:"milieu",a:["cdm_2006","cdm_2010","pl","d00","d10","lyon","tl1","teu","s51"]},
+  {name:"Eric Abidal",pos:"défenseur",a:["cdm_2006","cdm_2010","euro_2008","liga","d00","d10","mco","lyon","tl1","teu","s51"]},
+  {name:"Samir Nasri",pos:"milieu",a:["cdm_2010","euro_2012","pl","liga","d00","d10","mrs","s51"]},
+  {name:"Patrice Evra",pos:"défenseur",a:["cdm_2010","cdm_2014","euro_2008","euro_2012","pl","serieA","liga","d00","d10","mco","teu","s51"]},
+  {name:"Yoann Gourcuff",pos:"milieu",a:["cdm_2010","serieA","d00","d10","bx","lyon","tl1","s21"]},
+  {name:"Karim Benzema",pos:"attaquant",a:["cdm_2014","cdm_2022","euro_2020","liga","d00","d10","d20","lyon","tl1","teu","s100"]},
+  {name:"Hugo Lloris",pos:"gardien",a:["cdm_2010","cdm_2014","cdm_2018","cdm_2022","euro_2012","euro_2020","ch18","pl","d00","d10","d20","nice","lyon","tl1","s100"]},
+  {name:"Raphaël Varane",pos:"défenseur",a:["cdm_2014","cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","pl","liga","d10","d20","teu","s100"]},
+  {name:"Paul Pogba",pos:"milieu",a:["cdm_2014","cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","pl","serieA","d10","d20","teu","s100"]},
+  {name:"Antoine Griezmann",pos:"attaquant",a:["cdm_2014","cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","liga","d10","d20","teu","s100"]},
+  {name:"Olivier Giroud",pos:"attaquant",a:["cdm_2014","cdm_2018","cdm_2022","euro_2012","euro_2016","euro_2020","ch18","pl","serieA","d10","d20","mtp","tl1","teu","s100"]},
+  {name:"Blaise Matuidi",pos:"milieu",a:["cdm_2014","cdm_2018","euro_2012","euro_2016","ch18","serieA","d10","d20","psg","tl1","teu","s100"]},
+  {name:"N'Golo Kanté",pos:"milieu",a:["cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","pl","d10","d20","tl1","teu","s51"]},
+  {name:"Kylian Mbappé",pos:"attaquant",a:["cdm_2018","cdm_2022","euro_2020","ch18","liga","d10","d20","mco","psg","teu","s100"]},
+  {name:"Kingsley Coman",pos:"attaquant",a:["cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","serieA","bund","d10","d20","psg","teu","s51"]},
+  {name:"Ousmane Dembélé",pos:"attaquant",a:["cdm_2018","cdm_2022","euro_2020","ch18","bund","liga","d10","d20","rennes","teu","s51"]},
+  {name:"Samuel Umtiti",pos:"défenseur",a:["cdm_2018","euro_2016","ch18","liga","d10","lyon","teu","s21"]},
+  {name:"Corentin Tolisso",pos:"milieu",a:["cdm_2018","euro_2016","euro_2020","ch18","bund","d10","d20","lyon","tl1","teu","s21"]},
+  {name:"Florian Thauvin",pos:"attaquant",a:["cdm_2018","ch18","pl","d10","mrs","s21"]},
+  {name:"Benjamin Mendy",pos:"défenseur",a:["cdm_2018","euro_2020","ch18","pl","d10","d20","mrs","mco","teu","s21"]},
+  {name:"Djibril Sidibé",pos:"défenseur",a:["cdm_2018","euro_2016","ch18","pl","d10","mco","tl1","teu","s21"]},
+  {name:"Mamadou Sakho",pos:"défenseur",a:["cdm_2014","euro_2012","pl","d10","psg","s21"]},
+  {name:"Loïc Rémy",pos:"attaquant",a:["cdm_2014","euro_2012","pl","liga","d10","mrs","s21"]},
+  {name:"Adrien Rabiot",pos:"milieu",a:["cdm_2022","euro_2020","serieA","pl","d10","d20","psg","tl1","teu","s51"]},
+  {name:"Aurélien Tchouaméni",pos:"milieu",a:["cdm_2022","euro_2020","liga","d20","mco","teu","s51"]},
+  {name:"Jules Koundé",pos:"défenseur",a:["cdm_2022","euro_2020","liga","d20","bx","teu","s51"]},
+  {name:"Dayot Upamecano",pos:"défenseur",a:["cdm_2022","euro_2020","bund","d10","d20","teu","s51"]},
+  {name:"Marcus Thuram",pos:"attaquant",a:["cdm_2022","euro_2020","bund","serieA","d10","d20","s51"]},
+  {name:"Mike Maignan",pos:"gardien",a:["cdm_2022","euro_2020","euro_2024","serieA","d10","d20","lille","tl1","s21"]},
+  {name:"William Saliba",pos:"défenseur",a:["cdm_2022","euro_2024","pl","d20","mrs","s21"]},
+  {name:"Theo Hernandez",pos:"défenseur",a:["cdm_2022","euro_2024","serieA","liga","d10","d20","teu","s51"]},
+  {name:"Randal Kolo Muani",pos:"attaquant",a:["cdm_2022","euro_2024","bund","d10","d20","nantes","s21"]},
+  {name:"Jonathan Clauss",pos:"défenseur",a:["cdm_2022","bund","d10","d20","lens","mrs","s21"]},
+  {name:"Wissam Ben Yedder",pos:"attaquant",a:["liga","d10","d20","tlse","mco","s21"]},
+];
+
+// ── GRILLE DU JOUR ────────────────────────────
+const GRILLE={
+  lignes:[
+    {id:"ch98",   label:"Champion du Monde", sub:"1998 🏆",       icon:"🏆"},
+    {id:"pl",     label:"A joué en",          sub:"Premier League",icon:"🏴󠁧󠁢󠁥󠁮󠁧󠁿"},
+    {id:"d10",    label:"Actif dans les",      sub:"Années 2010",  icon:"📅"},
+  ],
+  colonnes:[
+    {id:"liga",   label:"A joué en",  sub:"La Liga 🇪🇸",        icon:"🇪🇸"},
+    {id:"teu",    label:"Vainqueur",  sub:"Coupe Européenne",    icon:"🌟"},
+    {id:"pos_attaquant", label:"Poste", sub:"Attaquant ⚡",      icon:"⚡"},
+  ]
+};
+
+// ── ÉTAT ──────────────────────────────────────
+const TODAY=new Date().toDateString();
+const G={
+  score:0, errors:0, maxErr:3,
+  found:Array(9).fill(null),
+  used:new Set(),
+  cell:null, over:false,
+  streak:+localStorage.getItem('fg_s')||0,
+  lastPlayed:localStorage.getItem('fg_lp')||'',
+};
+
+// ── LOGIQUE ───────────────────────────────────
+function match(p,id){
+  return id.startsWith('pos_') ? p.pos===id.slice(4) : p.a.includes(id);
+}
+function matchCell(p,r,c){return match(p,r)&&match(p,c)}
+function valids(ri,ci){
+  return PLAYERS.filter(p=>matchCell(p,GRILLE.lignes[ri].id,GRILLE.colonnes[ci].id));
+}
+// Précalcul
+const VC={};
+for(let r=0;r<3;r++)for(let c=0;c<3;c++) VC[r*3+c]=valids(r,c);
+
+function scoreFor(idx){
+  const n=VC[idx].length;
+  const pts=Math.round(Math.max(5,Math.min(100,280/n)))+15;
+  return pts;
+}
+
+// ── BUILD GRILLE ──────────────────────────────
+function buildGrid(){
+  const el=document.getElementById('grid');
+  el.innerHTML='';
+  el.appendChild(el.appendChild(Object.assign(document.createElement('div'),{className:'corner'})));
+
+  GRILLE.colonnes.forEach(col=>{
+    const h=document.createElement('div');
+    h.className='cat-h col-bg';
+    h.innerHTML=`<div class="cat-icon">${col.icon}</div><div class="cat-label">${col.label}</div><div class="cat-sub">${col.sub}</div>`;
+    el.appendChild(h);
+  });
+
+  GRILLE.lignes.forEach((row,ri)=>{
+    const rh=document.createElement('div');
+    rh.className='cat-h row-h row-bg';
+    rh.innerHTML=`<div class="cat-icon">${row.icon}</div><div class="cat-label">${row.label}</div><div class="cat-sub">${row.sub}</div>`;
+    el.appendChild(rh);
+    GRILLE.colonnes.forEach((col,ci)=>{
+      const idx=ri*3+ci;
+      const c=document.createElement('div');
+      c.className='cell';c.id=`c${idx}`;
+      c.innerHTML=`<div class="cell-plus">+</div>`;
+      c.onclick=()=>openCell(idx,ri,ci);
+      el.appendChild(c);
+    });
+  });
+  refreshAll();
+}
+
+function refreshCell(idx){
+  const el=document.getElementById(`c${idx}`);
+  if(!el)return;
+  const f=G.found[idx];
+  if(f){
+    const rare=f.vc<=4;
+    el.className='cell filled';el.onclick=null;
+    el.innerHTML=`<div class="cell-name">${f.player.name}</div>
+      <div class="cell-pct${rare?' rare':''}">${rare?'⭐ Rare · ':''}${f.pct}% des joueurs</div>
+      <div class="rarity-bar" style="width:${f.pct}%"></div>`;
+  } else if(G.over){
+    el.className='cell done';el.onclick=null;
+  }
+}
+
+function refreshAll(){
+  const founds=G.found.filter(Boolean);
+  const n=founds.length;
+  document.getElementById('scoreN').innerHTML=`${G.score} <small>/ 900</small>`;
+  let rarest='—';
+  if(founds.length){
+    const r=founds.reduce((a,b)=>a.vc<b.vc?a:b);
+    rarest=r.player.name;
+  }
+  document.getElementById('progLbl').textContent=`${n} / 9 cases · Joueur le plus rare : ${rarest}`;
+  for(let i=0;i<9;i++)refreshCell(i);
+}
+
+// ── SEARCH ────────────────────────────────────
+function openCell(idx,ri,ci){
+  if(G.over||G.found[idx]||G.errors>=G.maxErr)return;
+  G.cell={idx,ri,ci};
+  const row=GRILLE.lignes[ri],col=GRILLE.colonnes[ci];
+  const n=VC[idx].length;
+  document.getElementById('mctx').innerHTML=
+    `<strong>${row.icon} ${row.label} ${row.sub}</strong> &times; <strong>${col.icon} ${col.label} ${col.sub}</strong>`;
+  document.getElementById('sinput').value='';
+  document.getElementById('results').innerHTML='';
+  document.getElementById('rcnt').textContent=`${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
+  document.getElementById('ovSearch').classList.add('open');
+  setTimeout(()=>document.getElementById('sinput').focus(),70);
+}
+function closeSrch(){
+  document.getElementById('ovSearch').classList.remove('open');
+  G.cell=null;
+}
+
+document.getElementById('sinput').addEventListener('input',function(){
+  if(!G.cell)return;
+  const {idx}=G.cell;
+  const q=this.value.toLowerCase().trim();
+  const rcnt=document.getElementById('rcnt');
+  const n=VC[idx].length;
+  if(q.length<2){
+    document.getElementById('results').innerHTML='';
+    rcnt.textContent=`${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
+    return;
+  }
+  const row=GRILLE.lignes[G.cell.ri],col=GRILLE.colonnes[G.cell.ci];
+  const matches=PLAYERS.filter(p=>p.name.toLowerCase().includes(q)).slice(0,8);
+  rcnt.textContent=`${matches.length} joueur${matches.length>1?'s':''} · ${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
+  if(!matches.length){
+    document.getElementById('results').innerHTML=`<div class="no-res">Aucun résultat pour "${this.value}"</div>`;
+    return;
+  }
+  document.getElementById('results').innerHTML=matches.map(p=>{
+    const used=G.used.has(p.name);
+    const valid=matchCell(p,row.id,col.id);
+    const few=n<=5;
+    const ini=p.name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+    const nameE=p.name.replace(/'/g,"\\'");
+    return `<div class="ri${used?' used':''}" onclick="${used?'':(`pick('${nameE}')`)}">
+      <div class="av">${ini}</div>
+      <div class="ri-info">
+        <div class="ri-name">${p.name}</div>
+        <div class="ri-meta">${cap(p.pos)}${used?' · Déjà utilisé':''}</div>
+      </div>
+      ${valid
+        ?`<div class="ri-badge${few?' few':''}">${few?'⭐ ':''} ${n} rép.</div>`
+        :`<div class="ri-badge invalid">✗ invalide</div>`}
+    </div>`;
+  }).join('');
+});
+
+document.getElementById('sinput').addEventListener('keydown',e=>{if(e.key==='Escape')closeSrch()});
+document.getElementById('ovSearch').addEventListener('click',e=>{if(e.target===e.currentTarget)closeSrch()});
+
+// ── PICK ──────────────────────────────────────
+function pick(name){
+  if(!G.cell)return;
+  const {idx,ri,ci}=G.cell;
+  const player=PLAYERS.find(p=>p.name===name);
+  if(!player)return;
+  const row=GRILLE.lignes[ri],col=GRILLE.colonnes[ci];
+  if(!matchCell(player,row.id,col.id)){
+    G.errors++;
+    document.getElementById(`d${G.errors-1}`).classList.add('on');
+    showToast(`❌ ${name} ne correspond pas`,'err');
+    if(G.errors>=G.maxErr){closeSrch();setTimeout(()=>endGame(false),500);}
+    return;
+  }
+  const pts=scoreFor(idx);
+  const vc=VC[idx].length;
+  // Simule le % de joueurs ayant choisi ce joueur (en prod : données serveur)
+  const pct=Math.max(3,Math.min(85,Math.floor(Math.random()*50)+5));
+  G.score=Math.min(900,G.score+pts);
+  G.found[idx]={player,vc,pct};
+  G.used.add(name);
+  closeSrch();
+  refreshAll();
+  showToast(`✅ ${name} — +${pts} pts`,'ok');
+  if(G.found.every(Boolean))setTimeout(()=>endGame(true),450);
+}
+
+// ── FIN ───────────────────────────────────────
+function endGame(won){
+  G.over=true;
+  const fn=G.found.filter(Boolean).length;
+  if(fn>=3&&G.lastPlayed!==TODAY){
+    G.streak++;
+    localStorage.setItem('fg_s',G.streak);
+    localStorage.setItem('fg_lp',TODAY);
+    document.getElementById('streakNum').textContent=G.streak;
+  }
+  saveArch();
+  document.getElementById('eemoji').textContent=won&&G.errors===0?'🏆':fn>=6?'⚽':fn>=3?'👏':'💪';
+  document.getElementById('etitle').textContent=won&&G.errors===0?'Parfait !':won?'Bien joué !':fn>=6?'Presque !':'Bonne tentative !';
+  document.getElementById('escore').textContent=G.score;
+  document.getElementById('esub').textContent=`${fn}/9 cases · ${G.errors} erreur${G.errors>1?'s':''} · Série : ${G.streak} jour${G.streak>1?'s':''}`;
+  document.getElementById('egrid').innerHTML=G.found.map(f=>
+    f?`<div class="ecell ok">${f.player.name.split(' ').pop()}<div class="ecell-pct">${f.pct}%</div></div>`
+     :`<div class="ecell">—</div>`
+  ).join('');
+  document.getElementById('ovEnd').classList.add('open');
+  refreshAll();
+}
+function closeEnd(){document.getElementById('ovEnd').classList.remove('open')}
+
+// ── SOLUTIONS ─────────────────────────────────
+function openSol(){
+  const sg=document.getElementById('sgrid');
+  sg.innerHTML='';
+  GRILLE.lignes.forEach((row,ri)=>{
+    GRILLE.colonnes.forEach((col,ci)=>{
+      const idx=ri*3+ci;
+      const vs=VC[idx];
+      const chosen=G.found[idx];
+      const div=document.createElement('div');
+      div.className='scell';
+      div.innerHTML=`<div class="scell-h">${row.sub} × ${col.sub}</div>`
+        +vs.slice(0,8).map(p=>{
+          const ok=chosen&&chosen.player.name===p.name;
+          return `<div class="sp${ok?' chosen':''}"><span>${p.name}</span><span class="sp-pct">${ok?chosen.pct+'%':''}</span></div>`;
+        }).join('')
+        +(vs.length>8?`<div style="font-size:10px;color:var(--text3);padding-top:3px">+${vs.length-8} autres</div>`:'');
+      sg.appendChild(div);
+    });
+  });
+  document.getElementById('ovSol').classList.add('open');
+}
+function closeSol(){document.getElementById('ovSol').classList.remove('open')}
+document.getElementById('ovSol').addEventListener('click',e=>{if(e.target===e.currentTarget)closeSol()});
+
+// ── ABANDON ───────────────────────────────────
+function tryAbandon(){if(!G.over)document.getElementById('ovAbandon').classList.add('open')}
+function closeAbandon(){document.getElementById('ovAbandon').classList.remove('open')}
+function confirmAbandon(){closeAbandon();G.over=true;refreshAll();setTimeout(()=>endGame(false),200)}
+
+// ── PARTAGE ───────────────────────────────────
+function shareResult(){
+  const fn=G.found.filter(Boolean).length;
+  const rows=G.found.map(f=>f?'🟩':'⬛').join('').match(/.{3}/g).join('\n');
+  const txt=`FootGrille — ${new Date().toLocaleDateString('fr-FR')}\n${G.score}/900 · ${fn}/9 · ${G.errors} erreur${G.errors>1?'s':''}\n\n${rows}\n\nfootgrille.fr`;
+  if(navigator.share){navigator.share({text:txt}).catch(()=>{})}
+  else{navigator.clipboard.writeText(txt).then(()=>showToast('📋 Copié !','ok'))}
+}
+
+// ── ARCHIVES ──────────────────────────────────
+function saveArch(){
+  const a=JSON.parse(localStorage.getItem('fg_arch')||'[]');
+  if(!a.find(x=>x.date===TODAY)){
+    a.unshift({date:TODAY,score:G.score,found:G.found.filter(Boolean).length,errors:G.errors});
+    localStorage.setItem('fg_arch',JSON.stringify(a.slice(0,30)));
+  }
+}
+function renderArch(){
+  const a=JSON.parse(localStorage.getItem('fg_arch')||'[]');
+  const el=document.getElementById('archList');
+  if(!a.length){el.innerHTML=`<div style="color:var(--text2);font-size:13px;padding:16px 0">Aucune partie encore jouée. Les archives apparaissent après votre première partie.</div>`;return}
+  el.innerHTML=a.map(x=>`<div class="arch-entry">
+    <div><div class="arch-date">${x.date}</div><div class="arch-meta">${x.found}/9 cases · ${x.errors} erreur${x.errors>1?'s':''}</div></div>
+    <div class="arch-score">${x.score}</div>
+  </div>`).join('');
+}
+
+// ── NAVIGATION ────────────────────────────────
+function showView(v){
+  document.getElementById('vGame').style.display=v==='game'?'':'none';
+  document.getElementById('vArchives').style.display=v==='archives'?'':'none';
+  document.querySelectorAll('.nav-link').forEach(l=>l.classList.toggle('active',l.textContent.includes(v==='game'?'Jouer':'Archives')));
+  if(v==='archives')renderArch();
+}
+
+// ── TOAST ─────────────────────────────────────
+let tt;
+function showToast(msg,type=''){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.className=`toast show ${type}`;
+  clearTimeout(tt);tt=setTimeout(()=>t.className='toast',2600);
+}
+function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
+
+// ── INIT ──────────────────────────────────────
+document.getElementById('dateLbl').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
+document.getElementById('streakNum').textContent=G.streak;
+buildGrid();
+</script>
+</body>
+</html>
