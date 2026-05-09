@@ -517,8 +517,8 @@ function endGame(won){
   const fn=G.found.filter(Boolean).length;
   if(fn>=3&&G.lastPlayed!==TODAY){
     G.streak++;
-    localStorage.setItem(`fg_s_${THEME}`,G.streak);
-    localStorage.setItem(`fg_lp_${THEME}`,TODAY);
+    localStorage.setItem('fg_s_'+THEME,G.streak);
+    localStorage.setItem('fg_lp_'+THEME,TODAY);
     document.getElementById('streakNum').textContent=G.streak;
   }
   saveArch();
@@ -576,14 +576,14 @@ function shareResult(){
 
 // ── ARCHIVES ──────────────────────────────────
 function saveArch(){
-  const a=JSON.parse(`fg_arch_${THEME}`)||'[]');
+  const a=JSON.parse(localStorage.getItem('fg_arch_'+THEME)||'[]');
   if(!a.find(x=>x.date===TODAY)){
     a.unshift({date:TODAY,score:G.score,found:G.found.filter(Boolean).length,errors:G.errors});
-    localStorage.setItem(`fg_arch_${THEME}`,JSON.stringify(a.slice(0,30)));
+    localStorage.setItem('fg_arch_'+THEME,JSON.stringify(a.slice(0,30)));
   }
 }
 function renderArch(){
-  const a=JSON.parse(`fg_arch_${THEME}`)||'[]');
+  const a=JSON.parse(localStorage.getItem('fg_arch_'+THEME)||'[]');
   const el=document.getElementById('archList');
   if(!a.length){el.innerHTML=`<div style="color:var(--text2);font-size:13px;padding:16px 0">Aucune partie encore jouée. Les archives apparaissent après votre première partie.</div>`;return}
   el.innerHTML=a.map(x=>`<div class="arch-entry">
@@ -610,11 +610,9 @@ function showToast(msg,type=''){
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 
 // ── INIT ──────────────────────────────────────
-
-// Lire le thème depuis l'URL (?theme=foot)
-const URL_PARAMS = new URLSearchParams(window.location.search);
-const THEME = URL_PARAMS.get('theme') || 'foot';
-const THEME_JSON = `grilles-${THEME}.json`;
+const PARAMS = new URLSearchParams(window.location.search);
+const THEME = PARAMS.get('theme') || 'foot';
+const THEME_JSON = 'grilles-' + THEME + '.json';
 
 // Lien retour accueil
 const backLink = document.getElementById('backLink');
@@ -623,8 +621,8 @@ if(backLink) backLink.style.display = 'flex';
 document.getElementById('dateLbl').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
 
 // Streak par thème
-G.streak = +localStorage.getItem(`fg_s_${THEME}`) || 0;
-G.lastPlayed = localStorage.getItem(`fg_lp_${THEME}`) || '';
+G.streak = +localStorage.getItem('fg_s_'+THEME) || 0;
+G.lastPlayed = localStorage.getItem('fg_lp_'+THEME) || '';
 document.getElementById('streakNum').textContent=G.streak;
 
 async function init(){
@@ -636,7 +634,7 @@ async function init(){
 
   try {
     const res = await fetch(THEME_JSON);
-    if(!res.ok) throw new Error('Fichier grilles.json introuvable');
+    if(!res.ok) throw new Error('HTTP '+res.status+' — '+THEME_JSON+' introuvable');
     const grilles = await res.json();
 
     // Cherche la grille du jour
