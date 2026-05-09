@@ -8,11 +8,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#0b0b0b;--surface:#161616;--surface2:#202020;
-  --border:#2c2c2c;--border2:#3c3c3c;
-  --green:#b5ff4d;--green-dim:#6a9e1f;
-  --text:#efefef;--text2:#888;--text3:#4a4a4a;
-  --gold:#ffc94d;--r:12px;
+  --bg:#f7f8fa;--surface:#ffffff;--surface2:#f0f2f5;
+  --border:#e4e7ec;--border2:#d0d5dd;
+  --green:#2d8c4e;--green-dim:#e8f5ed;
+  --text:#1a1a2e;--text2:#6b7280;--text3:#9ca3af;
+  --gold:#d97706;--r:12px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{
@@ -141,15 +141,15 @@ header{
   border:1px solid;
 }
 .card-badge.live{
-  color:var(--green);border-color:var(--green-dim);
-  background:rgba(181,255,77,.07);
+  color:var(--green);border-color:var(--green);
+  background:rgba(45,140,78,.08);
 }
 .card-badge.soon-badge{
   color:var(--text3);border-color:var(--border2);
 }
 .card-badge.new{
   color:var(--gold);border-color:rgba(255,201,77,.3);
-  background:rgba(255,201,77,.07);
+  background:rgba(217,119,6,.08);
 }
 
 .card-title{
@@ -210,7 +210,7 @@ footer{
   font-family:'Barlow Condensed',sans-serif;
   font-weight:700;font-size:16px;text-transform:uppercase;color:var(--text3);
 }
-.footer-logo span{color:var(--green-dim)}
+.footer-logo span{color:var(--green)}
 .footer-links{display:flex;gap:16px}
 .footer-link{font-size:12px;color:var(--text3);text-decoration:none;transition:color .15s}
 .footer-link:hover{color:var(--text2)}
@@ -231,11 +231,8 @@ footer{
 
 <!-- HEADER -->
 <header>
-  <div class="logo">Foot<span>Grille</span></div>
-  <div class="header-right">
-    <div class="date-lbl" id="dateLbl"></div>
-    <div class="streak-pill">🔥 <span id="streakTotal">0</span></div>
-  </div>
+  <div class="date-lbl" id="dateLbl"></div>
+  <div class="streak-pill">🔥 <span id="streakTotal">0</span></div>
 </header>
 
 <!-- HERO -->
@@ -329,7 +326,7 @@ footer{
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-logo">Foot<span>Grille</span></div>
+  <div class="footer-logo" style="color:var(--text3);font-size:12px">© 2026</div>
   <div class="footer-links">
     <a href="#" class="footer-link">À propos</a>
     <a href="#" class="footer-link">Contact</a>
