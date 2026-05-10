@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FootGrille</title>
+<title>DOKU</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -56,7 +57,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .cell-pct{font-size:11px;color:var(--text2);margin-top:3px;font-weight:500}
 .cell-pct.rare{color:var(--gold)}
 .rarity-bar{position:absolute;bottom:0;left:0;height:3px;background:var(--green);opacity:.4;transition:width .4s ease}
-/* overlays */
 .ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.83);z-index:100;align-items:flex-start;justify-content:center;padding-top:10vh;backdrop-filter:blur(3px)}
 .ov.open{display:flex}
 .ov-center{align-items:center;padding-top:0}
@@ -83,7 +83,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .mfoot-hint{font-size:11px;color:var(--text3)}
 .btn-x{background:none;border:1px solid var(--border);color:var(--text2);border-radius:6px;padding:3px 9px;font-size:12px;transition:all .15s}
 .btn-x:hover{border-color:var(--border2);color:var(--text)}
-/* end modal */
 .emodal{background:var(--surface);border:1px solid var(--border2);border-radius:18px;padding:32px 28px;max-width:400px;width:90%;text-align:center;animation:zi .22s ease}
 .eemoji{font-size:44px;margin-bottom:10px}
 .etitle{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:30px;text-transform:uppercase;letter-spacing:-1px;margin-bottom:4px}
@@ -98,7 +97,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .btn-sol-e{background:none;border:1px solid var(--border2);color:var(--text2);border-radius:8px;padding:9px 22px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:13px;text-transform:uppercase;width:100%;transition:all .15s;margin-bottom:4px}
 .btn-sol-e:hover{border-color:var(--text2);color:var(--text)}
 .enext{margin-top:12px;font-size:11px;color:var(--text3)}
-/* solutions */
 .smodal{background:var(--surface);border:1px solid var(--border2);border-radius:14px;width:90%;max-width:660px;max-height:82vh;overflow-y:auto;padding:24px;animation:zi .2s ease}
 .stitle{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:20px;text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;justify-content:space-between}
 .sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
@@ -108,7 +106,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .sp:last-child{border-bottom:none}
 .sp.chosen{color:var(--green);font-weight:600}
 .sp-pct{font-size:10px;color:var(--text3);flex-shrink:0}
-/* abandon */
 .abandon-modal{background:var(--surface);border:1px solid var(--border2);border-radius:13px;padding:26px;max-width:320px;width:90%;text-align:center;animation:zi .2s ease}
 .at{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;text-transform:uppercase;margin-bottom:7px}
 .as{font-size:13px;color:var(--text2);margin-bottom:18px}
@@ -117,12 +114,10 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .btn-yes:hover{opacity:.85}
 .btn-no{flex:1;background:none;border:1px solid var(--border2);color:var(--text2);border-radius:7px;padding:10px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:14px;text-transform:uppercase;transition:all .15s}
 .btn-no:hover{border-color:var(--text2);color:var(--text)}
-/* archives */
 .arch-entry{display:flex;align-items:center;justify-content:space-between;padding:13px 15px;background:var(--surface);border:1px solid var(--border);border-radius:9px;margin-bottom:7px}
 .arch-date{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;text-transform:uppercase}
 .arch-meta{font-size:12px;color:var(--text2);margin-top:2px}
 .arch-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:26px;color:var(--green)}
-/* toast */
 .toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(14px);background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:10px 18px;font-size:13px;font-weight:500;opacity:0;transition:all .22s;z-index:500;white-space:nowrap;pointer-events:none}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .toast.err{border-color:var(--red);color:var(--red)}
@@ -181,6 +176,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </header>
 
 <!-- VUE JEU -->
+
 <div id="vGame">
   <div class="stats-bar">
     <div>
@@ -203,6 +199,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- VUE ARCHIVES -->
+
 <div id="vArchives" style="display:none;padding-top:4px">
   <div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;text-transform:uppercase;margin-bottom:14px">Archives</div>
   <div style="font-size:13px;color:var(--text2);margin-bottom:18px">Grilles passées. Les archives n'affectent ni les statistiques ni les scores quotidiens.</div>
@@ -212,11 +209,12 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- SEARCH -->
+
 <div class="ov" id="ovSearch">
   <div class="modal">
     <div class="mhead">
       <div class="mctx" id="mctx"></div>
-      <input type="text" class="sinput" id="sinput" placeholder="Tapez le nom d'une ville..."  id="sinput" autocomplete="off" autocorrect="off" spellcheck="false">
+      <input type="text" class="sinput" id="sinput" placeholder="Tapez votre réponse..." autocomplete="off" autocorrect="off" spellcheck="false">
     </div>
     <div class="rcnt" id="rcnt"></div>
     <div class="results" id="results"></div>
@@ -228,6 +226,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- END -->
+
 <div class="ov ov-center" id="ovEnd">
   <div class="emodal">
     <div class="eemoji" id="eemoji">⚽</div>
@@ -243,6 +242,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- SOLUTIONS -->
+
 <div class="ov ov-center" id="ovSol">
   <div class="smodal">
     <div class="stitle"><span>Solutions</span><button class="btn-x" onclick="closeSol()">✕</button></div>
@@ -251,6 +251,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- ABANDON -->
+
 <div class="ov ov-center" id="ovAbandon">
   <div class="abandon-modal">
     <div class="at">Abandonner la partie ?</div>
@@ -265,7 +266,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 <div class="toast" id="toast"></div>
 
 <script>
-// ── THÈME (lu depuis l'URL dès le départ) ────
+// ── THÈME ────
 const PARAMS = new URLSearchParams(window.location.search);
 const THEME = PARAMS.get('theme') || 'foot';
 const THEME_JSON = 'grilles-' + THEME + '.json';
@@ -330,115 +331,113 @@ const PLAYERS=[
   {name:"Wissam Ben Yedder",pos:"attaquant",a:["liga","d10","d20","tlse","mco","s21"]},
 ];
 
-// ── BASE VILLES DE FRANCE ────────────────────
 const VILLES=[
-  {name:"Paris",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_75","prefecture_reg","prefecture_dept","ligue1","fleuve_seine","universite","jo2024","metro","tgv","patrimoine_unesco"]},
-  {name:"Lyon",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_69","prefecture_reg","prefecture_dept","ligue1","fleuve_rhone","universite","metro","tgv","patrimoine_unesco"]},
-  {name:"Marseille",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","prefecture_reg","prefecture_dept","ligue1","port_maritime","universite","metro","tgv","patrimoine_unesco","jo2024"]},
-  {name:"Toulouse",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_31","prefecture_reg","prefecture_dept","ligue1","fleuve_garonne","universite","metro","tgv","jo2024"]},
-  {name:"Nice",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","prefecture_dept","ligue1","station_balneaire","universite","tgv","port_maritime"]},
-  {name:"Nantes",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_44","prefecture_reg","prefecture_dept","ligue1","fleuve_loire","port_maritime","universite","tgv"]},
-  {name:"Montpellier",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_34","prefecture_reg","prefecture_dept","ligue1","station_balneaire","universite","metro","tgv"]},
-  {name:"Strasbourg",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_67","prefecture_reg","prefecture_dept","ligue1","fleuve_rhin","universite","metro","tgv","patrimoine_unesco"]},
-  {name:"Bordeaux",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_33","prefecture_reg","prefecture_dept","ligue1","fleuve_garonne","port_maritime","universite","tgv","patrimoine_unesco"]},
-  {name:"Lille",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59","prefecture_reg","prefecture_dept","ligue1","universite","metro","tgv"]},
-  {name:"Rennes",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_35","prefecture_reg","prefecture_dept","ligue1","universite","metro","tgv"]},
-  {name:"Reims",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51","prefecture_dept","ligue1","universite","tgv","patrimoine_unesco"]},
-  {name:"Le Havre",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","port_maritime","ligue1","universite","tgv","patrimoine_unesco"]},
-  {name:"Saint-Etienne",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_42","prefecture_dept","ligue1","universite","tgv"]},
-  {name:"Toulon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_83","prefecture_dept","port_maritime","station_balneaire","universite","tgv"]},
-  {name:"Grenoble",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_38","prefecture_dept","universite","tgv","station_ski"]},
-  {name:"Rouen",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","prefecture_reg","prefecture_dept","ligue1","fleuve_seine","port_maritime","universite","tgv","patrimoine_unesco"]},
-  {name:"Brest",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_29","prefecture_dept","port_maritime","universite","tgv"]},
-  {name:"Dijon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_21","prefecture_reg","prefecture_dept","universite","tgv","patrimoine_unesco"]},
-  {name:"Nîmes",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_30","prefecture_dept","patrimoine_unesco","tgv"]},
-  {name:"Angers",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_49","prefecture_dept","fleuve_loire","universite","tgv"]},
-  {name:"Villeurbanne",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_69","ligue1","universite","metro"]},
-  {name:"Le Mans",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_72","prefecture_dept","universite","tgv"]},
-  {name:"Clermont-Ferrand",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_63","prefecture_reg","prefecture_dept","universite","tgv"]},
-  {name:"Aix-en-Provence",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","universite","tgv","patrimoine_unesco"]},
+  {name:"Paris",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_75","ligue1","fleuve_seine","jo2024","metro","tgv","patrimoine_unesco"]},
+  {name:"Lyon",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_69","ligue1","fleuve_rhone","metro","tgv","patrimoine_unesco"]},
+  {name:"Marseille",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","ligue1","port_maritime","metro","tgv","patrimoine_unesco","jo2024"]},
+  {name:"Toulouse",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_31","ligue1","fleuve_garonne","metro","tgv","jo2024"]},
+  {name:"Nice",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","ligue1","station_balneaire","tgv","port_maritime"]},
+  {name:"Nantes",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_44","ligue1","fleuve_loire","port_maritime","tgv"]},
+  {name:"Montpellier",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_34","ligue1","station_balneaire","metro","tgv"]},
+  {name:"Strasbourg",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_67","ligue1","fleuve_rhin","metro","tgv","patrimoine_unesco"]},
+  {name:"Bordeaux",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_33","ligue1","fleuve_garonne","port_maritime","tgv","patrimoine_unesco"]},
+  {name:"Lille",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59","ligue1","metro","tgv"]},
+  {name:"Rennes",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_35","ligue1","metro","tgv"]},
+  {name:"Reims",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51","ligue1","tgv","patrimoine_unesco"]},
+  {name:"Le Havre",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","port_maritime","ligue1","tgv","patrimoine_unesco"]},
+  {name:"Saint-Etienne",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_42","ligue1","tgv"]},
+  {name:"Toulon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_83","port_maritime","station_balneaire","tgv"]},
+  {name:"Grenoble",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_38","tgv","station_ski"]},
+  {name:"Rouen",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","ligue1","fleuve_seine","port_maritime","tgv","patrimoine_unesco"]},
+  {name:"Brest",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_29","port_maritime","tgv"]},
+  {name:"Dijon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_21","tgv","patrimoine_unesco"]},
+  {name:"Nîmes",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_30","patrimoine_unesco","tgv"]},
+  {name:"Angers",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_49","fleuve_loire","tgv"]},
+  {name:"Villeurbanne",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_69","ligue1","metro"]},
+  {name:"Le Mans",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_72","tgv"]},
+  {name:"Clermont-Ferrand",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_63","tgv"]},
+  {name:"Aix-en-Provence",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","tgv","patrimoine_unesco"]},
   {name:"Boulogne-Billancourt",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","fleuve_seine","metro","tgv"]},
-  {name:"Perpignan",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_66","prefecture_dept","tgv"]},
-  {name:"Nancy",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_54","prefecture_dept","universite","tgv","patrimoine_unesco"]},
+  {name:"Perpignan",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_66","tgv"]},
+  {name:"Nancy",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_54","tgv","patrimoine_unesco"]},
   {name:"Saint-Denis",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_93","jo2024","metro","tgv"]},
   {name:"Argenteuil",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_95","fleuve_seine","metro","tgv"]},
   {name:"Montreuil",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_93","metro"]},
-  {name:"Metz",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_57","prefecture_dept","ligue2","universite","tgv","patrimoine_unesco"]},
-  {name:"Besançon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_25","prefecture_reg","prefecture_dept","universite","tgv","patrimoine_unesco"]},
-  {name:"Limoges",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_87","prefecture_reg","prefecture_dept","universite","tgv"]},
-  {name:"Amiens",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_80","prefecture_reg","prefecture_dept","ligue2","universite","tgv","patrimoine_unesco"]},
-  {name:"Caen",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_14","prefecture_reg","prefecture_dept","universite","tgv"]},
-  {name:"Mulhouse",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_68","fleuve_rhin","universite","tgv"]},
-  {name:"Tours",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_37","prefecture_reg","prefecture_dept","fleuve_loire","universite","tgv","patrimoine_unesco"]},
-  {name:"Orléans",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_45","prefecture_reg","prefecture_dept","fleuve_loire","universite","tgv"]},
-  {name:"Avignon",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_84","prefecture_dept","fleuve_rhone","universite","tgv","patrimoine_unesco"]},
-  {name:"Versailles",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_78","prefecture_dept","patrimoine_unesco","jo2024","tgv"]},
-  {name:"Nanterre",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","jo2024","universite","metro"]},
-  {name:"Créteil",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_94","prefecture_dept","universite","metro"]},
-  {name:"Pau",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","prefecture_dept","universite","station_ski"]},
-  {name:"La Rochelle",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_17","prefecture_dept","port_maritime","station_balneaire","universite","tgv"]},
+  {name:"Metz",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_57","ligue2","tgv","patrimoine_unesco"]},
+  {name:"Besançon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_25","tgv","patrimoine_unesco"]},
+  {name:"Limoges",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_87","tgv"]},
+  {name:"Amiens",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_80","ligue2","tgv","patrimoine_unesco"]},
+  {name:"Caen",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_14","tgv"]},
+  {name:"Mulhouse",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_68","fleuve_rhin","tgv"]},
+  {name:"Tours",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_37","fleuve_loire","tgv","patrimoine_unesco"]},
+  {name:"Orléans",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_45","fleuve_loire","tgv"]},
+  {name:"Avignon",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_84","fleuve_rhone","tgv","patrimoine_unesco"]},
+  {name:"Versailles",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_78","patrimoine_unesco","jo2024","tgv"]},
+  {name:"Nanterre",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","jo2024","metro"]},
+  {name:"Créteil",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_94","metro"]},
+  {name:"Pau",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","station_ski"]},
+  {name:"La Rochelle",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_17","port_maritime","station_balneaire","tgv"]},
   {name:"Cannes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","station_balneaire","port_maritime","tgv"]},
   {name:"Antibes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","station_balneaire","port_maritime"]},
   {name:"Saint-Nazaire",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_44","port_maritime","tgv"]},
   {name:"Dunkerque",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59","port_maritime","ligue2"]},
   {name:"Colmar",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_68","patrimoine_unesco","tgv"]},
   {name:"Roubaix",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59"]},
-  {name:"Ajaccio",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cor","dept_2a","prefecture_reg","prefecture_dept","port_maritime","station_balneaire","universite"]},
-  {name:"Poitiers",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_86","prefecture_dept","universite","tgv"]},
+  {name:"Ajaccio",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cor","dept_2a","port_maritime","station_balneaire"]},
+  {name:"Poitiers",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_86","tgv"]},
   {name:"Calais",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","port_maritime","tgv"]},
-  {name:"Bourges",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_18","prefecture_dept","patrimoine_unesco"]},
+  {name:"Bourges",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_18","patrimoine_unesco"]},
   {name:"Bayonne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","port_maritime","fleuve_garonne"]},
   {name:"La Seyne-sur-Mer",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_83","port_maritime","station_balneaire"]},
-  {name:"Niort",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_79","prefecture_dept"]},
+  {name:"Niort",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_79"]},
   {name:"Fréjus",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_83","station_balneaire","port_maritime"]},
   {name:"Saint-Quentin",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_02"]},
-  {name:"Beauvais",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_60","prefecture_dept","patrimoine_unesco"]},
-  {name:"Évreux",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_27","prefecture_dept"]},
+  {name:"Beauvais",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_60","patrimoine_unesco"]},
+  {name:"Évreux",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_27"]},
   {name:"Cherbourg-en-Cotentin",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_50","port_maritime"]},
-  {name:"Quimper",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_29","prefecture_dept","tgv"]},
+  {name:"Quimper",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_29","tgv"]},
   {name:"Lorient",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_56","port_maritime","tgv"]},
-  {name:"Vannes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_56","prefecture_dept","port_maritime","tgv"]},
+  {name:"Vannes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_56","port_maritime","tgv"]},
   {name:"Chalon-sur-Saône",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_71","fleuve_rhone","tgv"]},
-  {name:"Troyes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_10","prefecture_dept","fleuve_seine","tgv"]},
+  {name:"Troyes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_10","fleuve_seine","tgv"]},
   {name:"Dieppe",a:["pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","port_maritime","station_balneaire"]},
   {name:"Saint-Malo",a:["pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_35","port_maritime","station_balneaire","patrimoine_unesco"]},
   {name:"Arles",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","fleuve_rhone","patrimoine_unesco"]},
   {name:"Lens",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","ligue1"]},
-  {name:"La Roche-sur-Yon",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_85","prefecture_dept"]},
+  {name:"La Roche-sur-Yon",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_85"]},
   {name:"Béziers",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_34","tgv"]},
-  {name:"Laval",a:["pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_53","prefecture_dept","tgv"]},
-  {name:"Saint-Brieuc",a:["pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_22","prefecture_dept","port_maritime","tgv"]},
-  {name:"Chartres",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_28","prefecture_dept","patrimoine_unesco","tgv"]},
+  {name:"Laval",a:["pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_53","tgv"]},
+  {name:"Saint-Brieuc",a:["pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_22","port_maritime","tgv"]},
+  {name:"Chartres",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_28","patrimoine_unesco","tgv"]},
   {name:"Brive-la-Gaillarde",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_19","tgv"]},
-  {name:"Angoulême",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_16","prefecture_dept","tgv"]},
-  {name:"Montauban",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_82","prefecture_dept","fleuve_garonne"]},
+  {name:"Angoulême",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_16","tgv"]},
+  {name:"Montauban",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_82","fleuve_garonne"]},
   {name:"Boulogne-sur-Mer",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","port_maritime","station_balneaire","tgv"]},
-  {name:"Valenciennes",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59","universite"]},
-  {name:"Arras",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","prefecture_dept","jo2024","tgv","patrimoine_unesco"]},
-  {name:"Blois",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_41","prefecture_dept","fleuve_loire","patrimoine_unesco","tgv"]},
-  {name:"Gap",a:["pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_05","prefecture_dept","station_ski"]},
-  {name:"Carcassonne",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_11","prefecture_dept","patrimoine_unesco","tgv"]},
-  {name:"Albi",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_81","prefecture_dept","patrimoine_unesco"]},
-  {name:"Tarbes",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_65","prefecture_dept"]},
+  {name:"Valenciennes",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59"]},
+  {name:"Arras",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","jo2024","tgv","patrimoine_unesco"]},
+  {name:"Blois",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_41","fleuve_loire","patrimoine_unesco","tgv"]},
+  {name:"Gap",a:["pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_05","station_ski"]},
+  {name:"Carcassonne",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_11","patrimoine_unesco","tgv"]},
+  {name:"Albi",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_81","patrimoine_unesco"]},
+  {name:"Tarbes",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_65"]},
   {name:"Narbonne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_11","port_maritime","tgv"]},
-  {name:"Chambéry",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_73","prefecture_dept","station_ski","tgv"]},
-  {name:"Valence",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_26","prefecture_dept","fleuve_rhone","tgv"]},
-  {name:"Annecy",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_74","prefecture_dept","station_ski","tgv","patrimoine_unesco"]},
-  {name:"Agen",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_47","prefecture_dept","fleuve_garonne","tgv"]},
-  {name:"Périgueux",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_24","prefecture_dept","patrimoine_unesco"]},
+  {name:"Chambéry",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_73","station_ski","tgv"]},
+  {name:"Valence",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_26","fleuve_rhone","tgv"]},
+  {name:"Annecy",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_74","station_ski","tgv","patrimoine_unesco"]},
+  {name:"Agen",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_47","fleuve_garonne","tgv"]},
+  {name:"Périgueux",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_24","patrimoine_unesco"]},
   {name:"Rochefort",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_17","port_maritime"]},
   {name:"Saintes",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_17","patrimoine_unesco"]},
-  {name:"Mont-de-Marsan",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_40","prefecture_dept"]},
+  {name:"Mont-de-Marsan",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_40"]},
   {name:"Dax",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_40","ville_thermale","tgv"]},
   {name:"Biarritz",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","station_balneaire","tgv"]},
-  {name:"Bayonne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","port_maritime","fleuve_garonne"]},
-  {name:"Bastia",a:["pop_20k+","pop_10k+","pop_5k+","reg_cor","dept_2b","prefecture_dept","port_maritime","station_balneaire"]},
-  {name:"Saint-Denis (La Réunion)",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_reunion","dept_974","prefecture_reg","prefecture_dept","dom_tom"]},
-  {name:"Fort-de-France",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_mart","dept_972","prefecture_reg","prefecture_dept","port_maritime","dom_tom"]},
-  {name:"Cayenne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_guy","dept_973","prefecture_reg","prefecture_dept","dom_tom"]},
-  {name:"Auxerre",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_89","prefecture_dept","fleuve_seine"]},
-  {name:"Belfort",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_90","prefecture_dept","tgv"]},
-  {name:"Mâcon",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_71","prefecture_dept","fleuve_rhone","tgv"]},
+  {name:"Bastia",a:["pop_20k+","pop_10k+","pop_5k+","reg_cor","dept_2b","port_maritime","station_balneaire"]},
+  {name:"Saint-Denis (La Réunion)",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_reunion","dept_974","dom_tom"]},
+  {name:"Fort-de-France",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_mart","dept_972","port_maritime","dom_tom"]},
+  {name:"Cayenne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_guy","dept_973","dom_tom"]},
+  {name:"Auxerre",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_89","fleuve_seine"]},
+  {name:"Belfort",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_90","tgv"]},
+  {name:"Mâcon",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_71","fleuve_rhone","tgv"]},
   {name:"Vichy",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_03","ville_thermale","fleuve_loire"]},
   {name:"Lourdes",a:["pop_10k+","pop_5k+","reg_occ","dept_65","ville_thermale","patrimoine_unesco"]},
   {name:"Thonon-les-Bains",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_74","ville_thermale","station_ski"]},
@@ -447,38 +446,38 @@ const VILLES=[
   {name:"Val d'Isère",a:["pop_5k+","reg_ara","dept_73","station_ski"]},
   {name:"Évian-les-Bains",a:["pop_5k+","reg_ara","dept_74","ville_thermale","station_ski"]},
   {name:"Megève",a:["pop_5k+","reg_ara","dept_74","station_ski"]},
-  {name:"Épinal",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_88","prefecture_dept"]},
+  {name:"Épinal",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_88"]},
   {name:"Thionville",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_57"]},
-  {name:"Charleville-Mézières",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_08","prefecture_dept"]},
-  {name:"Châlons-en-Champagne",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51","prefecture_reg"]},
+  {name:"Charleville-Mézières",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_08"]},
+  {name:"Châlons-en-Champagne",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51"]},
   {name:"Épernay",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51","fleuve_seine"]},
   {name:"Montbéliard",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_25"]},
-  {name:"Vesoul",a:["pop_10k+","pop_5k+","reg_bfc","dept_70","prefecture_dept"]},
-  {name:"Lons-le-Saunier",a:["pop_10k+","pop_5k+","reg_bfc","dept_39","prefecture_dept"]},
+  {name:"Vesoul",a:["pop_10k+","pop_5k+","reg_bfc","dept_70"]},
+  {name:"Lons-le-Saunier",a:["pop_10k+","pop_5k+","reg_bfc","dept_39"]},
   {name:"Fougères",a:["pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_35"]},
   {name:"Roanne",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_42","fleuve_loire"]},
-  {name:"Bourg-en-Bresse",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_01","prefecture_dept","tgv"]},
-  {name:"Rodez",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_12","prefecture_dept"]},
-  {name:"Auch",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_32","prefecture_dept"]},
+  {name:"Bourg-en-Bresse",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_01","tgv"]},
+  {name:"Rodez",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_12"]},
+  {name:"Auch",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_32"]},
   {name:"Castres",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_81"]},
-  {name:"Mende",a:["pop_10k+","pop_5k+","reg_occ","dept_48","prefecture_dept"]},
-  {name:"Cahors",a:["pop_10k+","pop_5k+","reg_occ","dept_46","prefecture_dept","patrimoine_unesco"]},
-  {name:"Aurillac",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_15","prefecture_dept"]},
-  {name:"Moulins",a:["pop_10k+","pop_5k+","reg_ara","dept_03","prefecture_dept","fleuve_loire"]},
-  {name:"Le Puy-en-Velay",a:["pop_10k+","pop_5k+","reg_ara","dept_43","prefecture_dept","patrimoine_unesco"]},
-  {name:"Privas",a:["pop_5k+","reg_ara","dept_07","prefecture_dept"]},
-  {name:"Guéret",a:["pop_10k+","pop_5k+","reg_naq","dept_23","prefecture_dept"]},
-  {name:"Tulle",a:["pop_10k+","pop_5k+","reg_naq","dept_19","prefecture_reg","prefecture_dept"]},
-  {name:"Laon",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_02","prefecture_dept"]},
+  {name:"Mende",a:["pop_10k+","pop_5k+","reg_occ","dept_48"]},
+  {name:"Cahors",a:["pop_10k+","pop_5k+","reg_occ","dept_46","patrimoine_unesco"]},
+  {name:"Aurillac",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_15"]},
+  {name:"Moulins",a:["pop_10k+","pop_5k+","reg_ara","dept_03","fleuve_loire"]},
+  {name:"Le Puy-en-Velay",a:["pop_10k+","pop_5k+","reg_ara","dept_43","patrimoine_unesco"]},
+  {name:"Privas",a:["pop_5k+","reg_ara","dept_07"]},
+  {name:"Guéret",a:["pop_10k+","pop_5k+","reg_naq","dept_23"]},
+  {name:"Tulle",a:["pop_10k+","pop_5k+","reg_naq","dept_19"]},
+  {name:"Laon",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_02"]},
   {name:"Compiegne",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_60","fleuve_seine","tgv"]},
   {name:"Soissons",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_02","patrimoine_unesco"]},
   {name:"Maubeuge",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59"]},
   {name:"Lisieux",a:["pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_14","patrimoine_unesco"]},
-  {name:"Alençon",a:["pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_61","prefecture_dept"]},
+  {name:"Alençon",a:["pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_61"]},
   {name:"Pointe-à-Pitre",a:["pop_10k+","pop_5k+","reg_guad","dept_971","port_maritime","dom_tom"]},
   {name:"Vendôme",a:["pop_10k+","pop_5k+","reg_cvl","dept_41","tgv"]},
-  {name:"Châteauroux",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_36","prefecture_dept"]},
-  {name:"Foix",a:["pop_10k+","pop_5k+","reg_occ","dept_09","prefecture_dept"]},
+  {name:"Châteauroux",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_36"]},
+  {name:"Foix",a:["pop_10k+","pop_5k+","reg_occ","dept_09"]},
   {name:"Vitry-sur-Seine",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_94","fleuve_seine","metro","lettre_v"]},
   {name:"Colombes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","metro","lettre_c","fin_es"]},
   {name:"Asnières-sur-Seine",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","fleuve_seine","metro","lettre_a"]},
@@ -491,14 +490,12 @@ const VILLES=[
   {name:"Arcachon",a:["pop_10k+","pop_5k+","reg_naq","dept_33","station_balneaire","lettre_a","fin_on"]},
 ];
 
-// Sélectionne la bonne base selon le thème
 function getDB(){
   if(THEME==='foot') return PLAYERS;
   if(THEME==='films') return FILMS;
   return VILLES;
 }
 
-// ── BASE FILMS CULTES ─────────────────────────
 const FILMS=[
   {name:"2001: L'Odyssée de l'espace",a:["dec_60","genre_sf","real_kubrick","pays_uk","note_9plus","dur_2h30plus","oscar_real"]},
   {name:"Le Parrain",a:["dec_70","genre_drame","real_coppola","pays_usa","note_9plus","dur_2h30plus","oscar_film","oscar_real"]},
@@ -760,62 +757,55 @@ const FILMS=[
   {name:"Oldboy",a:["dec_00","genre_thriller","real_parkch","pays_coree"]},
 ];
 
-// ── GRILLE DU JOUR — chargée depuis grilles.json ──
-let GRILLE = null;  // sera rempli après fetch
+// ── GRILLE DU JOUR ──
+let GRILLE = null;
 
-// ── ÉTAT ──────────────────────────────────────
-const TODAY = new Date().toISOString().slice(0, 10); // format YYYY-MM-DD
+// ── ÉTAT ──
+const TODAY = new Date().toISOString().slice(0,10);
 const G={
   score:0, errors:0, maxErr:3,
   found:Array(9).fill(null),
   used:new Set(),
   cell:null, over:false,
-  streak:+localStorage.getItem('fg_s')||0,
-  lastPlayed:localStorage.getItem('fg_lp')||'',
+  streak:0, lastPlayed:'',
 };
 
-// ── LOGIQUE ───────────────────────────────────
+// ── LOGIQUE ──
 function match(p,id){
   return id.startsWith('pos_') ? p.pos===id.slice(4) : p.a.includes(id);
 }
 function matchCell(p,r,c){return match(p,r)&&match(p,c)}
 
-// VC : joueurs valides par case, construit depuis grilles.json
-// Format : VC[idx] = ["Zidane", "Henry", ...] — noms uniquement
-// On retrouve l'objet joueur via PLAYERS
 let VC={};
 
 function buildVC(){
-  const db = getDB();
+  const db=getDB();
   for(let i=0;i<9;i++){
-    const names = GRILLE.cellules[String(i)] || [];
-    VC[i] = names.map(n => db.find(p=>p.name===n)).filter(Boolean);
+    const names=GRILLE.cellules[String(i)]||[];
+    VC[i]=names.map(n=>db.find(p=>p.name===n)).filter(Boolean);
   }
 }
 
 function scoreFor(idx){
   const n=VC[idx].length;
-  const pts=Math.round(Math.max(5,Math.min(100,280/n)))+15;
-  return pts;
+  return Math.round(Math.max(5,Math.min(100,280/n)))+15;
 }
 
-// ── BUILD GRILLE ──────────────────────────────
+// ── BUILD GRILLE ──
 function buildGrid(){
   const el=document.getElementById('grid');
   el.innerHTML='';
-  el.appendChild(el.appendChild(Object.assign(document.createElement('div'),{className:'corner'})));
-
+  el.appendChild(Object.assign(document.createElement('div'),{className:'corner'}));
   GRILLE.colonnes.forEach(col=>{
     const h=document.createElement('div');
     h.className='cat-h col-bg';
-    h.innerHTML=`<div class="cat-icon">${col.icon}</div><div class="cat-label">${col.label}</div><div class="cat-sub">${col.sub}</div>`;
+    h.innerHTML=`<div class="cat-icon">${col.icon}</div><div class="cat-label">${col.label}</div><div class="cat-sub">${col.sub||''}</div>`;
     el.appendChild(h);
   });
-
   GRILLE.lignes.forEach((row,ri)=>{
     const rh=document.createElement('div');
     rh.className='cat-h row-h row-bg';
-    rh.innerHTML=`<div class="cat-icon">${row.icon}</div><div class="cat-label">${row.label}</div><div class="cat-sub">${row.sub}</div>`;
+    rh.innerHTML=`<div class="cat-icon">${row.icon}</div><div class="cat-label">${row.label}</div><div class="cat-sub">${row.sub||''}</div>`;
     el.appendChild(rh);
     GRILLE.colonnes.forEach((col,ci)=>{
       const idx=ri*3+ci;
@@ -849,23 +839,20 @@ function refreshAll(){
   const n=founds.length;
   document.getElementById('scoreN').innerHTML=`${G.score} <small>/ 900</small>`;
   let rarest='—';
-  if(founds.length){
-    const r=founds.reduce((a,b)=>a.vc<b.vc?a:b);
-    rarest=r.player.name;
-  }
-  const itemLabel = THEME==='foot' ? 'Joueur le plus rare' : THEME==='films' ? 'Film le plus rare' : 'Réponse la plus rare';
+  if(founds.length){const r=founds.reduce((a,b)=>a.vc<b.vc?a:b);rarest=r.player.name;}
+  const itemLabel=THEME==='foot'?'Joueur le plus rare':THEME==='films'?'Film le plus rare':'Réponse la plus rare';
   document.getElementById('progLbl').textContent=`${n} / 9 cases · ${itemLabel} : ${rarest}`;
   for(let i=0;i<9;i++)refreshCell(i);
 }
 
-// ── SEARCH ────────────────────────────────────
+// ── SEARCH ──
 function openCell(idx,ri,ci){
   if(G.over||G.found[idx]||G.errors>=G.maxErr)return;
   G.cell={idx,ri,ci};
   const row=GRILLE.lignes[ri],col=GRILLE.colonnes[ci];
   const n=VC[idx].length;
   document.getElementById('mctx').innerHTML=
-    `<strong>${row.icon} ${row.label} ${row.sub}</strong> &times; <strong>${col.icon} ${col.label} ${col.sub}</strong>`;
+    `<strong>${row.icon} ${row.label}</strong> &times; <strong>${col.icon} ${col.label}</strong>`;
   document.getElementById('sinput').value='';
   document.getElementById('results').innerHTML='';
   document.getElementById('rcnt').textContent=`${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
@@ -888,9 +875,8 @@ document.getElementById('sinput').addEventListener('input',function(){
     rcnt.textContent=`${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
     return;
   }
-  const row=GRILLE.lignes[G.cell.ri],col=GRILLE.colonnes[G.cell.ci];
   const matches=getDB().filter(p=>p.name.toLowerCase().includes(q)).slice(0,8);
-  const itemWord = THEME==='foot' ? 'joueur' : THEME==='films' ? 'film' : 'ville';
+  const itemWord=THEME==='foot'?'joueur':THEME==='films'?'film':'ville';
   rcnt.textContent=`${matches.length} ${itemWord}${matches.length>1?'s':''} · ${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
   if(!matches.length){
     document.getElementById('results').innerHTML=`<div class="no-res">Aucun résultat pour "${this.value}"</div>`;
@@ -899,7 +885,7 @@ document.getElementById('sinput').addEventListener('input',function(){
   document.getElementById('results').innerHTML=matches.map(p=>{
     const used=G.used.has(p.name);
     const ini=p.name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
-    const nameE=p.name.replace(/'/g,"\\'");
+    const nameE=p.name.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
     return `<div class="ri${used?' used':''}" onclick="${used?'':(`pick('${nameE}')`)}">
       <div class="av">${ini}</div>
       <div class="ri-info">
@@ -913,14 +899,18 @@ document.getElementById('sinput').addEventListener('input',function(){
 document.getElementById('sinput').addEventListener('keydown',e=>{if(e.key==='Escape')closeSrch()});
 document.getElementById('ovSearch').addEventListener('click',e=>{if(e.target===e.currentTarget)closeSrch()});
 
-// ── PICK ──────────────────────────────────────
+// ── PICK — CORRECTIF BUG 5 : validation via VC (grille précalculée) au lieu de matchCell ──
 function pick(name){
   if(!G.cell)return;
-  const {idx,ri,ci}=G.cell;
+  const {idx}=G.cell;
   const player=getDB().find(p=>p.name===name);
   if(!player)return;
-  const row=GRILLE.lignes[ri],col=GRILLE.colonnes[ci];
-  if(!matchCell(player,row.id,col.id)){
+
+  // On vérifie directement dans la liste précalculée du JSON
+  // au lieu de recalculer avec matchCell (qui pouvait diverger)
+  const isValid = VC[idx].some(p=>p.name===name);
+
+  if(!isValid){
     G.errors++;
     document.getElementById(`d${G.errors-1}`).classList.add('on');
     showToast(`❌ ${name} ne correspond pas`,'err');
@@ -929,7 +919,6 @@ function pick(name){
   }
   const pts=scoreFor(idx);
   const vc=VC[idx].length;
-  // Simule le % de joueurs ayant choisi ce joueur (en prod : données serveur)
   const pct=Math.max(3,Math.min(85,Math.floor(Math.random()*50)+5));
   G.score=Math.min(900,G.score+pts);
   G.found[idx]={player,vc,pct};
@@ -940,7 +929,7 @@ function pick(name){
   if(G.found.every(Boolean))setTimeout(()=>endGame(true),450);
 }
 
-// ── FIN ───────────────────────────────────────
+// ── FIN ──
 function endGame(won){
   G.over=true;
   const fn=G.found.filter(Boolean).length;
@@ -964,7 +953,7 @@ function endGame(won){
 }
 function closeEnd(){document.getElementById('ovEnd').classList.remove('open')}
 
-// ── SOLUTIONS ─────────────────────────────────
+// ── SOLUTIONS ──
 function openSol(){
   const sg=document.getElementById('sgrid');
   sg.innerHTML='';
@@ -975,7 +964,7 @@ function openSol(){
       const chosen=G.found[idx];
       const div=document.createElement('div');
       div.className='scell';
-      div.innerHTML=`<div class="scell-h">${row.sub} × ${col.sub}</div>`
+      div.innerHTML=`<div class="scell-h">${row.label} × ${col.label}</div>`
         +vs.slice(0,8).map(p=>{
           const ok=chosen&&chosen.player.name===p.name;
           return `<div class="sp${ok?' chosen':''}"><span>${p.name}</span><span class="sp-pct">${ok?chosen.pct+'%':''}</span></div>`;
@@ -989,21 +978,21 @@ function openSol(){
 function closeSol(){document.getElementById('ovSol').classList.remove('open')}
 document.getElementById('ovSol').addEventListener('click',e=>{if(e.target===e.currentTarget)closeSol()});
 
-// ── ABANDON ───────────────────────────────────
+// ── ABANDON ──
 function tryAbandon(){if(!G.over)document.getElementById('ovAbandon').classList.add('open')}
 function closeAbandon(){document.getElementById('ovAbandon').classList.remove('open')}
 function confirmAbandon(){closeAbandon();G.over=true;refreshAll();setTimeout(()=>endGame(false),200)}
 
-// ── PARTAGE ───────────────────────────────────
+// ── PARTAGE ──
 function shareResult(){
   const fn=G.found.filter(Boolean).length;
   const rows=G.found.map(f=>f?'🟩':'⬛').join('').match(/.{3}/g).join('\n');
-  const txt=`FootGrille — ${new Date().toLocaleDateString('fr-FR')}\n${G.score}/900 · ${fn}/9 · ${G.errors} erreur${G.errors>1?'s':''}\n\n${rows}\n\nfootgrille.fr`;
+  const txt=`DOKU — ${new Date().toLocaleDateString('fr-FR')}\n${G.score}/900 · ${fn}/9 · ${G.errors} erreur${G.errors>1?'s':''}\n\n${rows}\n\ndoku-mu.vercel.app`;
   if(navigator.share){navigator.share({text:txt}).catch(()=>{})}
   else{navigator.clipboard.writeText(txt).then(()=>showToast('📋 Copié !','ok'))}
 }
 
-// ── ARCHIVES ──────────────────────────────────
+// ── ARCHIVES ──
 function saveArch(){
   const a=JSON.parse(localStorage.getItem('fg_arch_'+THEME)||'[]');
   if(!a.find(x=>x.date===TODAY)){
@@ -1014,14 +1003,14 @@ function saveArch(){
 function renderArch(){
   const a=JSON.parse(localStorage.getItem('fg_arch_'+THEME)||'[]');
   const el=document.getElementById('archList');
-  if(!a.length){el.innerHTML=`<div style="color:var(--text2);font-size:13px;padding:16px 0">Aucune partie encore jouée. Les archives apparaissent après votre première partie.</div>`;return}
+  if(!a.length){el.innerHTML=`<div style="color:var(--text2);font-size:13px;padding:16px 0">Aucune partie encore jouée.</div>`;return}
   el.innerHTML=a.map(x=>`<div class="arch-entry">
     <div><div class="arch-date">${x.date}</div><div class="arch-meta">${x.found}/9 cases · ${x.errors} erreur${x.errors>1?'s':''}</div></div>
     <div class="arch-score">${x.score}</div>
   </div>`).join('');
 }
 
-// ── NAVIGATION ────────────────────────────────
+// ── NAVIGATION ──
 function showView(v){
   document.getElementById('vGame').style.display=v==='game'?'':'none';
   document.getElementById('vArchives').style.display=v==='archives'?'':'none';
@@ -1029,7 +1018,7 @@ function showView(v){
   if(v==='archives')renderArch();
 }
 
-// ── TOAST ─────────────────────────────────────
+// ── TOAST ──
 let tt;
 function showToast(msg,type=''){
   const t=document.getElementById('toast');
@@ -1038,81 +1027,49 @@ function showToast(msg,type=''){
 }
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 
-// ── INIT ──────────────────────────────────────
-
-// Lien retour accueil
-const backLink = document.getElementById('backLink');
-if(backLink) backLink.style.display = 'flex';
+// ── INIT ──
+const backLink=document.getElementById('backLink');
+if(backLink)backLink.style.display='flex';
 
 document.getElementById('dateLbl').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
-const placeholders = {foot:"Tapez le nom d'un joueur...", films:"Tapez le nom d'un film...", default:"Tapez votre réponse..."};
-document.getElementById('sinput').placeholder = placeholders[THEME] || placeholders.default;
 
-// Streak par thème
-G.streak = +localStorage.getItem('fg_s_'+THEME) || 0;
-G.lastPlayed = localStorage.getItem('fg_lp_'+THEME) || '';
+const placeholders={foot:"Tapez le nom d'un joueur...",films:"Tapez le nom d'un film...",default:"Tapez le nom d'une ville..."};
+document.getElementById('sinput').placeholder=placeholders[THEME]||placeholders.default;
+
+G.streak=+localStorage.getItem('fg_s_'+THEME)||0;
+G.lastPlayed=localStorage.getItem('fg_lp_'+THEME)||'';
 document.getElementById('streakNum').textContent=G.streak;
 
 async function init(){
   const grid=document.getElementById('grid');
-
-  // Affichage d'un loader pendant le chargement
   grid.style.opacity='0.4';
   document.getElementById('progLbl').textContent='Chargement de la grille...';
-
-  try {
-    const res = await fetch(THEME_JSON);
-    if(!res.ok) throw new Error('HTTP '+res.status+' — '+THEME_JSON+' introuvable');
-    const grilles = await res.json();
-
-    // Cherche la grille du jour
-    const grille = grilles.find(g => g.date === TODAY);
+  try{
+    const res=await fetch(THEME_JSON);
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const grilles=await res.json();
+    const grille=grilles.find(g=>g.date===TODAY);
     if(!grille){
-      document.getElementById('progLbl').textContent='Aucune grille disponible pour aujourd\'hui.';
+      document.getElementById('progLbl').textContent="Aucune grille disponible pour aujourd'hui.";
       return;
     }
-
-    // Construit l'objet GRILLE au format attendu par le jeu
-    GRILLE = {
-      lignes:   grille.lignes.map(l=>({id:l.id, label:l.label, sub:l.label, icon:l.icon})),
-      colonnes: grille.colonnes.map(c=>({id:c.id, label:c.label, sub:c.label, icon:c.icon})),
-      cellules: grille.cellules,
+    GRILLE={
+      lignes:  grille.lignes.map(l=>({id:l.id,label:l.label,sub:l.label,icon:l.icon})),
+      colonnes:grille.colonnes.map(c=>({id:c.id,label:c.label,sub:c.label,icon:c.icon})),
+      cellules:grille.cellules,
     };
-
     buildVC();
     grid.style.opacity='1';
     buildGrid();
-
-  } catch(e) {
-    // Fallback : grille de secours codée en dur si grilles.json est absent
-    // (utile pour tester en local en ouvrant le HTML directement sans serveur)
-    console.warn('grilles.json non trouvé, utilisation de la grille de secours :', e.message);
-    GRILLE = {
-      lignes:[
-        {id:"ch98", label:"Champion du Monde 1998", sub:"Champion du Monde 1998", icon:"🏆"},
-        {id:"pl",   label:"Premier League",          sub:"Premier League",          icon:"🏴󠁧󠁢󠁥󠁮󠁧󠁿"},
-        {id:"d10",  label:"Actif dans les années 2010", sub:"Actif dans les années 2010", icon:"📅"},
-      ],
-      colonnes:[
-        {id:"liga",          label:"La Liga",              sub:"La Liga",              icon:"🇪🇸"},
-        {id:"teu",           label:"Vainqueur Coupe Europe",sub:"Vainqueur Coupe Europe",icon:"🌟"},
-        {id:"pos_attaquant", label:"Attaquant",            sub:"Attaquant",            icon:"⚡"},
-      ],
-      cellules: null, // sera calculé à la volée
-    };
-    // Calcul à la volée si pas de cellules dans grilles.json
-    const db=getDB();
-    for(let ri=0;ri<3;ri++) for(let ci=0;ci<3;ci++){
-      const idx=ri*3+ci;
-      VC[idx]=db.filter(p=>matchCell(p,GRILLE.lignes[ri].id,GRILLE.colonnes[ci].id));
-    }
+  }catch(e){
+    console.warn('Erreur chargement grille:',e.message);
+    document.getElementById('progLbl').textContent='Erreur de chargement. Rechargez la page.';
     grid.style.opacity='1';
-    buildGrid();
-    showToast('⚠️ Grille de secours chargée','');
   }
 }
 
 init();
 </script>
+
 </body>
 </html>
