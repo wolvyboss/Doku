@@ -1,1 +1,3206 @@
-
+[
+  {
+    "name": "2001: L'Odyssée de l'espace",
+    "annee": 1968,
+    "attrs": [
+      "dec_60",
+      "genre_sf",
+      "real_kubrick",
+      "pays_uk",
+      "note_9plus",
+      "dur_2h30plus",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Le Parrain",
+    "annee": 1972,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_coppola",
+      "pays_usa",
+      "note_9plus",
+      "dur_2h30plus",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Le Parrain II",
+    "annee": 1974,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_coppola",
+      "pays_usa",
+      "note_9plus",
+      "dur_2h30plus",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Apocalypse Now",
+    "annee": 1979,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_coppola",
+      "pays_usa",
+      "dur_2h30plus",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Shining",
+    "annee": 1980,
+    "attrs": [
+      "dec_80",
+      "genre_horreur",
+      "real_kubrick",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Full Metal Jacket",
+    "annee": 1987,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_kubrick",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Orange mécanique",
+    "annee": 1971,
+    "attrs": [
+      "dec_70",
+      "genre_sf",
+      "real_kubrick",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Barry Lyndon",
+    "annee": 1975,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_kubrick",
+      "pays_uk",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Dr. Folamour",
+    "annee": 1964,
+    "attrs": [
+      "dec_60",
+      "genre_comedie",
+      "real_kubrick",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Les Sentiers de la gloire",
+    "annee": 1957,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_kubrick",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Spartacus",
+    "annee": 1960,
+    "attrs": [
+      "dec_60",
+      "genre_aventure",
+      "real_kubrick",
+      "pays_usa",
+      "dur_3h"
+    ]
+  },
+  {
+    "name": "Les Dents de la mer",
+    "annee": 1975,
+    "attrs": [
+      "dec_70",
+      "genre_horreur",
+      "real_spielberg",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Indiana Jones et les Aventuriers de l'Arche perdue",
+    "annee": 1981,
+    "attrs": [
+      "dec_80",
+      "genre_aventure",
+      "real_spielberg",
+      "pays_usa",
+      "bo_500m",
+      "franchise_indiana"
+    ]
+  },
+  {
+    "name": "E.T. l'extra-terrestre",
+    "annee": 1982,
+    "attrs": [
+      "dec_80",
+      "genre_sf",
+      "real_spielberg",
+      "pays_usa",
+      "bo_1milliard"
+    ]
+  },
+  {
+    "name": "Schindler's List",
+    "annee": 1993,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_spielberg",
+      "pays_usa",
+      "dur_2h30plus",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Il faut sauver le soldat Ryan",
+    "annee": 1998,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_spielberg",
+      "pays_usa",
+      "dur_2h30plus",
+      "bo_500m",
+      "acteur_hanks",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Jurassic Park",
+    "annee": 1993,
+    "attrs": [
+      "dec_90",
+      "genre_sf",
+      "real_spielberg",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_jurassic"
+    ]
+  },
+  {
+    "name": "Minority Report",
+    "annee": 2002,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_spielberg",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Taxi Driver",
+    "annee": 1976,
+    "attrs": [
+      "dec_70",
+      "genre_thriller",
+      "real_scorsese",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Raging Bull",
+    "annee": 1980,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_scorsese",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Les Affranchis",
+    "annee": 1990,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_scorsese",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Casino",
+    "annee": 1995,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_scorsese",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Gangs of New York",
+    "annee": 2002,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_scorsese",
+      "pays_usa",
+      "dur_2h30plus",
+      "acteur_dicaprio"
+    ]
+  },
+  {
+    "name": "Le Loup de Wall Street",
+    "annee": 2013,
+    "attrs": [
+      "dec_10",
+      "genre_comedie",
+      "real_scorsese",
+      "pays_usa",
+      "dur_3h",
+      "acteur_dicaprio",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "The Irishman",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_scorsese",
+      "pays_usa",
+      "dur_3h"
+    ]
+  },
+  {
+    "name": "The Departed",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_scorsese",
+      "pays_usa",
+      "dur_2h30plus",
+      "acteur_dicaprio",
+      "bo_500m",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Aviator",
+    "annee": 2004,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_scorsese",
+      "pays_usa",
+      "dur_2h30plus",
+      "acteur_dicaprio",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Goodfellas",
+    "annee": 1990,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_scorsese",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Pulp Fiction",
+    "annee": 1994,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_tarantino",
+      "pays_usa",
+      "note_9plus"
+    ]
+  },
+  {
+    "name": "Reservoir Dogs",
+    "annee": 1992,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_tarantino",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Kill Bill",
+    "annee": 2003,
+    "attrs": [
+      "dec_00",
+      "genre_action",
+      "real_tarantino",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Inglourious Basterds",
+    "annee": 2009,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_tarantino",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Django Unchained",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_western",
+      "real_tarantino",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Once Upon a Time in Hollywood",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_tarantino",
+      "pays_usa",
+      "bo_500m",
+      "acteur_pitt"
+    ]
+  },
+  {
+    "name": "Jackie Brown",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_tarantino",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "The Hateful Eight",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_western",
+      "real_tarantino",
+      "pays_usa",
+      "dur_3h"
+    ]
+  },
+  {
+    "name": "Titanic",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_cameron",
+      "pays_usa",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "oscar_film",
+      "oscar_real",
+      "acteur_dicaprio"
+    ]
+  },
+  {
+    "name": "Avatar",
+    "annee": 2009,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_cameron",
+      "pays_usa",
+      "dur_2h30plus",
+      "bo_1milliard"
+    ]
+  },
+  {
+    "name": "Avatar: La Voie de l'eau",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_sf",
+      "real_cameron",
+      "pays_usa",
+      "dur_3h",
+      "bo_1milliard",
+      "franchise_avatar"
+    ]
+  },
+  {
+    "name": "Terminator",
+    "annee": 1984,
+    "attrs": [
+      "dec_80",
+      "genre_sf",
+      "real_cameron",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Terminator 2",
+    "annee": 1991,
+    "attrs": [
+      "dec_90",
+      "genre_sf",
+      "real_cameron",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Alien",
+    "annee": 1979,
+    "attrs": [
+      "dec_70",
+      "genre_horreur",
+      "real_scott",
+      "pays_uk",
+      "franchise_alien"
+    ]
+  },
+  {
+    "name": "Blade Runner",
+    "annee": 1982,
+    "attrs": [
+      "dec_80",
+      "genre_sf",
+      "real_scott",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Gladiator",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_action",
+      "real_scott",
+      "pays_uk",
+      "bo_500m",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "Gladiator II",
+    "annee": 2024,
+    "attrs": [
+      "dec_20",
+      "genre_action",
+      "real_scott",
+      "pays_uk",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "The Martian",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_scott",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Alien: Romulus",
+    "annee": 2024,
+    "attrs": [
+      "dec_20",
+      "genre_horreur",
+      "real_alvarez",
+      "pays_usa",
+      "bo_500m",
+      "franchise_alien"
+    ]
+  },
+  {
+    "name": "Blade Runner 2049",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_villeneuve",
+      "pays_canada",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Dune",
+    "annee": 2021,
+    "attrs": [
+      "dec_20",
+      "genre_sf",
+      "real_villeneuve",
+      "pays_canada",
+      "dur_2h30plus",
+      "bo_500m",
+      "franchise_dune"
+    ]
+  },
+  {
+    "name": "Dune: Deuxième Partie",
+    "annee": 2024,
+    "attrs": [
+      "dec_20",
+      "genre_sf",
+      "real_villeneuve",
+      "pays_canada",
+      "dur_2h30plus",
+      "bo_500m",
+      "franchise_dune"
+    ]
+  },
+  {
+    "name": "Prisoners",
+    "annee": 2013,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_villeneuve",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Sicario",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_villeneuve",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Enemy",
+    "annee": 2013,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_villeneuve",
+      "pays_canada"
+    ]
+  },
+  {
+    "name": "Arrival",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_villeneuve",
+      "pays_canada",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Incendies",
+    "annee": 2010,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_villeneuve",
+      "pays_canada",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Inception",
+    "annee": 2010,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_nolan",
+      "pays_uk",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "acteur_dicaprio"
+    ]
+  },
+  {
+    "name": "The Dark Knight",
+    "annee": 2008,
+    "attrs": [
+      "dec_00",
+      "genre_action",
+      "real_nolan",
+      "pays_uk",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "franchise_batman"
+    ]
+  },
+  {
+    "name": "Batman Begins",
+    "annee": 2005,
+    "attrs": [
+      "dec_00",
+      "genre_action",
+      "real_nolan",
+      "pays_uk",
+      "bo_500m",
+      "franchise_batman"
+    ]
+  },
+  {
+    "name": "The Dark Knight Rises",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_nolan",
+      "pays_uk",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "franchise_batman"
+    ]
+  },
+  {
+    "name": "Interstellar",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_nolan",
+      "pays_uk",
+      "dur_2h30plus",
+      "bo_1milliard"
+    ]
+  },
+  {
+    "name": "Dunkerque",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_nolan",
+      "pays_uk",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Oppenheimer",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_nolan",
+      "pays_uk",
+      "dur_3h",
+      "bo_1milliard",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Memento",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_nolan",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "The Prestige",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_nolan",
+      "pays_uk",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Star Wars: Un Nouvel Espoir",
+    "annee": 1977,
+    "attrs": [
+      "dec_70",
+      "genre_sf",
+      "real_lucas",
+      "pays_usa",
+      "bo_500m",
+      "franchise_starwars"
+    ]
+  },
+  {
+    "name": "L'Empire contre-attaque",
+    "annee": 1980,
+    "attrs": [
+      "dec_80",
+      "genre_sf",
+      "real_kershner",
+      "pays_usa",
+      "bo_500m",
+      "franchise_starwars"
+    ]
+  },
+  {
+    "name": "Le Retour du Jedi",
+    "annee": 1983,
+    "attrs": [
+      "dec_80",
+      "genre_sf",
+      "real_marquand",
+      "pays_usa",
+      "bo_500m",
+      "franchise_starwars"
+    ]
+  },
+  {
+    "name": "Star Wars: Le Réveil de la Force",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_abrams",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_starwars"
+    ]
+  },
+  {
+    "name": "Rogue One",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_edwards",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_starwars"
+    ]
+  },
+  {
+    "name": "Forrest Gump",
+    "annee": 1994,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_zemeckis",
+      "pays_usa",
+      "bo_500m",
+      "acteur_hanks",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "Retour vers le futur",
+    "annee": 1985,
+    "attrs": [
+      "dec_80",
+      "genre_sf",
+      "real_zemeckis",
+      "pays_usa",
+      "bo_500m",
+      "franchise_bttf"
+    ]
+  },
+  {
+    "name": "Cast Away",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_zemeckis",
+      "pays_usa",
+      "acteur_hanks"
+    ]
+  },
+  {
+    "name": "Contact",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_sf",
+      "real_zemeckis",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Le Silence des agneaux",
+    "annee": 1991,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_demme",
+      "pays_usa",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "Fight Club",
+    "annee": 1999,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_fincher",
+      "pays_usa",
+      "acteur_pitt"
+    ]
+  },
+  {
+    "name": "Seven",
+    "annee": 1995,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_fincher",
+      "pays_usa",
+      "bo_500m",
+      "acteur_pitt"
+    ]
+  },
+  {
+    "name": "Gone Girl",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_fincher",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "The Social Network",
+    "annee": 2010,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_fincher",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Zodiac",
+    "annee": 2007,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_fincher",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Mank",
+    "annee": 2020,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_fincher",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Matrix",
+    "annee": 1999,
+    "attrs": [
+      "dec_90",
+      "genre_sf",
+      "real_wachowski",
+      "pays_usa",
+      "bo_500m",
+      "franchise_matrix"
+    ]
+  },
+  {
+    "name": "Matrix Reloaded",
+    "annee": 2003,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_wachowski",
+      "pays_usa",
+      "bo_500m",
+      "franchise_matrix"
+    ]
+  },
+  {
+    "name": "Le Seigneur des Anneaux: La Communauté de l'Anneau",
+    "annee": 2001,
+    "attrs": [
+      "dec_00",
+      "genre_fantastique",
+      "real_jackson",
+      "pays_nz",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "franchise_lotr"
+    ]
+  },
+  {
+    "name": "Le Seigneur des Anneaux: Les Deux Tours",
+    "annee": 2002,
+    "attrs": [
+      "dec_00",
+      "genre_fantastique",
+      "real_jackson",
+      "pays_nz",
+      "dur_2h30plus",
+      "bo_500m",
+      "franchise_lotr"
+    ]
+  },
+  {
+    "name": "Le Seigneur des Anneaux: Le Retour du Roi",
+    "annee": 2003,
+    "attrs": [
+      "dec_00",
+      "genre_fantastique",
+      "real_jackson",
+      "pays_nz",
+      "dur_3h",
+      "bo_1milliard",
+      "franchise_lotr",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Les Évadés",
+    "annee": 1994,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_darabont",
+      "pays_usa",
+      "note_9plus"
+    ]
+  },
+  {
+    "name": "La Ligne verte",
+    "annee": 1999,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_darabont",
+      "pays_usa",
+      "dur_3h",
+      "acteur_hanks"
+    ]
+  },
+  {
+    "name": "American Beauty",
+    "annee": 1999,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_mendes",
+      "pays_usa",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "1917",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_mendes",
+      "pays_uk",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Parasite",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_bongjoho",
+      "pays_coree",
+      "oscar_film",
+      "oscar_real",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Memories of Murder",
+    "annee": 2003,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_bongjoho",
+      "pays_coree"
+    ]
+  },
+  {
+    "name": "The Host",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_horreur",
+      "real_bongjoho",
+      "pays_coree"
+    ]
+  },
+  {
+    "name": "Okja",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_bongjoho",
+      "pays_coree"
+    ]
+  },
+  {
+    "name": "Snowpiercer",
+    "annee": 2013,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_bongjoho",
+      "pays_coree",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "No Country for Old Men",
+    "annee": 2007,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_coen",
+      "pays_usa",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Fargo",
+    "annee": 1996,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_coen",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "The Big Lebowski",
+    "annee": 1998,
+    "attrs": [
+      "dec_90",
+      "genre_comedie",
+      "real_coen",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "True Grit",
+    "annee": 2010,
+    "attrs": [
+      "dec_10",
+      "genre_western",
+      "real_coen",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Burn After Reading",
+    "annee": 2008,
+    "attrs": [
+      "dec_00",
+      "genre_comedie",
+      "real_coen",
+      "pays_usa",
+      "acteur_pitt"
+    ]
+  },
+  {
+    "name": "Blood Simple",
+    "annee": 1984,
+    "attrs": [
+      "dec_80",
+      "genre_thriller",
+      "real_coen",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "A Serious Man",
+    "annee": 2009,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_coen",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Whiplash",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_chazelle",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "La La Land",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_comedie",
+      "real_chazelle",
+      "pays_usa",
+      "bo_500m",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "First Man",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_chazelle",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Babylon",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_chazelle",
+      "pays_usa",
+      "dur_3h"
+    ]
+  },
+  {
+    "name": "The Grand Budapest Hotel",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_comedie",
+      "real_anderson",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Moonrise Kingdom",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_comedie",
+      "real_anderson",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "The Royal Tenenbaums",
+    "annee": 2001,
+    "attrs": [
+      "dec_00",
+      "genre_comedie",
+      "real_anderson",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Rushmore",
+    "annee": 1998,
+    "attrs": [
+      "dec_90",
+      "genre_comedie",
+      "real_anderson",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Asteroid City",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_comedie",
+      "real_anderson",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Mulholland Drive",
+    "annee": 2001,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_lynch",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Blue Velvet",
+    "annee": 1986,
+    "attrs": [
+      "dec_80",
+      "genre_thriller",
+      "real_lynch",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Lost Highway",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_lynch",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Requiem for a Dream",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_aronofsky",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Black Swan",
+    "annee": 2010,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_aronofsky",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "The Wrestler",
+    "annee": 2008,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_aronofsky",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "The Fountain",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_aronofsky",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_miller",
+      "pays_australia",
+      "bo_500m",
+      "franchise_madmax"
+    ]
+  },
+  {
+    "name": "Get Out",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_horreur",
+      "real_peele",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Us",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_horreur",
+      "real_peele",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Nope",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_horreur",
+      "real_peele",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "A Quiet Place",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_horreur",
+      "real_krasinski",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Hereditary",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_horreur",
+      "real_aster",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Midsommar",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_horreur",
+      "real_aster",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Beau Is Afraid",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_aster",
+      "pays_usa",
+      "dur_3h"
+    ]
+  },
+  {
+    "name": "The Witch",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_horreur",
+      "real_eggers",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "The Lighthouse",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_horreur",
+      "real_eggers",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Nosferatu",
+    "annee": 2024,
+    "attrs": [
+      "dec_20",
+      "genre_horreur",
+      "real_eggers",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "The Sixth Sense",
+    "annee": 1999,
+    "attrs": [
+      "dec_90",
+      "genre_thriller",
+      "real_shyamalan",
+      "pays_usa",
+      "bo_1milliard"
+    ]
+  },
+  {
+    "name": "Unbreakable",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_shyamalan",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Signs",
+    "annee": 2002,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_shyamalan",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "The Favourite",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_lanthimos",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "The Lobster",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_lanthimos",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Poor Things",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_sf",
+      "real_lanthimos",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Kinds of Kindness",
+    "annee": 2024,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_lanthimos",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Barbie",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_comedie",
+      "real_gerwig",
+      "pays_usa",
+      "bo_1milliard"
+    ]
+  },
+  {
+    "name": "Lady Bird",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_gerwig",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Little Women",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_gerwig",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "The Revenant",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_aventure",
+      "real_inarritu",
+      "pays_usa",
+      "dur_2h30plus",
+      "bo_500m",
+      "acteur_dicaprio",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Birdman",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_inarritu",
+      "pays_usa",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Babel",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_inarritu",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Amours chiennes",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_inarritu",
+      "pays_mexique",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "21 Grammes",
+    "annee": 2003,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_inarritu",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Y tu mamá también",
+    "annee": 2001,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_cuaron",
+      "pays_mexique"
+    ]
+  },
+  {
+    "name": "Children of Men",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_cuaron",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Gravity",
+    "annee": 2013,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_cuaron",
+      "pays_uk",
+      "bo_1milliard",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Roma",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_cuaron",
+      "pays_mexique",
+      "oscar_real",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Pan's Labyrinth",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_fantastique",
+      "real_deltoro",
+      "pays_espagne",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "The Shape of Water",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_fantastique",
+      "real_deltoro",
+      "pays_usa",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Seven Samurai",
+    "annee": 1954,
+    "attrs": [
+      "dec_50",
+      "genre_aventure",
+      "real_kurosawa",
+      "pays_japon",
+      "dur_3h",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Rashomon",
+    "annee": 1950,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_kurosawa",
+      "pays_japon",
+      "langue_ja",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Ran",
+    "annee": 1985,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_kurosawa",
+      "pays_japon",
+      "dur_2h30plus",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Ikiru",
+    "annee": 1952,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_kurosawa",
+      "pays_japon",
+      "dur_2h30plus",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Yojimbo",
+    "annee": 1961,
+    "attrs": [
+      "dec_60",
+      "genre_aventure",
+      "real_kurosawa",
+      "pays_japon",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Kagemusha",
+    "annee": 1980,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_kurosawa",
+      "pays_japon",
+      "dur_2h30plus",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Spirited Away",
+    "annee": 2001,
+    "attrs": [
+      "dec_00",
+      "genre_animation",
+      "real_miyazaki",
+      "pays_japon",
+      "note_9plus",
+      "langue_ja",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Princess Mononoke",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_animation",
+      "real_miyazaki",
+      "pays_japon",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Mon voisin Totoro",
+    "annee": 1988,
+    "attrs": [
+      "dec_80",
+      "genre_animation",
+      "real_miyazaki",
+      "pays_japon",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Nausicaä de la Vallée du Vent",
+    "annee": 1984,
+    "attrs": [
+      "dec_80",
+      "genre_animation",
+      "real_miyazaki",
+      "pays_japon",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Grave of the Fireflies",
+    "annee": 1988,
+    "attrs": [
+      "dec_80",
+      "genre_animation",
+      "real_takahata",
+      "pays_japon",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Akira",
+    "annee": 1988,
+    "attrs": [
+      "dec_80",
+      "genre_animation",
+      "real_otomo",
+      "pays_japon",
+      "langue_ja"
+    ]
+  },
+  {
+    "name": "Your Name",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_animation",
+      "real_shinkai",
+      "pays_japon",
+      "langue_ja",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Psychose",
+    "annee": 1960,
+    "attrs": [
+      "dec_60",
+      "genre_horreur",
+      "real_hitchcock",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Les Oiseaux",
+    "annee": 1963,
+    "attrs": [
+      "dec_60",
+      "genre_horreur",
+      "real_hitchcock",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Vertigo",
+    "annee": 1958,
+    "attrs": [
+      "dec_50",
+      "genre_thriller",
+      "real_hitchcock",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Fenêtre sur cour",
+    "annee": 1954,
+    "attrs": [
+      "dec_50",
+      "genre_thriller",
+      "real_hitchcock",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "North by Northwest",
+    "annee": 1959,
+    "attrs": [
+      "dec_50",
+      "genre_thriller",
+      "real_hitchcock",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Citizen Kane",
+    "annee": 1941,
+    "attrs": [
+      "dec_40",
+      "genre_drame",
+      "real_welles",
+      "pays_usa",
+      "note_9plus"
+    ]
+  },
+  {
+    "name": "Casablanca",
+    "annee": 1942,
+    "attrs": [
+      "dec_40",
+      "genre_drame",
+      "real_curtiz",
+      "pays_usa",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "Lawrence d'Arabie",
+    "annee": 1962,
+    "attrs": [
+      "dec_60",
+      "genre_aventure",
+      "real_lean",
+      "pays_uk",
+      "dur_3h",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Le Pont de la rivière Kwaï",
+    "annee": 1957,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_lean",
+      "pays_uk",
+      "dur_2h30plus",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Docteur Jivago",
+    "annee": 1965,
+    "attrs": [
+      "dec_60",
+      "genre_drame",
+      "real_lean",
+      "pays_uk",
+      "dur_3h",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Once Upon a Time in the West",
+    "annee": 1968,
+    "attrs": [
+      "dec_60",
+      "genre_western",
+      "real_leone",
+      "pays_italie",
+      "note_9plus",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "The Good, the Bad and the Ugly",
+    "annee": 1966,
+    "attrs": [
+      "dec_60",
+      "genre_western",
+      "real_leone",
+      "pays_italie",
+      "note_9plus",
+      "dur_3h"
+    ]
+  },
+  {
+    "name": "Il était une fois en Amérique",
+    "annee": 1984,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_leone",
+      "pays_italie",
+      "dur_3h"
+    ]
+  },
+  {
+    "name": "Pour une poignée de dollars",
+    "annee": 1964,
+    "attrs": [
+      "dec_60",
+      "genre_western",
+      "real_leone",
+      "pays_italie"
+    ]
+  },
+  {
+    "name": "Braveheart",
+    "annee": 1995,
+    "attrs": [
+      "dec_90",
+      "genre_aventure",
+      "real_gibson",
+      "pays_usa",
+      "dur_3h",
+      "bo_500m",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "A Beautiful Mind",
+    "annee": 2001,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_howard",
+      "pays_usa",
+      "bo_500m",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "One Flew Over the Cuckoo's Nest",
+    "annee": 1975,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_forman",
+      "pays_usa",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Amadeus",
+    "annee": 1984,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_forman",
+      "pays_usa",
+      "dur_3h",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "The Hurt Locker",
+    "annee": 2008,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_bigelow",
+      "pays_usa",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Zero Dark Thirty",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_bigelow",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Boyhood",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_linklater",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Before Sunrise",
+    "annee": 1995,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_linklater",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Spotlight",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_mccarthy",
+      "pays_usa",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "Moonlight",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_jenkins",
+      "pays_usa",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "12 Years a Slave",
+    "annee": 2013,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_mcqueen",
+      "pays_usa",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "Manchester by the Sea",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_lonergan",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Argo",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_affleck",
+      "pays_usa",
+      "bo_500m",
+      "oscar_film"
+    ]
+  },
+  {
+    "name": "The Town",
+    "annee": 2010,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_affleck",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Everything Everywhere All at Once",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_sf",
+      "real_daniels",
+      "pays_usa",
+      "bo_500m",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "The Banshees of Inisherin",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_mcdonagh",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Tár",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_field",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "All Quiet on the Western Front",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_berger",
+      "pays_allemagne",
+      "langue_de",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Past Lives",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_celine",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Anatomy of a Fall",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_thriller",
+      "real_triet",
+      "pays_france",
+      "langue_fr",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "The Zone of Interest",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_glazer",
+      "pays_uk",
+      "langue_de",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Saltburn",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_thriller",
+      "real_fennell",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Conclave",
+    "annee": 2024,
+    "attrs": [
+      "dec_20",
+      "genre_thriller",
+      "real_harris",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "The Substance",
+    "annee": 2024,
+    "attrs": [
+      "dec_20",
+      "genre_horreur",
+      "real_fargeat",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "Joker",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_phillips",
+      "pays_usa",
+      "bo_1milliard"
+    ]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_russo",
+      "pays_usa",
+      "dur_3h",
+      "bo_1milliard",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Avengers: Infinity War",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_russo",
+      "pays_usa",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Black Panther",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_coogler",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Iron Man",
+    "annee": 2008,
+    "attrs": [
+      "dec_00",
+      "genre_action",
+      "real_favreau",
+      "pays_usa",
+      "bo_500m",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Captain America: Civil War",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_russo",
+      "pays_usa",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Spider-Man: No Way Home",
+    "annee": 2021,
+    "attrs": [
+      "dec_20",
+      "genre_action",
+      "real_watts",
+      "pays_usa",
+      "dur_2h30plus",
+      "bo_1milliard",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Guardians of the Galaxy",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_gunn",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Thor: Ragnarok",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_action",
+      "real_waititi",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_marvel"
+    ]
+  },
+  {
+    "name": "Top Gun: Maverick",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_action",
+      "real_kosinski",
+      "pays_usa",
+      "bo_1milliard"
+    ]
+  },
+  {
+    "name": "The Lion King",
+    "annee": 1994,
+    "attrs": [
+      "dec_90",
+      "genre_animation",
+      "real_allers",
+      "pays_usa",
+      "bo_1milliard",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Toy Story",
+    "annee": 1995,
+    "attrs": [
+      "dec_90",
+      "genre_animation",
+      "real_lasseter",
+      "pays_usa",
+      "bo_500m",
+      "franchise_pixar"
+    ]
+  },
+  {
+    "name": "Toy Story 3",
+    "annee": 2010,
+    "attrs": [
+      "dec_10",
+      "genre_animation",
+      "real_unkrich",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "WALL-E",
+    "annee": 2008,
+    "attrs": [
+      "dec_00",
+      "genre_animation",
+      "real_stanton",
+      "pays_usa",
+      "bo_500m",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Up",
+    "annee": 2009,
+    "attrs": [
+      "dec_00",
+      "genre_animation",
+      "real_docter",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Finding Nemo",
+    "annee": 2003,
+    "attrs": [
+      "dec_00",
+      "genre_animation",
+      "real_stanton",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Ratatouille",
+    "annee": 2007,
+    "attrs": [
+      "dec_00",
+      "genre_animation",
+      "real_bird",
+      "pays_usa",
+      "bo_500m",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "The Incredibles",
+    "annee": 2004,
+    "attrs": [
+      "dec_00",
+      "genre_animation",
+      "real_bird",
+      "pays_usa",
+      "bo_500m",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Inside Out",
+    "annee": 2015,
+    "attrs": [
+      "dec_10",
+      "genre_animation",
+      "real_docter",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Coco",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_animation",
+      "real_unkrich2",
+      "pays_usa",
+      "bo_1milliard",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Soul",
+    "annee": 2020,
+    "attrs": [
+      "dec_20",
+      "genre_animation",
+      "real_docter",
+      "pays_usa",
+      "bo_500m",
+      "franchise_pixar",
+      "oscar_animation"
+    ]
+  },
+  {
+    "name": "Luca",
+    "annee": 2021,
+    "attrs": [
+      "dec_20",
+      "genre_animation",
+      "real_casarosa",
+      "pays_usa",
+      "franchise_pixar"
+    ]
+  },
+  {
+    "name": "Turning Red",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_animation",
+      "real_shi",
+      "pays_usa",
+      "franchise_pixar"
+    ]
+  },
+  {
+    "name": "Elemental",
+    "annee": 2023,
+    "attrs": [
+      "dec_20",
+      "genre_animation",
+      "real_sohn",
+      "pays_usa",
+      "bo_500m",
+      "franchise_pixar"
+    ]
+  },
+  {
+    "name": "Intouchables",
+    "annee": 2011,
+    "attrs": [
+      "dec_10",
+      "genre_comedie",
+      "real_toledano",
+      "pays_france",
+      "langue_fr",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Amélie",
+    "annee": 2001,
+    "attrs": [
+      "dec_00",
+      "genre_comedie",
+      "real_jeunet",
+      "pays_france",
+      "langue_fr",
+      "bo_500m",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "La Haine",
+    "annee": 1995,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_kassovitz",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "Les 400 Coups",
+    "annee": 1959,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_truffaut",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "À bout de souffle",
+    "annee": 1960,
+    "attrs": [
+      "dec_60",
+      "genre_drame",
+      "real_godard",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "Léon",
+    "annee": 1994,
+    "attrs": [
+      "dec_90",
+      "genre_action",
+      "real_besson",
+      "pays_france",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Le Cinquième Élément",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_sf",
+      "real_besson",
+      "pays_france",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Nikita",
+    "annee": 1990,
+    "attrs": [
+      "dec_90",
+      "genre_action",
+      "real_besson",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "Le Grand Bleu",
+    "annee": 1988,
+    "attrs": [
+      "dec_80",
+      "genre_aventure",
+      "real_besson",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "Portrait de la jeune fille en feu",
+    "annee": 2019,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_sciamma",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "Au revoir les enfants",
+    "annee": 1987,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_malle",
+      "pays_france",
+      "langue_fr",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Cinema Paradiso",
+    "annee": 1988,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_tornatore",
+      "pays_italie",
+      "langue_it",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "8½",
+    "annee": 1963,
+    "attrs": [
+      "dec_60",
+      "genre_drame",
+      "real_fellini",
+      "pays_italie",
+      "dur_2h30plus",
+      "langue_it",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "La Dolce Vita",
+    "annee": 1960,
+    "attrs": [
+      "dec_60",
+      "genre_drame",
+      "real_fellini",
+      "pays_italie",
+      "dur_3h",
+      "langue_it"
+    ]
+  },
+  {
+    "name": "Amarcord",
+    "annee": 1973,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_fellini",
+      "pays_italie",
+      "langue_it",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Bicycle Thieves",
+    "annee": 1948,
+    "attrs": [
+      "dec_40",
+      "genre_drame",
+      "real_desica",
+      "pays_italie",
+      "langue_it",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "La Strada",
+    "annee": 1954,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_fellini",
+      "pays_italie",
+      "langue_it",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "La Vie est belle",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_comedie",
+      "real_benigni",
+      "pays_italie",
+      "langue_it",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Blow-Up",
+    "annee": 1966,
+    "attrs": [
+      "dec_60",
+      "genre_thriller",
+      "real_antonioni",
+      "pays_uk"
+    ]
+  },
+  {
+    "name": "Das Boot",
+    "annee": 1981,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_petersen",
+      "pays_allemagne",
+      "dur_2h30plus",
+      "langue_de"
+    ]
+  },
+  {
+    "name": "La Vie des autres",
+    "annee": 2006,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_donnersmarck",
+      "pays_allemagne",
+      "langue_de",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Toni Erdmann",
+    "annee": 2016,
+    "attrs": [
+      "dec_10",
+      "genre_comedie",
+      "real_ade",
+      "pays_allemagne",
+      "dur_3h",
+      "langue_de",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "All Quiet on the Western Front (2022)",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_berger",
+      "pays_allemagne",
+      "langue_de",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Wild Strawberries",
+    "annee": 1957,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_bergman",
+      "pays_suede",
+      "langue_sv"
+    ]
+  },
+  {
+    "name": "The Seventh Seal",
+    "annee": 1957,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_bergman",
+      "pays_suede",
+      "langue_sv"
+    ]
+  },
+  {
+    "name": "Fanny and Alexander",
+    "annee": 1982,
+    "attrs": [
+      "dec_80",
+      "genre_drame",
+      "real_bergman",
+      "pays_suede",
+      "dur_3h",
+      "langue_sv",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "The Hunt",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_vinterberg",
+      "pays_danemark",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Another Round",
+    "annee": 2020,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_vinterberg",
+      "pays_danemark",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "The Square",
+    "annee": 2017,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_ostlund",
+      "pays_suede"
+    ]
+  },
+  {
+    "name": "Triangle of Sadness",
+    "annee": 2022,
+    "attrs": [
+      "dec_20",
+      "genre_comedie",
+      "real_ostlund",
+      "pays_suede"
+    ]
+  },
+  {
+    "name": "Force Majeure",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_ostlund",
+      "pays_suede",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Wild Tales",
+    "annee": 2014,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_szifron",
+      "pays_argentine",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "The Secret in Their Eyes",
+    "annee": 2009,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_campanella",
+      "pays_argentine",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "City of God",
+    "annee": 2002,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_meirelles",
+      "pays_bresil",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Amour",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_drame",
+      "real_haneke",
+      "pays_france",
+      "langue_fr",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Caché",
+    "annee": 2005,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_haneke",
+      "pays_france",
+      "langue_fr"
+    ]
+  },
+  {
+    "name": "The White Ribbon",
+    "annee": 2009,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_haneke",
+      "pays_allemagne",
+      "langue_de",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "In the Mood for Love",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_wongkarwai",
+      "pays_hongkong"
+    ]
+  },
+  {
+    "name": "Chungking Express",
+    "annee": 1994,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_wongkarwai",
+      "pays_hongkong"
+    ]
+  },
+  {
+    "name": "Crouching Tiger Hidden Dragon",
+    "annee": 2000,
+    "attrs": [
+      "dec_00",
+      "genre_aventure",
+      "real_ang",
+      "pays_taiwan",
+      "bo_500m",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Life of Pi",
+    "annee": 2012,
+    "attrs": [
+      "dec_10",
+      "genre_aventure",
+      "real_ang",
+      "pays_usa",
+      "bo_1milliard",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "Brokeback Mountain",
+    "annee": 2005,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_ang",
+      "pays_usa",
+      "bo_500m",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "12 Angry Men",
+    "annee": 1957,
+    "attrs": [
+      "dec_50",
+      "genre_drame",
+      "real_lumet",
+      "pays_usa",
+      "note_9plus"
+    ]
+  },
+  {
+    "name": "Rocky",
+    "annee": 1976,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_avildsen",
+      "pays_usa",
+      "bo_500m",
+      "oscar_film",
+      "oscar_real"
+    ]
+  },
+  {
+    "name": "The Pianist",
+    "annee": 2002,
+    "attrs": [
+      "dec_00",
+      "genre_drame",
+      "real_polanski",
+      "pays_france",
+      "dur_2h30plus",
+      "oscar_real",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Chinatown",
+    "annee": 1974,
+    "attrs": [
+      "dec_70",
+      "genre_thriller",
+      "real_polanski",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Drive My Car",
+    "annee": 2021,
+    "attrs": [
+      "dec_20",
+      "genre_drame",
+      "real_hamaguchi",
+      "pays_japon",
+      "dur_3h",
+      "langue_ja",
+      "oscar_etranger"
+    ]
+  },
+  {
+    "name": "Her",
+    "annee": 2013,
+    "attrs": [
+      "dec_10",
+      "genre_sf",
+      "real_jonze",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "annee": 2004,
+    "attrs": [
+      "dec_00",
+      "genre_sf",
+      "real_gondry",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "American History X",
+    "annee": 1998,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_kaye",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Good Will Hunting",
+    "annee": 1997,
+    "attrs": [
+      "dec_90",
+      "genre_drame",
+      "real_gus",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "The Truman Show",
+    "annee": 1998,
+    "attrs": [
+      "dec_90",
+      "genre_sf",
+      "real_weir",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Heat",
+    "annee": 1995,
+    "attrs": [
+      "dec_90",
+      "genre_action",
+      "real_mann",
+      "pays_usa",
+      "dur_2h30plus"
+    ]
+  },
+  {
+    "name": "Collateral",
+    "annee": 2004,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_mann",
+      "pays_usa"
+    ]
+  },
+  {
+    "name": "Oldboy",
+    "annee": 2003,
+    "attrs": [
+      "dec_00",
+      "genre_thriller",
+      "real_parkch",
+      "pays_coree"
+    ]
+  },
+  {
+    "name": "Burning",
+    "annee": 2018,
+    "attrs": [
+      "dec_10",
+      "genre_thriller",
+      "real_leechang",
+      "pays_coree"
+    ]
+  },
+  {
+    "name": "Grease",
+    "annee": 1978,
+    "attrs": [
+      "dec_70",
+      "genre_comedie",
+      "real_kleiser",
+      "pays_usa",
+      "bo_500m"
+    ]
+  },
+  {
+    "name": "Saturday Night Fever",
+    "annee": 1977,
+    "attrs": [
+      "dec_70",
+      "genre_drame",
+      "real_badham",
+      "pays_usa",
+      "bo_500m"
+    ]
+  }
+]
