@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -176,7 +175,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </header>
 
 <!-- VUE JEU -->
-
 <div id="vGame">
   <div class="stats-bar">
     <div>
@@ -199,7 +197,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- VUE ARCHIVES -->
-
 <div id="vArchives" style="display:none;padding-top:4px">
   <div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;text-transform:uppercase;margin-bottom:14px">Archives</div>
   <div style="font-size:13px;color:var(--text2);margin-bottom:18px">Grilles passées. Les archives n'affectent ni les statistiques ni les scores quotidiens.</div>
@@ -209,7 +206,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- SEARCH -->
-
 <div class="ov" id="ovSearch">
   <div class="modal">
     <div class="mhead">
@@ -226,7 +222,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- END -->
-
 <div class="ov ov-center" id="ovEnd">
   <div class="emodal">
     <div class="eemoji" id="eemoji">⚽</div>
@@ -242,7 +237,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- SOLUTIONS -->
-
 <div class="ov ov-center" id="ovSol">
   <div class="smodal">
     <div class="stitle"><span>Solutions</span><button class="btn-x" onclick="closeSol()">✕</button></div>
@@ -251,7 +245,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 </div>
 
 <!-- ABANDON -->
-
 <div class="ov ov-center" id="ovAbandon">
   <div class="abandon-modal">
     <div class="at">Abandonner la partie ?</div>
@@ -490,9 +483,145 @@ const VILLES=[
   {name:"Arcachon",a:["pop_10k+","pop_5k+","reg_naq","dept_33","station_balneaire","lettre_a","fin_on"]},
 ];
 
+const ANIMAUX=[
+  {name:"Lion",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "syl_on", "lettre_l", "carac_groupe"]},
+  {name:"Éléphant",a:["cont_afrique", "cont_asie", "milieu_savane", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_e", "carac_menace"]},
+  {name:"Girafe",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_g", "carac_menace"]},
+  {name:"Zèbre",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_z", "carac_groupe"]},
+  {name:"Hippopotame",a:["cont_afrique", "milieu_eau", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_h", "carac_menace"]},
+  {name:"Crocodile",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_eau", "milieu_savane", "classe_reptile", "regime_carnivore", "taille_100k+", "syl_ile", "lettre_c", "carac_ovipare"]},
+  {name:"Gorille",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_ille", "lettre_g", "carac_menace", "carac_groupe"]},
+  {name:"Chimpanzé",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_c", "carac_menace", "carac_groupe"]},
+  {name:"Rhinocéros",a:["cont_afrique", "cont_asie", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_r", "carac_menace"]},
+  {name:"Guépard",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_g", "carac_menace"]},
+  {name:"Léopard",a:["cont_afrique", "cont_asie", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_l", "carac_menace", "carac_nocturne"]},
+  {name:"Hyène",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_h", "carac_nocturne", "carac_groupe"]},
+  {name:"Flamant rose",a:["cont_afrique", "cont_europe", "milieu_eau", "classe_oiseau", "regime_omnivore", "taille_10k+", "lettre_f", "carac_migrateur", "carac_ovipare", "carac_groupe"]},
+  {name:"Autruche",a:["cont_afrique", "milieu_savane", "classe_oiseau", "regime_omnivore", "taille_100k+", "lettre_a", "carac_ovipare"]},
+  {name:"Mamba noir",a:["cont_afrique", "milieu_savane", "classe_reptile", "regime_carnivore", "taille_10k+", "lettre_m", "carac_venimeux", "carac_ovipare"]},
+  {name:"Mandrill",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_m", "carac_groupe"]},
+  {name:"Okapi",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_o", "carac_menace"]},
+  {name:"Serval",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_s", "carac_nocturne"]},
+  {name:"Lycaon",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_10k+", "syl_on", "lettre_l", "carac_menace", "carac_groupe"]},
+  {name:"Pangolin",a:["cont_afrique", "cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_p", "carac_menace", "carac_nocturne"]},
+  {name:"Tigre",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_t", "carac_menace", "carac_solitaire", "carac_nageur"]},
+  {name:"Panda géant",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_p", "carac_menace"]},
+  {name:"Orang-outan",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_o", "carac_menace", "carac_arboricole"]},
+  {name:"Komodo",a:["cont_asie", "milieu_savane", "classe_reptile", "regime_carnivore", "taille_100k+", "lettre_c", "carac_venimeux", "carac_ovipare"]},
+  {name:"Cobra royal",a:["cont_asie", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_10k+", "lettre_c", "carac_venimeux", "carac_ovipare"]},
+  {name:"Éléphant d'Asie",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_e", "carac_menace", "carac_groupe"]},
+  {name:"Macaque",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_m", "carac_groupe"]},
+  {name:"Tapir",a:["cont_asie", "cont_amerique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_t", "carac_menace", "carac_nageur"]},
+  {name:"Gibbon",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "syl_on", "lettre_g", "carac_menace", "carac_arboricole"]},
+  {name:"Python",a:["cont_asie", "cont_afrique", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_10k+", "syl_on", "lettre_p", "carac_ovipare"]},
+  {name:"Paon",a:["cont_asie", "milieu_foret", "classe_oiseau", "regime_omnivore", "taille_10k+", "syl_on", "lettre_p", "carac_ovipare"]},
+  {name:"Yak",a:["cont_asie", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_y", "carac_groupe"]},
+  {name:"Ours polaire",a:["cont_arctique", "milieu_mer", "milieu_montagne", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_o", "carac_menace", "carac_nageur", "carac_solitaire"]},
+  {name:"Morse",a:["cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_m", "carac_groupe"]},
+  {name:"Renard arctique",a:["cont_arctique", "milieu_montagne", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_r", "carac_menace"]},
+  {name:"Béluga",a:["cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_b", "carac_menace", "carac_groupe"]},
+  {name:"Narval",a:["cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_n", "carac_menace", "carac_groupe"]},
+  {name:"Jaguar",a:["cont_amerique", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_j", "carac_menace", "carac_nageur", "carac_solitaire"]},
+  {name:"Anaconda",a:["cont_amerique", "milieu_eau", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_100k+", "lettre_a", "carac_nageur"]},
+  {name:"Toucan",a:["cont_amerique", "milieu_foret", "classe_oiseau", "regime_omnivore", "taille_1k+", "syl_an", "lettre_t", "carac_ovipare", "carac_arboricole"]},
+  {name:"Lama",a:["cont_amerique", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_l", "carac_groupe"]},
+  {name:"Condor",a:["cont_amerique", "milieu_montagne", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_on", "lettre_c", "carac_ovipare", "carac_menace"]},
+  {name:"Tatou",a:["cont_amerique", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_t", "carac_nocturne", "carac_ovipare"]},
+  {name:"Piranha",a:["cont_amerique", "milieu_eau", "classe_poisson", "regime_carnivore", "taille_1k+", "lettre_p", "carac_groupe"]},
+  {name:"Caïman",a:["cont_amerique", "milieu_eau", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_100k+", "syl_an", "lettre_c", "carac_ovipare"]},
+  {name:"Alpaga",a:["cont_amerique", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_a", "carac_groupe", "carac_domestique"]},
+  {name:"Fourmilier",a:["cont_amerique", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_f", "carac_solitaire"]},
+  {name:"Paresseux",a:["cont_amerique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_p", "carac_arboricole", "carac_solitaire", "carac_menace"]},
+  {name:"Manchot",a:["cont_antarctique", "milieu_mer", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_ot", "lettre_m", "carac_ovipare", "carac_groupe", "carac_nageur"]},
+  {name:"Léopard de mer",a:["cont_antarctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_l", "carac_solitaire", "carac_nageur"]},
+  {name:"Albatros",a:["cont_antarctique", "milieu_mer", "classe_oiseau", "regime_carnivore", "taille_10k+", "lettre_a", "carac_ovipare", "carac_migrateur"]},
+  {name:"Orque",a:["cont_antarctique", "cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_o", "carac_groupe", "carac_nageur"]},
+  {name:"Kangourou",a:["cont_oceanie", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_k", "carac_groupe"]},
+  {name:"Koala",a:["cont_oceanie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_k", "carac_arboricole", "carac_menace"]},
+  {name:"Wallaby",a:["cont_oceanie", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_v", "carac_groupe"]},
+  {name:"Wombat",a:["cont_oceanie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_v", "carac_nocturne", "carac_solitaire"]},
+  {name:"Ornithorynque",a:["cont_oceanie", "milieu_eau", "classe_mammifere", "regime_carnivore", "taille_1k+", "lettre_o", "carac_venimeux", "carac_ovipare", "carac_nageur"]},
+  {name:"Diable de Tasmanie",a:["cont_oceanie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_d", "carac_menace", "carac_nocturne"]},
+  {name:"Cacatoès",a:["cont_oceanie", "milieu_foret", "classe_oiseau", "regime_herbivore", "taille_1k+", "lettre_c", "carac_ovipare", "carac_arboricole", "carac_groupe"]},
+  {name:"Loup",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "milieu_montagne", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_l", "carac_groupe", "carac_solitaire"]},
+  {name:"Lynx",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_l", "carac_menace", "carac_solitaire", "carac_nocturne"]},
+  {name:"Ours brun",a:["cont_europe", "cont_asie", "milieu_foret", "milieu_montagne", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_o", "carac_solitaire"]},
+  {name:"Renard roux",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_r", "carac_nocturne", "carac_solitaire"]},
+  {name:"Cerf",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_c", "carac_groupe"]},
+  {name:"Sanglier",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_s", "carac_groupe", "carac_nocturne"]},
+  {name:"Hérisson",a:["cont_europe", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_1k+", "syl_on", "lettre_h", "carac_nocturne", "carac_solitaire"]},
+  {name:"Blaireau",a:["cont_europe", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "syl_eau", "lettre_b", "carac_nocturne", "carac_groupe"]},
+  {name:"Aigle royal",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_montagne", "classe_oiseau", "regime_carnivore", "taille_10k+", "lettre_a", "carac_ovipare", "carac_solitaire"]},
+  {name:"Cigogne",a:["cont_europe", "cont_afrique", "milieu_savane", "milieu_eau", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_ogne", "lettre_c", "carac_ovipare", "carac_migrateur"]},
+  {name:"Hibou",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "classe_oiseau", "regime_carnivore", "taille_1k+", "syl_ou", "lettre_h", "carac_nocturne", "carac_ovipare", "carac_solitaire"]},
+  {name:"Chauve-souris",a:["cont_europe", "cont_asie", "cont_amerique", "cont_afrique", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_1k+", "lettre_c", "carac_nocturne", "carac_volant"]},
+  {name:"Vipère",a:["cont_europe", "cont_asie", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_1k+", "syl_ere", "lettre_v", "carac_venimeux", "carac_ovipare", "carac_solitaire"]},
+  {name:"Chouette",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "classe_oiseau", "regime_carnivore", "taille_1k+", "syl_ette", "lettre_c", "carac_nocturne", "carac_ovipare", "carac_solitaire"]},
+  {name:"Chevrette",a:["cont_europe", "milieu_foret", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_ette", "lettre_c", "carac_groupe"]},
+  {name:"Marmotte",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_1k+", "syl_otte", "lettre_m", "carac_groupe"]},
+  {name:"Castor",a:["cont_europe", "cont_amerique", "milieu_eau", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_or", "lettre_c", "carac_groupe", "carac_nageur"]},
+  {name:"Loutre",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_eau", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_l", "carac_nageur", "carac_menace"]},
+  {name:"Dauphin",a:["cont_europe", "cont_afrique", "cont_amerique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "syl_in", "lettre_d", "carac_groupe", "carac_nageur"]},
+  {name:"Baleine bleue",a:["cont_arctique", "cont_antarctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_b", "carac_menace", "carac_nageur", "carac_migrateur"]},
+  {name:"Grand requin blanc",a:["cont_afrique", "cont_amerique", "cont_oceanie", "milieu_mer", "classe_poisson", "regime_carnivore", "taille_1000k+", "lettre_g", "carac_solitaire", "carac_nageur", "carac_menace"]},
+  {name:"Raie manta",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_mer", "classe_poisson", "regime_carnivore", "taille_100k+", "lettre_r", "carac_nageur", "carac_migrateur", "carac_menace"]},
+  {name:"Méduse",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_mer", "classe_autre", "regime_carnivore", "taille_1k+", "lettre_m", "carac_venimeux", "carac_nageur"]},
+  {name:"Pieuvre",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_mer", "classe_autre", "regime_carnivore", "taille_10k+", "lettre_p", "carac_nageur", "carac_solitaire"]},
+  {name:"Hippocampe",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_mer", "classe_poisson", "regime_carnivore", "taille_1k+", "syl_ampe", "lettre_h", "carac_nageur", "carac_menace"]},
+  {name:"Tortue marine",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_mer", "classe_reptile", "regime_herbivore", "taille_100k+", "lettre_t", "carac_ovipare", "carac_nageur", "carac_menace", "carac_migrateur"]},
+  {name:"Clown (poisson)",a:["cont_asie", "cont_oceanie", "milieu_mer", "classe_poisson", "regime_omnivore", "taille_1k+", "syl_on", "lettre_c", "carac_nageur"]},
+  {name:"Phoque",a:["cont_arctique", "cont_europe", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_p", "carac_nageur", "carac_groupe"]},
+  {name:"Calamar géant",a:["cont_arctique", "cont_antarctique", "milieu_mer", "classe_autre", "regime_carnivore", "taille_100k+", "lettre_c", "carac_nageur", "carac_solitaire"]},
+  {name:"Cheval",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Vache",a:["cont_europe", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_v", "carac_groupe", "carac_domestique"]},
+  {name:"Mouton",a:["cont_europe", "cont_oceanie", "milieu_montagne", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_on", "lettre_m", "carac_groupe", "carac_domestique"]},
+  {name:"Chèvre",a:["cont_europe", "cont_asie", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_evre", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Cochon",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "syl_on", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Chat",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_1k+", "lettre_c", "carac_nocturne", "carac_solitaire", "carac_domestique"]},
+  {name:"Chien",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_10k+", "syl_ien", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Lapin",a:["cont_europe", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_1k+", "syl_in", "lettre_l", "carac_groupe", "carac_domestique", "carac_ovipare"]},
+  {name:"Perroquet",a:["cont_amerique", "cont_asie", "cont_oceanie", "milieu_foret", "classe_oiseau", "regime_omnivore", "taille_1k+", "syl_et", "lettre_p", "carac_ovipare", "carac_arboricole", "carac_domestique"]},
+  {name:"Poule",a:["cont_europe", "cont_asie", "milieu_savane", "classe_oiseau", "regime_omnivore", "taille_1k+", "lettre_p", "carac_ovipare", "carac_groupe", "carac_domestique"]},
+  {name:"Canard",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_eau", "classe_oiseau", "regime_omnivore", "taille_1k+", "syl_ard", "lettre_c", "carac_ovipare", "carac_nageur", "carac_domestique", "carac_migrateur"]},
+  {name:"Abeille",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_foret", "classe_insecte", "regime_herbivore", "taille_1k+", "syl_eille", "lettre_a", "carac_venimeux", "carac_groupe", "carac_volant", "carac_domestique"]},
+  {name:"Ver de terre",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "classe_autre", "regime_omnivore", "taille_1k+", "lettre_v", "carac_solitaire"]},
+  {name:"Fourmi",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_foret", "classe_insecte", "regime_omnivore", "taille_1k+", "lettre_f", "carac_groupe", "carac_volant"]},
+  {name:"Papillon",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_foret", "classe_insecte", "regime_herbivore", "taille_1k+", "syl_on", "lettre_p", "carac_volant", "carac_migrateur"]},
+  {name:"Libellule",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_eau", "classe_insecte", "regime_carnivore", "taille_1k+", "syl_ule", "lettre_l", "carac_volant"]},
+  {name:"Moustique",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_eau", "classe_insecte", "regime_carnivore", "taille_1k+", "lettre_m", "carac_volant", "carac_venimeux"]},
+  {name:"Scarabée",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_foret", "milieu_savane", "classe_insecte", "regime_omnivore", "taille_1k+", "lettre_s", "carac_nocturne"]},
+  {name:"Sauterelle",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_savane", "classe_insecte", "regime_herbivore", "taille_1k+", "syl_elle", "lettre_s", "carac_groupe", "carac_volant"]},
+  {name:"Araignée",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_foret", "classe_autre", "regime_carnivore", "taille_1k+", "lettre_a", "carac_venimeux", "carac_solitaire"]},
+  {name:"Scorpion",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_desert", "classe_autre", "regime_carnivore", "taille_1k+", "syl_on", "lettre_s", "carac_venimeux", "carac_nocturne", "carac_solitaire"]},
+  {name:"Caméléon",a:["cont_afrique", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_1k+", "syl_on", "lettre_c", "carac_ovipare", "carac_arboricole", "carac_solitaire"]},
+  {name:"Gecko",a:["cont_afrique", "cont_asie", "cont_oceanie", "milieu_foret", "milieu_desert", "classe_reptile", "regime_carnivore", "taille_1k+", "lettre_g", "carac_nocturne", "carac_ovipare"]},
+  {name:"Iguane",a:["cont_amerique", "milieu_foret", "classe_reptile", "regime_herbivore", "taille_10k+", "syl_ane", "lettre_i", "carac_ovipare", "carac_arboricole"]},
+  {name:"Tortue des Galápagos",a:["cont_amerique", "milieu_savane", "classe_reptile", "regime_herbivore", "taille_100k+", "lettre_t", "carac_ovipare", "carac_menace", "carac_solitaire"]},
+  {name:"Axolotl",a:["cont_amerique", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "lettre_a", "carac_menace"]},
+  {name:"Grenouille",a:["cont_europe", "cont_asie", "cont_amerique", "cont_afrique", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_ille", "lettre_g", "carac_ovipare", "carac_nageur"]},
+  {name:"Salamandre",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_andre", "lettre_s", "carac_nocturne", "carac_venimeux"]},
+  {name:"Crapaud",a:["cont_europe", "cont_afrique", "cont_amerique", "milieu_foret", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_aud", "lettre_c", "carac_nocturne", "carac_ovipare"]},
+  {name:"Triton",a:["cont_europe", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_on", "lettre_t", "carac_nageur", "carac_ovipare"]},
+  {name:"Suricate",a:["cont_afrique", "milieu_desert", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_1k+", "syl_ate", "lettre_s", "carac_groupe"]},
+  {name:"Fennec",a:["cont_afrique", "milieu_desert", "classe_mammifere", "regime_omnivore", "taille_1k+", "lettre_f", "carac_nocturne", "carac_solitaire"]},
+  {name:"Dromadaire",a:["cont_afrique", "cont_asie", "milieu_desert", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_aire", "lettre_d", "carac_groupe", "carac_domestique"]},
+  {name:"Chameau",a:["cont_asie", "milieu_desert", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_eau", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Gazelle",a:["cont_afrique", "cont_asie", "milieu_savane", "milieu_desert", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_elle", "lettre_g", "carac_groupe", "carac_menace"]},
+  {name:"Gnou",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_ou", "lettre_g", "carac_groupe", "carac_migrateur"]},
+  {name:"Phacochère",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_p", "carac_groupe"]},
+  {name:"Vautour",a:["cont_afrique", "cont_europe", "cont_asie", "milieu_montagne", "milieu_savane", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_our", "lettre_v", "carac_ovipare", "carac_volant", "carac_groupe"]},
+  {name:"Pélican",a:["cont_afrique", "cont_europe", "cont_asie", "milieu_eau", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_an", "lettre_p", "carac_ovipare", "carac_nageur", "carac_migrateur", "carac_groupe"]},
+  {name:"Macareux",a:["cont_arctique", "cont_europe", "milieu_mer", "classe_oiseau", "regime_carnivore", "taille_1k+", "lettre_m", "carac_ovipare", "carac_nageur", "carac_groupe"]},
+  {name:"Harfang des neiges",a:["cont_arctique", "milieu_montagne", "classe_oiseau", "regime_carnivore", "taille_10k+", "lettre_h", "carac_ovipare", "carac_solitaire", "carac_nocturne"]},
+  {name:"Renne",a:["cont_arctique", "cont_europe", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_r", "carac_groupe", "carac_migrateur", "carac_domestique"]},
+  {name:"Élan",a:["cont_arctique", "cont_europe", "cont_amerique", "milieu_foret", "milieu_eau", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_an", "lettre_e", "carac_solitaire", "carac_nageur"]}
+];
+
+
 function getDB(){
   if(THEME==='foot') return PLAYERS;
   if(THEME==='films') return FILMS;
+  if(THEME==='animaux') return ANIMAUX;
   return VILLES;
 }
 
@@ -827,7 +956,7 @@ function refreshCell(idx){
     const rare=f.vc<=4;
     el.className='cell filled';el.onclick=null;
     el.innerHTML=`<div class="cell-name">${f.player.name}</div>
-      <div class="cell-pct${rare?' rare':''}">${rare?'⭐ Rare · ':''}${f.pct}% ${THEME==='foot'?'des joueurs':THEME==='films'?'des cinéphiles':'des réponses'}</div>
+      <div class="cell-pct${rare?' rare':''}">${rare?'⭐ Rare · ':''}${f.pct}% ${THEME==='foot'?'des joueurs':THEME==='films'?'des cinéphiles':THEME==='animaux'?'des joueurs':'des réponses'}</div>
       <div class="rarity-bar" style="width:${f.pct}%"></div>`;
   } else if(G.over){
     el.className='cell done';el.onclick=null;
@@ -840,7 +969,7 @@ function refreshAll(){
   document.getElementById('scoreN').innerHTML=`${G.score} <small>/ 900</small>`;
   let rarest='—';
   if(founds.length){const r=founds.reduce((a,b)=>a.vc<b.vc?a:b);rarest=r.player.name;}
-  const itemLabel=THEME==='foot'?'Joueur le plus rare':THEME==='films'?'Film le plus rare':'Réponse la plus rare';
+  const itemLabel=THEME==='foot'?'Joueur le plus rare':THEME==='films'?'Film le plus rare':THEME==='animaux'?'Animal le plus rare':'Réponse la plus rare';
   document.getElementById('progLbl').textContent=`${n} / 9 cases · ${itemLabel} : ${rarest}`;
   for(let i=0;i<9;i++)refreshCell(i);
 }
@@ -876,7 +1005,7 @@ document.getElementById('sinput').addEventListener('input',function(){
     return;
   }
   const matches=getDB().filter(p=>p.name.toLowerCase().includes(q)).slice(0,8);
-  const itemWord=THEME==='foot'?'joueur':THEME==='films'?'film':'ville';
+  const itemWord=THEME==='foot'?'joueur':THEME==='films'?'film':THEME==='animaux'?'animal':'ville';
   rcnt.textContent=`${matches.length} ${itemWord}${matches.length>1?'s':''} · ${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
   if(!matches.length){
     document.getElementById('results').innerHTML=`<div class="no-res">Aucun résultat pour "${this.value}"</div>`;
@@ -890,7 +1019,7 @@ document.getElementById('sinput').addEventListener('input',function(){
       <div class="av">${ini}</div>
       <div class="ri-info">
         <div class="ri-name">${p.name}</div>
-        <div class="ri-meta">${p.pos?cap(p.pos):THEME==='films'?'Film':(THEME==='foot'?'Joueur':'Ville')}${used?' · Déjà utilisé':''}</div>
+        <div class="ri-meta">${p.pos?cap(p.pos):THEME==='films'?'Film':THEME==='animaux'?'Animal':(THEME==='foot'?'Joueur':'Ville')}${used?' · Déjà utilisé':''}</div>
       </div>
     </div>`;
   }).join('');
@@ -1033,7 +1162,7 @@ if(backLink)backLink.style.display='flex';
 
 document.getElementById('dateLbl').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
 
-const placeholders={foot:"Tapez le nom d'un joueur...",films:"Tapez le nom d'un film...",default:"Tapez le nom d'une ville..."};
+const placeholders={foot:"Tapez le nom d'un joueur...",films:"Tapez le nom d'un film...",animaux:"Tapez le nom d'un animal...",default:"Tapez le nom d'une ville..."};
 document.getElementById('sinput').placeholder=placeholders[THEME]||placeholders.default;
 
 G.streak=+localStorage.getItem('fg_s_'+THEME)||0;
@@ -1070,6 +1199,5 @@ async function init(){
 
 init();
 </script>
-
 </body>
 </html>
