@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FootGrille</title>
+<title>DOKU</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -56,7 +56,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .cell-pct{font-size:11px;color:var(--text2);margin-top:3px;font-weight:500}
 .cell-pct.rare{color:var(--gold)}
 .rarity-bar{position:absolute;bottom:0;left:0;height:3px;background:var(--green);opacity:.4;transition:width .4s ease}
-/* overlays */
 .ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.83);z-index:100;align-items:flex-start;justify-content:center;padding-top:10vh;backdrop-filter:blur(3px)}
 .ov.open{display:flex}
 .ov-center{align-items:center;padding-top:0}
@@ -83,7 +82,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .mfoot-hint{font-size:11px;color:var(--text3)}
 .btn-x{background:none;border:1px solid var(--border);color:var(--text2);border-radius:6px;padding:3px 9px;font-size:12px;transition:all .15s}
 .btn-x:hover{border-color:var(--border2);color:var(--text)}
-/* end modal */
 .emodal{background:var(--surface);border:1px solid var(--border2);border-radius:18px;padding:32px 28px;max-width:400px;width:90%;text-align:center;animation:zi .22s ease}
 .eemoji{font-size:44px;margin-bottom:10px}
 .etitle{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:30px;text-transform:uppercase;letter-spacing:-1px;margin-bottom:4px}
@@ -98,7 +96,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .btn-sol-e{background:none;border:1px solid var(--border2);color:var(--text2);border-radius:8px;padding:9px 22px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:13px;text-transform:uppercase;width:100%;transition:all .15s;margin-bottom:4px}
 .btn-sol-e:hover{border-color:var(--text2);color:var(--text)}
 .enext{margin-top:12px;font-size:11px;color:var(--text3)}
-/* solutions */
 .smodal{background:var(--surface);border:1px solid var(--border2);border-radius:14px;width:90%;max-width:660px;max-height:82vh;overflow-y:auto;padding:24px;animation:zi .2s ease}
 .stitle{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:20px;text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;justify-content:space-between}
 .sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
@@ -108,7 +105,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .sp:last-child{border-bottom:none}
 .sp.chosen{color:var(--green);font-weight:600}
 .sp-pct{font-size:10px;color:var(--text3);flex-shrink:0}
-/* abandon */
 .abandon-modal{background:var(--surface);border:1px solid var(--border2);border-radius:13px;padding:26px;max-width:320px;width:90%;text-align:center;animation:zi .2s ease}
 .at{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;text-transform:uppercase;margin-bottom:7px}
 .as{font-size:13px;color:var(--text2);margin-bottom:18px}
@@ -117,12 +113,10 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 .btn-yes:hover{opacity:.85}
 .btn-no{flex:1;background:none;border:1px solid var(--border2);color:var(--text2);border-radius:7px;padding:10px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:14px;text-transform:uppercase;transition:all .15s}
 .btn-no:hover{border-color:var(--text2);color:var(--text)}
-/* archives */
 .arch-entry{display:flex;align-items:center;justify-content:space-between;padding:13px 15px;background:var(--surface);border:1px solid var(--border);border-radius:9px;margin-bottom:7px}
 .arch-date{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;text-transform:uppercase}
 .arch-meta{font-size:12px;color:var(--text2);margin-top:2px}
 .arch-score{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:26px;color:var(--green)}
-/* toast */
 .toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(14px);background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:10px 18px;font-size:13px;font-weight:500;opacity:0;transition:all .22s;z-index:500;white-space:nowrap;pointer-events:none}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .toast.err{border-color:var(--red);color:var(--red)}
@@ -216,7 +210,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
   <div class="modal">
     <div class="mhead">
       <div class="mctx" id="mctx"></div>
-      <input type="text" class="sinput" id="sinput" placeholder="Tapez le nom d'une ville..."  id="sinput" autocomplete="off" autocorrect="off" spellcheck="false">
+      <input type="text" class="sinput" id="sinput" placeholder="Tapez votre réponse..." autocomplete="off" autocorrect="off" spellcheck="false">
     </div>
     <div class="rcnt" id="rcnt"></div>
     <div class="results" id="results"></div>
@@ -265,18 +259,372 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 <div class="toast" id="toast"></div>
 
 <script>
-// ── THÈME (lu depuis l'URL dès le départ) ────
+// ── THÈME ────
 const PARAMS = new URLSearchParams(window.location.search);
 const THEME = PARAMS.get('theme') || 'foot';
-const THEME_JSON = 'grilles/' + THEME + '.json';
+const THEME_JSON = 'grilles-' + THEME + '.json';
 
 // ── DONNÉES ──────────────────────────────────
-// ── BASE DE DONNÉES — chargée dynamiquement depuis data/{theme}/entries.json ──
-let DB = [];  // sera rempli au chargement
+const PLAYERS=[
+  {name:"Zinedine Zidane",pos:"milieu",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","liga","serieA","d90","d00","bx","tl1","teu","s100"]},
+  {name:"Didier Deschamps",pos:"milieu",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","liga","serieA","d90","d00","mrs","tl1","teu","s100"]},
+  {name:"Lilian Thuram",pos:"défenseur",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","liga","serieA","d90","d00","mco","teu","s100"]},
+  {name:"Marcel Desailly",pos:"défenseur",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","serieA","d90","d00","mrs","tl1","teu","s100"]},
+  {name:"Laurent Blanc",pos:"défenseur",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","liga","serieA","d90","d00","mrs","bx","tl1","s100"]},
+  {name:"Thierry Henry",pos:"attaquant",a:["cdm_1998","cdm_2002","cdm_2006","euro_2000","ch98","pl","liga","d90","d00","d10","mco","tl1","teu","s100"]},
+  {name:"Patrick Vieira",pos:"milieu",a:["cdm_1998","cdm_2002","cdm_2006","euro_2000","ch98","pl","liga","serieA","d90","d00","d10","teu","s100"]},
+  {name:"Robert Pires",pos:"milieu",a:["cdm_1998","cdm_2002","euro_2000","ch98","pl","liga","d90","d00","mrs","s100"]},
+  {name:"David Trezeguet",pos:"attaquant",a:["cdm_1998","cdm_2002","cdm_2006","euro_2000","ch98","liga","serieA","d90","d00","mco","tl1","teu","s100"]},
+  {name:"Emmanuel Petit",pos:"milieu",a:["cdm_1998","cdm_2002","euro_1996","euro_2000","ch98","pl","liga","serieA","d90","d00","mco","teu","s51"]},
+  {name:"Fabien Barthez",pos:"gardien",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","pl","d90","d00","mrs","tl1","s100"]},
+  {name:"Bixente Lizarazu",pos:"défenseur",a:["cdm_1998","cdm_2002","cdm_2006","euro_1996","euro_2000","ch98","bund","d90","d00","bx","tl1","teu","s100"]},
+  {name:"Youri Djorkaeff",pos:"milieu",a:["cdm_1998","euro_1996","ch98","serieA","bund","pl","d90","d00","teu","s51"]},
+  {name:"Sylvain Wiltord",pos:"attaquant",a:["cdm_1998","cdm_2002","euro_2000","ch98","pl","liga","d90","d00","bx","teu","s51"]},
+  {name:"Christophe Dugarry",pos:"attaquant",a:["cdm_1998","cdm_2002","euro_2000","ch98","serieA","liga","d90","d00","mrs","bx","tl1","s51"]},
+  {name:"Frank Leboeuf",pos:"défenseur",a:["cdm_1998","ch98","pl","liga","d90","d00","teu","s21"]},
+  {name:"Grégory Coupet",pos:"gardien",a:["cdm_2002","cdm_2006","euro_2000","d90","d00","lyon","tl1","s51"]},
+  {name:"Willy Sagnol",pos:"défenseur",a:["cdm_2002","cdm_2006","euro_2000","bund","d90","d00","mco","teu","s51"]},
+  {name:"Mikael Silvestre",pos:"défenseur",a:["cdm_2002","cdm_2006","pl","liga","d90","d00","teu","s51"]},
+  {name:"William Gallas",pos:"défenseur",a:["cdm_2002","cdm_2006","euro_2000","pl","liga","d00","d10","mrs","teu","s51"]},
+  {name:"Franck Ribéry",pos:"milieu",a:["cdm_2006","cdm_2010","cdm_2014","euro_2008","bund","serieA","d00","d10","mrs","teu","s100"]},
+  {name:"Nicolas Anelka",pos:"attaquant",a:["cdm_2002","cdm_2006","cdm_2010","euro_2000","pl","liga","d90","d00","d10","teu","s51"]},
+  {name:"Florent Malouda",pos:"milieu",a:["cdm_2006","cdm_2010","pl","d00","d10","lyon","tl1","teu","s51"]},
+  {name:"Eric Abidal",pos:"défenseur",a:["cdm_2006","cdm_2010","euro_2008","liga","d00","d10","mco","lyon","tl1","teu","s51"]},
+  {name:"Samir Nasri",pos:"milieu",a:["cdm_2010","euro_2012","pl","liga","d00","d10","mrs","s51"]},
+  {name:"Patrice Evra",pos:"défenseur",a:["cdm_2010","cdm_2014","euro_2008","euro_2012","pl","serieA","liga","d00","d10","mco","teu","s51"]},
+  {name:"Yoann Gourcuff",pos:"milieu",a:["cdm_2010","serieA","d00","d10","bx","lyon","tl1","s21"]},
+  {name:"Karim Benzema",pos:"attaquant",a:["cdm_2014","cdm_2022","euro_2020","liga","d00","d10","d20","lyon","tl1","teu","s100"]},
+  {name:"Hugo Lloris",pos:"gardien",a:["cdm_2010","cdm_2014","cdm_2018","cdm_2022","euro_2012","euro_2020","ch18","pl","d00","d10","d20","nice","lyon","tl1","s100"]},
+  {name:"Raphaël Varane",pos:"défenseur",a:["cdm_2014","cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","pl","liga","d10","d20","teu","s100"]},
+  {name:"Paul Pogba",pos:"milieu",a:["cdm_2014","cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","pl","serieA","d10","d20","teu","s100"]},
+  {name:"Antoine Griezmann",pos:"attaquant",a:["cdm_2014","cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","liga","d10","d20","teu","s100"]},
+  {name:"Olivier Giroud",pos:"attaquant",a:["cdm_2014","cdm_2018","cdm_2022","euro_2012","euro_2016","euro_2020","ch18","pl","serieA","d10","d20","mtp","tl1","teu","s100"]},
+  {name:"Blaise Matuidi",pos:"milieu",a:["cdm_2014","cdm_2018","euro_2012","euro_2016","ch18","serieA","d10","d20","psg","tl1","teu","s100"]},
+  {name:"N'Golo Kanté",pos:"milieu",a:["cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","pl","d10","d20","tl1","teu","s51"]},
+  {name:"Kylian Mbappé",pos:"attaquant",a:["cdm_2018","cdm_2022","euro_2020","ch18","liga","d10","d20","mco","psg","teu","s100"]},
+  {name:"Kingsley Coman",pos:"attaquant",a:["cdm_2018","cdm_2022","euro_2016","euro_2020","ch18","serieA","bund","d10","d20","psg","teu","s51"]},
+  {name:"Ousmane Dembélé",pos:"attaquant",a:["cdm_2018","cdm_2022","euro_2020","ch18","bund","liga","d10","d20","rennes","teu","s51"]},
+  {name:"Samuel Umtiti",pos:"défenseur",a:["cdm_2018","euro_2016","ch18","liga","d10","lyon","teu","s21"]},
+  {name:"Corentin Tolisso",pos:"milieu",a:["cdm_2018","euro_2016","euro_2020","ch18","bund","d10","d20","lyon","tl1","teu","s21"]},
+  {name:"Florian Thauvin",pos:"attaquant",a:["cdm_2018","ch18","pl","d10","mrs","s21"]},
+  {name:"Benjamin Mendy",pos:"défenseur",a:["cdm_2018","euro_2020","ch18","pl","d10","d20","mrs","mco","teu","s21"]},
+  {name:"Djibril Sidibé",pos:"défenseur",a:["cdm_2018","euro_2016","ch18","pl","d10","mco","tl1","teu","s21"]},
+  {name:"Mamadou Sakho",pos:"défenseur",a:["cdm_2014","euro_2012","pl","d10","psg","s21"]},
+  {name:"Loïc Rémy",pos:"attaquant",a:["cdm_2014","euro_2012","pl","liga","d10","mrs","s21"]},
+  {name:"Adrien Rabiot",pos:"milieu",a:["cdm_2022","euro_2020","serieA","pl","d10","d20","psg","tl1","teu","s51"]},
+  {name:"Aurélien Tchouaméni",pos:"milieu",a:["cdm_2022","euro_2020","liga","d20","mco","teu","s51"]},
+  {name:"Jules Koundé",pos:"défenseur",a:["cdm_2022","euro_2020","liga","d20","bx","teu","s51"]},
+  {name:"Dayot Upamecano",pos:"défenseur",a:["cdm_2022","euro_2020","bund","d10","d20","teu","s51"]},
+  {name:"Marcus Thuram",pos:"attaquant",a:["cdm_2022","euro_2020","bund","serieA","d10","d20","s51"]},
+  {name:"Mike Maignan",pos:"gardien",a:["cdm_2022","euro_2020","euro_2024","serieA","d10","d20","lille","tl1","s21"]},
+  {name:"William Saliba",pos:"défenseur",a:["cdm_2022","euro_2024","pl","d20","mrs","s21"]},
+  {name:"Theo Hernandez",pos:"défenseur",a:["cdm_2022","euro_2024","serieA","liga","d10","d20","teu","s51"]},
+  {name:"Randal Kolo Muani",pos:"attaquant",a:["cdm_2022","euro_2024","bund","d10","d20","nantes","s21"]},
+  {name:"Jonathan Clauss",pos:"défenseur",a:["cdm_2022","bund","d10","d20","lens","mrs","s21"]},
+  {name:"Wissam Ben Yedder",pos:"attaquant",a:["liga","d10","d20","tlse","mco","s21"]},
+];
 
-function getDB(){ return DB; }
+const VILLES=[
+  {name:"Paris",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_75","ligue1","fleuve_seine","jo2024","metro","tgv","patrimoine_unesco"]},
+  {name:"Lyon",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_69","ligue1","fleuve_rhone","metro","tgv","patrimoine_unesco"]},
+  {name:"Marseille",a:["pop_500k+","pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","ligue1","port_maritime","metro","tgv","patrimoine_unesco","jo2024"]},
+  {name:"Toulouse",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_31","ligue1","fleuve_garonne","metro","tgv","jo2024"]},
+  {name:"Nice",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","ligue1","station_balneaire","tgv","port_maritime"]},
+  {name:"Nantes",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_44","ligue1","fleuve_loire","port_maritime","tgv"]},
+  {name:"Montpellier",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_34","ligue1","station_balneaire","metro","tgv"]},
+  {name:"Strasbourg",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_67","ligue1","fleuve_rhin","metro","tgv","patrimoine_unesco"]},
+  {name:"Bordeaux",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_33","ligue1","fleuve_garonne","port_maritime","tgv","patrimoine_unesco"]},
+  {name:"Lille",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59","ligue1","metro","tgv"]},
+  {name:"Rennes",a:["pop_200k+","pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_35","ligue1","metro","tgv"]},
+  {name:"Reims",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51","ligue1","tgv","patrimoine_unesco"]},
+  {name:"Le Havre",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","port_maritime","ligue1","tgv","patrimoine_unesco"]},
+  {name:"Saint-Etienne",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_42","ligue1","tgv"]},
+  {name:"Toulon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_83","port_maritime","station_balneaire","tgv"]},
+  {name:"Grenoble",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_38","tgv","station_ski"]},
+  {name:"Rouen",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","ligue1","fleuve_seine","port_maritime","tgv","patrimoine_unesco"]},
+  {name:"Brest",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_29","port_maritime","tgv"]},
+  {name:"Dijon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_21","tgv","patrimoine_unesco"]},
+  {name:"Nîmes",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_30","patrimoine_unesco","tgv"]},
+  {name:"Angers",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_49","fleuve_loire","tgv"]},
+  {name:"Villeurbanne",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_69","ligue1","metro"]},
+  {name:"Le Mans",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_72","tgv"]},
+  {name:"Clermont-Ferrand",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_63","tgv"]},
+  {name:"Aix-en-Provence",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","tgv","patrimoine_unesco"]},
+  {name:"Boulogne-Billancourt",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","fleuve_seine","metro","tgv"]},
+  {name:"Perpignan",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_66","tgv"]},
+  {name:"Nancy",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_54","tgv","patrimoine_unesco"]},
+  {name:"Saint-Denis",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_93","jo2024","metro","tgv"]},
+  {name:"Argenteuil",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_95","fleuve_seine","metro","tgv"]},
+  {name:"Montreuil",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_93","metro"]},
+  {name:"Metz",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_57","ligue2","tgv","patrimoine_unesco"]},
+  {name:"Besançon",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_25","tgv","patrimoine_unesco"]},
+  {name:"Limoges",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_87","tgv"]},
+  {name:"Amiens",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_80","ligue2","tgv","patrimoine_unesco"]},
+  {name:"Caen",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_14","tgv"]},
+  {name:"Mulhouse",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_68","fleuve_rhin","tgv"]},
+  {name:"Tours",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_37","fleuve_loire","tgv","patrimoine_unesco"]},
+  {name:"Orléans",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_45","fleuve_loire","tgv"]},
+  {name:"Avignon",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_84","fleuve_rhone","tgv","patrimoine_unesco"]},
+  {name:"Versailles",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_78","patrimoine_unesco","jo2024","tgv"]},
+  {name:"Nanterre",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","jo2024","metro"]},
+  {name:"Créteil",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_94","metro"]},
+  {name:"Pau",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","station_ski"]},
+  {name:"La Rochelle",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_17","port_maritime","station_balneaire","tgv"]},
+  {name:"Cannes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","station_balneaire","port_maritime","tgv"]},
+  {name:"Antibes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","station_balneaire","port_maritime"]},
+  {name:"Saint-Nazaire",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_44","port_maritime","tgv"]},
+  {name:"Dunkerque",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59","port_maritime","ligue2"]},
+  {name:"Colmar",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_68","patrimoine_unesco","tgv"]},
+  {name:"Roubaix",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59"]},
+  {name:"Ajaccio",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cor","dept_2a","port_maritime","station_balneaire"]},
+  {name:"Poitiers",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_86","tgv"]},
+  {name:"Calais",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","port_maritime","tgv"]},
+  {name:"Bourges",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_18","patrimoine_unesco"]},
+  {name:"Bayonne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","port_maritime","fleuve_garonne"]},
+  {name:"La Seyne-sur-Mer",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_83","port_maritime","station_balneaire"]},
+  {name:"Niort",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_79"]},
+  {name:"Fréjus",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_83","station_balneaire","port_maritime"]},
+  {name:"Saint-Quentin",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_02"]},
+  {name:"Beauvais",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_60","patrimoine_unesco"]},
+  {name:"Évreux",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_27"]},
+  {name:"Cherbourg-en-Cotentin",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_50","port_maritime"]},
+  {name:"Quimper",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_29","tgv"]},
+  {name:"Lorient",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_56","port_maritime","tgv"]},
+  {name:"Vannes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_56","port_maritime","tgv"]},
+  {name:"Chalon-sur-Saône",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_71","fleuve_rhone","tgv"]},
+  {name:"Troyes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_10","fleuve_seine","tgv"]},
+  {name:"Dieppe",a:["pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_76","port_maritime","station_balneaire"]},
+  {name:"Saint-Malo",a:["pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_35","port_maritime","station_balneaire","patrimoine_unesco"]},
+  {name:"Arles",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_13","fleuve_rhone","patrimoine_unesco"]},
+  {name:"Lens",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","ligue1"]},
+  {name:"La Roche-sur-Yon",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_85"]},
+  {name:"Béziers",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_34","tgv"]},
+  {name:"Laval",a:["pop_20k+","pop_10k+","pop_5k+","reg_pdl","dept_53","tgv"]},
+  {name:"Saint-Brieuc",a:["pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_22","port_maritime","tgv"]},
+  {name:"Chartres",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_28","patrimoine_unesco","tgv"]},
+  {name:"Brive-la-Gaillarde",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_19","tgv"]},
+  {name:"Angoulême",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_16","tgv"]},
+  {name:"Montauban",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_82","fleuve_garonne"]},
+  {name:"Boulogne-sur-Mer",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","port_maritime","station_balneaire","tgv"]},
+  {name:"Valenciennes",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59"]},
+  {name:"Arras",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_62","jo2024","tgv","patrimoine_unesco"]},
+  {name:"Blois",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_41","fleuve_loire","patrimoine_unesco","tgv"]},
+  {name:"Gap",a:["pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_05","station_ski"]},
+  {name:"Carcassonne",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_11","patrimoine_unesco","tgv"]},
+  {name:"Albi",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_81","patrimoine_unesco"]},
+  {name:"Tarbes",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_65"]},
+  {name:"Narbonne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_11","port_maritime","tgv"]},
+  {name:"Chambéry",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_73","station_ski","tgv"]},
+  {name:"Valence",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_26","fleuve_rhone","tgv"]},
+  {name:"Annecy",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_74","station_ski","tgv","patrimoine_unesco"]},
+  {name:"Agen",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_47","fleuve_garonne","tgv"]},
+  {name:"Périgueux",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_24","patrimoine_unesco"]},
+  {name:"Rochefort",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_17","port_maritime"]},
+  {name:"Saintes",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_17","patrimoine_unesco"]},
+  {name:"Mont-de-Marsan",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_40"]},
+  {name:"Dax",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_40","ville_thermale","tgv"]},
+  {name:"Biarritz",a:["pop_20k+","pop_10k+","pop_5k+","reg_naq","dept_64","station_balneaire","tgv"]},
+  {name:"Bastia",a:["pop_20k+","pop_10k+","pop_5k+","reg_cor","dept_2b","port_maritime","station_balneaire"]},
+  {name:"Saint-Denis (La Réunion)",a:["pop_100k+","pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_reunion","dept_974","dom_tom"]},
+  {name:"Fort-de-France",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_mart","dept_972","port_maritime","dom_tom"]},
+  {name:"Cayenne",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_guy","dept_973","dom_tom"]},
+  {name:"Auxerre",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_89","fleuve_seine"]},
+  {name:"Belfort",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_90","tgv"]},
+  {name:"Mâcon",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_71","fleuve_rhone","tgv"]},
+  {name:"Vichy",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_03","ville_thermale","fleuve_loire"]},
+  {name:"Lourdes",a:["pop_10k+","pop_5k+","reg_occ","dept_65","ville_thermale","patrimoine_unesco"]},
+  {name:"Thonon-les-Bains",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_74","ville_thermale","station_ski"]},
+  {name:"Chamonix",a:["pop_5k+","reg_ara","dept_74","station_ski","patrimoine_unesco"]},
+  {name:"Courchevel",a:["pop_5k+","reg_ara","dept_73","station_ski"]},
+  {name:"Val d'Isère",a:["pop_5k+","reg_ara","dept_73","station_ski"]},
+  {name:"Évian-les-Bains",a:["pop_5k+","reg_ara","dept_74","ville_thermale","station_ski"]},
+  {name:"Megève",a:["pop_5k+","reg_ara","dept_74","station_ski"]},
+  {name:"Épinal",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_88"]},
+  {name:"Thionville",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_57"]},
+  {name:"Charleville-Mézières",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_08"]},
+  {name:"Châlons-en-Champagne",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51"]},
+  {name:"Épernay",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_51","fleuve_seine"]},
+  {name:"Montbéliard",a:["pop_20k+","pop_10k+","pop_5k+","reg_bfc","dept_25"]},
+  {name:"Vesoul",a:["pop_10k+","pop_5k+","reg_bfc","dept_70"]},
+  {name:"Lons-le-Saunier",a:["pop_10k+","pop_5k+","reg_bfc","dept_39"]},
+  {name:"Fougères",a:["pop_20k+","pop_10k+","pop_5k+","reg_bre","dept_35"]},
+  {name:"Roanne",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_42","fleuve_loire"]},
+  {name:"Bourg-en-Bresse",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_01","tgv"]},
+  {name:"Rodez",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_12"]},
+  {name:"Auch",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_32"]},
+  {name:"Castres",a:["pop_20k+","pop_10k+","pop_5k+","reg_occ","dept_81"]},
+  {name:"Mende",a:["pop_10k+","pop_5k+","reg_occ","dept_48"]},
+  {name:"Cahors",a:["pop_10k+","pop_5k+","reg_occ","dept_46","patrimoine_unesco"]},
+  {name:"Aurillac",a:["pop_20k+","pop_10k+","pop_5k+","reg_ara","dept_15"]},
+  {name:"Moulins",a:["pop_10k+","pop_5k+","reg_ara","dept_03","fleuve_loire"]},
+  {name:"Le Puy-en-Velay",a:["pop_10k+","pop_5k+","reg_ara","dept_43","patrimoine_unesco"]},
+  {name:"Privas",a:["pop_5k+","reg_ara","dept_07"]},
+  {name:"Guéret",a:["pop_10k+","pop_5k+","reg_naq","dept_23"]},
+  {name:"Tulle",a:["pop_10k+","pop_5k+","reg_naq","dept_19"]},
+  {name:"Laon",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_02"]},
+  {name:"Compiegne",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_60","fleuve_seine","tgv"]},
+  {name:"Soissons",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_02","patrimoine_unesco"]},
+  {name:"Maubeuge",a:["pop_20k+","pop_10k+","pop_5k+","reg_hdf","dept_59"]},
+  {name:"Lisieux",a:["pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_14","patrimoine_unesco"]},
+  {name:"Alençon",a:["pop_20k+","pop_10k+","pop_5k+","reg_nor","dept_61"]},
+  {name:"Pointe-à-Pitre",a:["pop_10k+","pop_5k+","reg_guad","dept_971","port_maritime","dom_tom"]},
+  {name:"Vendôme",a:["pop_10k+","pop_5k+","reg_cvl","dept_41","tgv"]},
+  {name:"Châteauroux",a:["pop_20k+","pop_10k+","pop_5k+","reg_cvl","dept_36"]},
+  {name:"Foix",a:["pop_10k+","pop_5k+","reg_occ","dept_09"]},
+  {name:"Vitry-sur-Seine",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_94","fleuve_seine","metro","lettre_v"]},
+  {name:"Colombes",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","metro","lettre_c","fin_es"]},
+  {name:"Asnières-sur-Seine",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","fleuve_seine","metro","lettre_a"]},
+  {name:"Aubervilliers",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_93","metro","lettre_a","fin_ers"]},
+  {name:"Aulnay-sous-Bois",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_93","lettre_a","fin_ois"]},
+  {name:"Courbevoie",a:["pop_50k+","pop_20k+","pop_10k+","pop_5k+","reg_idf","dept_92","fleuve_seine","metro","lettre_c"]},
+  {name:"Menton",a:["pop_20k+","pop_10k+","pop_5k+","reg_paca","dept_06","station_balneaire","port_maritime","lettre_m","fin_on"]},
+  {name:"Forbach",a:["pop_20k+","pop_10k+","pop_5k+","reg_gest","dept_57","lettre_f"]},
+  {name:"Annonay",a:["pop_10k+","pop_5k+","reg_ara","dept_07","lettre_a"]},
+  {name:"Arcachon",a:["pop_10k+","pop_5k+","reg_naq","dept_33","station_balneaire","lettre_a","fin_on"]},
+];
 
-// ── BASE FILMS CULTES ─────────────────────────
+const ANIMAUX=[
+  {name:"Lion",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "syl_on", "lettre_l", "carac_groupe"]},
+  {name:"Éléphant",a:["cont_afrique", "cont_asie", "milieu_savane", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_e", "carac_menace"]},
+  {name:"Girafe",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_g", "carac_menace"]},
+  {name:"Zèbre",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_z", "carac_groupe"]},
+  {name:"Hippopotame",a:["cont_afrique", "milieu_eau", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_h", "carac_menace"]},
+  {name:"Crocodile",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_eau", "milieu_savane", "classe_reptile", "regime_carnivore", "taille_100k+", "syl_ile", "lettre_c", "carac_ovipare"]},
+  {name:"Gorille",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_ille", "lettre_g", "carac_menace", "carac_groupe"]},
+  {name:"Chimpanzé",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_c", "carac_menace", "carac_groupe"]},
+  {name:"Rhinocéros",a:["cont_afrique", "cont_asie", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_r", "carac_menace"]},
+  {name:"Guépard",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_g", "carac_menace"]},
+  {name:"Léopard",a:["cont_afrique", "cont_asie", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_l", "carac_menace", "carac_nocturne"]},
+  {name:"Hyène",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_h", "carac_nocturne", "carac_groupe"]},
+  {name:"Flamant rose",a:["cont_afrique", "cont_europe", "milieu_eau", "classe_oiseau", "regime_omnivore", "taille_10k+", "lettre_f", "carac_migrateur", "carac_ovipare", "carac_groupe"]},
+  {name:"Autruche",a:["cont_afrique", "milieu_savane", "classe_oiseau", "regime_omnivore", "taille_100k+", "lettre_a", "carac_ovipare"]},
+  {name:"Mamba noir",a:["cont_afrique", "milieu_savane", "classe_reptile", "regime_carnivore", "taille_10k+", "lettre_m", "carac_venimeux", "carac_ovipare"]},
+  {name:"Mandrill",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_m", "carac_groupe"]},
+  {name:"Okapi",a:["cont_afrique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_o", "carac_menace"]},
+  {name:"Serval",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_s", "carac_nocturne"]},
+  {name:"Lycaon",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_10k+", "syl_on", "lettre_l", "carac_menace", "carac_groupe"]},
+  {name:"Pangolin",a:["cont_afrique", "cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_p", "carac_menace", "carac_nocturne"]},
+  {name:"Tigre",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_t", "carac_menace", "carac_solitaire", "carac_nageur"]},
+  {name:"Panda géant",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_p", "carac_menace"]},
+  {name:"Orang-outan",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_o", "carac_menace", "carac_arboricole"]},
+  {name:"Komodo",a:["cont_asie", "milieu_savane", "classe_reptile", "regime_carnivore", "taille_100k+", "lettre_c", "carac_venimeux", "carac_ovipare"]},
+  {name:"Cobra royal",a:["cont_asie", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_10k+", "lettre_c", "carac_venimeux", "carac_ovipare"]},
+  {name:"Éléphant d'Asie",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_1000k+", "lettre_e", "carac_menace", "carac_groupe"]},
+  {name:"Macaque",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_m", "carac_groupe"]},
+  {name:"Tapir",a:["cont_asie", "cont_amerique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_t", "carac_menace", "carac_nageur"]},
+  {name:"Gibbon",a:["cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "syl_on", "lettre_g", "carac_menace", "carac_arboricole"]},
+  {name:"Python",a:["cont_asie", "cont_afrique", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_10k+", "syl_on", "lettre_p", "carac_ovipare"]},
+  {name:"Paon",a:["cont_asie", "milieu_foret", "classe_oiseau", "regime_omnivore", "taille_10k+", "syl_on", "lettre_p", "carac_ovipare"]},
+  {name:"Yak",a:["cont_asie", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_y", "carac_groupe"]},
+  {name:"Ours polaire",a:["cont_arctique", "milieu_mer", "milieu_montagne", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_o", "carac_menace", "carac_nageur", "carac_solitaire"]},
+  {name:"Morse",a:["cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_m", "carac_groupe"]},
+  {name:"Renard arctique",a:["cont_arctique", "milieu_montagne", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_r", "carac_menace"]},
+  {name:"Béluga",a:["cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_b", "carac_menace", "carac_groupe"]},
+  {name:"Narval",a:["cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_n", "carac_menace", "carac_groupe"]},
+  {name:"Jaguar",a:["cont_amerique", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_j", "carac_menace", "carac_nageur", "carac_solitaire"]},
+  {name:"Anaconda",a:["cont_amerique", "milieu_eau", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_100k+", "lettre_a", "carac_nageur"]},
+  {name:"Toucan",a:["cont_amerique", "milieu_foret", "classe_oiseau", "regime_omnivore", "taille_1k+", "syl_an", "lettre_t", "carac_ovipare", "carac_arboricole"]},
+  {name:"Lama",a:["cont_amerique", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_l", "carac_groupe"]},
+  {name:"Condor",a:["cont_amerique", "milieu_montagne", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_on", "lettre_c", "carac_ovipare", "carac_menace"]},
+  {name:"Tatou",a:["cont_amerique", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_t", "carac_nocturne", "carac_ovipare"]},
+  {name:"Piranha",a:["cont_amerique", "milieu_eau", "classe_poisson", "regime_carnivore", "taille_1k+", "lettre_p", "carac_groupe"]},
+  {name:"Caïman",a:["cont_amerique", "milieu_eau", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_100k+", "syl_an", "lettre_c", "carac_ovipare"]},
+  {name:"Alpaga",a:["cont_amerique", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_a", "carac_groupe", "carac_domestique"]},
+  {name:"Fourmilier",a:["cont_amerique", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_f", "carac_solitaire"]},
+  {name:"Paresseux",a:["cont_amerique", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_p", "carac_arboricole", "carac_solitaire", "carac_menace"]},
+  {name:"Manchot",a:["cont_antarctique", "milieu_mer", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_ot", "lettre_m", "carac_ovipare", "carac_groupe", "carac_nageur"]},
+  {name:"Léopard de mer",a:["cont_antarctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_l", "carac_solitaire", "carac_nageur"]},
+  {name:"Albatros",a:["cont_antarctique", "milieu_mer", "classe_oiseau", "regime_carnivore", "taille_10k+", "lettre_a", "carac_ovipare", "carac_migrateur"]},
+  {name:"Orque",a:["cont_antarctique", "cont_arctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_o", "carac_groupe", "carac_nageur"]},
+  {name:"Kangourou",a:["cont_oceanie", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_k", "carac_groupe"]},
+  {name:"Koala",a:["cont_oceanie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_k", "carac_arboricole", "carac_menace"]},
+  {name:"Wallaby",a:["cont_oceanie", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_v", "carac_groupe"]},
+  {name:"Wombat",a:["cont_oceanie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_10k+", "lettre_v", "carac_nocturne", "carac_solitaire"]},
+  {name:"Ornithorynque",a:["cont_oceanie", "milieu_eau", "classe_mammifere", "regime_carnivore", "taille_1k+", "lettre_o", "carac_venimeux", "carac_ovipare", "carac_nageur"]},
+  {name:"Diable de Tasmanie",a:["cont_oceanie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_d", "carac_menace", "carac_nocturne"]},
+  {name:"Cacatoès",a:["cont_oceanie", "milieu_foret", "classe_oiseau", "regime_herbivore", "taille_1k+", "lettre_c", "carac_ovipare", "carac_arboricole", "carac_groupe"]},
+  {name:"Loup",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "milieu_montagne", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_l", "carac_groupe", "carac_solitaire"]},
+  {name:"Lynx",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_l", "carac_menace", "carac_solitaire", "carac_nocturne"]},
+  {name:"Ours brun",a:["cont_europe", "cont_asie", "milieu_foret", "milieu_montagne", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_o", "carac_solitaire"]},
+  {name:"Renard roux",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "lettre_r", "carac_nocturne", "carac_solitaire"]},
+  {name:"Cerf",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_c", "carac_groupe"]},
+  {name:"Sanglier",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_s", "carac_groupe", "carac_nocturne"]},
+  {name:"Hérisson",a:["cont_europe", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_1k+", "syl_on", "lettre_h", "carac_nocturne", "carac_solitaire"]},
+  {name:"Blaireau",a:["cont_europe", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_10k+", "syl_eau", "lettre_b", "carac_nocturne", "carac_groupe"]},
+  {name:"Aigle royal",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_montagne", "classe_oiseau", "regime_carnivore", "taille_10k+", "lettre_a", "carac_ovipare", "carac_solitaire"]},
+  {name:"Cigogne",a:["cont_europe", "cont_afrique", "milieu_savane", "milieu_eau", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_ogne", "lettre_c", "carac_ovipare", "carac_migrateur"]},
+  {name:"Hibou",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "classe_oiseau", "regime_carnivore", "taille_1k+", "syl_ou", "lettre_h", "carac_nocturne", "carac_ovipare", "carac_solitaire"]},
+  {name:"Chauve-souris",a:["cont_europe", "cont_asie", "cont_amerique", "cont_afrique", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_1k+", "lettre_c", "carac_nocturne", "carac_volant"]},
+  {name:"Vipère",a:["cont_europe", "cont_asie", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_1k+", "syl_ere", "lettre_v", "carac_venimeux", "carac_ovipare", "carac_solitaire"]},
+  {name:"Chouette",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "classe_oiseau", "regime_carnivore", "taille_1k+", "syl_ette", "lettre_c", "carac_nocturne", "carac_ovipare", "carac_solitaire"]},
+  {name:"Chevrette",a:["cont_europe", "milieu_foret", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_ette", "lettre_c", "carac_groupe"]},
+  {name:"Marmotte",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_1k+", "syl_otte", "lettre_m", "carac_groupe"]},
+  {name:"Castor",a:["cont_europe", "cont_amerique", "milieu_eau", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_or", "lettre_c", "carac_groupe", "carac_nageur"]},
+  {name:"Loutre",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_eau", "classe_mammifere", "regime_carnivore", "taille_10k+", "lettre_l", "carac_nageur", "carac_menace"]},
+  {name:"Dauphin",a:["cont_europe", "cont_afrique", "cont_amerique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "syl_in", "lettre_d", "carac_groupe", "carac_nageur"]},
+  {name:"Baleine bleue",a:["cont_arctique", "cont_antarctique", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_1000k+", "lettre_b", "carac_menace", "carac_nageur", "carac_migrateur"]},
+  {name:"Grand requin blanc",a:["cont_afrique", "cont_amerique", "cont_oceanie", "milieu_mer", "classe_poisson", "regime_carnivore", "taille_1000k+", "lettre_g", "carac_solitaire", "carac_nageur", "carac_menace"]},
+  {name:"Raie manta",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_mer", "classe_poisson", "regime_carnivore", "taille_100k+", "lettre_r", "carac_nageur", "carac_migrateur", "carac_menace"]},
+  {name:"Méduse",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_mer", "classe_autre", "regime_carnivore", "taille_1k+", "lettre_m", "carac_venimeux", "carac_nageur"]},
+  {name:"Pieuvre",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_mer", "classe_autre", "regime_carnivore", "taille_10k+", "lettre_p", "carac_nageur", "carac_solitaire"]},
+  {name:"Hippocampe",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_mer", "classe_poisson", "regime_carnivore", "taille_1k+", "syl_ampe", "lettre_h", "carac_nageur", "carac_menace"]},
+  {name:"Tortue marine",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_mer", "classe_reptile", "regime_herbivore", "taille_100k+", "lettre_t", "carac_ovipare", "carac_nageur", "carac_menace", "carac_migrateur"]},
+  {name:"Clown (poisson)",a:["cont_asie", "cont_oceanie", "milieu_mer", "classe_poisson", "regime_omnivore", "taille_1k+", "syl_on", "lettre_c", "carac_nageur"]},
+  {name:"Phoque",a:["cont_arctique", "cont_europe", "milieu_mer", "classe_mammifere", "regime_carnivore", "taille_100k+", "lettre_p", "carac_nageur", "carac_groupe"]},
+  {name:"Calamar géant",a:["cont_arctique", "cont_antarctique", "milieu_mer", "classe_autre", "regime_carnivore", "taille_100k+", "lettre_c", "carac_nageur", "carac_solitaire"]},
+  {name:"Cheval",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Vache",a:["cont_europe", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_v", "carac_groupe", "carac_domestique"]},
+  {name:"Mouton",a:["cont_europe", "cont_oceanie", "milieu_montagne", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_on", "lettre_m", "carac_groupe", "carac_domestique"]},
+  {name:"Chèvre",a:["cont_europe", "cont_asie", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_evre", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Cochon",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_omnivore", "taille_100k+", "syl_on", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Chat",a:["cont_europe", "cont_asie", "milieu_foret", "classe_mammifere", "regime_carnivore", "taille_1k+", "lettre_c", "carac_nocturne", "carac_solitaire", "carac_domestique"]},
+  {name:"Chien",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_10k+", "syl_ien", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Lapin",a:["cont_europe", "milieu_foret", "classe_mammifere", "regime_herbivore", "taille_1k+", "syl_in", "lettre_l", "carac_groupe", "carac_domestique", "carac_ovipare"]},
+  {name:"Perroquet",a:["cont_amerique", "cont_asie", "cont_oceanie", "milieu_foret", "classe_oiseau", "regime_omnivore", "taille_1k+", "syl_et", "lettre_p", "carac_ovipare", "carac_arboricole", "carac_domestique"]},
+  {name:"Poule",a:["cont_europe", "cont_asie", "milieu_savane", "classe_oiseau", "regime_omnivore", "taille_1k+", "lettre_p", "carac_ovipare", "carac_groupe", "carac_domestique"]},
+  {name:"Canard",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_eau", "classe_oiseau", "regime_omnivore", "taille_1k+", "syl_ard", "lettre_c", "carac_ovipare", "carac_nageur", "carac_domestique", "carac_migrateur"]},
+  {name:"Abeille",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_foret", "classe_insecte", "regime_herbivore", "taille_1k+", "syl_eille", "lettre_a", "carac_venimeux", "carac_groupe", "carac_volant", "carac_domestique"]},
+  {name:"Ver de terre",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "classe_autre", "regime_omnivore", "taille_1k+", "lettre_v", "carac_solitaire"]},
+  {name:"Fourmi",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_foret", "classe_insecte", "regime_omnivore", "taille_1k+", "lettre_f", "carac_groupe", "carac_volant"]},
+  {name:"Papillon",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_foret", "classe_insecte", "regime_herbivore", "taille_1k+", "syl_on", "lettre_p", "carac_volant", "carac_migrateur"]},
+  {name:"Libellule",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_eau", "classe_insecte", "regime_carnivore", "taille_1k+", "syl_ule", "lettre_l", "carac_volant"]},
+  {name:"Moustique",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_eau", "classe_insecte", "regime_carnivore", "taille_1k+", "lettre_m", "carac_volant", "carac_venimeux"]},
+  {name:"Scarabée",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_foret", "milieu_savane", "classe_insecte", "regime_omnivore", "taille_1k+", "lettre_s", "carac_nocturne"]},
+  {name:"Sauterelle",a:["cont_europe", "cont_afrique", "cont_asie", "milieu_savane", "classe_insecte", "regime_herbivore", "taille_1k+", "syl_elle", "lettre_s", "carac_groupe", "carac_volant"]},
+  {name:"Araignée",a:["cont_europe", "cont_afrique", "cont_asie", "cont_amerique", "milieu_foret", "classe_autre", "regime_carnivore", "taille_1k+", "lettre_a", "carac_venimeux", "carac_solitaire"]},
+  {name:"Scorpion",a:["cont_afrique", "cont_asie", "cont_amerique", "milieu_desert", "classe_autre", "regime_carnivore", "taille_1k+", "syl_on", "lettre_s", "carac_venimeux", "carac_nocturne", "carac_solitaire"]},
+  {name:"Caméléon",a:["cont_afrique", "milieu_foret", "classe_reptile", "regime_carnivore", "taille_1k+", "syl_on", "lettre_c", "carac_ovipare", "carac_arboricole", "carac_solitaire"]},
+  {name:"Gecko",a:["cont_afrique", "cont_asie", "cont_oceanie", "milieu_foret", "milieu_desert", "classe_reptile", "regime_carnivore", "taille_1k+", "lettre_g", "carac_nocturne", "carac_ovipare"]},
+  {name:"Iguane",a:["cont_amerique", "milieu_foret", "classe_reptile", "regime_herbivore", "taille_10k+", "syl_ane", "lettre_i", "carac_ovipare", "carac_arboricole"]},
+  {name:"Tortue des Galápagos",a:["cont_amerique", "milieu_savane", "classe_reptile", "regime_herbivore", "taille_100k+", "lettre_t", "carac_ovipare", "carac_menace", "carac_solitaire"]},
+  {name:"Axolotl",a:["cont_amerique", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "lettre_a", "carac_menace"]},
+  {name:"Grenouille",a:["cont_europe", "cont_asie", "cont_amerique", "cont_afrique", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_ille", "lettre_g", "carac_ovipare", "carac_nageur"]},
+  {name:"Salamandre",a:["cont_europe", "cont_asie", "cont_amerique", "milieu_foret", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_andre", "lettre_s", "carac_nocturne", "carac_venimeux"]},
+  {name:"Crapaud",a:["cont_europe", "cont_afrique", "cont_amerique", "milieu_foret", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_aud", "lettre_c", "carac_nocturne", "carac_ovipare"]},
+  {name:"Triton",a:["cont_europe", "milieu_eau", "classe_amphibien", "regime_carnivore", "taille_1k+", "syl_on", "lettre_t", "carac_nageur", "carac_ovipare"]},
+  {name:"Suricate",a:["cont_afrique", "milieu_desert", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_1k+", "syl_ate", "lettre_s", "carac_groupe"]},
+  {name:"Fennec",a:["cont_afrique", "milieu_desert", "classe_mammifere", "regime_omnivore", "taille_1k+", "lettre_f", "carac_nocturne", "carac_solitaire"]},
+  {name:"Dromadaire",a:["cont_afrique", "cont_asie", "milieu_desert", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_aire", "lettre_d", "carac_groupe", "carac_domestique"]},
+  {name:"Chameau",a:["cont_asie", "milieu_desert", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_eau", "lettre_c", "carac_groupe", "carac_domestique"]},
+  {name:"Gazelle",a:["cont_afrique", "cont_asie", "milieu_savane", "milieu_desert", "classe_mammifere", "regime_herbivore", "taille_10k+", "syl_elle", "lettre_g", "carac_groupe", "carac_menace"]},
+  {name:"Gnou",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_ou", "lettre_g", "carac_groupe", "carac_migrateur"]},
+  {name:"Phacochère",a:["cont_afrique", "milieu_savane", "classe_mammifere", "regime_omnivore", "taille_100k+", "lettre_p", "carac_groupe"]},
+  {name:"Vautour",a:["cont_afrique", "cont_europe", "cont_asie", "milieu_montagne", "milieu_savane", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_our", "lettre_v", "carac_ovipare", "carac_volant", "carac_groupe"]},
+  {name:"Pélican",a:["cont_afrique", "cont_europe", "cont_asie", "milieu_eau", "classe_oiseau", "regime_carnivore", "taille_10k+", "syl_an", "lettre_p", "carac_ovipare", "carac_nageur", "carac_migrateur", "carac_groupe"]},
+  {name:"Macareux",a:["cont_arctique", "cont_europe", "milieu_mer", "classe_oiseau", "regime_carnivore", "taille_1k+", "lettre_m", "carac_ovipare", "carac_nageur", "carac_groupe"]},
+  {name:"Harfang des neiges",a:["cont_arctique", "milieu_montagne", "classe_oiseau", "regime_carnivore", "taille_10k+", "lettre_h", "carac_ovipare", "carac_solitaire", "carac_nocturne"]},
+  {name:"Renne",a:["cont_arctique", "cont_europe", "milieu_montagne", "classe_mammifere", "regime_herbivore", "taille_100k+", "lettre_r", "carac_groupe", "carac_migrateur", "carac_domestique"]},
+  {name:"Élan",a:["cont_arctique", "cont_europe", "cont_amerique", "milieu_foret", "milieu_eau", "classe_mammifere", "regime_herbivore", "taille_100k+", "syl_an", "lettre_e", "carac_solitaire", "carac_nageur"]}
+];
+
+
+function getDB(){
+  if(THEME==='foot') return PLAYERS;
+  if(THEME==='films') return FILMS;
+  if(THEME==='animaux') return ANIMAUX;
+  return VILLES;
+}
+
 const FILMS=[
   {name:"2001: L'Odyssée de l'espace",a:["dec_60","genre_sf","real_kubrick","pays_uk","note_9plus","dur_2h30plus","oscar_real"]},
   {name:"Le Parrain",a:["dec_70","genre_drame","real_coppola","pays_usa","note_9plus","dur_2h30plus","oscar_film","oscar_real"]},
@@ -538,62 +886,55 @@ const FILMS=[
   {name:"Oldboy",a:["dec_00","genre_thriller","real_parkch","pays_coree"]},
 ];
 
-// ── GRILLE DU JOUR — chargée depuis grilles.json ──
-let GRILLE = null;  // sera rempli après fetch
+// ── GRILLE DU JOUR ──
+let GRILLE = null;
 
-// ── ÉTAT ──────────────────────────────────────
-const TODAY = new Date().toISOString().slice(0, 10); // format YYYY-MM-DD
+// ── ÉTAT ──
+const TODAY = new Date().toISOString().slice(0,10);
 const G={
   score:0, errors:0, maxErr:3,
   found:Array(9).fill(null),
   used:new Set(),
   cell:null, over:false,
-  streak:+localStorage.getItem('fg_s')||0,
-  lastPlayed:localStorage.getItem('fg_lp')||'',
+  streak:0, lastPlayed:'',
 };
 
-// ── LOGIQUE ───────────────────────────────────
+// ── LOGIQUE ──
 function match(p,id){
   return id.startsWith('pos_') ? p.pos===id.slice(4) : p.a.includes(id);
 }
 function matchCell(p,r,c){return match(p,r)&&match(p,c)}
 
-// VC : joueurs valides par case, construit depuis grilles.json
-// Format : VC[idx] = ["Zidane", "Henry", ...] — noms uniquement
-// On retrouve l'objet joueur via PLAYERS
 let VC={};
 
 function buildVC(){
-  const db = getDB();
+  const db=getDB();
   for(let i=0;i<9;i++){
-    const names = GRILLE.cellules[String(i)] || [];
-    VC[i] = names.map(n => db.find(p=>p.name===n)).filter(Boolean);
+    const names=GRILLE.cellules[String(i)]||[];
+    VC[i]=names.map(n=>db.find(p=>p.name===n)).filter(Boolean);
   }
 }
 
 function scoreFor(idx){
   const n=VC[idx].length;
-  const pts=Math.round(Math.max(5,Math.min(100,280/n)))+15;
-  return pts;
+  return Math.round(Math.max(5,Math.min(100,280/n)))+15;
 }
 
-// ── BUILD GRILLE ──────────────────────────────
+// ── BUILD GRILLE ──
 function buildGrid(){
   const el=document.getElementById('grid');
   el.innerHTML='';
-  el.appendChild(el.appendChild(Object.assign(document.createElement('div'),{className:'corner'})));
-
+  el.appendChild(Object.assign(document.createElement('div'),{className:'corner'}));
   GRILLE.colonnes.forEach(col=>{
     const h=document.createElement('div');
     h.className='cat-h col-bg';
-    h.innerHTML=`<div class="cat-icon">${col.icon}</div><div class="cat-label">${col.label}</div><div class="cat-sub">${col.sub}</div>`;
+    h.innerHTML=`<div class="cat-icon">${col.icon}</div><div class="cat-label">${col.label}</div><div class="cat-sub">${col.sub||''}</div>`;
     el.appendChild(h);
   });
-
   GRILLE.lignes.forEach((row,ri)=>{
     const rh=document.createElement('div');
     rh.className='cat-h row-h row-bg';
-    rh.innerHTML=`<div class="cat-icon">${row.icon}</div><div class="cat-label">${row.label}</div><div class="cat-sub">${row.sub}</div>`;
+    rh.innerHTML=`<div class="cat-icon">${row.icon}</div><div class="cat-label">${row.label}</div><div class="cat-sub">${row.sub||''}</div>`;
     el.appendChild(rh);
     GRILLE.colonnes.forEach((col,ci)=>{
       const idx=ri*3+ci;
@@ -615,7 +956,7 @@ function refreshCell(idx){
     const rare=f.vc<=4;
     el.className='cell filled';el.onclick=null;
     el.innerHTML=`<div class="cell-name">${f.player.name}</div>
-      <div class="cell-pct${rare?' rare':''}">${rare?'⭐ Rare · ':''}${f.pct}% ${THEME==='foot'?'des joueurs':THEME==='films'?'des cinéphiles':'des réponses'}</div>
+      <div class="cell-pct${rare?' rare':''}">${rare?'⭐ Rare · ':''}${f.pct}% ${THEME==='foot'?'des joueurs':THEME==='films'?'des cinéphiles':THEME==='animaux'?'des joueurs':'des réponses'}</div>
       <div class="rarity-bar" style="width:${f.pct}%"></div>`;
   } else if(G.over){
     el.className='cell done';el.onclick=null;
@@ -627,23 +968,20 @@ function refreshAll(){
   const n=founds.length;
   document.getElementById('scoreN').innerHTML=`${G.score} <small>/ 900</small>`;
   let rarest='—';
-  if(founds.length){
-    const r=founds.reduce((a,b)=>a.vc<b.vc?a:b);
-    rarest=r.player.name;
-  }
-  const itemLabel = THEME==='foot' ? 'Joueur le plus rare' : THEME==='films' ? 'Film le plus rare' : 'Réponse la plus rare';
+  if(founds.length){const r=founds.reduce((a,b)=>a.vc<b.vc?a:b);rarest=r.player.name;}
+  const itemLabel=THEME==='foot'?'Joueur le plus rare':THEME==='films'?'Film le plus rare':THEME==='animaux'?'Animal le plus rare':'Réponse la plus rare';
   document.getElementById('progLbl').textContent=`${n} / 9 cases · ${itemLabel} : ${rarest}`;
   for(let i=0;i<9;i++)refreshCell(i);
 }
 
-// ── SEARCH ────────────────────────────────────
+// ── SEARCH ──
 function openCell(idx,ri,ci){
   if(G.over||G.found[idx]||G.errors>=G.maxErr)return;
   G.cell={idx,ri,ci};
   const row=GRILLE.lignes[ri],col=GRILLE.colonnes[ci];
   const n=VC[idx].length;
   document.getElementById('mctx').innerHTML=
-    `<strong>${row.icon} ${row.label} ${row.sub}</strong> &times; <strong>${col.icon} ${col.label} ${col.sub}</strong>`;
+    `<strong>${row.icon} ${row.label}</strong> &times; <strong>${col.icon} ${col.label}</strong>`;
   document.getElementById('sinput').value='';
   document.getElementById('results').innerHTML='';
   document.getElementById('rcnt').textContent=`${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
@@ -666,9 +1004,8 @@ document.getElementById('sinput').addEventListener('input',function(){
     rcnt.textContent=`${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
     return;
   }
-  const row=GRILLE.lignes[G.cell.ri],col=GRILLE.colonnes[G.cell.ci];
   const matches=getDB().filter(p=>p.name.toLowerCase().includes(q)).slice(0,8);
-  const itemWord = THEME==='foot' ? 'joueur' : THEME==='films' ? 'film' : THEME.startsWith('villes') ? 'ville' : 'entrée';
+  const itemWord=THEME==='foot'?'joueur':THEME==='films'?'film':THEME==='animaux'?'animal':'ville';
   rcnt.textContent=`${matches.length} ${itemWord}${matches.length>1?'s':''} · ${n} réponse${n>1?'s':''} valide${n>1?'s':''} dans cette case`;
   if(!matches.length){
     document.getElementById('results').innerHTML=`<div class="no-res">Aucun résultat pour "${this.value}"</div>`;
@@ -677,12 +1014,12 @@ document.getElementById('sinput').addEventListener('input',function(){
   document.getElementById('results').innerHTML=matches.map(p=>{
     const used=G.used.has(p.name);
     const ini=p.name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
-    const nameE=p.name.replace(/'/g,"\\'");
+    const nameE=p.name.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
     return `<div class="ri${used?' used':''}" onclick="${used?'':(`pick('${nameE}')`)}">
       <div class="av">${ini}</div>
       <div class="ri-info">
         <div class="ri-name">${p.name}</div>
-        <div class="ri-meta">${p.pos?cap(p.pos):THEME==='films'?'Film':THEME.startsWith('villes')?'Ville':'Entrée'}${used?' · Déjà utilisé':''}</div>
+        <div class="ri-meta">${p.pos?cap(p.pos):THEME==='films'?'Film':THEME==='animaux'?'Animal':(THEME==='foot'?'Joueur':'Ville')}${used?' · Déjà utilisé':''}</div>
       </div>
     </div>`;
   }).join('');
@@ -691,14 +1028,18 @@ document.getElementById('sinput').addEventListener('input',function(){
 document.getElementById('sinput').addEventListener('keydown',e=>{if(e.key==='Escape')closeSrch()});
 document.getElementById('ovSearch').addEventListener('click',e=>{if(e.target===e.currentTarget)closeSrch()});
 
-// ── PICK ──────────────────────────────────────
+// ── PICK — CORRECTIF BUG 5 : validation via VC (grille précalculée) au lieu de matchCell ──
 function pick(name){
   if(!G.cell)return;
-  const {idx,ri,ci}=G.cell;
+  const {idx}=G.cell;
   const player=getDB().find(p=>p.name===name);
   if(!player)return;
-  const row=GRILLE.lignes[ri],col=GRILLE.colonnes[ci];
-  if(!matchCell(player,row.id,col.id)){
+
+  // On vérifie directement dans la liste précalculée du JSON
+  // au lieu de recalculer avec matchCell (qui pouvait diverger)
+  const isValid = VC[idx].some(p=>p.name===name);
+
+  if(!isValid){
     G.errors++;
     document.getElementById(`d${G.errors-1}`).classList.add('on');
     showToast(`❌ ${name} ne correspond pas`,'err');
@@ -707,7 +1048,6 @@ function pick(name){
   }
   const pts=scoreFor(idx);
   const vc=VC[idx].length;
-  // Simule le % de joueurs ayant choisi ce joueur (en prod : données serveur)
   const pct=Math.max(3,Math.min(85,Math.floor(Math.random()*50)+5));
   G.score=Math.min(900,G.score+pts);
   G.found[idx]={player,vc,pct};
@@ -718,7 +1058,7 @@ function pick(name){
   if(G.found.every(Boolean))setTimeout(()=>endGame(true),450);
 }
 
-// ── FIN ───────────────────────────────────────
+// ── FIN ──
 function endGame(won){
   G.over=true;
   const fn=G.found.filter(Boolean).length;
@@ -742,7 +1082,7 @@ function endGame(won){
 }
 function closeEnd(){document.getElementById('ovEnd').classList.remove('open')}
 
-// ── SOLUTIONS ─────────────────────────────────
+// ── SOLUTIONS ──
 function openSol(){
   const sg=document.getElementById('sgrid');
   sg.innerHTML='';
@@ -753,7 +1093,7 @@ function openSol(){
       const chosen=G.found[idx];
       const div=document.createElement('div');
       div.className='scell';
-      div.innerHTML=`<div class="scell-h">${row.sub} × ${col.sub}</div>`
+      div.innerHTML=`<div class="scell-h">${row.label} × ${col.label}</div>`
         +vs.slice(0,8).map(p=>{
           const ok=chosen&&chosen.player.name===p.name;
           return `<div class="sp${ok?' chosen':''}"><span>${p.name}</span><span class="sp-pct">${ok?chosen.pct+'%':''}</span></div>`;
@@ -767,21 +1107,21 @@ function openSol(){
 function closeSol(){document.getElementById('ovSol').classList.remove('open')}
 document.getElementById('ovSol').addEventListener('click',e=>{if(e.target===e.currentTarget)closeSol()});
 
-// ── ABANDON ───────────────────────────────────
+// ── ABANDON ──
 function tryAbandon(){if(!G.over)document.getElementById('ovAbandon').classList.add('open')}
 function closeAbandon(){document.getElementById('ovAbandon').classList.remove('open')}
 function confirmAbandon(){closeAbandon();G.over=true;refreshAll();setTimeout(()=>endGame(false),200)}
 
-// ── PARTAGE ───────────────────────────────────
+// ── PARTAGE ──
 function shareResult(){
   const fn=G.found.filter(Boolean).length;
   const rows=G.found.map(f=>f?'🟩':'⬛').join('').match(/.{3}/g).join('\n');
-  const txt=`FootGrille — ${new Date().toLocaleDateString('fr-FR')}\n${G.score}/900 · ${fn}/9 · ${G.errors} erreur${G.errors>1?'s':''}\n\n${rows}\n\nfootgrille.fr`;
+  const txt=`DOKU — ${new Date().toLocaleDateString('fr-FR')}\n${G.score}/900 · ${fn}/9 · ${G.errors} erreur${G.errors>1?'s':''}\n\n${rows}\n\ndoku-mu.vercel.app`;
   if(navigator.share){navigator.share({text:txt}).catch(()=>{})}
   else{navigator.clipboard.writeText(txt).then(()=>showToast('📋 Copié !','ok'))}
 }
 
-// ── ARCHIVES ──────────────────────────────────
+// ── ARCHIVES ──
 function saveArch(){
   const a=JSON.parse(localStorage.getItem('fg_arch_'+THEME)||'[]');
   if(!a.find(x=>x.date===TODAY)){
@@ -792,14 +1132,14 @@ function saveArch(){
 function renderArch(){
   const a=JSON.parse(localStorage.getItem('fg_arch_'+THEME)||'[]');
   const el=document.getElementById('archList');
-  if(!a.length){el.innerHTML=`<div style="color:var(--text2);font-size:13px;padding:16px 0">Aucune partie encore jouée. Les archives apparaissent après votre première partie.</div>`;return}
+  if(!a.length){el.innerHTML=`<div style="color:var(--text2);font-size:13px;padding:16px 0">Aucune partie encore jouée.</div>`;return}
   el.innerHTML=a.map(x=>`<div class="arch-entry">
     <div><div class="arch-date">${x.date}</div><div class="arch-meta">${x.found}/9 cases · ${x.errors} erreur${x.errors>1?'s':''}</div></div>
     <div class="arch-score">${x.score}</div>
   </div>`).join('');
 }
 
-// ── NAVIGATION ────────────────────────────────
+// ── NAVIGATION ──
 function showView(v){
   document.getElementById('vGame').style.display=v==='game'?'':'none';
   document.getElementById('vArchives').style.display=v==='archives'?'':'none';
@@ -807,7 +1147,7 @@ function showView(v){
   if(v==='archives')renderArch();
 }
 
-// ── TOAST ─────────────────────────────────────
+// ── TOAST ──
 let tt;
 function showToast(msg,type=''){
   const t=document.getElementById('toast');
@@ -816,80 +1156,44 @@ function showToast(msg,type=''){
 }
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 
-// ── INIT ──────────────────────────────────────
-
-// Lien retour accueil
-const backLink = document.getElementById('backLink');
-if(backLink) backLink.style.display = 'flex';
+// ── INIT ──
+const backLink=document.getElementById('backLink');
+if(backLink)backLink.style.display='flex';
 
 document.getElementById('dateLbl').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'});
-const placeholders = {foot:"Tapez le nom d'un joueur...", films:"Tapez le nom d'un film...", default:"Tapez votre réponse..."};
-document.getElementById('sinput').placeholder = placeholders[THEME] || placeholders.default;
 
-// Streak par thème
-G.streak = +localStorage.getItem('fg_s_'+THEME) || 0;
-G.lastPlayed = localStorage.getItem('fg_lp_'+THEME) || '';
+const placeholders={foot:"Tapez le nom d'un joueur...",films:"Tapez le nom d'un film...",animaux:"Tapez le nom d'un animal...",default:"Tapez le nom d'une ville..."};
+document.getElementById('sinput').placeholder=placeholders[THEME]||placeholders.default;
+
+G.streak=+localStorage.getItem('fg_s_'+THEME)||0;
+G.lastPlayed=localStorage.getItem('fg_lp_'+THEME)||'';
 document.getElementById('streakNum').textContent=G.streak;
 
 async function init(){
   const grid=document.getElementById('grid');
-
-  // Affichage d'un loader pendant le chargement
   grid.style.opacity='0.4';
   document.getElementById('progLbl').textContent='Chargement de la grille...';
-
-  try {
-// Charger les entrées du thème et les grilles en parallèle
-    const [entriesRes, grillesRes] = await Promise.all([
-      fetch('data/' + THEME + '/entries.json'),
-      fetch(THEME_JSON)
-    ]);
-    if(!entriesRes.ok) throw new Error('entries.json introuvable pour ' + THEME);
-    if(!grillesRes.ok) throw new Error(THEME_JSON + ' introuvable');
-
-    DB = await entriesRes.json();
-    const grilles = await grillesRes.json();
-    const grille = grilles.find(g => g.date === TODAY);
+  try{
+    const res=await fetch(THEME_JSON);
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const grilles=await res.json();
+    const grille=grilles.find(g=>g.date===TODAY);
     if(!grille){
-      document.getElementById('progLbl').textContent='Aucune grille disponible pour aujourd\'hui.';
-      grid.style.opacity='1';
+      document.getElementById('progLbl').textContent="Aucune grille disponible pour aujourd'hui.";
       return;
     }
-    GRILLE = {
-      lignes:   grille.lignes.map(l=>({id:l.id, label:l.label, sub:l.label, icon:l.icon})),
-      colonnes: grille.colonnes.map(c=>({id:c.id, label:c.label, sub:c.label, icon:c.icon})),
-      cellules: grille.cellules,
+    GRILLE={
+      lignes:  grille.lignes.map(l=>({id:l.id,label:l.label,sub:l.label,icon:l.icon})),
+      colonnes:grille.colonnes.map(c=>({id:c.id,label:c.label,sub:c.label,icon:c.icon})),
+      cellules:grille.cellules,
     };
     buildVC();
     grid.style.opacity='1';
     buildGrid();
-
-  } catch(e) {
-    // Fallback : grille de secours codée en dur si grilles.json est absent
-    // (utile pour tester en local en ouvrant le HTML directement sans serveur)
-    console.warn('grilles.json non trouvé, utilisation de la grille de secours :', e.message);
-    GRILLE = {
-      lignes:[
-        {id:"ch98", label:"Champion du Monde 1998", sub:"Champion du Monde 1998", icon:"🏆"},
-        {id:"pl",   label:"Premier League",          sub:"Premier League",          icon:"🏴󠁧󠁢󠁥󠁮󠁧󠁿"},
-        {id:"d10",  label:"Actif dans les années 2010", sub:"Actif dans les années 2010", icon:"📅"},
-      ],
-      colonnes:[
-        {id:"liga",          label:"La Liga",              sub:"La Liga",              icon:"🇪🇸"},
-        {id:"teu",           label:"Vainqueur Coupe Europe",sub:"Vainqueur Coupe Europe",icon:"🌟"},
-        {id:"pos_attaquant", label:"Attaquant",            sub:"Attaquant",            icon:"⚡"},
-      ],
-      cellules: null, // sera calculé à la volée
-    };
-    // Calcul à la volée si pas de cellules dans grilles.json
-    const db=getDB();
-    for(let ri=0;ri<3;ri++) for(let ci=0;ci<3;ci++){
-      const idx=ri*3+ci;
-      VC[idx]=db.filter(p=>matchCell(p,GRILLE.lignes[ri].id,GRILLE.colonnes[ci].id));
-    }
+  }catch(e){
+    console.warn('Erreur chargement grille:',e.message);
+    document.getElementById('progLbl').textContent='Erreur de chargement. Rechargez la page.';
     grid.style.opacity='1';
-    buildGrid();
-    showToast('⚠️ Grille de secours chargée','');
   }
 }
 
