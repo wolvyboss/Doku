@@ -1,0 +1,380 @@
+[
+  {
+    "id": "pop_500k+",
+    "label": "Plus de 500 000 habitants",
+    "icon": "🏙️",
+    "famille": "population"
+  },
+  {
+    "id": "pop_100k+",
+    "label": "Plus de 100 000 habitants",
+    "icon": "🏙️",
+    "famille": "population"
+  },
+  {
+    "id": "pop_50k+",
+    "label": "Plus de 50 000 habitants",
+    "icon": "🏘️",
+    "famille": "population"
+  },
+  {
+    "id": "pop_20k+",
+    "label": "Plus de 20 000 habitants",
+    "icon": "🏘️",
+    "famille": "population"
+  },
+  {
+    "id": "pop_10k+",
+    "label": "Plus de 10 000 habitants",
+    "icon": "🏡",
+    "famille": "population"
+  },
+  {
+    "id": "reg_idf",
+    "label": "Île-de-France",
+    "icon": "🗼",
+    "famille": "region"
+  },
+  {
+    "id": "reg_ara",
+    "label": "Auvergne-Rhône-Alpes",
+    "icon": "⛰️",
+    "famille": "region"
+  },
+  {
+    "id": "reg_paca",
+    "label": "PACA",
+    "icon": "☀️",
+    "famille": "region"
+  },
+  {
+    "id": "reg_occ",
+    "label": "Occitanie",
+    "icon": "🌻",
+    "famille": "region"
+  },
+  {
+    "id": "reg_naq",
+    "label": "Nouvelle-Aquitaine",
+    "icon": "🍷",
+    "famille": "region"
+  },
+  {
+    "id": "reg_gest",
+    "label": "Grand Est",
+    "icon": "🥨",
+    "famille": "region"
+  },
+  {
+    "id": "reg_hdf",
+    "label": "Hauts-de-France",
+    "icon": "🌾",
+    "famille": "region"
+  },
+  {
+    "id": "reg_nor",
+    "label": "Normandie",
+    "icon": "🐄",
+    "famille": "region"
+  },
+  {
+    "id": "reg_bre",
+    "label": "Bretagne",
+    "icon": "⚓",
+    "famille": "region"
+  },
+  {
+    "id": "reg_pdl",
+    "label": "Pays de la Loire",
+    "icon": "🏰",
+    "famille": "region"
+  },
+  {
+    "id": "reg_cvl",
+    "label": "Centre-Val de Loire",
+    "icon": "🏰",
+    "famille": "region"
+  },
+  {
+    "id": "reg_bfc",
+    "label": "Bourgogne-Franche-Comté",
+    "icon": "🍇",
+    "famille": "region"
+  },
+  {
+    "id": "reg_cor",
+    "label": "Corse",
+    "icon": "🌴",
+    "famille": "region"
+  },
+  {
+    "id": "reg_reunion",
+    "label": "La Réunion",
+    "icon": "🌋",
+    "famille": "region"
+  },
+  {
+    "id": "reg_mart",
+    "label": "Martinique",
+    "icon": "🌴",
+    "famille": "region"
+  },
+  {
+    "id": "reg_guad",
+    "label": "Guadeloupe",
+    "icon": "🌺",
+    "famille": "region"
+  },
+  {
+    "id": "reg_guy",
+    "label": "Guyane",
+    "icon": "🌿",
+    "famille": "region"
+  },
+  {
+    "id": "ligue1",
+    "label": "Club en Ligue 1",
+    "icon": "⚽",
+    "famille": "foot"
+  },
+  {
+    "id": "ligue2",
+    "label": "Club en Ligue 2",
+    "icon": "🥈",
+    "famille": "foot"
+  },
+  {
+    "id": "port_maritime",
+    "label": "Port maritime",
+    "icon": "⚓",
+    "famille": "maritime"
+  },
+  {
+    "id": "fleuve_seine",
+    "label": "Traversée par la Seine",
+    "icon": "🌊",
+    "famille": "fleuve"
+  },
+  {
+    "id": "fleuve_loire",
+    "label": "Traversée par la Loire",
+    "icon": "🌊",
+    "famille": "fleuve"
+  },
+  {
+    "id": "fleuve_rhone",
+    "label": "Traversée par le Rhône",
+    "icon": "🌊",
+    "famille": "fleuve"
+  },
+  {
+    "id": "fleuve_garonne",
+    "label": "Traversée par la Garonne",
+    "icon": "🌊",
+    "famille": "fleuve"
+  },
+  {
+    "id": "fleuve_rhin",
+    "label": "Traversée par le Rhin",
+    "icon": "🌊",
+    "famille": "fleuve"
+  },
+  {
+    "id": "station_ski",
+    "label": "Station de ski",
+    "icon": "⛷️",
+    "famille": "tourisme"
+  },
+  {
+    "id": "station_balneaire",
+    "label": "Station balnéaire",
+    "icon": "🏖️",
+    "famille": "tourisme"
+  },
+  {
+    "id": "ville_thermale",
+    "label": "Ville thermale",
+    "icon": "💧",
+    "famille": "tourisme"
+  },
+  {
+    "id": "patrimoine_unesco",
+    "label": "Patrimoine UNESCO",
+    "icon": "🏛️",
+    "famille": "patrimoine"
+  },
+  {
+    "id": "metro",
+    "label": "Réseau de métro",
+    "icon": "🚇",
+    "famille": "transport"
+  },
+  {
+    "id": "tgv",
+    "label": "Gare TGV",
+    "icon": "🚄",
+    "famille": "transport"
+  },
+  {
+    "id": "dom_tom",
+    "label": "DOM-TOM",
+    "icon": "🌴",
+    "famille": "dom_tom"
+  },
+  {
+    "id": "lettre_a",
+    "label": "Commence par A",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_b",
+    "label": "Commence par B",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_c",
+    "label": "Commence par C",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_d",
+    "label": "Commence par D",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_e",
+    "label": "Commence par E",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_f",
+    "label": "Commence par F",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_g",
+    "label": "Commence par G",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_l",
+    "label": "Commence par L",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_m",
+    "label": "Commence par M",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_n",
+    "label": "Commence par N",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_p",
+    "label": "Commence par P",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_r",
+    "label": "Commence par R",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_s",
+    "label": "Commence par S",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_t",
+    "label": "Commence par T",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_v",
+    "label": "Commence par V",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "fin_on",
+    "label": "Se termine en '-on'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_es",
+    "label": "Se termine en '-es'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ille",
+    "label": "Se termine en '-ille'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ais",
+    "label": "Se termine en '-ais'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ens",
+    "label": "Se termine en '-ens'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_an",
+    "label": "Se termine en '-an'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ois",
+    "label": "Se termine en '-ois'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ers",
+    "label": "Se termine en '-ers'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_aux",
+    "label": "Se termine en '-aux'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ours",
+    "label": "Se termine en '-ours'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_eau",
+    "label": "Se termine en '-eau'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  }
+]

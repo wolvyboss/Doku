@@ -1,0 +1,97 @@
+[
+  {
+    "id": "foot",
+    "label": "Équipe de France",
+    "description": "Les Bleus depuis 1998. Clubs, palmarès, postes, compétitions.",
+    "icon": "⚽",
+    "emoji_card": "⚽",
+    "active": true,
+    "premium": false,
+    "seuil": 3,
+    "seed_offset": 0,
+    "familles_strictes": [
+      "cdm",
+      "euro",
+      "ligue",
+      "decennie",
+      "poste",
+      "selections"
+    ],
+    "categories_chips": [
+      "Clubs",
+      "Compétitions",
+      "Postes",
+      "Décennies"
+    ]
+  },
+  {
+    "id": "villes-casu",
+    "label": "Villes de France",
+    "description": "136 grandes villes. Régions, population, clubs, fleuves, tourisme.",
+    "icon": "🗺️",
+    "emoji_card": "🗺️",
+    "active": true,
+    "premium": false,
+    "seuil": 2,
+    "seed_offset": 1,
+    "familles_strictes": [
+      "population",
+      "region",
+      "fleuve",
+      "foot",
+      "transport"
+    ],
+    "categories_chips": [
+      "Régions",
+      "Population",
+      "Ligue 1",
+      "Fleuves"
+    ]
+  },
+  {
+    "id": "villes-expert",
+    "label": "Villes de France — Expert",
+    "description": "157 villes dont les petites communes. Pour les vrais géographes.",
+    "icon": "🧭",
+    "emoji_card": "🧭",
+    "active": true,
+    "premium": false,
+    "seuil": 2,
+    "seed_offset": 2,
+    "familles_strictes": [
+      "population",
+      "region",
+      "fleuve",
+      "foot",
+      "transport"
+    ],
+    "categories_chips": [
+      "Stations ski",
+      "Thermalisme",
+      "DOM-TOM"
+    ]
+  },
+  {
+    "id": "films",
+    "label": "Films Cultes",
+    "description": "282 chefs-d'œuvre. Réalisateurs, pays, Oscars, box-office, franchises.",
+    "icon": "🎬",
+    "emoji_card": "🎬",
+    "active": true,
+    "premium": false,
+    "seuil": 2,
+    "seed_offset": 3,
+    "familles_strictes": [
+      "decennie",
+      "genre",
+      "pays",
+      "langue"
+    ],
+    "categories_chips": [
+      "Réalisateurs",
+      "Oscars",
+      "Box-office",
+      "Décennies"
+    ]
+  }
+]
