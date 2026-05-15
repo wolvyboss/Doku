@@ -1,0 +1,9122 @@
+[
+  {
+    "date": "2026-05-14",
+    "theme": "animaux",
+    "difficulte": 0.48,
+    "stats": {
+      "moyenne": 10.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_f",
+        "label": "Commence par F",
+        "icon": "🔡"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Fourmilier",
+        "Fennec"
+      ],
+      "1": [
+        "Flamant rose",
+        "Fourmi"
+      ],
+      "2": [
+        "Fourmilier",
+        "Fourmi"
+      ],
+      "3": [
+        "Hyène",
+        "Chimpanzé",
+        "Kangourou",
+        "Ours brun",
+        "Élan",
+        "Gorille",
+        "Yak",
+        "Cochon",
+        "Guépard",
+        "Zèbre",
+        "Lama",
+        "Tapir",
+        "Tigre",
+        "Léopard de mer",
+        "Vache",
+        "Phoque",
+        "Dromadaire",
+        "Gnou",
+        "Lion",
+        "Cerf",
+        "Panda géant",
+        "Alpaga",
+        "Dauphin",
+        "Orang-outan",
+        "Ours polaire",
+        "Okapi",
+        "Chameau",
+        "Morse",
+        "Phacochère",
+        "Cheval",
+        "Jaguar",
+        "Renne",
+        "Léopard",
+        "Sanglier"
+      ],
+      "4": [
+        "Sanglier",
+        "Cerf",
+        "Renne",
+        "Ours brun",
+        "Cheval",
+        "Dauphin",
+        "Élan",
+        "Vache",
+        "Phoque",
+        "Cochon"
+      ],
+      "5": [
+        "Caïman",
+        "Sanglier",
+        "Chimpanzé",
+        "Tapir",
+        "Tigre",
+        "Cerf",
+        "Panda géant",
+        "Ours brun",
+        "Anaconda",
+        "Élan",
+        "Orang-outan",
+        "Jaguar",
+        "Gorille",
+        "Okapi",
+        "Léopard",
+        "Cochon"
+      ],
+      "6": [
+        "Orque",
+        "Ornithorynque",
+        "Tapir",
+        "Tigre",
+        "Loutre",
+        "Léopard de mer",
+        "Baleine bleue",
+        "Dauphin",
+        "Élan",
+        "Jaguar",
+        "Ours polaire",
+        "Castor",
+        "Phoque"
+      ],
+      "7": [
+        "Triton",
+        "Hippocampe",
+        "Macareux",
+        "Méduse",
+        "Loutre",
+        "Pieuvre",
+        "Grenouille",
+        "Dauphin",
+        "Canard",
+        "Élan",
+        "Pélican",
+        "Castor",
+        "Phoque"
+      ],
+      "8": [
+        "Tapir",
+        "Tigre",
+        "Anaconda",
+        "Élan",
+        "Jaguar"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-15",
+    "theme": "animaux",
+    "difficulte": 0.64,
+    "stats": {
+      "moyenne": 8.3,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "carac_domestique",
+        "label": "Peut être domestiqué",
+        "icon": "🏠"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      },
+      {
+        "id": "syl_on",
+        "label": "Contient '-on'",
+        "icon": "🔤"
+      },
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hyène",
+        "Chimpanzé",
+        "Kangourou",
+        "Gorille",
+        "Yak",
+        "Cochon",
+        "Zèbre",
+        "Lama",
+        "Vache",
+        "Phoque",
+        "Dromadaire",
+        "Gnou",
+        "Lion",
+        "Cerf",
+        "Alpaga",
+        "Dauphin",
+        "Chameau",
+        "Morse",
+        "Phacochère",
+        "Cheval",
+        "Renne",
+        "Sanglier"
+      ],
+      "1": [
+        "Lion",
+        "Cochon"
+      ],
+      "2": [
+        "Lama",
+        "Ours brun",
+        "Alpaga",
+        "Ours polaire",
+        "Renne",
+        "Yak"
+      ],
+      "3": [
+        "Dromadaire",
+        "Abeille",
+        "Lapin",
+        "Poule",
+        "Mouton",
+        "Chèvre",
+        "Cheval",
+        "Alpaga",
+        "Chien",
+        "Vache",
+        "Renne",
+        "Chameau",
+        "Cochon"
+      ],
+      "4": [
+        "Mouton",
+        "Cochon"
+      ],
+      "5": [
+        "Chèvre",
+        "Alpaga",
+        "Renne",
+        "Mouton"
+      ],
+      "6": [
+        "Éléphant d'Asie",
+        "Macaque",
+        "Sanglier",
+        "Blaireau",
+        "Abeille",
+        "Chimpanzé",
+        "Mandrill",
+        "Chevrette",
+        "Cerf",
+        "Fourmi",
+        "Chien",
+        "Cacatoès",
+        "Gorille",
+        "Loup",
+        "Lapin",
+        "Cochon"
+      ],
+      "7": [
+        "Paon",
+        "Hérisson",
+        "Gibbon",
+        "Caméléon",
+        "Python",
+        "Papillon",
+        "Cochon"
+      ],
+      "8": [
+        "Ours brun",
+        "Loup",
+        "Chevrette"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-16",
+    "theme": "animaux",
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne": 6.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔡"
+      },
+      {
+        "id": "classe_amphibien",
+        "label": "Amphibien",
+        "icon": "🐸"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Caïman",
+        "Lama",
+        "Tapir",
+        "Raie manta",
+        "Anaconda",
+        "Alpaga",
+        "Dauphin",
+        "Élan",
+        "Cheval",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Tortue marine",
+        "Crocodile"
+      ],
+      "1": [
+        "Caïman",
+        "Tortue des Galápagos",
+        "Komodo",
+        "Tortue marine",
+        "Autruche",
+        "Crocodile"
+      ],
+      "2": [
+        "Guépard",
+        "Caïman",
+        "Hyène",
+        "Jaguar",
+        "Tigre",
+        "Lion",
+        "Léopard de mer",
+        "Calamar géant",
+        "Raie manta",
+        "Anaconda",
+        "Dauphin",
+        "Komodo",
+        "Ours polaire",
+        "Phoque",
+        "Léopard",
+        "Crocodile",
+        "Morse"
+      ],
+      "3": [
+        "Tapir",
+        "Tortue des Galápagos",
+        "Toucan",
+        "Tatou",
+        "Tortue marine"
+      ],
+      "4": [
+        "Triton",
+        "Tortue des Galápagos",
+        "Toucan",
+        "Tatou",
+        "Tortue marine"
+      ],
+      "5": [
+        "Tigre",
+        "Triton"
+      ],
+      "6": [
+        "Grenouille",
+        "Salamandre",
+        "Crapaud",
+        "Axolotl"
+      ],
+      "7": [
+        "Grenouille",
+        "Triton",
+        "Crapaud"
+      ],
+      "8": [
+        "Triton",
+        "Salamandre",
+        "Crapaud",
+        "Grenouille",
+        "Axolotl"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-17",
+    "theme": "animaux",
+    "difficulte": 0.84,
+    "stats": {
+      "moyenne": 5.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔡"
+      },
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Chimpanzé",
+        "Orang-outan",
+        "Gibbon",
+        "Renard arctique"
+      ],
+      "1": [
+        "Fennec",
+        "Ours brun",
+        "Renard roux",
+        "Ver de terre",
+        "Hérisson"
+      ],
+      "2": [
+        "Chimpanzé",
+        "Ours brun",
+        "Gibbon",
+        "Cochon",
+        "Scarabée",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Tatou",
+        "Mandrill",
+        "Macaque",
+        "Paon",
+        "Blaireau",
+        "Orang-outan",
+        "Toucan",
+        "Perroquet",
+        "Renard roux",
+        "Hérisson",
+        "Sanglier"
+      ],
+      "3": [
+        "Lynx",
+        "Lycaon",
+        "Léopard",
+        "Loutre"
+      ],
+      "4": [
+        "Lynx",
+        "Loup",
+        "Léopard de mer"
+      ],
+      "5": [
+        "Lynx",
+        "Loup",
+        "Léopard",
+        "Lapin"
+      ],
+      "6": [
+        "Tortue marine",
+        "Tapir",
+        "Tigre",
+        "Tortue des Galápagos"
+      ],
+      "7": [
+        "Tigre",
+        "Tortue des Galápagos"
+      ],
+      "8": [
+        "Toucan",
+        "Tatou",
+        "Tapir",
+        "Tigre"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "theme": "animaux",
+    "difficulte": 0.24,
+    "stats": {
+      "moyenne": 14.3,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "lettre_v",
+        "label": "Commence par V",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Chevrette",
+        "Fourmilier",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Élan",
+        "Gorille",
+        "Lapin",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Wombat",
+        "Chat",
+        "Chien",
+        "Tatou",
+        "Koala",
+        "Mandrill",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Blaireau",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Okapi",
+        "Loup",
+        "Chauve-souris",
+        "Renard roux",
+        "Hérisson",
+        "Jaguar",
+        "Lynx",
+        "Léopard",
+        "Paresseux",
+        "Sanglier"
+      ],
+      "1": [
+        "Loutre",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Yak",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Marmotte",
+        "Chat",
+        "Chien",
+        "Gazelle",
+        "Rhinocéros",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Dromadaire",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Loup",
+        "Chameau",
+        "Chauve-souris",
+        "Cheval",
+        "Renard roux",
+        "Chèvre",
+        "Lynx",
+        "Léopard",
+        "Sanglier"
+      ],
+      "2": [
+        "Fennec",
+        "Tigre",
+        "Wombat",
+        "Léopard de mer",
+        "Chat",
+        "Fourmilier",
+        "Ours brun",
+        "Renard roux",
+        "Hérisson",
+        "Élan",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Loup",
+        "Paresseux"
+      ],
+      "3": [
+        "Chimpanzé",
+        "Ours brun",
+        "Gibbon",
+        "Cochon",
+        "Scarabée",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Tatou",
+        "Mandrill",
+        "Macaque",
+        "Paon",
+        "Blaireau",
+        "Orang-outan",
+        "Toucan",
+        "Perroquet",
+        "Renard roux",
+        "Hérisson",
+        "Sanglier"
+      ],
+      "4": [
+        "Macaque",
+        "Paon",
+        "Sanglier",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Ours brun",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Gibbon",
+        "Canard",
+        "Orang-outan",
+        "Renard roux",
+        "Perroquet",
+        "Cochon"
+      ],
+      "5": [
+        "Fennec",
+        "Ours brun",
+        "Renard roux",
+        "Ver de terre",
+        "Hérisson"
+      ],
+      "6": [
+        "Ver de terre",
+        "Wombat",
+        "Vipère"
+      ],
+      "7": [
+        "Ver de terre",
+        "Vautour",
+        "Vipère"
+      ],
+      "8": [
+        "Ver de terre",
+        "Wombat",
+        "Vipère"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "theme": "animaux",
+    "difficulte": 0.27,
+    "stats": {
+      "moyenne": 14.0,
+      "min": 6
+    },
+    "lignes": [
+      {
+        "id": "carac_domestique",
+        "label": "Peut être domestiqué",
+        "icon": "🏠"
+      },
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Dromadaire",
+        "Abeille",
+        "Lapin",
+        "Poule",
+        "Mouton",
+        "Chèvre",
+        "Cheval",
+        "Alpaga",
+        "Chien",
+        "Vache",
+        "Renne",
+        "Chameau",
+        "Cochon"
+      ],
+      "1": [
+        "Dromadaire",
+        "Lapin",
+        "Mouton",
+        "Chat",
+        "Chèvre",
+        "Cheval",
+        "Alpaga",
+        "Chien",
+        "Vache",
+        "Renne",
+        "Chameau",
+        "Cochon"
+      ],
+      "2": [
+        "Dromadaire",
+        "Cheval",
+        "Alpaga",
+        "Vache",
+        "Renne",
+        "Chameau",
+        "Cochon"
+      ],
+      "3": [
+        "Vautour",
+        "Lama",
+        "Marmotte",
+        "Mouton",
+        "Chevrette",
+        "Chèvre",
+        "Alpaga",
+        "Loup",
+        "Renne",
+        "Yak"
+      ],
+      "4": [
+        "Lama",
+        "Marmotte",
+        "Mouton",
+        "Chevrette",
+        "Renard arctique",
+        "Ours brun",
+        "Chèvre",
+        "Alpaga",
+        "Ours polaire",
+        "Loup",
+        "Renne",
+        "Yak"
+      ],
+      "5": [
+        "Lama",
+        "Ours brun",
+        "Alpaga",
+        "Ours polaire",
+        "Renne",
+        "Yak"
+      ],
+      "6": [
+        "Vautour",
+        "Abeille",
+        "Sauterelle",
+        "Yak",
+        "Cochon",
+        "Marmotte",
+        "Fourmi",
+        "Chien",
+        "Gazelle",
+        "Pélican",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Dromadaire",
+        "Poule",
+        "Cerf",
+        "Loup",
+        "Chameau",
+        "Cheval",
+        "Chèvre",
+        "Sanglier"
+      ],
+      "7": [
+        "Loutre",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Yak",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Marmotte",
+        "Chat",
+        "Chien",
+        "Gazelle",
+        "Rhinocéros",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Dromadaire",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Loup",
+        "Chameau",
+        "Chauve-souris",
+        "Cheval",
+        "Renard roux",
+        "Chèvre",
+        "Lynx",
+        "Léopard",
+        "Sanglier"
+      ],
+      "8": [
+        "Dromadaire",
+        "Sanglier",
+        "Tapir",
+        "Tigre",
+        "Tortue marine",
+        "Cerf",
+        "Panda géant",
+        "Ours brun",
+        "Chameau",
+        "Raie manta",
+        "Cheval",
+        "Orang-outan",
+        "Léopard",
+        "Komodo",
+        "Yak",
+        "Crocodile",
+        "Cochon"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "theme": "animaux",
+    "difficulte": 0.41,
+    "stats": {
+      "moyenne": 11.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      },
+      {
+        "id": "lettre_h",
+        "label": "Commence par H",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Flamant rose",
+        "Vautour",
+        "Triton",
+        "Cigogne",
+        "Macareux",
+        "Vipère",
+        "Aigle royal",
+        "Poule",
+        "Crapaud",
+        "Hibou",
+        "Grenouille",
+        "Canard",
+        "Pélican",
+        "Chouette",
+        "Lapin"
+      ],
+      "1": [
+        "Loutre",
+        "Chevrette",
+        "Ours brun",
+        "Élan",
+        "Castor",
+        "Lapin",
+        "Cochon",
+        "Marmotte",
+        "Chat",
+        "Chien",
+        "Vache",
+        "Phoque",
+        "Blaireau",
+        "Cerf",
+        "Dauphin",
+        "Loup",
+        "Chauve-souris",
+        "Mouton",
+        "Cheval",
+        "Renard roux",
+        "Hérisson",
+        "Chèvre",
+        "Lynx",
+        "Renne",
+        "Sanglier"
+      ],
+      "2": [
+        "Lynx",
+        "Hippocampe",
+        "Loutre"
+      ],
+      "3": [
+        "Flamant rose",
+        "Vautour",
+        "Macareux",
+        "Poule",
+        "Cacatoès",
+        "Pélican",
+        "Manchot",
+        "Lapin"
+      ],
+      "4": [
+        "Hyène",
+        "Chimpanzé",
+        "Kangourou",
+        "Chevrette",
+        "Wallaby",
+        "Gorille",
+        "Castor",
+        "Yak",
+        "Lapin",
+        "Cochon",
+        "Sanglier",
+        "Zèbre",
+        "Lama",
+        "Marmotte",
+        "Chien",
+        "Narval",
+        "Gazelle",
+        "Vache",
+        "Phoque",
+        "Mandrill",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Dromadaire",
+        "Blaireau",
+        "Gnou",
+        "Lion",
+        "Cerf",
+        "Alpaga",
+        "Dauphin",
+        "Lycaon",
+        "Loup",
+        "Chameau",
+        "Morse",
+        "Phacochère",
+        "Mouton",
+        "Béluga",
+        "Cheval",
+        "Chèvre",
+        "Orque",
+        "Renne",
+        "Suricate"
+      ],
+      "5": [
+        "Éléphant d'Asie",
+        "Chimpanzé",
+        "Béluga",
+        "Narval",
+        "Gazelle",
+        "Gorille",
+        "Lycaon"
+      ],
+      "6": [
+        "Hibou",
+        "Harfang des neiges"
+      ],
+      "7": [
+        "Hérisson",
+        "Hippopotame",
+        "Hyène"
+      ],
+      "8": [
+        "Hippopotame",
+        "Hippocampe"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "theme": "animaux",
+    "difficulte": 0.54,
+    "stats": {
+      "moyenne": 9.9,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔡"
+      },
+      {
+        "id": "milieu_eau",
+        "label": "Vit en eau douce",
+        "icon": "🏞️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Guépard",
+        "Éléphant",
+        "Girafe",
+        "Rhinocéros",
+        "Gazelle",
+        "Tortue des Galápagos",
+        "Lycaon",
+        "Léopard",
+        "Hippopotame"
+      ],
+      "1": [
+        "Guépard",
+        "Chimpanzé",
+        "Tapir",
+        "Tigre",
+        "Panda géant",
+        "Raie manta",
+        "Léopard",
+        "Orang-outan",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Ours polaire",
+        "Gorille",
+        "Okapi",
+        "Tortue marine"
+      ],
+      "2": [
+        "Guépard",
+        "Axolotl",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Diable de Tasmanie",
+        "Pangolin",
+        "Tigre",
+        "Loutre",
+        "Raie manta",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Condor",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Lycaon",
+        "Léopard"
+      ],
+      "3": [
+        "Cigogne",
+        "Cheval",
+        "Chien",
+        "Komodo",
+        "Crocodile"
+      ],
+      "4": [
+        "Caïman",
+        "Chimpanzé",
+        "Calamar géant",
+        "Cerf",
+        "Chameau",
+        "Cheval",
+        "Komodo",
+        "Crocodile",
+        "Cochon"
+      ],
+      "5": [
+        "Caïman",
+        "Cigogne",
+        "Chauve-souris",
+        "Cobra royal",
+        "Crapaud",
+        "Calamar géant",
+        "Chat",
+        "Condor",
+        "Komodo",
+        "Caméléon",
+        "Chouette",
+        "Crocodile"
+      ],
+      "6": [
+        "Hippopotame",
+        "Cigogne",
+        "Crocodile"
+      ],
+      "7": [
+        "Anaconda",
+        "Caïman",
+        "Élan",
+        "Crocodile"
+      ],
+      "8": [
+        "Caïman",
+        "Triton",
+        "Cigogne",
+        "Libellule",
+        "Ornithorynque",
+        "Moustique",
+        "Loutre",
+        "Salamandre",
+        "Crapaud",
+        "Anaconda",
+        "Grenouille",
+        "Piranha",
+        "Pélican",
+        "Axolotl",
+        "Crocodile"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-22",
+    "theme": "animaux",
+    "difficulte": 0.61,
+    "stats": {
+      "moyenne": 8.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "taille_1000k+",
+        "label": "Plus de 100 kg",
+        "icon": "🏋️"
+      },
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      },
+      {
+        "id": "lettre_g",
+        "label": "Commence par G",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Grand requin blanc",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Fourmilier",
+        "Anaconda",
+        "Condor",
+        "Araignée",
+        "Piranha",
+        "Chouette",
+        "Aigle royal",
+        "Salamandre",
+        "Crocodile",
+        "Caïman",
+        "Crapaud",
+        "Hibou",
+        "Dauphin",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Raie manta",
+        "Jaguar",
+        "Axolotl"
+      ],
+      "1": [
+        "Lama",
+        "Tapir",
+        "Marmotte",
+        "Tortue marine",
+        "Cheval",
+        "Alpaga",
+        "Élan",
+        "Iguane",
+        "Tortue des Galápagos",
+        "Castor",
+        "Papillon",
+        "Paresseux"
+      ],
+      "2": [
+        "Grenouille",
+        "Grand requin blanc"
+      ],
+      "3": [
+        "Grand requin blanc",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Orque"
+      ],
+      "4": [
+        "Éléphant d'Asie",
+        "Éléphant",
+        "Girafe",
+        "Rhinocéros",
+        "Hippopotame"
+      ],
+      "5": [
+        "Girafe",
+        "Grand requin blanc"
+      ],
+      "6": [
+        "Guépard",
+        "Vautour",
+        "Cigogne",
+        "Hyène",
+        "Lion",
+        "Fourmilier",
+        "Mamba noir",
+        "Komodo",
+        "Serval",
+        "Lycaon",
+        "Léopard",
+        "Crocodile"
+      ],
+      "7": [
+        "Zèbre",
+        "Sauterelle",
+        "Gnou",
+        "Kangourou",
+        "Mouton",
+        "Wallaby",
+        "Éléphant",
+        "Cheval",
+        "Girafe",
+        "Gazelle",
+        "Rhinocéros",
+        "Vache",
+        "Tortue des Galápagos",
+        "Hippopotame"
+      ],
+      "8": [
+        "Guépard",
+        "Gnou",
+        "Girafe",
+        "Gazelle"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-23",
+    "theme": "animaux",
+    "difficulte": 0.74,
+    "stats": {
+      "moyenne": 6.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔡"
+      },
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      },
+      {
+        "id": "classe_oiseau",
+        "label": "Oiseau",
+        "icon": "🐦"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Abeille",
+        "Alpaga"
+      ],
+      "1": [
+        "Aigle royal",
+        "Autruche",
+        "Albatros"
+      ],
+      "2": [
+        "Anaconda",
+        "Alpaga",
+        "Autruche"
+      ],
+      "3": [
+        "Lama",
+        "Marmotte",
+        "Fourmi",
+        "Chien",
+        "Alpaga",
+        "Dauphin",
+        "Cheval",
+        "Piranha",
+        "Castor",
+        "Loup"
+      ],
+      "4": [
+        "Aigle royal",
+        "Hibou",
+        "Canard",
+        "Condor",
+        "Toucan",
+        "Chouette",
+        "Perroquet"
+      ],
+      "5": [
+        "Caïman",
+        "Lama",
+        "Tapir",
+        "Raie manta",
+        "Anaconda",
+        "Alpaga",
+        "Dauphin",
+        "Élan",
+        "Cheval",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Tortue marine",
+        "Crocodile"
+      ],
+      "6": [
+        "Chimpanzé",
+        "Chevrette",
+        "Cerf",
+        "Cheval",
+        "Chien",
+        "Chèvre",
+        "Cacatoès",
+        "Castor",
+        "Chameau",
+        "Cochon"
+      ],
+      "7": [
+        "Cigogne",
+        "Canard",
+        "Condor",
+        "Cacatoès",
+        "Chouette"
+      ],
+      "8": [
+        "Caïman",
+        "Chimpanzé",
+        "Calamar géant",
+        "Cerf",
+        "Chameau",
+        "Cheval",
+        "Komodo",
+        "Crocodile",
+        "Cochon"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-24",
+    "theme": "animaux",
+    "difficulte": 0.88,
+    "stats": {
+      "moyenne": 4.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_p",
+        "label": "Commence par P",
+        "icon": "🔡"
+      },
+      {
+        "id": "syl_on",
+        "label": "Contient '-on'",
+        "icon": "🔤"
+      },
+      {
+        "id": "classe_insecte",
+        "label": "Insecte",
+        "icon": "🐛"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      },
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "cont_afrique",
+        "label": "Vit en Afrique",
+        "icon": "🌍"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Papillon",
+        "Paresseux",
+        "Panda géant"
+      ],
+      "1": [
+        "Papillon",
+        "Poule",
+        "Perroquet",
+        "Piranha"
+      ],
+      "2": [
+        "Pieuvre",
+        "Pangolin",
+        "Pélican",
+        "Python",
+        "Papillon",
+        "Phacochère"
+      ],
+      "3": [
+        "Papillon",
+        "Mouton"
+      ],
+      "4": [
+        "Triton",
+        "Clown (poisson)",
+        "Hérisson",
+        "Scorpion",
+        "Caméléon",
+        "Papillon"
+      ],
+      "5": [
+        "Lycaon",
+        "Lion",
+        "Scorpion",
+        "Caméléon",
+        "Python",
+        "Papillon"
+      ],
+      "6": [
+        "Abeille",
+        "Sauterelle",
+        "Papillon"
+      ],
+      "7": [
+        "Libellule",
+        "Abeille",
+        "Scarabée",
+        "Sauterelle",
+        "Moustique",
+        "Fourmi",
+        "Papillon"
+      ],
+      "8": [
+        "Abeille",
+        "Scarabée",
+        "Sauterelle",
+        "Moustique",
+        "Fourmi",
+        "Papillon"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "theme": "animaux",
+    "difficulte": 0.16,
+    "stats": {
+      "moyenne": 15.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Éléphant d'Asie",
+        "Okapi",
+        "Abeille",
+        "Tapir",
+        "Wombat",
+        "Chevrette",
+        "Cerf",
+        "Éléphant",
+        "Panda géant",
+        "Élan",
+        "Iguane",
+        "Cacatoès",
+        "Gorille",
+        "Koala",
+        "Papillon",
+        "Paresseux",
+        "Lapin"
+      ],
+      "1": [
+        "Éléphant d'Asie",
+        "Dromadaire",
+        "Abeille",
+        "Sauterelle",
+        "Tapir",
+        "Marmotte",
+        "Cerf",
+        "Panda géant",
+        "Éléphant",
+        "Cheval",
+        "Chèvre",
+        "Gazelle",
+        "Rhinocéros",
+        "Papillon",
+        "Tortue marine",
+        "Yak",
+        "Chameau"
+      ],
+      "2": [
+        "Kangourou",
+        "Chevrette",
+        "Éléphant",
+        "Wallaby",
+        "Girafe",
+        "Élan",
+        "Gorille",
+        "Castor",
+        "Yak",
+        "Lapin",
+        "Zèbre",
+        "Lama",
+        "Tapir",
+        "Wombat",
+        "Marmotte",
+        "Gazelle",
+        "Rhinocéros",
+        "Vache",
+        "Koala",
+        "Hippopotame",
+        "Éléphant d'Asie",
+        "Dromadaire",
+        "Gnou",
+        "Cerf",
+        "Panda géant",
+        "Alpaga",
+        "Okapi",
+        "Chameau",
+        "Mouton",
+        "Cheval",
+        "Chèvre",
+        "Renne",
+        "Paresseux"
+      ],
+      "3": [
+        "Éléphant d'Asie",
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Panda géant",
+        "Éléphant",
+        "Gibbon",
+        "Orang-outan",
+        "Jaguar",
+        "Lynx",
+        "Gorille",
+        "Koala",
+        "Léopard",
+        "Paresseux",
+        "Okapi"
+      ],
+      "4": [
+        "Éléphant d'Asie",
+        "Hippocampe",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Loutre",
+        "Panda géant",
+        "Éléphant",
+        "Raie manta",
+        "Léopard",
+        "Gibbon",
+        "Rhinocéros",
+        "Gazelle",
+        "Orang-outan",
+        "Lynx",
+        "Tortue marine"
+      ],
+      "5": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Loutre",
+        "Renard arctique",
+        "Éléphant",
+        "Baleine bleue",
+        "Girafe",
+        "Gibbon",
+        "Gorille",
+        "Guépard",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Narval",
+        "Rhinocéros",
+        "Gazelle",
+        "Koala",
+        "Éléphant d'Asie",
+        "Panda géant",
+        "Orang-outan",
+        "Ours polaire",
+        "Lycaon",
+        "Okapi",
+        "Béluga",
+        "Jaguar",
+        "Lynx",
+        "Hippopotame",
+        "Léopard",
+        "Paresseux"
+      ],
+      "6": [
+        "Macaque",
+        "Mandrill"
+      ],
+      "7": [
+        "Méduse",
+        "Macaque",
+        "Marmotte",
+        "Moustique"
+      ],
+      "8": [
+        "Macaque",
+        "Marmotte",
+        "Mouton",
+        "Mandrill",
+        "Morse"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "theme": "animaux",
+    "difficulte": 0.27,
+    "stats": {
+      "moyenne": 14.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_o",
+        "label": "Commence par O",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Ours brun",
+        "Ours polaire"
+      ],
+      "1": [
+        "Orque",
+        "Ours polaire",
+        "Ornithorynque"
+      ],
+      "2": [
+        "Ornithorynque",
+        "Ours brun",
+        "Orang-outan",
+        "Orque",
+        "Okapi",
+        "Ours polaire"
+      ],
+      "3": [
+        "Ours polaire",
+        "Condor",
+        "Renard arctique"
+      ],
+      "4": [
+        "Guépard",
+        "Axolotl",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Diable de Tasmanie",
+        "Pangolin",
+        "Tigre",
+        "Loutre",
+        "Raie manta",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Condor",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Lycaon",
+        "Léopard"
+      ],
+      "5": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Loutre",
+        "Renard arctique",
+        "Éléphant",
+        "Baleine bleue",
+        "Girafe",
+        "Gibbon",
+        "Gorille",
+        "Guépard",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Narval",
+        "Rhinocéros",
+        "Gazelle",
+        "Koala",
+        "Éléphant d'Asie",
+        "Panda géant",
+        "Orang-outan",
+        "Ours polaire",
+        "Lycaon",
+        "Okapi",
+        "Béluga",
+        "Jaguar",
+        "Lynx",
+        "Hippopotame",
+        "Léopard",
+        "Paresseux"
+      ],
+      "6": [
+        "Vautour",
+        "Aigle royal",
+        "Marmotte",
+        "Ours brun",
+        "Chèvre",
+        "Loup",
+        "Yak"
+      ],
+      "7": [
+        "Vautour",
+        "Hippocampe",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Araignée",
+        "Python",
+        "Chouette",
+        "Pangolin",
+        "Aigle royal",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Komodo",
+        "Pélican",
+        "Vipère",
+        "Crocodile",
+        "Cobra royal",
+        "Pieuvre",
+        "Hibou",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Raie manta",
+        "Gecko",
+        "Lynx",
+        "Léopard"
+      ],
+      "8": [
+        "Loutre",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Yak",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Marmotte",
+        "Chat",
+        "Chien",
+        "Gazelle",
+        "Rhinocéros",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Dromadaire",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Loup",
+        "Chameau",
+        "Chauve-souris",
+        "Cheval",
+        "Renard roux",
+        "Chèvre",
+        "Lynx",
+        "Léopard",
+        "Sanglier"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "theme": "animaux",
+    "difficulte": 0.47,
+    "stats": {
+      "moyenne": 11.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "carac_venimeux",
+        "label": "Venimeux",
+        "icon": "☠️"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Fennec",
+        "Hyène",
+        "Blaireau",
+        "Chauve-souris",
+        "Diable de Tasmanie",
+        "Serval",
+        "Wombat",
+        "Chat",
+        "Renard roux",
+        "Hérisson",
+        "Lynx",
+        "Pangolin",
+        "Tatou",
+        "Léopard",
+        "Sanglier"
+      ],
+      "1": [
+        "Fennec",
+        "Tigre",
+        "Wombat",
+        "Léopard de mer",
+        "Chat",
+        "Fourmilier",
+        "Ours brun",
+        "Renard roux",
+        "Hérisson",
+        "Élan",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Loup",
+        "Paresseux"
+      ],
+      "2": [
+        "Hyène",
+        "Diable de Tasmanie",
+        "Loutre",
+        "Fourmilier",
+        "Baleine bleue",
+        "Guépard",
+        "Pangolin",
+        "Tigre",
+        "Léopard de mer",
+        "Chat",
+        "Narval",
+        "Phoque",
+        "Lion",
+        "Dauphin",
+        "Ours polaire",
+        "Lycaon",
+        "Loup",
+        "Morse",
+        "Chauve-souris",
+        "Ornithorynque",
+        "Béluga",
+        "Lynx",
+        "Jaguar",
+        "Orque",
+        "Serval",
+        "Léopard"
+      ],
+      "3": [
+        "Scorpion",
+        "Salamandre"
+      ],
+      "4": [
+        "Scorpion",
+        "Vipère",
+        "Araignée"
+      ],
+      "5": [
+        "Ornithorynque",
+        "Méduse",
+        "Cobra royal",
+        "Salamandre",
+        "Moustique",
+        "Mamba noir",
+        "Scorpion",
+        "Araignée",
+        "Komodo",
+        "Vipère"
+      ],
+      "6": [
+        "Léopard",
+        "Hyène",
+        "Sanglier"
+      ],
+      "7": [
+        "Tigre",
+        "Léopard de mer",
+        "Calamar géant",
+        "Ours brun",
+        "Élan",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Ours polaire"
+      ],
+      "8": [
+        "Guépard",
+        "Caïman",
+        "Hyène",
+        "Jaguar",
+        "Tigre",
+        "Lion",
+        "Léopard de mer",
+        "Calamar géant",
+        "Raie manta",
+        "Anaconda",
+        "Dauphin",
+        "Komodo",
+        "Ours polaire",
+        "Phoque",
+        "Léopard",
+        "Crocodile",
+        "Morse"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "theme": "animaux",
+    "difficulte": 0.53,
+    "stats": {
+      "moyenne": 10.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      },
+      {
+        "id": "lettre_o",
+        "label": "Commence par O",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hyène",
+        "Chimpanzé",
+        "Kangourou",
+        "Ours brun",
+        "Élan",
+        "Gorille",
+        "Yak",
+        "Cochon",
+        "Guépard",
+        "Zèbre",
+        "Lama",
+        "Tapir",
+        "Tigre",
+        "Léopard de mer",
+        "Vache",
+        "Phoque",
+        "Dromadaire",
+        "Gnou",
+        "Lion",
+        "Cerf",
+        "Panda géant",
+        "Alpaga",
+        "Dauphin",
+        "Orang-outan",
+        "Ours polaire",
+        "Okapi",
+        "Chameau",
+        "Morse",
+        "Phacochère",
+        "Cheval",
+        "Jaguar",
+        "Renne",
+        "Léopard",
+        "Sanglier"
+      ],
+      "1": [
+        "Guépard",
+        "Chimpanzé",
+        "Tapir",
+        "Tigre",
+        "Panda géant",
+        "Raie manta",
+        "Léopard",
+        "Orang-outan",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Ours polaire",
+        "Gorille",
+        "Okapi",
+        "Tortue marine"
+      ],
+      "2": [
+        "Sanglier",
+        "Chimpanzé",
+        "Phacochère",
+        "Ours brun",
+        "Orang-outan",
+        "Autruche",
+        "Cochon"
+      ],
+      "3": [
+        "Orque",
+        "Ornithorynque",
+        "Tapir",
+        "Tigre",
+        "Loutre",
+        "Léopard de mer",
+        "Baleine bleue",
+        "Dauphin",
+        "Élan",
+        "Jaguar",
+        "Ours polaire",
+        "Castor",
+        "Phoque"
+      ],
+      "4": [
+        "Hippocampe",
+        "Grand requin blanc",
+        "Tapir",
+        "Tigre",
+        "Loutre",
+        "Raie manta",
+        "Baleine bleue",
+        "Jaguar",
+        "Ours polaire",
+        "Tortue marine"
+      ],
+      "5": [
+        "Clown (poisson)",
+        "Canard"
+      ],
+      "6": [
+        "Ornithorynque",
+        "Ours brun",
+        "Orang-outan",
+        "Orque",
+        "Okapi",
+        "Ours polaire"
+      ],
+      "7": [
+        "Ours polaire",
+        "Okapi",
+        "Orang-outan"
+      ],
+      "8": [
+        "Ours brun",
+        "Orang-outan"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "theme": "animaux",
+    "difficulte": 0.6,
+    "stats": {
+      "moyenne": 9.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "syl_on",
+        "label": "Contient '-on'",
+        "icon": "🔤"
+      },
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Guépard",
+        "Caïman",
+        "Hyène",
+        "Jaguar",
+        "Tigre",
+        "Lion",
+        "Léopard de mer",
+        "Calamar géant",
+        "Raie manta",
+        "Anaconda",
+        "Dauphin",
+        "Komodo",
+        "Ours polaire",
+        "Phoque",
+        "Léopard",
+        "Crocodile",
+        "Morse"
+      ],
+      "1": [
+        "Lion",
+        "Cochon"
+      ],
+      "2": [
+        "Tapir",
+        "Tigre",
+        "Léopard de mer",
+        "Calamar géant",
+        "Raie manta",
+        "Anaconda",
+        "Dauphin",
+        "Élan",
+        "Jaguar",
+        "Ours polaire",
+        "Phoque",
+        "Tortue marine"
+      ],
+      "3": [
+        "Grand requin blanc",
+        "Fourmilier",
+        "Araignée",
+        "Caméléon",
+        "Chouette",
+        "Harfang des neiges",
+        "Aigle royal",
+        "Tigre",
+        "Léopard de mer",
+        "Calamar géant",
+        "Chat",
+        "Vipère",
+        "Pieuvre",
+        "Hibou",
+        "Scorpion",
+        "Ours polaire",
+        "Loup",
+        "Jaguar",
+        "Lynx"
+      ],
+      "4": [
+        "Caméléon",
+        "Hérisson",
+        "Scorpion"
+      ],
+      "5": [
+        "Grand requin blanc",
+        "Tigre",
+        "Calamar géant",
+        "Léopard de mer",
+        "Pieuvre",
+        "Élan",
+        "Jaguar",
+        "Ours polaire"
+      ],
+      "6": [
+        "Caïman",
+        "Cigogne",
+        "Chauve-souris",
+        "Cobra royal",
+        "Crapaud",
+        "Calamar géant",
+        "Chat",
+        "Condor",
+        "Komodo",
+        "Caméléon",
+        "Chouette",
+        "Crocodile"
+      ],
+      "7": [
+        "Caméléon",
+        "Clown (poisson)",
+        "Condor",
+        "Cochon"
+      ],
+      "8": [
+        "Canard",
+        "Castor",
+        "Clown (poisson)",
+        "Calamar géant"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-30",
+    "theme": "animaux",
+    "difficulte": 0.78,
+    "stats": {
+      "moyenne": 6.3,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "carac_migrateur",
+        "label": "Migrateur",
+        "icon": "✈️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      },
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "cont_arctique",
+        "label": "Vit dans l'Arctique/Antarctique",
+        "icon": "🧊"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Grand requin blanc",
+        "Tigre",
+        "Calamar géant",
+        "Léopard de mer",
+        "Pieuvre",
+        "Élan",
+        "Jaguar",
+        "Ours polaire"
+      ],
+      "1": [
+        "Fennec",
+        "Vipère",
+        "Chat",
+        "Hibou",
+        "Hérisson",
+        "Ver de terre",
+        "Scorpion",
+        "Araignée",
+        "Caméléon",
+        "Chouette"
+      ],
+      "2": [
+        "Ours polaire",
+        "Élan",
+        "Harfang des neiges",
+        "Calamar géant"
+      ],
+      "3": [
+        "Triton",
+        "Macareux",
+        "Ornithorynque",
+        "Grenouille",
+        "Canard",
+        "Pélican",
+        "Tortue marine",
+        "Manchot"
+      ],
+      "4": [
+        "Triton",
+        "Macareux",
+        "Vipère",
+        "Ornithorynque",
+        "Poule",
+        "Crapaud",
+        "Hibou",
+        "Canard",
+        "Gecko",
+        "Cacatoès",
+        "Toucan",
+        "Grenouille",
+        "Chouette",
+        "Caméléon",
+        "Lapin",
+        "Perroquet"
+      ],
+      "5": [
+        "Harfang des neiges",
+        "Macareux"
+      ],
+      "6": [
+        "Raie manta",
+        "Baleine bleue",
+        "Canard",
+        "Pélican",
+        "Tortue marine"
+      ],
+      "7": [
+        "Canard",
+        "Papillon"
+      ],
+      "8": [
+        "Baleine bleue",
+        "Renne"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-31",
+    "theme": "animaux",
+    "difficulte": 0.83,
+    "stats": {
+      "moyenne": 5.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "carac_venimeux",
+        "label": "Venimeux",
+        "icon": "☠️"
+      },
+      {
+        "id": "syl_on",
+        "label": "Contient '-on'",
+        "icon": "🔤"
+      },
+      {
+        "id": "classe_oiseau",
+        "label": "Oiseau",
+        "icon": "🐦"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Scorpion",
+        "Salamandre",
+        "Moustique",
+        "Araignée"
+      ],
+      "1": [
+        "Ornithorynque",
+        "Méduse",
+        "Cobra royal",
+        "Salamandre",
+        "Moustique",
+        "Mamba noir",
+        "Scorpion",
+        "Araignée",
+        "Komodo",
+        "Vipère"
+      ],
+      "2": [
+        "Méduse",
+        "Ornithorynque"
+      ],
+      "3": [
+        "Scorpion",
+        "Papillon",
+        "Condor"
+      ],
+      "4": [
+        "Triton",
+        "Python",
+        "Lion",
+        "Scorpion",
+        "Condor",
+        "Caméléon",
+        "Lycaon"
+      ],
+      "5": [
+        "Clown (poisson)",
+        "Triton"
+      ],
+      "6": [
+        "Aigle royal",
+        "Hibou",
+        "Canard",
+        "Condor",
+        "Toucan",
+        "Chouette",
+        "Perroquet"
+      ],
+      "7": [
+        "Vautour",
+        "Harfang des neiges",
+        "Cigogne",
+        "Macareux",
+        "Aigle royal",
+        "Albatros",
+        "Hibou",
+        "Condor",
+        "Pélican",
+        "Chouette",
+        "Manchot"
+      ],
+      "8": [
+        "Pélican",
+        "Canard",
+        "Manchot",
+        "Macareux"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "theme": "animaux",
+    "difficulte": 0.23,
+    "stats": {
+      "moyenne": 14.6,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔡"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Sauterelle",
+        "Scarabée",
+        "Salamandre",
+        "Sanglier"
+      ],
+      "1": [
+        "Serval",
+        "Sanglier",
+        "Suricate"
+      ],
+      "2": [
+        "Scarabée",
+        "Salamandre",
+        "Scorpion",
+        "Serval",
+        "Sanglier"
+      ],
+      "3": [
+        "Abeille",
+        "Chevrette",
+        "Ours brun",
+        "Élan",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Lapin",
+        "Cochon",
+        "Scarabée",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Vipère",
+        "Blaireau",
+        "Crapaud",
+        "Cerf",
+        "Hibou",
+        "Loup",
+        "Chauve-souris",
+        "Renard roux",
+        "Hérisson",
+        "Lynx",
+        "Sanglier"
+      ],
+      "4": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Chevrette",
+        "Fourmilier",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Élan",
+        "Gorille",
+        "Lapin",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Wombat",
+        "Chat",
+        "Chien",
+        "Tatou",
+        "Koala",
+        "Mandrill",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Blaireau",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Okapi",
+        "Loup",
+        "Chauve-souris",
+        "Renard roux",
+        "Hérisson",
+        "Jaguar",
+        "Lynx",
+        "Léopard",
+        "Paresseux",
+        "Sanglier"
+      ],
+      "5": [
+        "Chauve-souris",
+        "Blaireau",
+        "Diable de Tasmanie",
+        "Scarabée",
+        "Wombat",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Léopard",
+        "Renard roux",
+        "Hérisson",
+        "Gecko",
+        "Lynx",
+        "Pangolin",
+        "Tatou",
+        "Chouette",
+        "Sanglier"
+      ],
+      "6": [
+        "Vipère",
+        "Aigle royal",
+        "Chat",
+        "Pieuvre",
+        "Ours brun",
+        "Hibou",
+        "Renard roux",
+        "Ver de terre",
+        "Élan",
+        "Araignée",
+        "Hérisson",
+        "Lynx",
+        "Loup",
+        "Chouette"
+      ],
+      "7": [
+        "Fennec",
+        "Tigre",
+        "Wombat",
+        "Léopard de mer",
+        "Chat",
+        "Fourmilier",
+        "Ours brun",
+        "Renard roux",
+        "Hérisson",
+        "Élan",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Loup",
+        "Paresseux"
+      ],
+      "8": [
+        "Fennec",
+        "Harfang des neiges",
+        "Wombat",
+        "Chat",
+        "Hibou",
+        "Renard roux",
+        "Scorpion",
+        "Hérisson",
+        "Lynx",
+        "Chouette"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "theme": "animaux",
+    "difficulte": 0.36,
+    "stats": {
+      "moyenne": 12.7,
+      "min": 4
+    },
+    "lignes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Chauve-souris",
+        "Lama",
+        "Tapir",
+        "Marmotte",
+        "Loutre",
+        "Fourmilier",
+        "Cheval",
+        "Chien",
+        "Alpaga",
+        "Élan",
+        "Dauphin",
+        "Jaguar",
+        "Tatou",
+        "Castor",
+        "Loup",
+        "Paresseux"
+      ],
+      "1": [
+        "Fennec",
+        "Macaque",
+        "Sanglier",
+        "Blaireau",
+        "Chimpanzé",
+        "Phacochère",
+        "Suricate",
+        "Renard arctique",
+        "Ours brun",
+        "Chien",
+        "Renard roux",
+        "Gibbon",
+        "Orang-outan",
+        "Hérisson",
+        "Tatou",
+        "Mandrill",
+        "Cochon"
+      ],
+      "2": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Loutre",
+        "Renard arctique",
+        "Éléphant",
+        "Baleine bleue",
+        "Girafe",
+        "Gibbon",
+        "Gorille",
+        "Guépard",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Narval",
+        "Rhinocéros",
+        "Gazelle",
+        "Koala",
+        "Éléphant d'Asie",
+        "Panda géant",
+        "Orang-outan",
+        "Ours polaire",
+        "Lycaon",
+        "Okapi",
+        "Béluga",
+        "Jaguar",
+        "Lynx",
+        "Hippopotame",
+        "Léopard",
+        "Paresseux"
+      ],
+      "3": [
+        "Chauve-souris",
+        "Crapaud",
+        "Salamandre",
+        "Hibou",
+        "Scorpion",
+        "Tatou",
+        "Chouette"
+      ],
+      "4": [
+        "Fennec",
+        "Blaireau",
+        "Scarabée",
+        "Renard roux",
+        "Hérisson",
+        "Tatou",
+        "Sanglier"
+      ],
+      "5": [
+        "Diable de Tasmanie",
+        "Léopard",
+        "Lynx",
+        "Pangolin"
+      ],
+      "6": [
+        "Caïman",
+        "Lama",
+        "Tapir",
+        "Raie manta",
+        "Anaconda",
+        "Alpaga",
+        "Dauphin",
+        "Élan",
+        "Cheval",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Tortue marine",
+        "Crocodile"
+      ],
+      "7": [
+        "Sanglier",
+        "Chimpanzé",
+        "Phacochère",
+        "Ours brun",
+        "Orang-outan",
+        "Autruche",
+        "Cochon"
+      ],
+      "8": [
+        "Guépard",
+        "Chimpanzé",
+        "Tapir",
+        "Tigre",
+        "Panda géant",
+        "Raie manta",
+        "Léopard",
+        "Orang-outan",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Ours polaire",
+        "Gorille",
+        "Okapi",
+        "Tortue marine"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "theme": "animaux",
+    "difficulte": 0.43,
+    "stats": {
+      "moyenne": 11.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "classe_insecte",
+        "label": "Insecte",
+        "icon": "🐛"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "carac_venimeux",
+        "label": "Venimeux",
+        "icon": "☠️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Vautour",
+        "Diable de Tasmanie",
+        "Loutre",
+        "Fourmilier",
+        "Condor",
+        "Python",
+        "Harfang des neiges",
+        "Aigle royal",
+        "Mamba noir",
+        "Pélican",
+        "Cigogne",
+        "Cobra royal",
+        "Pieuvre",
+        "Lycaon",
+        "Loup",
+        "Manchot",
+        "Albatros",
+        "Lynx",
+        "Pangolin",
+        "Serval"
+      ],
+      "1": [
+        "Macaque",
+        "Vautour",
+        "Paon",
+        "Pangolin",
+        "Aigle royal",
+        "Cobra royal",
+        "Loup",
+        "Loutre",
+        "Pieuvre",
+        "Chèvre",
+        "Chien",
+        "Renard roux",
+        "Gibbon",
+        "Gazelle",
+        "Lynx",
+        "Pélican",
+        "Python"
+      ],
+      "2": [
+        "Mamba noir",
+        "Cobra royal"
+      ],
+      "3": [
+        "Triton",
+        "Hippocampe",
+        "Libellule",
+        "Moustique",
+        "Araignée",
+        "Piranha",
+        "Caméléon",
+        "Chouette",
+        "Macareux",
+        "Salamandre",
+        "Chat",
+        "Vipère",
+        "Crapaud",
+        "Hibou",
+        "Scorpion",
+        "Grenouille",
+        "Chauve-souris",
+        "Ornithorynque",
+        "Méduse",
+        "Gecko",
+        "Axolotl"
+      ],
+      "4": [
+        "Hippocampe",
+        "Libellule",
+        "Abeille",
+        "Sauterelle",
+        "Moustique",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Scarabée",
+        "Clown (poisson)",
+        "Marmotte",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Ver de terre",
+        "Vipère",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Scorpion",
+        "Grenouille",
+        "Perroquet",
+        "Chauve-souris",
+        "Méduse",
+        "Gecko"
+      ],
+      "5": [
+        "Ornithorynque",
+        "Abeille",
+        "Méduse",
+        "Salamandre",
+        "Moustique",
+        "Scorpion",
+        "Araignée",
+        "Vipère"
+      ],
+      "6": [
+        "Moustique",
+        "Libellule"
+      ],
+      "7": [
+        "Libellule",
+        "Abeille",
+        "Scarabée",
+        "Sauterelle",
+        "Moustique",
+        "Fourmi",
+        "Papillon"
+      ],
+      "8": [
+        "Abeille",
+        "Moustique"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "theme": "animaux",
+    "difficulte": 0.53,
+    "stats": {
+      "moyenne": 10.0,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "milieu_mer",
+        "label": "Vit en mer",
+        "icon": "🌊"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paon",
+        "Vautour",
+        "Vipère",
+        "Aigle royal",
+        "Cobra royal",
+        "Tortue marine",
+        "Poule",
+        "Hibou",
+        "Grenouille",
+        "Canard",
+        "Gecko",
+        "Komodo",
+        "Pélican",
+        "Python",
+        "Chouette",
+        "Crocodile",
+        "Perroquet"
+      ],
+      "1": [
+        "Dromadaire",
+        "Sanglier",
+        "Tapir",
+        "Tigre",
+        "Tortue marine",
+        "Cerf",
+        "Panda géant",
+        "Ours brun",
+        "Chameau",
+        "Raie manta",
+        "Cheval",
+        "Orang-outan",
+        "Léopard",
+        "Komodo",
+        "Yak",
+        "Crocodile",
+        "Cochon"
+      ],
+      "2": [
+        "Macaque",
+        "Vautour",
+        "Paon",
+        "Pangolin",
+        "Aigle royal",
+        "Cobra royal",
+        "Loup",
+        "Loutre",
+        "Pieuvre",
+        "Chèvre",
+        "Chien",
+        "Renard roux",
+        "Gibbon",
+        "Gazelle",
+        "Lynx",
+        "Pélican",
+        "Python"
+      ],
+      "3": [
+        "Albatros",
+        "Tortue marine",
+        "Manchot",
+        "Macareux"
+      ],
+      "4": [
+        "Calamar géant",
+        "Léopard de mer",
+        "Raie manta",
+        "Dauphin",
+        "Ours polaire",
+        "Phoque",
+        "Tortue marine",
+        "Morse"
+      ],
+      "5": [
+        "Manchot",
+        "Albatros",
+        "Pieuvre"
+      ],
+      "6": [
+        "Harfang des neiges",
+        "Vipère",
+        "Aigle royal",
+        "Hibou",
+        "Tortue des Galápagos",
+        "Caméléon",
+        "Chouette"
+      ],
+      "7": [
+        "Tigre",
+        "Léopard de mer",
+        "Calamar géant",
+        "Ours brun",
+        "Élan",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Ours polaire"
+      ],
+      "8": [
+        "Harfang des neiges",
+        "Aigle royal",
+        "Wombat",
+        "Pieuvre",
+        "Fourmilier",
+        "Renard roux",
+        "Lynx",
+        "Loup",
+        "Paresseux"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "theme": "animaux",
+    "difficulte": 0.62,
+    "stats": {
+      "moyenne": 8.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "milieu_mer",
+        "label": "Vit en mer",
+        "icon": "🌊"
+      },
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      },
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Grand requin blanc",
+        "Calamar géant",
+        "Léopard de mer",
+        "Pieuvre",
+        "Ours polaire"
+      ],
+      "1": [
+        "Dauphin",
+        "Tortue marine",
+        "Grand requin blanc",
+        "Raie manta"
+      ],
+      "2": [
+        "Orque",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Macareux",
+        "Méduse",
+        "Léopard de mer",
+        "Calamar géant",
+        "Baleine bleue",
+        "Pieuvre",
+        "Dauphin",
+        "Albatros",
+        "Narval",
+        "Raie manta",
+        "Béluga",
+        "Ours polaire",
+        "Phoque",
+        "Manchot",
+        "Morse"
+      ],
+      "3": [
+        "Tigre",
+        "Tortue des Galápagos"
+      ],
+      "4": [
+        "Tapir",
+        "Tortue des Galápagos",
+        "Toucan",
+        "Tatou",
+        "Tortue marine"
+      ],
+      "5": [
+        "Tigre",
+        "Triton"
+      ],
+      "6": [
+        "Grand requin blanc",
+        "Tigre",
+        "Calamar géant",
+        "Léopard de mer",
+        "Pieuvre",
+        "Élan",
+        "Jaguar",
+        "Ours polaire"
+      ],
+      "7": [
+        "Grand requin blanc",
+        "Tapir",
+        "Loutre",
+        "Raie manta",
+        "Anaconda",
+        "Dauphin",
+        "Canard",
+        "Élan",
+        "Grenouille",
+        "Jaguar",
+        "Castor",
+        "Tortue marine"
+      ],
+      "8": [
+        "Triton",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Loutre",
+        "Baleine bleue",
+        "Anaconda",
+        "Macareux",
+        "Tigre",
+        "Léopard de mer",
+        "Calamar géant",
+        "Pélican",
+        "Phoque",
+        "Pieuvre",
+        "Dauphin",
+        "Ours polaire",
+        "Grenouille",
+        "Manchot",
+        "Ornithorynque",
+        "Méduse",
+        "Raie manta",
+        "Jaguar",
+        "Orque"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-06",
+    "theme": "animaux",
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne": 6.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_arctique",
+        "label": "Vit dans l'Arctique/Antarctique",
+        "icon": "🧊"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      },
+      {
+        "id": "milieu_mer",
+        "label": "Vit en mer",
+        "icon": "🌊"
+      },
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Macareux",
+        "Calamar géant",
+        "Baleine bleue",
+        "Élan",
+        "Orque",
+        "Phoque",
+        "Ours polaire"
+      ],
+      "1": [
+        "Morse",
+        "Macareux",
+        "Calamar géant",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Orque",
+        "Phoque",
+        "Ours polaire"
+      ],
+      "2": [
+        "Renne",
+        "Élan"
+      ],
+      "3": [
+        "Méduse",
+        "Manchot",
+        "Macareux"
+      ],
+      "4": [
+        "Méduse",
+        "Manchot",
+        "Macareux",
+        "Morse"
+      ],
+      "5": [
+        "Marmotte",
+        "Mouton"
+      ],
+      "6": [
+        "Hippocampe",
+        "Grand requin blanc",
+        "Tapir",
+        "Tigre",
+        "Loutre",
+        "Raie manta",
+        "Baleine bleue",
+        "Jaguar",
+        "Ours polaire",
+        "Tortue marine"
+      ],
+      "7": [
+        "Hippocampe",
+        "Grand requin blanc",
+        "Raie manta",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Ours polaire",
+        "Tortue marine"
+      ],
+      "8": [
+        "Éléphant d'Asie",
+        "Hippopotame",
+        "Tapir",
+        "Panda géant",
+        "Éléphant",
+        "Girafe",
+        "Rhinocéros",
+        "Gazelle",
+        "Tortue des Galápagos",
+        "Gorille",
+        "Koala",
+        "Tortue marine",
+        "Paresseux",
+        "Okapi"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-07",
+    "theme": "animaux",
+    "difficulte": 0.85,
+    "stats": {
+      "moyenne": 5.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔡"
+      },
+      {
+        "id": "classe_oiseau",
+        "label": "Oiseau",
+        "icon": "🐦"
+      },
+      {
+        "id": "syl_on",
+        "label": "Contient '-on'",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "cont_afrique",
+        "label": "Vit en Afrique",
+        "icon": "🌍"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Lapin",
+        "Libellule"
+      ],
+      "1": [
+        "Lynx",
+        "Loup",
+        "Léopard",
+        "Lapin"
+      ],
+      "2": [
+        "Léopard",
+        "Lycaon",
+        "Lion"
+      ],
+      "3": [
+        "Macareux",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Cacatoès",
+        "Toucan",
+        "Chouette",
+        "Perroquet"
+      ],
+      "4": [
+        "Paon",
+        "Hibou",
+        "Cacatoès",
+        "Toucan",
+        "Chouette",
+        "Perroquet"
+      ],
+      "5": [
+        "Flamant rose",
+        "Vautour",
+        "Cigogne",
+        "Pélican",
+        "Autruche"
+      ],
+      "6": [
+        "Triton",
+        "Clown (poisson)",
+        "Hérisson",
+        "Scorpion",
+        "Caméléon",
+        "Papillon"
+      ],
+      "7": [
+        "Paon",
+        "Hérisson",
+        "Gibbon",
+        "Caméléon",
+        "Python",
+        "Papillon",
+        "Cochon"
+      ],
+      "8": [
+        "Lycaon",
+        "Lion",
+        "Scorpion",
+        "Caméléon",
+        "Python",
+        "Papillon"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "theme": "animaux",
+    "difficulte": 0.2,
+    "stats": {
+      "moyenne": 15.0,
+      "min": 4
+    },
+    "lignes": [
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "carac_domestique",
+        "label": "Peut être domestiqué",
+        "icon": "🏠"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      },
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paon",
+        "Vautour",
+        "Vipère",
+        "Aigle royal",
+        "Cobra royal",
+        "Tortue marine",
+        "Poule",
+        "Hibou",
+        "Grenouille",
+        "Canard",
+        "Gecko",
+        "Komodo",
+        "Pélican",
+        "Python",
+        "Chouette",
+        "Crocodile",
+        "Perroquet"
+      ],
+      "1": [
+        "Vautour",
+        "Aigle royal",
+        "Marmotte",
+        "Ours brun",
+        "Chèvre",
+        "Loup",
+        "Yak"
+      ],
+      "2": [
+        "Vautour",
+        "Hippocampe",
+        "Libellule",
+        "Abeille",
+        "Sauterelle",
+        "Moustique",
+        "Loutre",
+        "Ours brun",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Cochon",
+        "Aigle royal",
+        "Scarabée",
+        "Marmotte",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Pélican",
+        "Vipère",
+        "Poule",
+        "Cerf",
+        "Pieuvre",
+        "Hibou",
+        "Canard",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Cheval",
+        "Renard roux",
+        "Chèvre",
+        "Lynx",
+        "Sanglier"
+      ],
+      "3": [
+        "Canard",
+        "Poule",
+        "Lapin",
+        "Perroquet"
+      ],
+      "4": [
+        "Chèvre",
+        "Alpaga",
+        "Renne",
+        "Mouton"
+      ],
+      "5": [
+        "Abeille",
+        "Poule",
+        "Mouton",
+        "Chat",
+        "Chèvre",
+        "Cheval",
+        "Chien",
+        "Canard",
+        "Vache",
+        "Renne",
+        "Lapin",
+        "Cochon"
+      ],
+      "6": [
+        "Vautour",
+        "Triton",
+        "Condor",
+        "Caméléon",
+        "Python",
+        "Chouette",
+        "Harfang des neiges",
+        "Macareux",
+        "Aigle royal",
+        "Mamba noir",
+        "Komodo",
+        "Pélican",
+        "Vipère",
+        "Crocodile",
+        "Caïman",
+        "Cigogne",
+        "Cobra royal",
+        "Crapaud",
+        "Hibou",
+        "Grenouille",
+        "Manchot",
+        "Ornithorynque",
+        "Albatros",
+        "Gecko"
+      ],
+      "7": [
+        "Vautour",
+        "Harfang des neiges",
+        "Aigle royal",
+        "Condor",
+        "Ours polaire",
+        "Loup"
+      ],
+      "8": [
+        "Vautour",
+        "Triton",
+        "Hippocampe",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Araignée",
+        "Chouette",
+        "Macareux",
+        "Aigle royal",
+        "Salamandre",
+        "Chat",
+        "Pélican",
+        "Phoque",
+        "Vipère",
+        "Cigogne",
+        "Crapaud",
+        "Pieuvre",
+        "Hibou",
+        "Dauphin",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Lynx"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "theme": "animaux",
+    "difficulte": 0.31,
+    "stats": {
+      "moyenne": 13.3,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔡"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Méduse",
+        "Marmotte",
+        "Moustique",
+        "Macareux"
+      ],
+      "1": [
+        "Macaque",
+        "Mandrill"
+      ],
+      "2": [
+        "Macaque",
+        "Mandrill"
+      ],
+      "3": [
+        "Hippocampe",
+        "Libellule",
+        "Abeille",
+        "Sauterelle",
+        "Moustique",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Scarabée",
+        "Clown (poisson)",
+        "Marmotte",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Ver de terre",
+        "Vipère",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Scorpion",
+        "Grenouille",
+        "Perroquet",
+        "Chauve-souris",
+        "Méduse",
+        "Gecko"
+      ],
+      "4": [
+        "Abeille",
+        "Ours brun",
+        "Éléphant",
+        "Gibbon",
+        "Araignée",
+        "Python",
+        "Chouette",
+        "Papillon",
+        "Cochon",
+        "Pangolin",
+        "Scarabée",
+        "Tapir",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Vipère",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Paon",
+        "Cobra royal",
+        "Cerf",
+        "Panda géant",
+        "Hibou",
+        "Orang-outan",
+        "Loup",
+        "Perroquet",
+        "Chauve-souris",
+        "Renard roux",
+        "Gecko",
+        "Lynx",
+        "Léopard",
+        "Sanglier"
+      ],
+      "5": [
+        "Macaque",
+        "Paon",
+        "Sanglier",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Ours brun",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Gibbon",
+        "Canard",
+        "Orang-outan",
+        "Renard roux",
+        "Perroquet",
+        "Cochon"
+      ],
+      "6": [
+        "Fennec",
+        "Chauve-souris",
+        "Scarabée",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Hérisson",
+        "Scorpion",
+        "Gecko",
+        "Chouette"
+      ],
+      "7": [
+        "Chauve-souris",
+        "Blaireau",
+        "Diable de Tasmanie",
+        "Scarabée",
+        "Wombat",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Léopard",
+        "Renard roux",
+        "Hérisson",
+        "Gecko",
+        "Lynx",
+        "Pangolin",
+        "Tatou",
+        "Chouette",
+        "Sanglier"
+      ],
+      "8": [
+        "Fennec",
+        "Blaireau",
+        "Scarabée",
+        "Renard roux",
+        "Hérisson",
+        "Tatou",
+        "Sanglier"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "theme": "animaux",
+    "difficulte": 0.44,
+    "stats": {
+      "moyenne": 11.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_o",
+        "label": "Commence par O",
+        "icon": "🔡"
+      },
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      },
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Orque",
+        "Ours polaire",
+        "Ornithorynque"
+      ],
+      "1": [
+        "Ours brun",
+        "Ours polaire"
+      ],
+      "2": [
+        "Ours brun",
+        "Ours polaire"
+      ],
+      "3": [
+        "Grand requin blanc",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Fourmilier",
+        "Anaconda",
+        "Condor",
+        "Araignée",
+        "Piranha",
+        "Chouette",
+        "Aigle royal",
+        "Salamandre",
+        "Crocodile",
+        "Caïman",
+        "Crapaud",
+        "Hibou",
+        "Dauphin",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Raie manta",
+        "Jaguar",
+        "Axolotl"
+      ],
+      "4": [
+        "Grand requin blanc",
+        "Aigle royal",
+        "Jaguar",
+        "Fourmilier",
+        "Hibou",
+        "Ver de terre",
+        "Élan",
+        "Araignée",
+        "Scorpion",
+        "Tortue des Galápagos",
+        "Loup",
+        "Chouette",
+        "Paresseux"
+      ],
+      "5": [
+        "Aigle royal",
+        "Lama",
+        "Marmotte",
+        "Alpaga",
+        "Condor",
+        "Loup"
+      ],
+      "6": [
+        "Hyène",
+        "Diable de Tasmanie",
+        "Loutre",
+        "Fourmilier",
+        "Baleine bleue",
+        "Guépard",
+        "Pangolin",
+        "Tigre",
+        "Léopard de mer",
+        "Chat",
+        "Narval",
+        "Phoque",
+        "Lion",
+        "Dauphin",
+        "Ours polaire",
+        "Lycaon",
+        "Loup",
+        "Morse",
+        "Chauve-souris",
+        "Ornithorynque",
+        "Béluga",
+        "Lynx",
+        "Jaguar",
+        "Orque",
+        "Serval",
+        "Léopard"
+      ],
+      "7": [
+        "Fennec",
+        "Tigre",
+        "Wombat",
+        "Léopard de mer",
+        "Chat",
+        "Fourmilier",
+        "Ours brun",
+        "Renard roux",
+        "Hérisson",
+        "Élan",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Loup",
+        "Paresseux"
+      ],
+      "8": [
+        "Lama",
+        "Marmotte",
+        "Mouton",
+        "Chevrette",
+        "Renard arctique",
+        "Ours brun",
+        "Chèvre",
+        "Alpaga",
+        "Ours polaire",
+        "Loup",
+        "Renne",
+        "Yak"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "theme": "animaux",
+    "difficulte": 0.55,
+    "stats": {
+      "moyenne": 9.8,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      },
+      {
+        "id": "cont_afrique",
+        "label": "Vit en Afrique",
+        "icon": "🌍"
+      },
+      {
+        "id": "carac_migrateur",
+        "label": "Migrateur",
+        "icon": "✈️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Lama",
+        "Ours brun",
+        "Alpaga",
+        "Ours polaire",
+        "Renne",
+        "Yak"
+      ],
+      "1": [
+        "Lama",
+        "Marmotte",
+        "Mouton",
+        "Chevrette",
+        "Renard arctique",
+        "Ours brun",
+        "Chèvre",
+        "Alpaga",
+        "Ours polaire",
+        "Loup",
+        "Renne",
+        "Yak"
+      ],
+      "2": [
+        "Aigle royal",
+        "Vautour",
+        "Harfang des neiges",
+        "Condor"
+      ],
+      "3": [
+        "Guépard",
+        "Dromadaire",
+        "Hyène",
+        "Zèbre",
+        "Chimpanzé",
+        "Gnou",
+        "Lion",
+        "Raie manta",
+        "Léopard",
+        "Dauphin",
+        "Gorille",
+        "Okapi",
+        "Tortue marine",
+        "Autruche",
+        "Crocodile",
+        "Phacochère"
+      ],
+      "4": [
+        "Fennec",
+        "Hyène",
+        "Chimpanzé",
+        "Éléphant",
+        "Girafe",
+        "Gorille",
+        "Guépard",
+        "Zèbre",
+        "Gazelle",
+        "Rhinocéros",
+        "Mandrill",
+        "Dromadaire",
+        "Gnou",
+        "Lion",
+        "Dauphin",
+        "Lycaon",
+        "Okapi",
+        "Phacochère",
+        "Chauve-souris",
+        "Pangolin",
+        "Serval",
+        "Hippopotame",
+        "Léopard",
+        "Suricate"
+      ],
+      "5": [
+        "Flamant rose",
+        "Vautour",
+        "Cigogne",
+        "Crapaud",
+        "Grenouille",
+        "Mamba noir",
+        "Gecko",
+        "Caméléon",
+        "Pélican",
+        "Python",
+        "Tortue marine",
+        "Autruche",
+        "Crocodile"
+      ],
+      "6": [
+        "Gnou",
+        "Renne",
+        "Tortue marine",
+        "Raie manta"
+      ],
+      "7": [
+        "Baleine bleue",
+        "Gnou",
+        "Renne"
+      ],
+      "8": [
+        "Flamant rose",
+        "Cigogne",
+        "Albatros",
+        "Canard",
+        "Pélican",
+        "Tortue marine"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "theme": "animaux",
+    "difficulte": 0.66,
+    "stats": {
+      "moyenne": 8.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_g",
+        "label": "Commence par G",
+        "icon": "🔡"
+      },
+      {
+        "id": "lettre_p",
+        "label": "Commence par P",
+        "icon": "🔡"
+      },
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Gorille",
+        "Gnou",
+        "Gazelle"
+      ],
+      "1": [
+        "Guépard",
+        "Gorille",
+        "Gnou"
+      ],
+      "2": [
+        "Gibbon",
+        "Gazelle"
+      ],
+      "3": [
+        "Poule",
+        "Piranha",
+        "Pélican",
+        "Phoque",
+        "Phacochère"
+      ],
+      "4": [
+        "Phoque",
+        "Panda géant",
+        "Phacochère"
+      ],
+      "5": [
+        "Paon",
+        "Pieuvre",
+        "Pangolin",
+        "Pélican",
+        "Python",
+        "Paresseux"
+      ],
+      "6": [
+        "Vautour",
+        "Abeille",
+        "Sauterelle",
+        "Chevrette",
+        "Castor",
+        "Lapin",
+        "Cochon",
+        "Macareux",
+        "Marmotte",
+        "Fourmi",
+        "Chien",
+        "Vache",
+        "Pélican",
+        "Phoque",
+        "Blaireau",
+        "Poule",
+        "Cerf",
+        "Dauphin",
+        "Loup",
+        "Flamant rose",
+        "Mouton",
+        "Cheval",
+        "Chèvre",
+        "Renne",
+        "Sanglier"
+      ],
+      "7": [
+        "Sanglier",
+        "Cerf",
+        "Renne",
+        "Ours brun",
+        "Cheval",
+        "Dauphin",
+        "Élan",
+        "Vache",
+        "Phoque",
+        "Cochon"
+      ],
+      "8": [
+        "Flamant rose",
+        "Vautour",
+        "Cigogne",
+        "Blaireau",
+        "Aigle royal",
+        "Mouton",
+        "Loutre",
+        "Chevrette",
+        "Pieuvre",
+        "Chèvre",
+        "Chien",
+        "Renard roux",
+        "Lynx",
+        "Pélican",
+        "Castor",
+        "Loup"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "theme": "animaux",
+    "difficulte": 0.74,
+    "stats": {
+      "moyenne": 6.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "milieu_desert",
+        "label": "Vit dans le désert",
+        "icon": "🏜️"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      },
+      {
+        "id": "lettre_g",
+        "label": "Commence par G",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Fourmilier",
+        "Cheval",
+        "Chien",
+        "Tortue des Galápagos",
+        "Tatou",
+        "Crocodile"
+      ],
+      "1": [
+        "Grenouille",
+        "Grand requin blanc"
+      ],
+      "2": [
+        "Grand requin blanc",
+        "Aigle royal",
+        "Jaguar",
+        "Fourmilier",
+        "Hibou",
+        "Ver de terre",
+        "Élan",
+        "Araignée",
+        "Scorpion",
+        "Tortue des Galápagos",
+        "Loup",
+        "Chouette",
+        "Paresseux"
+      ],
+      "3": [
+        "Gazelle",
+        "Suricate"
+      ],
+      "4": [
+        "Gecko",
+        "Gazelle"
+      ],
+      "5": [
+        "Fennec",
+        "Scorpion"
+      ],
+      "6": [
+        "Guépard",
+        "Vautour",
+        "Cigogne",
+        "Hyène",
+        "Lion",
+        "Fourmilier",
+        "Mamba noir",
+        "Komodo",
+        "Serval",
+        "Lycaon",
+        "Léopard",
+        "Crocodile"
+      ],
+      "7": [
+        "Guépard",
+        "Grenouille",
+        "Gecko",
+        "Grand requin blanc"
+      ],
+      "8": [
+        "Grand requin blanc",
+        "Fourmilier",
+        "Araignée",
+        "Caméléon",
+        "Chouette",
+        "Harfang des neiges",
+        "Aigle royal",
+        "Tigre",
+        "Léopard de mer",
+        "Calamar géant",
+        "Chat",
+        "Vipère",
+        "Pieuvre",
+        "Hibou",
+        "Scorpion",
+        "Ours polaire",
+        "Loup",
+        "Jaguar",
+        "Lynx"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-14",
+    "theme": "animaux",
+    "difficulte": 0.82,
+    "stats": {
+      "moyenne": 5.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "carac_venimeux",
+        "label": "Venimeux",
+        "icon": "☠️"
+      },
+      {
+        "id": "classe_autre",
+        "label": "Autre invertébré",
+        "icon": "🦑"
+      },
+      {
+        "id": "cont_arctique",
+        "label": "Vit dans l'Arctique/Antarctique",
+        "icon": "🧊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      },
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Méduse",
+        "Ornithorynque"
+      ],
+      "1": [
+        "Abeille",
+        "Méduse",
+        "Salamandre",
+        "Moustique",
+        "Araignée",
+        "Vipère"
+      ],
+      "2": [
+        "Ornithorynque",
+        "Méduse",
+        "Cobra royal",
+        "Salamandre",
+        "Moustique",
+        "Mamba noir",
+        "Scorpion",
+        "Araignée",
+        "Komodo",
+        "Vipère"
+      ],
+      "3": [
+        "Méduse",
+        "Calamar géant",
+        "Pieuvre"
+      ],
+      "4": [
+        "Méduse",
+        "Ver de terre",
+        "Araignée",
+        "Pieuvre"
+      ],
+      "5": [
+        "Méduse",
+        "Calamar géant",
+        "Pieuvre",
+        "Scorpion",
+        "Araignée"
+      ],
+      "6": [
+        "Macareux",
+        "Calamar géant",
+        "Baleine bleue",
+        "Élan",
+        "Orque",
+        "Phoque",
+        "Ours polaire"
+      ],
+      "7": [
+        "Phoque",
+        "Renne",
+        "Élan",
+        "Macareux"
+      ],
+      "8": [
+        "Morse",
+        "Harfang des neiges",
+        "Macareux",
+        "Calamar géant",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Orque",
+        "Phoque",
+        "Ours polaire"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "theme": "animaux",
+    "difficulte": 0.21,
+    "stats": {
+      "moyenne": 14.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "lettre_v",
+        "label": "Commence par V",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Loutre",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Yak",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Marmotte",
+        "Chat",
+        "Chien",
+        "Gazelle",
+        "Rhinocéros",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Dromadaire",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Loup",
+        "Chameau",
+        "Chauve-souris",
+        "Cheval",
+        "Renard roux",
+        "Chèvre",
+        "Lynx",
+        "Léopard",
+        "Sanglier"
+      ],
+      "1": [
+        "Vautour",
+        "Hippocampe",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Araignée",
+        "Python",
+        "Chouette",
+        "Pangolin",
+        "Aigle royal",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Komodo",
+        "Pélican",
+        "Vipère",
+        "Crocodile",
+        "Cobra royal",
+        "Pieuvre",
+        "Hibou",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Raie manta",
+        "Gecko",
+        "Lynx",
+        "Léopard"
+      ],
+      "2": [
+        "Vautour",
+        "Sauterelle",
+        "Scarabée",
+        "Poule",
+        "Éléphant",
+        "Cheval",
+        "Chien",
+        "Gazelle",
+        "Rhinocéros",
+        "Komodo",
+        "Léopard",
+        "Crocodile"
+      ],
+      "3": [
+        "Wallaby",
+        "Wombat",
+        "Vache"
+      ],
+      "4": [
+        "Vautour",
+        "Vipère"
+      ],
+      "5": [
+        "Wallaby",
+        "Vautour",
+        "Vache"
+      ],
+      "6": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Loutre",
+        "Renard arctique",
+        "Éléphant",
+        "Baleine bleue",
+        "Girafe",
+        "Gibbon",
+        "Gorille",
+        "Guépard",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Narval",
+        "Rhinocéros",
+        "Gazelle",
+        "Koala",
+        "Éléphant d'Asie",
+        "Panda géant",
+        "Orang-outan",
+        "Ours polaire",
+        "Lycaon",
+        "Okapi",
+        "Béluga",
+        "Jaguar",
+        "Lynx",
+        "Hippopotame",
+        "Léopard",
+        "Paresseux"
+      ],
+      "7": [
+        "Guépard",
+        "Axolotl",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Diable de Tasmanie",
+        "Pangolin",
+        "Tigre",
+        "Loutre",
+        "Raie manta",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Condor",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Lycaon",
+        "Léopard"
+      ],
+      "8": [
+        "Guépard",
+        "Éléphant",
+        "Girafe",
+        "Rhinocéros",
+        "Gazelle",
+        "Tortue des Galápagos",
+        "Lycaon",
+        "Léopard",
+        "Hippopotame"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "theme": "animaux",
+    "difficulte": 0.31,
+    "stats": {
+      "moyenne": 13.3,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Fennec",
+        "Macaque",
+        "Sanglier",
+        "Blaireau",
+        "Chimpanzé",
+        "Phacochère",
+        "Suricate",
+        "Renard arctique",
+        "Ours brun",
+        "Chien",
+        "Renard roux",
+        "Gibbon",
+        "Orang-outan",
+        "Hérisson",
+        "Tatou",
+        "Mandrill",
+        "Cochon"
+      ],
+      "1": [
+        "Fennec",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Fourmi",
+        "Hérisson",
+        "Ver de terre",
+        "Canard",
+        "Toucan",
+        "Perroquet",
+        "Suricate"
+      ],
+      "2": [
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Canard",
+        "Toucan",
+        "Tatou",
+        "Perroquet"
+      ],
+      "3": [
+        "Tatou",
+        "Lapin",
+        "Ornithorynque"
+      ],
+      "4": [
+        "Triton",
+        "Macareux",
+        "Vipère",
+        "Ornithorynque",
+        "Poule",
+        "Crapaud",
+        "Hibou",
+        "Canard",
+        "Gecko",
+        "Cacatoès",
+        "Toucan",
+        "Grenouille",
+        "Chouette",
+        "Caméléon",
+        "Lapin",
+        "Perroquet"
+      ],
+      "5": [
+        "Chouette",
+        "Caïman",
+        "Aigle royal",
+        "Crapaud",
+        "Hibou",
+        "Grenouille",
+        "Canard",
+        "Iguane",
+        "Condor",
+        "Tortue des Galápagos",
+        "Toucan",
+        "Tatou",
+        "Tortue marine",
+        "Crocodile",
+        "Perroquet"
+      ],
+      "6": [
+        "Kangourou",
+        "Chevrette",
+        "Éléphant",
+        "Wallaby",
+        "Girafe",
+        "Élan",
+        "Gorille",
+        "Castor",
+        "Yak",
+        "Lapin",
+        "Zèbre",
+        "Lama",
+        "Tapir",
+        "Wombat",
+        "Marmotte",
+        "Gazelle",
+        "Rhinocéros",
+        "Vache",
+        "Koala",
+        "Hippopotame",
+        "Éléphant d'Asie",
+        "Dromadaire",
+        "Gnou",
+        "Cerf",
+        "Panda géant",
+        "Alpaga",
+        "Okapi",
+        "Chameau",
+        "Mouton",
+        "Cheval",
+        "Chèvre",
+        "Renne",
+        "Paresseux"
+      ],
+      "7": [
+        "Abeille",
+        "Sauterelle",
+        "Marmotte",
+        "Cacatoès",
+        "Papillon",
+        "Lapin"
+      ],
+      "8": [
+        "Lama",
+        "Tapir",
+        "Marmotte",
+        "Tortue marine",
+        "Cheval",
+        "Alpaga",
+        "Élan",
+        "Iguane",
+        "Tortue des Galápagos",
+        "Castor",
+        "Papillon",
+        "Paresseux"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "theme": "animaux",
+    "difficulte": 0.39,
+    "stats": {
+      "moyenne": 12.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_h",
+        "label": "Commence par H",
+        "icon": "🔡"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "classe_oiseau",
+        "label": "Oiseau",
+        "icon": "🐦"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "cont_afrique",
+        "label": "Vit en Afrique",
+        "icon": "🌍"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hibou",
+        "Hérisson"
+      ],
+      "1": [
+        "Hibou",
+        "Harfang des neiges"
+      ],
+      "2": [
+        "Hippopotame",
+        "Hippocampe",
+        "Hyène"
+      ],
+      "3": [
+        "Diable de Tasmanie",
+        "Fourmilier",
+        "Anaconda",
+        "Araignée",
+        "Caméléon",
+        "Python",
+        "Chouette",
+        "Pangolin",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Vipère",
+        "Caïman",
+        "Cobra royal",
+        "Crapaud",
+        "Hibou",
+        "Loup",
+        "Chauve-souris",
+        "Gecko",
+        "Jaguar",
+        "Lynx",
+        "Léopard"
+      ],
+      "4": [
+        "Vautour",
+        "Triton",
+        "Condor",
+        "Caméléon",
+        "Python",
+        "Chouette",
+        "Harfang des neiges",
+        "Macareux",
+        "Aigle royal",
+        "Mamba noir",
+        "Komodo",
+        "Pélican",
+        "Vipère",
+        "Crocodile",
+        "Caïman",
+        "Cigogne",
+        "Cobra royal",
+        "Crapaud",
+        "Hibou",
+        "Grenouille",
+        "Manchot",
+        "Ornithorynque",
+        "Albatros",
+        "Gecko"
+      ],
+      "5": [
+        "Vautour",
+        "Grand requin blanc",
+        "Hippocampe",
+        "Hyène",
+        "Moustique",
+        "Araignée",
+        "Caméléon",
+        "Python",
+        "Guépard",
+        "Mamba noir",
+        "Pélican",
+        "Crocodile",
+        "Cigogne",
+        "Lion",
+        "Crapaud",
+        "Pieuvre",
+        "Dauphin",
+        "Scorpion",
+        "Grenouille",
+        "Lycaon",
+        "Chauve-souris",
+        "Méduse",
+        "Raie manta",
+        "Gecko",
+        "Pangolin",
+        "Serval",
+        "Léopard"
+      ],
+      "6": [
+        "Paon",
+        "Hibou",
+        "Cacatoès",
+        "Toucan",
+        "Chouette",
+        "Perroquet"
+      ],
+      "7": [
+        "Vautour",
+        "Condor",
+        "Cacatoès",
+        "Chouette",
+        "Autruche",
+        "Harfang des neiges",
+        "Macareux",
+        "Aigle royal",
+        "Pélican",
+        "Paon",
+        "Cigogne",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Toucan",
+        "Manchot",
+        "Perroquet",
+        "Flamant rose",
+        "Albatros"
+      ],
+      "8": [
+        "Flamant rose",
+        "Vautour",
+        "Cigogne",
+        "Pélican",
+        "Autruche"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "theme": "animaux",
+    "difficulte": 0.56,
+    "stats": {
+      "moyenne": 9.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "milieu_desert",
+        "label": "Vit dans le désert",
+        "icon": "🏜️"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hippocampe",
+        "Libellule",
+        "Abeille",
+        "Sauterelle",
+        "Moustique",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Scarabée",
+        "Clown (poisson)",
+        "Marmotte",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Ver de terre",
+        "Vipère",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Scorpion",
+        "Grenouille",
+        "Perroquet",
+        "Chauve-souris",
+        "Méduse",
+        "Gecko"
+      ],
+      "1": [
+        "Dromadaire",
+        "Sanglier",
+        "Tapir",
+        "Tigre",
+        "Tortue marine",
+        "Cerf",
+        "Panda géant",
+        "Ours brun",
+        "Chameau",
+        "Raie manta",
+        "Cheval",
+        "Orang-outan",
+        "Léopard",
+        "Komodo",
+        "Yak",
+        "Crocodile",
+        "Cochon"
+      ],
+      "2": [
+        "Vautour",
+        "Sauterelle",
+        "Scarabée",
+        "Poule",
+        "Éléphant",
+        "Cheval",
+        "Chien",
+        "Gazelle",
+        "Rhinocéros",
+        "Komodo",
+        "Léopard",
+        "Crocodile"
+      ],
+      "3": [
+        "Fennec",
+        "Scorpion",
+        "Gecko",
+        "Suricate"
+      ],
+      "4": [
+        "Dromadaire",
+        "Chameau"
+      ],
+      "5": [
+        "Gazelle",
+        "Suricate"
+      ],
+      "6": [
+        "Fennec",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Fourmi",
+        "Hérisson",
+        "Ver de terre",
+        "Canard",
+        "Toucan",
+        "Perroquet",
+        "Suricate"
+      ],
+      "7": [
+        "Sanglier",
+        "Chimpanzé",
+        "Phacochère",
+        "Ours brun",
+        "Orang-outan",
+        "Autruche",
+        "Cochon"
+      ],
+      "8": [
+        "Scarabée",
+        "Phacochère",
+        "Poule",
+        "Chien",
+        "Tatou",
+        "Autruche",
+        "Suricate"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "theme": "animaux",
+    "difficulte": 0.66,
+    "stats": {
+      "moyenne": 8.1,
+      "min": 5
+    },
+    "lignes": [
+      {
+        "id": "lettre_p",
+        "label": "Commence par P",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_solitaire",
+        "label": "Solitaire",
+        "icon": "🚶"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Poule",
+        "Pieuvre",
+        "Pélican",
+        "Phoque",
+        "Papillon"
+      ],
+      "1": [
+        "Paon",
+        "Pieuvre",
+        "Pangolin",
+        "Pélican",
+        "Python",
+        "Paresseux"
+      ],
+      "2": [
+        "Paon",
+        "Poule",
+        "Pélican",
+        "Python",
+        "Perroquet"
+      ],
+      "3": [
+        "Vipère",
+        "Aigle royal",
+        "Chat",
+        "Pieuvre",
+        "Ours brun",
+        "Hibou",
+        "Renard roux",
+        "Ver de terre",
+        "Élan",
+        "Araignée",
+        "Hérisson",
+        "Lynx",
+        "Loup",
+        "Chouette"
+      ],
+      "4": [
+        "Harfang des neiges",
+        "Aigle royal",
+        "Wombat",
+        "Pieuvre",
+        "Fourmilier",
+        "Renard roux",
+        "Lynx",
+        "Loup",
+        "Paresseux"
+      ],
+      "5": [
+        "Harfang des neiges",
+        "Vipère",
+        "Aigle royal",
+        "Hibou",
+        "Tortue des Galápagos",
+        "Caméléon",
+        "Chouette"
+      ],
+      "6": [
+        "Chauve-souris",
+        "Blaireau",
+        "Scarabée",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Renard roux",
+        "Hérisson",
+        "Lynx",
+        "Chouette",
+        "Sanglier"
+      ],
+      "7": [
+        "Harfang des neiges",
+        "Blaireau",
+        "Diable de Tasmanie",
+        "Serval",
+        "Wombat",
+        "Renard roux",
+        "Lynx",
+        "Pangolin",
+        "Tatou"
+      ],
+      "8": [
+        "Harfang des neiges",
+        "Crapaud",
+        "Hibou",
+        "Gecko",
+        "Tatou",
+        "Chouette"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "theme": "animaux",
+    "difficulte": 0.79,
+    "stats": {
+      "moyenne": 6.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "carac_arboricole",
+        "label": "Arboricole",
+        "icon": "🌴"
+      },
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Grand requin blanc",
+        "Tapir",
+        "Loutre",
+        "Raie manta",
+        "Condor",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Axolotl",
+        "Tortue marine",
+        "Paresseux"
+      ],
+      "1": [
+        "Chouette",
+        "Caïman",
+        "Aigle royal",
+        "Crapaud",
+        "Hibou",
+        "Grenouille",
+        "Canard",
+        "Iguane",
+        "Condor",
+        "Tortue des Galápagos",
+        "Toucan",
+        "Tatou",
+        "Tortue marine",
+        "Crocodile",
+        "Perroquet"
+      ],
+      "2": [
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Canard",
+        "Toucan",
+        "Tatou",
+        "Perroquet"
+      ],
+      "3": [
+        "Paresseux",
+        "Koala",
+        "Orang-outan",
+        "Gibbon"
+      ],
+      "4": [
+        "Iguane",
+        "Cacatoès",
+        "Toucan",
+        "Caméléon",
+        "Perroquet"
+      ],
+      "5": [
+        "Toucan",
+        "Orang-outan",
+        "Gibbon",
+        "Perroquet"
+      ],
+      "6": [
+        "Tortue marine",
+        "Tapir",
+        "Tigre",
+        "Tortue des Galápagos"
+      ],
+      "7": [
+        "Triton",
+        "Tortue des Galápagos",
+        "Toucan",
+        "Tatou",
+        "Tortue marine"
+      ],
+      "8": [
+        "Toucan",
+        "Tatou"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "animaux",
+    "difficulte": 0.87,
+    "stats": {
+      "moyenne": 5.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "milieu_eau",
+        "label": "Vit en eau douce",
+        "icon": "🏞️"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      },
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hippopotame",
+        "Cigogne",
+        "Crocodile"
+      ],
+      "1": [
+        "Libellule",
+        "Salamandre",
+        "Moustique",
+        "Loutre",
+        "Grenouille",
+        "Canard",
+        "Pélican",
+        "Crocodile"
+      ],
+      "2": [
+        "Flamant rose",
+        "Canard"
+      ],
+      "3": [
+        "Hyène",
+        "Scarabée",
+        "Serval",
+        "Tatou",
+        "Léopard"
+      ],
+      "4": [
+        "Chauve-souris",
+        "Scarabée",
+        "Salamandre",
+        "Chat",
+        "Hibou",
+        "Léopard",
+        "Renard roux",
+        "Scorpion",
+        "Gecko",
+        "Lynx",
+        "Pangolin",
+        "Chouette",
+        "Sanglier"
+      ],
+      "5": [
+        "Fennec",
+        "Blaireau",
+        "Scarabée",
+        "Renard roux",
+        "Hérisson",
+        "Tatou",
+        "Sanglier"
+      ],
+      "6": [
+        "Tatou",
+        "Tortue des Galápagos"
+      ],
+      "7": [
+        "Tapir",
+        "Tigre",
+        "Tortue marine"
+      ],
+      "8": [
+        "Toucan",
+        "Tatou"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "theme": "animaux",
+    "difficulte": 0.19,
+    "stats": {
+      "moyenne": 15.2,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "milieu_mer",
+        "label": "Vit en mer",
+        "icon": "🌊"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Orque",
+        "Léopard de mer",
+        "Baleine bleue",
+        "Béluga",
+        "Dauphin",
+        "Narval",
+        "Ours polaire",
+        "Phoque",
+        "Morse"
+      ],
+      "1": [
+        "Hippocampe",
+        "Macareux",
+        "Méduse",
+        "Pieuvre",
+        "Dauphin",
+        "Phoque"
+      ],
+      "2": [
+        "Calamar géant",
+        "Léopard de mer",
+        "Raie manta",
+        "Dauphin",
+        "Ours polaire",
+        "Phoque",
+        "Tortue marine",
+        "Morse"
+      ],
+      "3": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Loutre",
+        "Renard arctique",
+        "Éléphant",
+        "Baleine bleue",
+        "Girafe",
+        "Gibbon",
+        "Gorille",
+        "Guépard",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Narval",
+        "Rhinocéros",
+        "Gazelle",
+        "Koala",
+        "Éléphant d'Asie",
+        "Panda géant",
+        "Orang-outan",
+        "Ours polaire",
+        "Lycaon",
+        "Okapi",
+        "Béluga",
+        "Jaguar",
+        "Lynx",
+        "Hippopotame",
+        "Léopard",
+        "Paresseux"
+      ],
+      "4": [
+        "Lynx",
+        "Hippocampe",
+        "Loutre"
+      ],
+      "5": [
+        "Guépard",
+        "Chimpanzé",
+        "Tapir",
+        "Tigre",
+        "Panda géant",
+        "Raie manta",
+        "Léopard",
+        "Orang-outan",
+        "Tortue des Galápagos",
+        "Jaguar",
+        "Ours polaire",
+        "Gorille",
+        "Okapi",
+        "Tortue marine"
+      ],
+      "6": [
+        "Hyène",
+        "Diable de Tasmanie",
+        "Loutre",
+        "Fourmilier",
+        "Baleine bleue",
+        "Guépard",
+        "Pangolin",
+        "Tigre",
+        "Léopard de mer",
+        "Chat",
+        "Narval",
+        "Phoque",
+        "Lion",
+        "Dauphin",
+        "Ours polaire",
+        "Lycaon",
+        "Loup",
+        "Morse",
+        "Chauve-souris",
+        "Ornithorynque",
+        "Béluga",
+        "Lynx",
+        "Jaguar",
+        "Orque",
+        "Serval",
+        "Léopard"
+      ],
+      "7": [
+        "Vautour",
+        "Triton",
+        "Hippocampe",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Araignée",
+        "Chouette",
+        "Macareux",
+        "Aigle royal",
+        "Salamandre",
+        "Chat",
+        "Pélican",
+        "Phoque",
+        "Vipère",
+        "Cigogne",
+        "Crapaud",
+        "Pieuvre",
+        "Hibou",
+        "Dauphin",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Lynx"
+      ],
+      "8": [
+        "Guépard",
+        "Caïman",
+        "Hyène",
+        "Jaguar",
+        "Tigre",
+        "Lion",
+        "Léopard de mer",
+        "Calamar géant",
+        "Raie manta",
+        "Anaconda",
+        "Dauphin",
+        "Komodo",
+        "Ours polaire",
+        "Phoque",
+        "Léopard",
+        "Crocodile",
+        "Morse"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "theme": "animaux",
+    "difficulte": 0.35,
+    "stats": {
+      "moyenne": 12.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      },
+      {
+        "id": "carac_migrateur",
+        "label": "Migrateur",
+        "icon": "✈️"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Triton",
+        "Hippocampe",
+        "Macareux",
+        "Ornithorynque",
+        "Méduse",
+        "Clown (poisson)",
+        "Canard",
+        "Grenouille"
+      ],
+      "1": [
+        "Canard",
+        "Papillon"
+      ],
+      "2": [
+        "Fennec",
+        "Chauve-souris",
+        "Ornithorynque",
+        "Marmotte",
+        "Chat",
+        "Hérisson",
+        "Lapin",
+        "Suricate"
+      ],
+      "3": [
+        "Triton",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Loutre",
+        "Baleine bleue",
+        "Anaconda",
+        "Macareux",
+        "Tigre",
+        "Léopard de mer",
+        "Calamar géant",
+        "Pélican",
+        "Phoque",
+        "Pieuvre",
+        "Dauphin",
+        "Ours polaire",
+        "Grenouille",
+        "Manchot",
+        "Ornithorynque",
+        "Méduse",
+        "Raie manta",
+        "Jaguar",
+        "Orque"
+      ],
+      "4": [
+        "Cigogne",
+        "Albatros",
+        "Raie manta",
+        "Baleine bleue",
+        "Pélican"
+      ],
+      "5": [
+        "Hyène",
+        "Diable de Tasmanie",
+        "Loutre",
+        "Fourmilier",
+        "Baleine bleue",
+        "Guépard",
+        "Pangolin",
+        "Tigre",
+        "Léopard de mer",
+        "Chat",
+        "Narval",
+        "Phoque",
+        "Lion",
+        "Dauphin",
+        "Ours polaire",
+        "Lycaon",
+        "Loup",
+        "Morse",
+        "Chauve-souris",
+        "Ornithorynque",
+        "Béluga",
+        "Lynx",
+        "Jaguar",
+        "Orque",
+        "Serval",
+        "Léopard"
+      ],
+      "6": [
+        "Triton",
+        "Hippocampe",
+        "Macareux",
+        "Méduse",
+        "Loutre",
+        "Pieuvre",
+        "Grenouille",
+        "Dauphin",
+        "Canard",
+        "Élan",
+        "Pélican",
+        "Castor",
+        "Phoque"
+      ],
+      "7": [
+        "Flamant rose",
+        "Cigogne",
+        "Canard",
+        "Pélican",
+        "Renne",
+        "Papillon"
+      ],
+      "8": [
+        "Loutre",
+        "Chevrette",
+        "Ours brun",
+        "Élan",
+        "Castor",
+        "Lapin",
+        "Cochon",
+        "Marmotte",
+        "Chat",
+        "Chien",
+        "Vache",
+        "Phoque",
+        "Blaireau",
+        "Cerf",
+        "Dauphin",
+        "Loup",
+        "Chauve-souris",
+        "Mouton",
+        "Cheval",
+        "Renard roux",
+        "Hérisson",
+        "Chèvre",
+        "Lynx",
+        "Renne",
+        "Sanglier"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "theme": "animaux",
+    "difficulte": 0.42,
+    "stats": {
+      "moyenne": 11.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "classe_autre",
+        "label": "Autre invertébré",
+        "icon": "🦑"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "carac_venimeux",
+        "label": "Venimeux",
+        "icon": "☠️"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Scorpion",
+        "Ver de terre",
+        "Araignée"
+      ],
+      "1": [
+        "Méduse",
+        "Scorpion",
+        "Araignée"
+      ],
+      "2": [
+        "Méduse",
+        "Calamar géant",
+        "Pieuvre",
+        "Scorpion",
+        "Araignée"
+      ],
+      "3": [
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Araignée",
+        "Tortue marine",
+        "Chouette",
+        "Papillon",
+        "Aigle royal",
+        "Tapir",
+        "Marmotte",
+        "Salamandre",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Crocodile",
+        "Hibou",
+        "Canard",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Perroquet",
+        "Chauve-souris",
+        "Raie manta",
+        "Cheval"
+      ],
+      "4": [
+        "Abeille",
+        "Méduse",
+        "Cobra royal",
+        "Salamandre",
+        "Moustique",
+        "Scorpion",
+        "Araignée",
+        "Komodo",
+        "Vipère"
+      ],
+      "5": [
+        "Vautour",
+        "Hippocampe",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Araignée",
+        "Python",
+        "Chouette",
+        "Pangolin",
+        "Aigle royal",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Komodo",
+        "Pélican",
+        "Vipère",
+        "Crocodile",
+        "Cobra royal",
+        "Pieuvre",
+        "Hibou",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Raie manta",
+        "Gecko",
+        "Lynx",
+        "Léopard"
+      ],
+      "6": [
+        "Aigle royal",
+        "Loutre",
+        "Fourmilier",
+        "Chien",
+        "Iguane",
+        "Condor",
+        "Tatou",
+        "Castor",
+        "Loup",
+        "Paresseux"
+      ],
+      "7": [
+        "Mamba noir",
+        "Cobra royal"
+      ],
+      "8": [
+        "Vautour",
+        "Diable de Tasmanie",
+        "Loutre",
+        "Fourmilier",
+        "Condor",
+        "Python",
+        "Harfang des neiges",
+        "Aigle royal",
+        "Mamba noir",
+        "Pélican",
+        "Cigogne",
+        "Cobra royal",
+        "Pieuvre",
+        "Lycaon",
+        "Loup",
+        "Manchot",
+        "Albatros",
+        "Lynx",
+        "Pangolin",
+        "Serval"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "theme": "animaux",
+    "difficulte": 0.53,
+    "stats": {
+      "moyenne": 10.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "classe_oiseau",
+        "label": "Oiseau",
+        "icon": "🐦"
+      },
+      {
+        "id": "milieu_eau",
+        "label": "Vit en eau douce",
+        "icon": "🏞️"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "lettre_p",
+        "label": "Commence par P",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Pélican",
+        "Paon",
+        "Poule",
+        "Perroquet"
+      ],
+      "1": [
+        "Vautour",
+        "Condor",
+        "Cacatoès",
+        "Chouette",
+        "Autruche",
+        "Harfang des neiges",
+        "Macareux",
+        "Aigle royal",
+        "Pélican",
+        "Paon",
+        "Cigogne",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Toucan",
+        "Manchot",
+        "Perroquet",
+        "Flamant rose",
+        "Albatros"
+      ],
+      "2": [
+        "Flamant rose",
+        "Vautour",
+        "Macareux",
+        "Poule",
+        "Cacatoès",
+        "Pélican",
+        "Manchot"
+      ],
+      "3": [
+        "Pélican",
+        "Piranha"
+      ],
+      "4": [
+        "Flamant rose",
+        "Caïman",
+        "Cigogne",
+        "Triton",
+        "Ornithorynque",
+        "Crapaud",
+        "Grenouille",
+        "Canard",
+        "Pélican",
+        "Crocodile"
+      ],
+      "5": [
+        "Pélican",
+        "Flamant rose",
+        "Castor",
+        "Piranha"
+      ],
+      "6": [
+        "Python",
+        "Pieuvre",
+        "Piranha",
+        "Pangolin",
+        "Pélican",
+        "Phoque"
+      ],
+      "7": [
+        "Vautour",
+        "Triton",
+        "Condor",
+        "Caméléon",
+        "Python",
+        "Chouette",
+        "Harfang des neiges",
+        "Macareux",
+        "Aigle royal",
+        "Mamba noir",
+        "Komodo",
+        "Pélican",
+        "Vipère",
+        "Crocodile",
+        "Caïman",
+        "Cigogne",
+        "Cobra royal",
+        "Crapaud",
+        "Hibou",
+        "Grenouille",
+        "Manchot",
+        "Ornithorynque",
+        "Albatros",
+        "Gecko"
+      ],
+      "8": [
+        "Vautour",
+        "Hyène",
+        "Macareux",
+        "Lycaon",
+        "Loup",
+        "Lion",
+        "Béluga",
+        "Dauphin",
+        "Narval",
+        "Piranha",
+        "Orque",
+        "Pélican",
+        "Phoque",
+        "Manchot",
+        "Morse"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "theme": "animaux",
+    "difficulte": 0.62,
+    "stats": {
+      "moyenne": 8.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "classe_oiseau",
+        "label": "Oiseau",
+        "icon": "🐦"
+      },
+      {
+        "id": "milieu_eau",
+        "label": "Vit en eau douce",
+        "icon": "🏞️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_ovipare",
+        "label": "Ovipare",
+        "icon": "🥚"
+      },
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Flamant rose",
+        "Paon",
+        "Poule",
+        "Canard",
+        "Toucan",
+        "Tatou",
+        "Autruche",
+        "Perroquet"
+      ],
+      "1": [
+        "Fennec",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Fourmi",
+        "Hérisson",
+        "Ver de terre",
+        "Canard",
+        "Toucan",
+        "Perroquet",
+        "Suricate"
+      ],
+      "2": [
+        "Fennec",
+        "Blaireau",
+        "Scarabée",
+        "Renard roux",
+        "Hérisson",
+        "Tatou",
+        "Sanglier"
+      ],
+      "3": [
+        "Vautour",
+        "Condor",
+        "Cacatoès",
+        "Chouette",
+        "Autruche",
+        "Harfang des neiges",
+        "Macareux",
+        "Aigle royal",
+        "Pélican",
+        "Paon",
+        "Cigogne",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Toucan",
+        "Manchot",
+        "Perroquet",
+        "Flamant rose",
+        "Albatros"
+      ],
+      "4": [
+        "Macareux",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Cacatoès",
+        "Toucan",
+        "Chouette",
+        "Perroquet"
+      ],
+      "5": [
+        "Hibou",
+        "Harfang des neiges",
+        "Chouette"
+      ],
+      "6": [
+        "Flamant rose",
+        "Caïman",
+        "Cigogne",
+        "Triton",
+        "Ornithorynque",
+        "Crapaud",
+        "Grenouille",
+        "Canard",
+        "Pélican",
+        "Crocodile"
+      ],
+      "7": [
+        "Triton",
+        "Libellule",
+        "Ornithorynque",
+        "Salamandre",
+        "Moustique",
+        "Crapaud",
+        "Canard",
+        "Piranha",
+        "Grenouille",
+        "Axolotl"
+      ],
+      "8": [
+        "Crapaud",
+        "Salamandre"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "theme": "animaux",
+    "difficulte": 0.77,
+    "stats": {
+      "moyenne": 6.4,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "classe_insecte",
+        "label": "Insecte",
+        "icon": "🐛"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_arboricole",
+        "label": "Arboricole",
+        "icon": "🌴"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      },
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Abeille",
+        "Scarabée",
+        "Papillon",
+        "Fourmi"
+      ],
+      "1": [
+        "Abeille",
+        "Sauterelle",
+        "Papillon"
+      ],
+      "2": [
+        "Fourmi",
+        "Papillon",
+        "Moustique",
+        "Libellule"
+      ],
+      "3": [
+        "Caïman",
+        "Chauve-souris",
+        "Chimpanzé",
+        "Cobra royal",
+        "Crapaud",
+        "Chevrette",
+        "Chat",
+        "Cerf",
+        "Chien",
+        "Cacatoès",
+        "Chouette",
+        "Caméléon",
+        "Cochon"
+      ],
+      "4": [
+        "Cerf",
+        "Chevrette",
+        "Cheval",
+        "Chèvre",
+        "Cacatoès",
+        "Castor",
+        "Chameau"
+      ],
+      "5": [
+        "Caïman",
+        "Chauve-souris",
+        "Crapaud",
+        "Cheval",
+        "Chien",
+        "Canard",
+        "Condor",
+        "Castor",
+        "Chouette",
+        "Crocodile"
+      ],
+      "6": [
+        "Paresseux",
+        "Iguane",
+        "Orang-outan",
+        "Gibbon",
+        "Cacatoès",
+        "Toucan",
+        "Koala",
+        "Caméléon",
+        "Perroquet"
+      ],
+      "7": [
+        "Cacatoès",
+        "Koala",
+        "Iguane",
+        "Paresseux"
+      ],
+      "8": [
+        "Toucan",
+        "Iguane",
+        "Paresseux",
+        "Perroquet"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-28",
+    "theme": "animaux",
+    "difficulte": 0.83,
+    "stats": {
+      "moyenne": 5.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "classe_autre",
+        "label": "Autre invertébré",
+        "icon": "🦑"
+      },
+      {
+        "id": "lettre_h",
+        "label": "Commence par H",
+        "icon": "🔡"
+      },
+      {
+        "id": "milieu_eau",
+        "label": "Vit en eau douce",
+        "icon": "🏞️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Méduse",
+        "Calamar géant",
+        "Pieuvre",
+        "Scorpion",
+        "Araignée"
+      ],
+      "1": [
+        "Méduse",
+        "Scorpion",
+        "Ver de terre",
+        "Araignée"
+      ],
+      "2": [
+        "Ver de terre",
+        "Araignée"
+      ],
+      "3": [
+        "Hibou",
+        "Harfang des neiges",
+        "Hippocampe",
+        "Hyène"
+      ],
+      "4": [
+        "Hibou",
+        "Hérisson",
+        "Hippocampe"
+      ],
+      "5": [
+        "Hibou",
+        "Hérisson"
+      ],
+      "6": [
+        "Caïman",
+        "Triton",
+        "Cigogne",
+        "Libellule",
+        "Ornithorynque",
+        "Moustique",
+        "Loutre",
+        "Salamandre",
+        "Crapaud",
+        "Anaconda",
+        "Grenouille",
+        "Piranha",
+        "Pélican",
+        "Axolotl",
+        "Crocodile"
+      ],
+      "7": [
+        "Triton",
+        "Libellule",
+        "Ornithorynque",
+        "Salamandre",
+        "Moustique",
+        "Crapaud",
+        "Canard",
+        "Piranha",
+        "Grenouille",
+        "Axolotl"
+      ],
+      "8": [
+        "Caïman",
+        "Crapaud",
+        "Salamandre",
+        "Anaconda",
+        "Élan"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "theme": "animaux",
+    "difficulte": 0.22,
+    "stats": {
+      "moyenne": 14.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔡"
+      },
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Scarabée",
+        "Éléphant",
+        "Fourmilier",
+        "Chien",
+        "Tatou",
+        "Léopard"
+      ],
+      "1": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Chevrette",
+        "Fourmilier",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Élan",
+        "Gorille",
+        "Lapin",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Wombat",
+        "Chat",
+        "Chien",
+        "Tatou",
+        "Koala",
+        "Mandrill",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Blaireau",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Okapi",
+        "Loup",
+        "Chauve-souris",
+        "Renard roux",
+        "Hérisson",
+        "Jaguar",
+        "Lynx",
+        "Léopard",
+        "Paresseux",
+        "Sanglier"
+      ],
+      "2": [
+        "Fourmilier",
+        "Anaconda",
+        "Élan",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Tapir",
+        "Salamandre",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Tatou",
+        "Caïman",
+        "Crapaud",
+        "Hibou",
+        "Toucan",
+        "Loup",
+        "Perroquet",
+        "Chauve-souris",
+        "Iguane",
+        "Jaguar",
+        "Paresseux"
+      ],
+      "3": [
+        "Sauterelle",
+        "Scarabée",
+        "Serval",
+        "Suricate"
+      ],
+      "4": [
+        "Serval",
+        "Sanglier",
+        "Suricate"
+      ],
+      "5": [
+        "Scorpion",
+        "Salamandre"
+      ],
+      "6": [
+        "Zèbre",
+        "Sauterelle",
+        "Gnou",
+        "Kangourou",
+        "Mouton",
+        "Wallaby",
+        "Éléphant",
+        "Cheval",
+        "Girafe",
+        "Gazelle",
+        "Rhinocéros",
+        "Vache",
+        "Tortue des Galápagos",
+        "Hippopotame"
+      ],
+      "7": [
+        "Kangourou",
+        "Chevrette",
+        "Éléphant",
+        "Wallaby",
+        "Girafe",
+        "Élan",
+        "Gorille",
+        "Castor",
+        "Yak",
+        "Lapin",
+        "Zèbre",
+        "Lama",
+        "Tapir",
+        "Wombat",
+        "Marmotte",
+        "Gazelle",
+        "Rhinocéros",
+        "Vache",
+        "Koala",
+        "Hippopotame",
+        "Éléphant d'Asie",
+        "Dromadaire",
+        "Gnou",
+        "Cerf",
+        "Panda géant",
+        "Alpaga",
+        "Okapi",
+        "Chameau",
+        "Mouton",
+        "Cheval",
+        "Chèvre",
+        "Renne",
+        "Paresseux"
+      ],
+      "8": [
+        "Lama",
+        "Tapir",
+        "Marmotte",
+        "Tortue marine",
+        "Cheval",
+        "Alpaga",
+        "Élan",
+        "Iguane",
+        "Tortue des Galápagos",
+        "Castor",
+        "Papillon",
+        "Paresseux"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "theme": "animaux",
+    "difficulte": 0.35,
+    "stats": {
+      "moyenne": 12.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "carac_domestique",
+        "label": "Peut être domestiqué",
+        "icon": "🏠"
+      },
+      {
+        "id": "carac_venimeux",
+        "label": "Venimeux",
+        "icon": "☠️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Hippocampe",
+        "Libellule",
+        "Abeille",
+        "Sauterelle",
+        "Moustique",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Scarabée",
+        "Clown (poisson)",
+        "Marmotte",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Ver de terre",
+        "Vipère",
+        "Poule",
+        "Hibou",
+        "Canard",
+        "Scorpion",
+        "Grenouille",
+        "Perroquet",
+        "Chauve-souris",
+        "Méduse",
+        "Gecko"
+      ],
+      "1": [
+        "Vautour",
+        "Hippocampe",
+        "Libellule",
+        "Abeille",
+        "Sauterelle",
+        "Moustique",
+        "Loutre",
+        "Ours brun",
+        "Araignée",
+        "Chouette",
+        "Papillon",
+        "Cochon",
+        "Aigle royal",
+        "Scarabée",
+        "Marmotte",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Pélican",
+        "Vipère",
+        "Poule",
+        "Cerf",
+        "Pieuvre",
+        "Hibou",
+        "Canard",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Cheval",
+        "Renard roux",
+        "Chèvre",
+        "Lynx",
+        "Sanglier"
+      ],
+      "2": [
+        "Macaque",
+        "Vautour",
+        "Paon",
+        "Pangolin",
+        "Aigle royal",
+        "Cobra royal",
+        "Loup",
+        "Loutre",
+        "Pieuvre",
+        "Chèvre",
+        "Chien",
+        "Renard roux",
+        "Gibbon",
+        "Gazelle",
+        "Lynx",
+        "Pélican",
+        "Python"
+      ],
+      "3": [
+        "Abeille",
+        "Poule",
+        "Chat",
+        "Canard",
+        "Lapin",
+        "Perroquet"
+      ],
+      "4": [
+        "Abeille",
+        "Poule",
+        "Mouton",
+        "Chat",
+        "Chèvre",
+        "Cheval",
+        "Chien",
+        "Canard",
+        "Vache",
+        "Renne",
+        "Lapin",
+        "Cochon"
+      ],
+      "5": [
+        "Chèvre",
+        "Chien",
+        "Mouton"
+      ],
+      "6": [
+        "Ornithorynque",
+        "Abeille",
+        "Méduse",
+        "Salamandre",
+        "Moustique",
+        "Scorpion",
+        "Araignée",
+        "Vipère"
+      ],
+      "7": [
+        "Abeille",
+        "Méduse",
+        "Salamandre",
+        "Moustique",
+        "Araignée",
+        "Vipère"
+      ],
+      "8": [
+        "Mamba noir",
+        "Cobra royal"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "theme": "animaux",
+    "difficulte": 0.38,
+    "stats": {
+      "moyenne": 12.3,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "carac_arboricole",
+        "label": "Arboricole",
+        "icon": "🌴"
+      },
+      {
+        "id": "lettre_v",
+        "label": "Commence par V",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Abeille",
+        "Ours brun",
+        "Éléphant",
+        "Gibbon",
+        "Araignée",
+        "Python",
+        "Chouette",
+        "Papillon",
+        "Cochon",
+        "Pangolin",
+        "Scarabée",
+        "Tapir",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Vipère",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Paon",
+        "Cobra royal",
+        "Cerf",
+        "Panda géant",
+        "Hibou",
+        "Orang-outan",
+        "Loup",
+        "Perroquet",
+        "Chauve-souris",
+        "Renard roux",
+        "Gecko",
+        "Lynx",
+        "Léopard",
+        "Sanglier"
+      ],
+      "1": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Chevrette",
+        "Fourmilier",
+        "Éléphant",
+        "Ours brun",
+        "Gibbon",
+        "Élan",
+        "Gorille",
+        "Lapin",
+        "Cochon",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Wombat",
+        "Chat",
+        "Chien",
+        "Tatou",
+        "Koala",
+        "Mandrill",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Blaireau",
+        "Cerf",
+        "Panda géant",
+        "Orang-outan",
+        "Okapi",
+        "Loup",
+        "Chauve-souris",
+        "Renard roux",
+        "Hérisson",
+        "Jaguar",
+        "Lynx",
+        "Léopard",
+        "Paresseux",
+        "Sanglier"
+      ],
+      "2": [
+        "Diable de Tasmanie",
+        "Chevrette",
+        "Fourmilier",
+        "Gibbon",
+        "Python",
+        "Wombat",
+        "Chien",
+        "Tatou",
+        "Koala",
+        "Mandrill",
+        "Macaque",
+        "Paon",
+        "Blaireau",
+        "Cobra royal",
+        "Loup",
+        "Renard roux",
+        "Iguane",
+        "Lynx",
+        "Pangolin",
+        "Paresseux"
+      ],
+      "3": [
+        "Orang-outan",
+        "Gibbon",
+        "Perroquet"
+      ],
+      "4": [
+        "Paresseux",
+        "Koala",
+        "Orang-outan",
+        "Gibbon"
+      ],
+      "5": [
+        "Iguane",
+        "Koala",
+        "Gibbon",
+        "Paresseux"
+      ],
+      "6": [
+        "Ver de terre",
+        "Vautour",
+        "Vipère"
+      ],
+      "7": [
+        "Wallaby",
+        "Wombat",
+        "Vache"
+      ],
+      "8": [
+        "Wallaby",
+        "Vautour",
+        "Wombat"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "theme": "animaux",
+    "difficulte": 0.52,
+    "stats": {
+      "moyenne": 10.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_r",
+        "label": "Commence par R",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_arboricole",
+        "label": "Arboricole",
+        "icon": "🌴"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Renard roux",
+        "Renard arctique"
+      ],
+      "1": [
+        "Renard roux",
+        "Renard arctique"
+      ],
+      "2": [
+        "Renard roux",
+        "Rhinocéros",
+        "Raie manta"
+      ],
+      "3": [
+        "Iguane",
+        "Koala",
+        "Gibbon",
+        "Paresseux"
+      ],
+      "4": [
+        "Toucan",
+        "Orang-outan",
+        "Gibbon",
+        "Perroquet"
+      ],
+      "5": [
+        "Orang-outan",
+        "Gibbon",
+        "Perroquet"
+      ],
+      "6": [
+        "Diable de Tasmanie",
+        "Chevrette",
+        "Fourmilier",
+        "Gibbon",
+        "Python",
+        "Wombat",
+        "Chien",
+        "Tatou",
+        "Koala",
+        "Mandrill",
+        "Macaque",
+        "Paon",
+        "Blaireau",
+        "Cobra royal",
+        "Loup",
+        "Renard roux",
+        "Iguane",
+        "Lynx",
+        "Pangolin",
+        "Paresseux"
+      ],
+      "7": [
+        "Chimpanzé",
+        "Ours brun",
+        "Gibbon",
+        "Cochon",
+        "Scarabée",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Tatou",
+        "Mandrill",
+        "Macaque",
+        "Paon",
+        "Blaireau",
+        "Orang-outan",
+        "Toucan",
+        "Perroquet",
+        "Renard roux",
+        "Hérisson",
+        "Sanglier"
+      ],
+      "8": [
+        "Abeille",
+        "Ours brun",
+        "Éléphant",
+        "Gibbon",
+        "Araignée",
+        "Python",
+        "Chouette",
+        "Papillon",
+        "Cochon",
+        "Pangolin",
+        "Scarabée",
+        "Tapir",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Vipère",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Paon",
+        "Cobra royal",
+        "Cerf",
+        "Panda géant",
+        "Hibou",
+        "Orang-outan",
+        "Loup",
+        "Perroquet",
+        "Chauve-souris",
+        "Renard roux",
+        "Gecko",
+        "Lynx",
+        "Léopard",
+        "Sanglier"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "theme": "animaux",
+    "difficulte": 0.61,
+    "stats": {
+      "moyenne": 8.8,
+      "min": 4
+    },
+    "lignes": [
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "milieu_desert",
+        "label": "Vit dans le désert",
+        "icon": "🏜️"
+      },
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Fennec",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Fourmi",
+        "Hérisson",
+        "Ver de terre",
+        "Canard",
+        "Toucan",
+        "Perroquet",
+        "Suricate"
+      ],
+      "1": [
+        "Macaque",
+        "Paon",
+        "Sanglier",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Ours brun",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Gibbon",
+        "Canard",
+        "Orang-outan",
+        "Renard roux",
+        "Perroquet",
+        "Cochon"
+      ],
+      "2": [
+        "Flamant rose",
+        "Macaque",
+        "Sanglier",
+        "Blaireau",
+        "Chimpanzé",
+        "Phacochère",
+        "Suricate",
+        "Poule",
+        "Fourmi",
+        "Chien",
+        "Mandrill",
+        "Cochon"
+      ],
+      "3": [
+        "Fennec",
+        "Scorpion",
+        "Gecko",
+        "Suricate"
+      ],
+      "4": [
+        "Dromadaire",
+        "Scorpion",
+        "Gecko",
+        "Gazelle",
+        "Chameau"
+      ],
+      "5": [
+        "Dromadaire",
+        "Gazelle",
+        "Chameau",
+        "Suricate"
+      ],
+      "6": [
+        "Triton",
+        "Hippocampe",
+        "Macareux",
+        "Ornithorynque",
+        "Méduse",
+        "Clown (poisson)",
+        "Canard",
+        "Grenouille"
+      ],
+      "7": [
+        "Hippocampe",
+        "Méduse",
+        "Tapir",
+        "Tigre",
+        "Clown (poisson)",
+        "Loutre",
+        "Pieuvre",
+        "Raie manta",
+        "Grenouille",
+        "Canard",
+        "Pélican",
+        "Tortue marine"
+      ],
+      "8": [
+        "Macareux",
+        "Dauphin",
+        "Castor",
+        "Orque",
+        "Pélican",
+        "Phoque",
+        "Manchot"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "theme": "animaux",
+    "difficulte": 0.79,
+    "stats": {
+      "moyenne": 6.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      },
+      {
+        "id": "carac_domestique",
+        "label": "Peut être domestiqué",
+        "icon": "🏠"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "syl_on",
+        "label": "Contient '-on'",
+        "icon": "🔤"
+      },
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      },
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paon",
+        "Python",
+        "Mouton",
+        "Gibbon",
+        "Condor",
+        "Lycaon"
+      ],
+      "1": [
+        "Flamant rose",
+        "Macaque",
+        "Vautour",
+        "Blaireau",
+        "Loup",
+        "Mouton",
+        "Chevrette",
+        "Wallaby",
+        "Chèvre",
+        "Chien",
+        "Gazelle",
+        "Pélican",
+        "Castor",
+        "Lycaon",
+        "Manchot",
+        "Mandrill"
+      ],
+      "2": [
+        "Aigle royal",
+        "Albatros"
+      ],
+      "3": [
+        "Condor",
+        "Mouton"
+      ],
+      "4": [
+        "Vautour",
+        "Lama",
+        "Marmotte",
+        "Mouton",
+        "Chevrette",
+        "Chèvre",
+        "Alpaga",
+        "Loup",
+        "Renne",
+        "Yak"
+      ],
+      "5": [
+        "Aigle royal",
+        "Alpaga"
+      ],
+      "6": [
+        "Mouton",
+        "Cochon"
+      ],
+      "7": [
+        "Dromadaire",
+        "Abeille",
+        "Lapin",
+        "Poule",
+        "Mouton",
+        "Chèvre",
+        "Cheval",
+        "Alpaga",
+        "Chien",
+        "Vache",
+        "Renne",
+        "Chameau",
+        "Cochon"
+      ],
+      "8": [
+        "Abeille",
+        "Alpaga"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-05",
+    "theme": "animaux",
+    "difficulte": 0.81,
+    "stats": {
+      "moyenne": 5.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "cont_arctique",
+        "label": "Vit dans l'Arctique/Antarctique",
+        "icon": "🧊"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      },
+      {
+        "id": "lettre_r",
+        "label": "Commence par R",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "taille_100k+",
+        "label": "Moins de 100 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Calamar géant",
+        "Renne",
+        "Élan",
+        "Ours polaire",
+        "Phoque",
+        "Morse"
+      ],
+      "1": [
+        "Renard arctique",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Ours polaire"
+      ],
+      "2": [
+        "Phoque",
+        "Morse",
+        "Renard arctique",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Élan",
+        "Orque",
+        "Renne",
+        "Ours polaire"
+      ],
+      "3": [
+        "Léopard",
+        "Hyène",
+        "Sanglier"
+      ],
+      "4": [
+        "Diable de Tasmanie",
+        "Léopard",
+        "Lynx",
+        "Pangolin"
+      ],
+      "5": [
+        "Fennec",
+        "Hyène",
+        "Blaireau",
+        "Chauve-souris",
+        "Diable de Tasmanie",
+        "Serval",
+        "Wombat",
+        "Chat",
+        "Renard roux",
+        "Hérisson",
+        "Lynx",
+        "Pangolin",
+        "Tatou",
+        "Léopard",
+        "Sanglier"
+      ],
+      "6": [
+        "Renne",
+        "Raie manta"
+      ],
+      "7": [
+        "Rhinocéros",
+        "Renard arctique",
+        "Raie manta"
+      ],
+      "8": [
+        "Renard roux",
+        "Renne",
+        "Rhinocéros",
+        "Renard arctique"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "theme": "animaux",
+    "difficulte": 0.24,
+    "stats": {
+      "moyenne": 14.3,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "cont_afrique",
+        "label": "Vit en Afrique",
+        "icon": "🌍"
+      },
+      {
+        "id": "lettre_o",
+        "label": "Commence par O",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "carac_nageur",
+        "label": "Excellent nageur",
+        "icon": "🏊"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Vautour",
+        "Grand requin blanc",
+        "Hippocampe",
+        "Hyène",
+        "Moustique",
+        "Araignée",
+        "Caméléon",
+        "Python",
+        "Guépard",
+        "Mamba noir",
+        "Pélican",
+        "Crocodile",
+        "Cigogne",
+        "Lion",
+        "Crapaud",
+        "Pieuvre",
+        "Dauphin",
+        "Scorpion",
+        "Grenouille",
+        "Lycaon",
+        "Chauve-souris",
+        "Méduse",
+        "Raie manta",
+        "Gecko",
+        "Pangolin",
+        "Serval",
+        "Léopard"
+      ],
+      "1": [
+        "Fennec",
+        "Hyène",
+        "Chimpanzé",
+        "Éléphant",
+        "Girafe",
+        "Gorille",
+        "Guépard",
+        "Zèbre",
+        "Gazelle",
+        "Rhinocéros",
+        "Mandrill",
+        "Dromadaire",
+        "Gnou",
+        "Lion",
+        "Dauphin",
+        "Lycaon",
+        "Okapi",
+        "Phacochère",
+        "Chauve-souris",
+        "Pangolin",
+        "Serval",
+        "Hippopotame",
+        "Léopard",
+        "Suricate"
+      ],
+      "2": [
+        "Hippocampe",
+        "Grand requin blanc",
+        "Méduse",
+        "Pieuvre",
+        "Raie manta",
+        "Grenouille",
+        "Dauphin",
+        "Pélican",
+        "Tortue marine"
+      ],
+      "3": [
+        "Orque",
+        "Ours polaire",
+        "Ornithorynque"
+      ],
+      "4": [
+        "Ornithorynque",
+        "Ours brun",
+        "Orang-outan",
+        "Orque",
+        "Okapi",
+        "Ours polaire"
+      ],
+      "5": [
+        "Orque",
+        "Ours polaire",
+        "Ornithorynque"
+      ],
+      "6": [
+        "Guépard",
+        "Axolotl",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Diable de Tasmanie",
+        "Pangolin",
+        "Tigre",
+        "Loutre",
+        "Raie manta",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Condor",
+        "Lynx",
+        "Jaguar",
+        "Ours polaire",
+        "Lycaon",
+        "Léopard"
+      ],
+      "7": [
+        "Diable de Tasmanie",
+        "Chimpanzé",
+        "Loutre",
+        "Renard arctique",
+        "Éléphant",
+        "Baleine bleue",
+        "Girafe",
+        "Gibbon",
+        "Gorille",
+        "Guépard",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Narval",
+        "Rhinocéros",
+        "Gazelle",
+        "Koala",
+        "Éléphant d'Asie",
+        "Panda géant",
+        "Orang-outan",
+        "Ours polaire",
+        "Lycaon",
+        "Okapi",
+        "Béluga",
+        "Jaguar",
+        "Lynx",
+        "Hippopotame",
+        "Léopard",
+        "Paresseux"
+      ],
+      "8": [
+        "Hippocampe",
+        "Grand requin blanc",
+        "Tapir",
+        "Tigre",
+        "Loutre",
+        "Raie manta",
+        "Baleine bleue",
+        "Jaguar",
+        "Ours polaire",
+        "Tortue marine"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "theme": "animaux",
+    "difficulte": 0.33,
+    "stats": {
+      "moyenne": 13.0,
+      "min": 4
+    },
+    "lignes": [
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      },
+      {
+        "id": "taille_1000k+",
+        "label": "Plus de 100 kg",
+        "icon": "🏋️"
+      },
+      {
+        "id": "milieu_mer",
+        "label": "Vit en mer",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      },
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      },
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Vautour",
+        "Hippocampe",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Araignée",
+        "Python",
+        "Chouette",
+        "Pangolin",
+        "Aigle royal",
+        "Tigre",
+        "Salamandre",
+        "Chat",
+        "Komodo",
+        "Pélican",
+        "Vipère",
+        "Crocodile",
+        "Cobra royal",
+        "Pieuvre",
+        "Hibou",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Méduse",
+        "Raie manta",
+        "Gecko",
+        "Lynx",
+        "Léopard"
+      ],
+      "1": [
+        "Vautour",
+        "Abeille",
+        "Sauterelle",
+        "Yak",
+        "Cochon",
+        "Marmotte",
+        "Fourmi",
+        "Chien",
+        "Gazelle",
+        "Pélican",
+        "Éléphant d'Asie",
+        "Macaque",
+        "Dromadaire",
+        "Poule",
+        "Cerf",
+        "Loup",
+        "Chameau",
+        "Cheval",
+        "Chèvre",
+        "Sanglier"
+      ],
+      "2": [
+        "Éléphant d'Asie",
+        "Hippocampe",
+        "Pangolin",
+        "Tapir",
+        "Tigre",
+        "Loutre",
+        "Panda géant",
+        "Éléphant",
+        "Raie manta",
+        "Léopard",
+        "Gibbon",
+        "Rhinocéros",
+        "Gazelle",
+        "Orang-outan",
+        "Lynx",
+        "Tortue marine"
+      ],
+      "3": [
+        "Grand requin blanc",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Orque"
+      ],
+      "4": [
+        "Éléphant d'Asie",
+        "Béluga",
+        "Orque",
+        "Narval"
+      ],
+      "5": [
+        "Éléphant d'Asie",
+        "Grand requin blanc",
+        "Éléphant",
+        "Béluga",
+        "Baleine bleue",
+        "Girafe",
+        "Rhinocéros",
+        "Narval",
+        "Hippopotame"
+      ],
+      "6": [
+        "Orque",
+        "Hippocampe",
+        "Grand requin blanc",
+        "Macareux",
+        "Méduse",
+        "Léopard de mer",
+        "Calamar géant",
+        "Baleine bleue",
+        "Pieuvre",
+        "Dauphin",
+        "Albatros",
+        "Narval",
+        "Raie manta",
+        "Béluga",
+        "Ours polaire",
+        "Phoque",
+        "Manchot",
+        "Morse"
+      ],
+      "7": [
+        "Macareux",
+        "Béluga",
+        "Dauphin",
+        "Narval",
+        "Orque",
+        "Phoque",
+        "Manchot",
+        "Morse"
+      ],
+      "8": [
+        "Hippocampe",
+        "Grand requin blanc",
+        "Raie manta",
+        "Baleine bleue",
+        "Béluga",
+        "Narval",
+        "Ours polaire",
+        "Tortue marine"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "theme": "animaux",
+    "difficulte": 0.44,
+    "stats": {
+      "moyenne": 11.4,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "lettre_p",
+        "label": "Commence par P",
+        "icon": "🔡"
+      },
+      {
+        "id": "cont_amerique",
+        "label": "Vit en Amérique",
+        "icon": "🌎"
+      },
+      {
+        "id": "carac_groupe",
+        "label": "Vit en groupe",
+        "icon": "👥"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "classe_oiseau",
+        "label": "Oiseau",
+        "icon": "🐦"
+      },
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      },
+      {
+        "id": "regime_carnivore",
+        "label": "Carnivore",
+        "icon": "🥩"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Pélican",
+        "Paon",
+        "Poule",
+        "Perroquet"
+      ],
+      "1": [
+        "Papillon",
+        "Paresseux",
+        "Panda géant"
+      ],
+      "2": [
+        "Python",
+        "Pieuvre",
+        "Piranha",
+        "Pangolin",
+        "Pélican",
+        "Phoque"
+      ],
+      "3": [
+        "Aigle royal",
+        "Hibou",
+        "Canard",
+        "Condor",
+        "Toucan",
+        "Chouette",
+        "Perroquet"
+      ],
+      "4": [
+        "Lama",
+        "Tapir",
+        "Marmotte",
+        "Tortue marine",
+        "Cheval",
+        "Alpaga",
+        "Élan",
+        "Iguane",
+        "Tortue des Galápagos",
+        "Castor",
+        "Papillon",
+        "Paresseux"
+      ],
+      "5": [
+        "Grand requin blanc",
+        "Libellule",
+        "Moustique",
+        "Loutre",
+        "Fourmilier",
+        "Anaconda",
+        "Condor",
+        "Araignée",
+        "Piranha",
+        "Chouette",
+        "Aigle royal",
+        "Salamandre",
+        "Crocodile",
+        "Caïman",
+        "Crapaud",
+        "Hibou",
+        "Dauphin",
+        "Scorpion",
+        "Grenouille",
+        "Loup",
+        "Chauve-souris",
+        "Raie manta",
+        "Jaguar",
+        "Axolotl"
+      ],
+      "6": [
+        "Flamant rose",
+        "Vautour",
+        "Macareux",
+        "Poule",
+        "Cacatoès",
+        "Pélican",
+        "Manchot"
+      ],
+      "7": [
+        "Abeille",
+        "Sauterelle",
+        "Kangourou",
+        "Chevrette",
+        "Wallaby",
+        "Cacatoès",
+        "Gorille",
+        "Castor",
+        "Yak",
+        "Lapin",
+        "Zèbre",
+        "Lama",
+        "Marmotte",
+        "Gazelle",
+        "Vache",
+        "Éléphant d'Asie",
+        "Dromadaire",
+        "Gnou",
+        "Cerf",
+        "Alpaga",
+        "Chameau",
+        "Mouton",
+        "Cheval",
+        "Chèvre",
+        "Renne"
+      ],
+      "8": [
+        "Vautour",
+        "Hyène",
+        "Macareux",
+        "Lycaon",
+        "Loup",
+        "Lion",
+        "Béluga",
+        "Dauphin",
+        "Narval",
+        "Piranha",
+        "Orque",
+        "Pélican",
+        "Phoque",
+        "Manchot",
+        "Morse"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "theme": "animaux",
+    "difficulte": 0.55,
+    "stats": {
+      "moyenne": 9.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      },
+      {
+        "id": "classe_autre",
+        "label": "Autre invertébré",
+        "icon": "🦑"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_afrique",
+        "label": "Vit en Afrique",
+        "icon": "🌍"
+      },
+      {
+        "id": "taille_1k+",
+        "label": "Moins de 1 kg",
+        "icon": "🔬"
+      },
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Fennec",
+        "Hyène",
+        "Chauve-souris",
+        "Scarabée",
+        "Crapaud",
+        "Scorpion",
+        "Gecko",
+        "Pangolin",
+        "Serval",
+        "Léopard"
+      ],
+      "1": [
+        "Fennec",
+        "Chauve-souris",
+        "Scarabée",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Hérisson",
+        "Scorpion",
+        "Gecko",
+        "Chouette"
+      ],
+      "2": [
+        "Chauve-souris",
+        "Blaireau",
+        "Diable de Tasmanie",
+        "Scarabée",
+        "Wombat",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Léopard",
+        "Renard roux",
+        "Hérisson",
+        "Gecko",
+        "Lynx",
+        "Pangolin",
+        "Tatou",
+        "Chouette",
+        "Sanglier"
+      ],
+      "3": [
+        "Méduse",
+        "Scorpion",
+        "Araignée",
+        "Pieuvre"
+      ],
+      "4": [
+        "Méduse",
+        "Scorpion",
+        "Ver de terre",
+        "Araignée"
+      ],
+      "5": [
+        "Ver de terre",
+        "Araignée"
+      ],
+      "6": [
+        "Fennec",
+        "Flamant rose",
+        "Chimpanzé",
+        "Scarabée",
+        "Phacochère",
+        "Fourmi",
+        "Autruche",
+        "Mandrill",
+        "Suricate"
+      ],
+      "7": [
+        "Fennec",
+        "Scarabée",
+        "Clown (poisson)",
+        "Poule",
+        "Fourmi",
+        "Hérisson",
+        "Ver de terre",
+        "Canard",
+        "Toucan",
+        "Perroquet",
+        "Suricate"
+      ],
+      "8": [
+        "Chimpanzé",
+        "Ours brun",
+        "Gibbon",
+        "Cochon",
+        "Scarabée",
+        "Fourmi",
+        "Chien",
+        "Ver de terre",
+        "Tatou",
+        "Mandrill",
+        "Macaque",
+        "Paon",
+        "Blaireau",
+        "Orang-outan",
+        "Toucan",
+        "Perroquet",
+        "Renard roux",
+        "Hérisson",
+        "Sanglier"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "theme": "animaux",
+    "difficulte": 0.61,
+    "stats": {
+      "moyenne": 8.8,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔡"
+      },
+      {
+        "id": "milieu_montagne",
+        "label": "Vit en montagne",
+        "icon": "⛰️"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "milieu_foret",
+        "label": "Vit en forêt",
+        "icon": "🌳"
+      },
+      {
+        "id": "classe_mammifere",
+        "label": "Mammifère",
+        "icon": "🦁"
+      },
+      {
+        "id": "cont_asie",
+        "label": "Vit en Asie",
+        "icon": "🌏"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Scarabée",
+        "Salamandre",
+        "Sanglier"
+      ],
+      "1": [
+        "Serval",
+        "Sanglier",
+        "Suricate"
+      ],
+      "2": [
+        "Sauterelle",
+        "Scarabée",
+        "Salamandre",
+        "Scorpion",
+        "Sanglier"
+      ],
+      "3": [
+        "Ours brun",
+        "Loup",
+        "Chevrette"
+      ],
+      "4": [
+        "Lama",
+        "Marmotte",
+        "Mouton",
+        "Chevrette",
+        "Renard arctique",
+        "Ours brun",
+        "Chèvre",
+        "Alpaga",
+        "Ours polaire",
+        "Loup",
+        "Renne",
+        "Yak"
+      ],
+      "5": [
+        "Vautour",
+        "Aigle royal",
+        "Marmotte",
+        "Ours brun",
+        "Chèvre",
+        "Loup",
+        "Yak"
+      ],
+      "6": [
+        "Chauve-souris",
+        "Blaireau",
+        "Diable de Tasmanie",
+        "Scarabée",
+        "Wombat",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Léopard",
+        "Renard roux",
+        "Hérisson",
+        "Gecko",
+        "Lynx",
+        "Pangolin",
+        "Tatou",
+        "Chouette",
+        "Sanglier"
+      ],
+      "7": [
+        "Fennec",
+        "Hyène",
+        "Blaireau",
+        "Chauve-souris",
+        "Diable de Tasmanie",
+        "Serval",
+        "Wombat",
+        "Chat",
+        "Renard roux",
+        "Hérisson",
+        "Lynx",
+        "Pangolin",
+        "Tatou",
+        "Léopard",
+        "Sanglier"
+      ],
+      "8": [
+        "Chauve-souris",
+        "Scarabée",
+        "Salamandre",
+        "Chat",
+        "Hibou",
+        "Léopard",
+        "Renard roux",
+        "Scorpion",
+        "Gecko",
+        "Lynx",
+        "Pangolin",
+        "Chouette",
+        "Sanglier"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-11",
+    "theme": "animaux",
+    "difficulte": 0.7,
+    "stats": {
+      "moyenne": 7.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "milieu_savane",
+        "label": "Vit en savane",
+        "icon": "🌾"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔡"
+      },
+      {
+        "id": "carac_nocturne",
+        "label": "Nocturne",
+        "icon": "🌙"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "cont_europe",
+        "label": "Vit en Europe",
+        "icon": "🌍"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Vautour",
+        "Cigogne",
+        "Sauterelle",
+        "Scarabée",
+        "Poule",
+        "Mouton",
+        "Cheval",
+        "Chien",
+        "Vache"
+      ],
+      "1": [
+        "Scarabée",
+        "Phacochère",
+        "Poule",
+        "Chien",
+        "Tatou",
+        "Autruche",
+        "Suricate"
+      ],
+      "2": [
+        "Vautour",
+        "Cigogne",
+        "Serval",
+        "Mouton",
+        "Fourmilier",
+        "Wallaby",
+        "Mamba noir",
+        "Chien",
+        "Gazelle",
+        "Tatou",
+        "Lycaon"
+      ],
+      "3": [
+        "Macareux",
+        "Méduse",
+        "Marmotte",
+        "Moustique",
+        "Mouton"
+      ],
+      "4": [
+        "Macaque",
+        "Mandrill"
+      ],
+      "5": [
+        "Macaque",
+        "Mouton",
+        "Mamba noir",
+        "Manchot",
+        "Mandrill"
+      ],
+      "6": [
+        "Chauve-souris",
+        "Blaireau",
+        "Scarabée",
+        "Salamandre",
+        "Chat",
+        "Crapaud",
+        "Hibou",
+        "Renard roux",
+        "Hérisson",
+        "Lynx",
+        "Chouette",
+        "Sanglier"
+      ],
+      "7": [
+        "Fennec",
+        "Blaireau",
+        "Scarabée",
+        "Renard roux",
+        "Hérisson",
+        "Tatou",
+        "Sanglier"
+      ],
+      "8": [
+        "Harfang des neiges",
+        "Blaireau",
+        "Diable de Tasmanie",
+        "Serval",
+        "Wombat",
+        "Renard roux",
+        "Lynx",
+        "Pangolin",
+        "Tatou"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-12",
+    "theme": "animaux",
+    "difficulte": 0.85,
+    "stats": {
+      "moyenne": 5.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔡"
+      },
+      {
+        "id": "taille_10k+",
+        "label": "Moins de 10 kg",
+        "icon": "📦"
+      },
+      {
+        "id": "lettre_r",
+        "label": "Commence par R",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "carac_menace",
+        "label": "Espèce menacée",
+        "icon": "⚠️"
+      },
+      {
+        "id": "regime_omnivore",
+        "label": "Omnivore",
+        "icon": "🍽️"
+      },
+      {
+        "id": "regime_herbivore",
+        "label": "Herbivore",
+        "icon": "🌿"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Tortue marine",
+        "Tapir",
+        "Tigre",
+        "Tortue des Galápagos"
+      ],
+      "1": [
+        "Toucan",
+        "Tatou"
+      ],
+      "2": [
+        "Tapir",
+        "Tortue marine",
+        "Tortue des Galápagos"
+      ],
+      "3": [
+        "Lycaon",
+        "Diable de Tasmanie",
+        "Pangolin",
+        "Loutre",
+        "Renard arctique",
+        "Gibbon",
+        "Condor",
+        "Gazelle",
+        "Lynx",
+        "Koala",
+        "Paresseux"
+      ],
+      "4": [
+        "Flamant rose",
+        "Macaque",
+        "Paon",
+        "Blaireau",
+        "Renard arctique",
+        "Chien",
+        "Renard roux",
+        "Gibbon",
+        "Tatou",
+        "Mandrill"
+      ],
+      "5": [
+        "Wombat",
+        "Mouton",
+        "Chevrette",
+        "Wallaby",
+        "Chèvre",
+        "Gazelle",
+        "Iguane",
+        "Castor",
+        "Koala",
+        "Paresseux"
+      ],
+      "6": [
+        "Rhinocéros",
+        "Renard arctique",
+        "Raie manta"
+      ],
+      "7": [
+        "Renard roux",
+        "Renard arctique"
+      ],
+      "8": [
+        "Renne",
+        "Rhinocéros"
+      ]
+    }
+  }
+]
