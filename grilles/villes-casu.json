@@ -1,0 +1,9126 @@
+[
+  {
+    "date": "2026-05-14",
+    "theme": "villes-casu",
+    "difficulte": 0.51,
+    "stats": {
+      "moyenne": 10.3,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "reg_hdf",
+        "label": "Hauts-de-France",
+        "icon": "🌾"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "lettre_b",
+        "label": "Commence par B",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Calais",
+        "Boulogne-sur-Mer",
+        "Dunkerque"
+      ],
+      "1": [
+        "Amiens",
+        "Calais",
+        "Compiegne",
+        "Boulogne-sur-Mer",
+        "Lille",
+        "Arras"
+      ],
+      "2": [
+        "Roubaix",
+        "Saint-Quentin",
+        "Amiens",
+        "Calais",
+        "Dunkerque",
+        "Lille",
+        "Beauvais"
+      ],
+      "3": [
+        "Rouen",
+        "Marseille",
+        "Saint-Malo",
+        "Bordeaux",
+        "Le Havre"
+      ],
+      "4": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Nîmes",
+        "Avignon",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "5": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "6": [
+        "Bastia",
+        "Brest",
+        "Bayonne",
+        "Bordeaux",
+        "Boulogne-sur-Mer"
+      ],
+      "7": [
+        "Brive-la-Gaillarde",
+        "Brest",
+        "Belfort",
+        "Boulogne-Billancourt",
+        "Besançon",
+        "Biarritz",
+        "Bordeaux",
+        "Béziers",
+        "Boulogne-sur-Mer",
+        "Blois",
+        "Bourg-en-Bresse"
+      ],
+      "8": [
+        "Brest",
+        "Bourges",
+        "Boulogne-Billancourt",
+        "Bayonne",
+        "Besançon",
+        "Bordeaux",
+        "Béziers",
+        "Beauvais"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-15",
+    "theme": "villes-casu",
+    "difficulte": 0.61,
+    "stats": {
+      "moyenne": 8.9,
+      "min": 4
+    },
+    "lignes": [
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔤"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "La Seyne-sur-Mer",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Strasbourg"
+      ],
+      "1": [
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "2": [
+        "Saint-Malo",
+        "Saintes",
+        "Strasbourg",
+        "Soissons"
+      ],
+      "3": [
+        "Amiens",
+        "Avignon",
+        "Angers",
+        "Antibes",
+        "Asnières-sur-Seine",
+        "Aubervilliers",
+        "Aulnay-sous-Bois",
+        "Argenteuil",
+        "Annecy",
+        "Albi",
+        "Arles",
+        "Aix-en-Provence",
+        "Ajaccio"
+      ],
+      "4": [
+        "Amiens",
+        "Agen",
+        "Avignon",
+        "Angers",
+        "Argenteuil",
+        "Annecy",
+        "Arras",
+        "Aix-en-Provence",
+        "Angoulême"
+      ],
+      "5": [
+        "Amiens",
+        "Avignon",
+        "Arras",
+        "Annecy",
+        "Albi",
+        "Arles",
+        "Aix-en-Provence"
+      ],
+      "6": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ],
+      "7": [
+        "Toulouse",
+        "Lille",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Rennes",
+        "Strasbourg"
+      ],
+      "8": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-16",
+    "theme": "villes-casu",
+    "difficulte": 0.79,
+    "stats": {
+      "moyenne": 6.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔤"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Caen",
+        "Chambéry",
+        "Cherbourg-en-Cotentin",
+        "Calais",
+        "Cayenne",
+        "Cannes",
+        "Courbevoie",
+        "Colmar",
+        "Clermont-Ferrand",
+        "Colombes",
+        "Créteil"
+      ],
+      "1": [
+        "Cherbourg-en-Cotentin",
+        "Calais",
+        "Cannes"
+      ],
+      "2": [
+        "Castres",
+        "Chartres",
+        "Cannes",
+        "Colombes"
+      ],
+      "3": [
+        "Ajaccio",
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Montpellier",
+        "Antibes",
+        "La Rochelle",
+        "Cannes",
+        "Fréjus"
+      ],
+      "4": [
+        "Dieppe",
+        "Bastia",
+        "Ajaccio",
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Antibes",
+        "Menton",
+        "Saint-Malo",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Fréjus"
+      ],
+      "5": [
+        "Antibes",
+        "Cannes"
+      ],
+      "6": [
+        "Limoges",
+        "Bayonne",
+        "Pau",
+        "Bordeaux",
+        "Poitiers",
+        "La Rochelle",
+        "Niort"
+      ],
+      "7": [
+        "La Rochelle",
+        "Bayonne",
+        "Rochefort",
+        "Bordeaux"
+      ],
+      "8": [
+        "Limoges",
+        "Saintes"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-17",
+    "theme": "villes-casu",
+    "difficulte": 0.88,
+    "stats": {
+      "moyenne": 4.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_500k+",
+        "label": "Plus de 500 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "fleuve_garonne",
+        "label": "Traversée par la Garonne",
+        "icon": "🌊"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paris",
+        "Marseille",
+        "Lyon"
+      ],
+      "1": [
+        "Paris",
+        "Marseille",
+        "Lyon"
+      ],
+      "2": [
+        "Paris",
+        "Marseille",
+        "Lyon"
+      ],
+      "3": [
+        "Toulouse",
+        "Agen",
+        "Bayonne",
+        "Bordeaux",
+        "Montauban"
+      ],
+      "4": [
+        "Toulouse",
+        "Agen",
+        "Bordeaux"
+      ],
+      "5": [
+        "Toulouse",
+        "Bordeaux"
+      ],
+      "6": [
+        "Dieppe",
+        "Bastia",
+        "Ajaccio",
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Montpellier",
+        "Antibes",
+        "Menton",
+        "Biarritz",
+        "Saint-Malo",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Fréjus"
+      ],
+      "7": [
+        "Toulon",
+        "Nice",
+        "Montpellier",
+        "Biarritz",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes"
+      ],
+      "8": [
+        "Nice",
+        "Montpellier"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "theme": "villes-casu",
+    "difficulte": 0.24,
+    "stats": {
+      "moyenne": 14.3,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      },
+      {
+        "id": "fleuve_loire",
+        "label": "Traversée par la Loire",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "reg_ara",
+        "label": "Auvergne-Rhône-Alpes",
+        "icon": "⛰️"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Villeurbanne",
+        "Lyon",
+        "Saint-Etienne",
+        "Annecy",
+        "Clermont-Ferrand",
+        "Grenoble"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "Lyon",
+        "Villeurbanne"
+      ],
+      "4": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ],
+      "5": [
+        "Toulouse",
+        "Lille",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Rennes",
+        "Strasbourg"
+      ],
+      "6": [
+        "Roanne",
+        "Vichy"
+      ],
+      "7": [
+        "Nantes",
+        "Orléans",
+        "Tours",
+        "Angers"
+      ],
+      "8": [
+        "Orléans",
+        "Angers",
+        "Nantes",
+        "Blois",
+        "Tours"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "theme": "villes-casu",
+    "difficulte": 0.27,
+    "stats": {
+      "moyenne": 14.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "fleuve_loire",
+        "label": "Traversée par la Loire",
+        "icon": "🌊"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "1": [
+        "Rouen",
+        "Amiens",
+        "Nîmes",
+        "Metz",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Bordeaux",
+        "Nancy",
+        "Annecy",
+        "Strasbourg",
+        "Tours",
+        "Aix-en-Provence",
+        "Reims"
+      ],
+      "2": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "Nantes",
+        "Orléans",
+        "Tours",
+        "Angers"
+      ],
+      "4": [
+        "Tours",
+        "Blois"
+      ],
+      "5": [
+        "Orléans",
+        "Angers",
+        "Nantes",
+        "Blois",
+        "Tours"
+      ],
+      "6": [
+        "Limoges",
+        "Bayonne",
+        "Pau",
+        "Bordeaux",
+        "Poitiers",
+        "La Rochelle",
+        "Niort"
+      ],
+      "7": [
+        "Saintes",
+        "Périgueux",
+        "Bordeaux"
+      ],
+      "8": [
+        "Brive-la-Gaillarde",
+        "Agen",
+        "Dax",
+        "Limoges",
+        "Biarritz",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle",
+        "Angoulême"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "theme": "villes-casu",
+    "difficulte": 0.42,
+    "stats": {
+      "moyenne": 11.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "reg_cvl",
+        "label": "Centre-Val de Loire",
+        "icon": "🏰"
+      },
+      {
+        "id": "fleuve_garonne",
+        "label": "Traversée par la Garonne",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "lettre_b",
+        "label": "Commence par B",
+        "icon": "🔤"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Boulogne-Billancourt",
+        "Besançon",
+        "Brest",
+        "Bordeaux"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "Bourges",
+        "Blois"
+      ],
+      "4": [
+        "Blois",
+        "Orléans",
+        "Tours",
+        "Chartres"
+      ],
+      "5": [
+        "Orléans",
+        "Bourges",
+        "Chartres",
+        "Blois",
+        "Châteauroux",
+        "Tours"
+      ],
+      "6": [
+        "Bayonne",
+        "Bordeaux"
+      ],
+      "7": [
+        "Toulouse",
+        "Agen",
+        "Bordeaux"
+      ],
+      "8": [
+        "Toulouse",
+        "Agen",
+        "Bayonne",
+        "Bordeaux",
+        "Montauban"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "theme": "villes-casu",
+    "difficulte": 0.52,
+    "stats": {
+      "moyenne": 10.2,
+      "min": 4
+    },
+    "lignes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "reg_bfc",
+        "label": "Bourgogne-Franche-Comté",
+        "icon": "🍇"
+      },
+      {
+        "id": "fleuve_rhone",
+        "label": "Traversée par le Rhône",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Dijon",
+        "Lyon",
+        "Avignon",
+        "Besançon"
+      ],
+      "1": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Nîmes",
+        "Avignon",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Saint-Malo",
+        "Saintes",
+        "Périgueux",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Soissons",
+        "Lisieux",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "Dijon",
+        "Mâcon",
+        "Chalon-sur-Saône",
+        "Besançon"
+      ],
+      "4": [
+        "Belfort",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "5": [
+        "Belfort",
+        "Montbéliard",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon",
+        "Auxerre"
+      ],
+      "6": [
+        "Lyon",
+        "Chalon-sur-Saône",
+        "Avignon",
+        "Mâcon"
+      ],
+      "7": [
+        "Avignon",
+        "Lyon",
+        "Valence",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "8": [
+        "Avignon",
+        "Lyon",
+        "Valence",
+        "Chalon-sur-Saône",
+        "Mâcon",
+        "Arles"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-22",
+    "theme": "villes-casu",
+    "difficulte": 0.61,
+    "stats": {
+      "moyenne": 8.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fleuve_seine",
+        "label": "Traversée par la Seine",
+        "icon": "🌊"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔤"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "reg_idf",
+        "label": "Île-de-France",
+        "icon": "🗼"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Asnières-sur-Seine",
+        "Troyes"
+      ],
+      "1": [
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie"
+      ],
+      "2": [
+        "Rouen",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Compiegne",
+        "Épernay",
+        "Auxerre",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Troyes"
+      ],
+      "3": [
+        "Castres",
+        "Chartres",
+        "Cannes",
+        "Colombes"
+      ],
+      "4": [
+        "Colombes",
+        "Créteil",
+        "Courbevoie"
+      ],
+      "5": [
+        "Caen",
+        "Cherbourg-en-Cotentin",
+        "Castres",
+        "Chartres",
+        "Carcassonne",
+        "Châteauroux",
+        "Charleville-Mézières",
+        "Chambéry",
+        "Calais",
+        "Compiegne",
+        "Cayenne",
+        "Cannes",
+        "Colmar",
+        "Courbevoie",
+        "Clermont-Ferrand",
+        "Châlons-en-Champagne",
+        "Créteil",
+        "Colombes",
+        "Chalon-sur-Saône"
+      ],
+      "6": [
+        "Asnières-sur-Seine",
+        "Rennes",
+        "Colombes"
+      ],
+      "7": [
+        "Montreuil",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Aubervilliers",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Saint-Denis",
+        "Courbevoie",
+        "Nanterre",
+        "Créteil",
+        "Colombes"
+      ],
+      "8": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-23",
+    "theme": "villes-casu",
+    "difficulte": 0.72,
+    "stats": {
+      "moyenne": 7.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_r",
+        "label": "Commence par R",
+        "icon": "🔤"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Metz",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Mulhouse",
+        "Mâcon"
+      ],
+      "1": [
+        "Montreuil",
+        "Metz",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Mulhouse",
+        "Montauban"
+      ],
+      "2": [
+        "Marseille",
+        "Menton"
+      ],
+      "3": [
+        "Rouen",
+        "La Rochelle",
+        "Rennes",
+        "Reims"
+      ],
+      "4": [
+        "Rouen",
+        "Roubaix",
+        "La Rochelle",
+        "La Roche-sur-Yon",
+        "Rennes",
+        "Reims"
+      ],
+      "5": [
+        "Rouen",
+        "La Rochelle",
+        "Rochefort"
+      ],
+      "6": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "7": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "8": [
+        "Rouen",
+        "Nice",
+        "Marseille",
+        "Le Havre",
+        "Bordeaux",
+        "Nantes"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-24",
+    "theme": "villes-casu",
+    "difficulte": 0.87,
+    "stats": {
+      "moyenne": 5.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "reg_bre",
+        "label": "Bretagne",
+        "icon": "⚓"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy"
+      ],
+      "1": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ],
+      "2": [
+        "Nice",
+        "Narbonne",
+        "Nantes"
+      ],
+      "3": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "4": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon"
+      ],
+      "5": [
+        "Menton",
+        "Toulon"
+      ],
+      "6": [
+        "Lorient",
+        "Brest",
+        "Vannes",
+        "Quimper",
+        "Rennes",
+        "Saint-Brieuc"
+      ],
+      "7": [
+        "Lorient",
+        "Brest",
+        "Vannes",
+        "Quimper",
+        "Rennes"
+      ],
+      "8": [
+        "Lorient",
+        "Brest",
+        "Saint-Malo",
+        "Vannes",
+        "Saint-Brieuc"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "theme": "villes-casu",
+    "difficulte": 0.19,
+    "stats": {
+      "moyenne": 15.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔤"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "reg_gest",
+        "label": "Grand Est",
+        "icon": "🥨"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Charleville-Mézières",
+        "Châlons-en-Champagne",
+        "Colmar"
+      ],
+      "1": [
+        "Caen",
+        "Clermont-Ferrand"
+      ],
+      "2": [
+        "Castres",
+        "Chartres",
+        "Cannes",
+        "Colombes"
+      ],
+      "3": [
+        "Metz",
+        "Mulhouse",
+        "Nancy",
+        "Colmar",
+        "Strasbourg",
+        "Troyes",
+        "Reims"
+      ],
+      "4": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "5": [
+        "Nîmes",
+        "Versailles",
+        "Limoges",
+        "Chartres",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes"
+      ],
+      "6": [
+        "Épinal",
+        "Metz",
+        "Thionville",
+        "Épernay",
+        "Mulhouse",
+        "Forbach",
+        "Nancy",
+        "Colmar",
+        "Charleville-Mézières",
+        "Strasbourg",
+        "Châlons-en-Champagne",
+        "Troyes",
+        "Reims"
+      ],
+      "7": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "8": [
+        "Antibes",
+        "Saintes",
+        "Rennes",
+        "Arles",
+        "Valenciennes",
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Castres",
+        "Chartres",
+        "Asnières-sur-Seine",
+        "Limoges",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Colombes",
+        "Fougères",
+        "Tarbes"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "theme": "villes-casu",
+    "difficulte": 0.33,
+    "stats": {
+      "moyenne": 13.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "reg_hdf",
+        "label": "Hauts-de-France",
+        "icon": "🌾"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "lettre_b",
+        "label": "Commence par B",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔤"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Roubaix",
+        "Saint-Quentin",
+        "Amiens",
+        "Calais",
+        "Dunkerque",
+        "Lille",
+        "Beauvais"
+      ],
+      "1": [
+        "Boulogne-sur-Mer",
+        "Beauvais"
+      ],
+      "2": [
+        "Calais",
+        "Compiegne"
+      ],
+      "3": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Saint-Etienne",
+        "Saint-Nazaire",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Limoges",
+        "Calais",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "4": [
+        "Brive-la-Gaillarde",
+        "Brest",
+        "Belfort",
+        "Boulogne-Billancourt",
+        "Besançon",
+        "Biarritz",
+        "Bordeaux",
+        "Béziers",
+        "Boulogne-sur-Mer",
+        "Blois",
+        "Bourg-en-Bresse"
+      ],
+      "5": [
+        "Caen",
+        "Chambéry",
+        "Calais",
+        "Chartres",
+        "Compiegne",
+        "Chalon-sur-Saône",
+        "Cannes",
+        "Carcassonne",
+        "Colmar",
+        "Clermont-Ferrand"
+      ],
+      "6": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "7": [
+        "Bourges",
+        "Besançon",
+        "Bordeaux",
+        "Blois",
+        "Beauvais"
+      ],
+      "8": [
+        "Chartres",
+        "Carcassonne",
+        "Colmar"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "theme": "villes-casu",
+    "difficulte": 0.38,
+    "stats": {
+      "moyenne": 12.3,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Saintes",
+        "Périgueux",
+        "Bordeaux"
+      ],
+      "1": [
+        "La Rochelle",
+        "Bayonne",
+        "Rochefort",
+        "Bordeaux"
+      ],
+      "2": [
+        "Limoges",
+        "Bordeaux"
+      ],
+      "3": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "4": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Le Havre",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "5": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "6": [
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Chartres",
+        "Saintes",
+        "Arles"
+      ],
+      "7": [
+        "Antibes",
+        "Nantes",
+        "Cannes",
+        "Vannes"
+      ],
+      "8": [
+        "Limoges",
+        "Rennes",
+        "Nantes",
+        "Nîmes"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "theme": "villes-casu",
+    "difficulte": 0.53,
+    "stats": {
+      "moyenne": 10.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "1": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "2": [
+        "Rouen",
+        "Amiens",
+        "Nîmes",
+        "Metz",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Bordeaux",
+        "Nancy",
+        "Annecy",
+        "Strasbourg",
+        "Tours",
+        "Aix-en-Provence",
+        "Reims"
+      ],
+      "3": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lille",
+        "Laval"
+      ],
+      "4": [
+        "Lens",
+        "Lyon",
+        "Lille"
+      ],
+      "5": [
+        "Lisieux",
+        "Lyon"
+      ],
+      "6": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy"
+      ],
+      "7": [
+        "Nice",
+        "Nantes"
+      ],
+      "8": [
+        "Nîmes",
+        "Nancy"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "theme": "villes-casu",
+    "difficulte": 0.65,
+    "stats": {
+      "moyenne": 8.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_v",
+        "label": "Commence par V",
+        "icon": "🔤"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Versailles",
+        "Valence",
+        "Vannes"
+      ],
+      "1": [
+        "Versailles",
+        "Valenciennes",
+        "Vannes"
+      ],
+      "2": [
+        "Villeurbanne",
+        "Versailles",
+        "Vannes",
+        "Vitry-sur-Seine",
+        "Valence",
+        "Valenciennes",
+        "Vichy"
+      ],
+      "3": [
+        "Toulouse",
+        "Lille",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Rennes",
+        "Strasbourg"
+      ],
+      "4": [
+        "Asnières-sur-Seine",
+        "Rennes",
+        "Colombes"
+      ],
+      "5": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ],
+      "6": [
+        "Brive-la-Gaillarde",
+        "Agen",
+        "Dax",
+        "Limoges",
+        "Biarritz",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle",
+        "Angoulême"
+      ],
+      "7": [
+        "Limoges",
+        "Saintes"
+      ],
+      "8": [
+        "Brive-la-Gaillarde",
+        "Rochefort",
+        "Agen",
+        "Dax",
+        "Limoges",
+        "Bayonne",
+        "Biarritz",
+        "Pau",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle",
+        "Saintes",
+        "Mont-de-Marsan",
+        "Périgueux",
+        "Niort",
+        "Angoulême"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-30",
+    "theme": "villes-casu",
+    "difficulte": 0.71,
+    "stats": {
+      "moyenne": 7.3,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_b",
+        "label": "Commence par B",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Bourges",
+        "Besançon",
+        "Bordeaux",
+        "Blois",
+        "Beauvais"
+      ],
+      "1": [
+        "Brive-la-Gaillarde",
+        "Brest",
+        "Belfort",
+        "Boulogne-Billancourt",
+        "Besançon",
+        "Biarritz",
+        "Bordeaux",
+        "Béziers",
+        "Boulogne-sur-Mer",
+        "Blois",
+        "Bourg-en-Bresse"
+      ],
+      "2": [
+        "Brest",
+        "Bourges",
+        "Boulogne-Billancourt",
+        "Bayonne",
+        "Besançon",
+        "Bordeaux",
+        "Béziers",
+        "Beauvais"
+      ],
+      "3": [
+        "Nîmes",
+        "Nancy"
+      ],
+      "4": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy"
+      ],
+      "5": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ],
+      "6": [
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Chartres",
+        "Saintes",
+        "Arles"
+      ],
+      "7": [
+        "Nîmes",
+        "Versailles",
+        "Limoges",
+        "Chartres",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes"
+      ],
+      "8": [
+        "Nîmes",
+        "Bourges",
+        "Antibes",
+        "Versailles",
+        "Asnières-sur-Seine",
+        "Limoges",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes",
+        "Colombes",
+        "Arles"
+      ]
+    }
+  },
+  {
+    "date": "2026-05-31",
+    "theme": "villes-casu",
+    "difficulte": 0.88,
+    "stats": {
+      "moyenne": 4.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fleuve_rhone",
+        "label": "Traversée par le Rhône",
+        "icon": "🌊"
+      },
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Avignon",
+        "Lyon",
+        "Valence",
+        "Chalon-sur-Saône",
+        "Mâcon",
+        "Arles"
+      ],
+      "1": [
+        "Lyon",
+        "Chalon-sur-Saône",
+        "Avignon",
+        "Mâcon"
+      ],
+      "2": [
+        "Avignon",
+        "Lyon",
+        "Valence",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "3": [
+        "Toulouse",
+        "Toulon",
+        "Thonon-les-Bains",
+        "Tarbes",
+        "Troyes",
+        "Thionville",
+        "Tours"
+      ],
+      "4": [
+        "Toulon",
+        "Thonon-les-Bains"
+      ],
+      "5": [
+        "Tours",
+        "Toulouse",
+        "Toulon",
+        "Troyes"
+      ],
+      "6": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lens",
+        "Lisieux",
+        "Laon",
+        "Lille",
+        "Laval"
+      ],
+      "7": [
+        "Laon",
+        "Lyon"
+      ],
+      "8": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lille",
+        "Laval"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "theme": "villes-casu",
+    "difficulte": 0.17,
+    "stats": {
+      "moyenne": 15.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fin_ille",
+        "label": "Se termine en '-ille'",
+        "icon": "🔡"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Marseille",
+        "Lille"
+      ],
+      "1": [
+        "Marseille",
+        "Lille"
+      ],
+      "2": [
+        "Marseille",
+        "Lille"
+      ],
+      "3": [
+        "Dijon",
+        "Avignon",
+        "Rouen",
+        "Chambéry",
+        "Bayonne",
+        "Dunkerque",
+        "Nantes",
+        "Cannes",
+        "Courbevoie",
+        "Colombes",
+        "Orléans",
+        "Toulon",
+        "Villeurbanne",
+        "Le Mans",
+        "Argenteuil",
+        "Saint-Denis",
+        "Nancy",
+        "Antibes",
+        "Rennes",
+        "Grenoble",
+        "Roubaix",
+        "Montreuil",
+        "Marseille",
+        "Fort-de-France",
+        "Vannes",
+        "La Rochelle",
+        "Évreux",
+        "Quimper",
+        "Colmar",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Boulogne-Billancourt",
+        "Aulnay-sous-Bois",
+        "Poitiers",
+        "Mulhouse",
+        "Ajaccio",
+        "Saint-Quentin",
+        "Paris",
+        "Montpellier",
+        "Le Havre",
+        "Nanterre",
+        "Bourges",
+        "Nice",
+        "Lyon",
+        "Niort",
+        "Narbonne",
+        "Asnières-sur-Seine",
+        "Calais",
+        "Pau",
+        "Bordeaux",
+        "Valence",
+        "Troyes",
+        "Fréjus",
+        "Amiens",
+        "Angers",
+        "Annecy",
+        "Lille",
+        "Strasbourg",
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Cherbourg-en-Cotentin",
+        "Besançon",
+        "Aubervilliers",
+        "Montauban",
+        "Arles",
+        "Nîmes",
+        "Brest",
+        "Versailles",
+        "Saint-Etienne",
+        "La Roche-sur-Yon",
+        "Saint-Nazaire",
+        "Aix-en-Provence",
+        "Saint-Denis (La Réunion)",
+        "La Seyne-sur-Mer",
+        "Limoges",
+        "Vitry-sur-Seine",
+        "Cayenne",
+        "Béziers",
+        "Clermont-Ferrand",
+        "Créteil",
+        "Reims"
+      ],
+      "4": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Lens",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "5": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ],
+      "6": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "La Seyne-sur-Mer",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Strasbourg"
+      ],
+      "7": [
+        "Saint-Etienne",
+        "Strasbourg"
+      ],
+      "8": [
+        "Saint-Denis",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "theme": "villes-casu",
+    "difficulte": 0.34,
+    "stats": {
+      "moyenne": 12.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "reg_ara",
+        "label": "Auvergne-Rhône-Alpes",
+        "icon": "⛰️"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔤"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Aurillac",
+        "Annecy"
+      ],
+      "1": [
+        "Chambéry",
+        "Lyon",
+        "Saint-Etienne",
+        "Valence",
+        "Annecy",
+        "Clermont-Ferrand",
+        "Bourg-en-Bresse",
+        "Grenoble"
+      ],
+      "2": [
+        "Chambéry",
+        "Villeurbanne",
+        "Lyon",
+        "Saint-Etienne",
+        "Valence",
+        "Annecy",
+        "Clermont-Ferrand",
+        "Grenoble"
+      ],
+      "3": [
+        "Alençon",
+        "Avignon"
+      ],
+      "4": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "5": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon"
+      ],
+      "6": [
+        "Amiens",
+        "Angers",
+        "Argenteuil",
+        "Annecy",
+        "Aix-en-Provence"
+      ],
+      "7": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "8": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "theme": "villes-casu",
+    "difficulte": 0.45,
+    "stats": {
+      "moyenne": 11.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "reg_idf",
+        "label": "Île-de-France",
+        "icon": "🗼"
+      },
+      {
+        "id": "fleuve_seine",
+        "label": "Traversée par la Seine",
+        "icon": "🌊"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Saint-Malo",
+        "Saintes",
+        "Périgueux",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Soissons",
+        "Lisieux",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "1": [
+        "Montreuil",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Versailles",
+        "Aubervilliers",
+        "Aulnay-sous-Bois",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Saint-Denis",
+        "Courbevoie",
+        "Nanterre",
+        "Créteil",
+        "Colombes"
+      ],
+      "2": [
+        "Rouen",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Compiegne",
+        "Épernay",
+        "Auxerre",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Troyes"
+      ],
+      "3": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Nîmes",
+        "Avignon",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "4": [
+        "Paris",
+        "Boulogne-Billancourt",
+        "Versailles",
+        "Argenteuil",
+        "Saint-Denis"
+      ],
+      "5": [
+        "Rouen",
+        "Paris",
+        "Boulogne-Billancourt",
+        "Compiegne",
+        "Argenteuil",
+        "Troyes"
+      ],
+      "6": [
+        "Chartres",
+        "Carcassonne",
+        "Colmar"
+      ],
+      "7": [
+        "Colombes",
+        "Créteil",
+        "Courbevoie"
+      ],
+      "8": [
+        "Compiegne",
+        "Courbevoie"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "theme": "villes-casu",
+    "difficulte": 0.5,
+    "stats": {
+      "moyenne": 10.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fleuve_garonne",
+        "label": "Traversée par la Garonne",
+        "icon": "🌊"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "reg_occ",
+        "label": "Occitanie",
+        "icon": "🌻"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Montauban"
+      ],
+      "1": [
+        "Toulouse",
+        "Bordeaux"
+      ],
+      "2": [
+        "Toulouse",
+        "Bordeaux"
+      ],
+      "3": [
+        "Toulouse",
+        "Montpellier"
+      ],
+      "4": [
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Rennes",
+        "Lille"
+      ],
+      "5": [
+        "Toulouse",
+        "Montreuil",
+        "Lille",
+        "Villeurbanne",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Rennes",
+        "Strasbourg"
+      ],
+      "6": [
+        "Toulouse",
+        "Perpignan",
+        "Narbonne",
+        "Nîmes",
+        "Montpellier",
+        "Béziers",
+        "Montauban",
+        "Albi"
+      ],
+      "7": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "8": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "theme": "villes-casu",
+    "difficulte": 0.59,
+    "stats": {
+      "moyenne": 9.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔤"
+      },
+      {
+        "id": "reg_bre",
+        "label": "Bretagne",
+        "icon": "⚓"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Antibes",
+        "Aubervilliers",
+        "Arles",
+        "Auxerre",
+        "Avignon",
+        "Aurillac",
+        "Angoulême",
+        "Arras",
+        "Aix-en-Provence",
+        "Asnières-sur-Seine",
+        "Alençon",
+        "Auch",
+        "Albi",
+        "Amiens",
+        "Agen",
+        "Angers",
+        "Aulnay-sous-Bois",
+        "Argenteuil",
+        "Annecy",
+        "Ajaccio"
+      ],
+      "1": [
+        "Antibes",
+        "Ajaccio"
+      ],
+      "2": [
+        "Amiens",
+        "Agen",
+        "Avignon",
+        "Angers",
+        "Argenteuil",
+        "Annecy",
+        "Arras",
+        "Aix-en-Provence",
+        "Angoulême"
+      ],
+      "3": [
+        "Caen",
+        "Cherbourg-en-Cotentin",
+        "Castres",
+        "Chartres",
+        "Carcassonne",
+        "Châteauroux",
+        "Charleville-Mézières",
+        "Chambéry",
+        "Calais",
+        "Compiegne",
+        "Cayenne",
+        "Cannes",
+        "Colmar",
+        "Courbevoie",
+        "Clermont-Ferrand",
+        "Châlons-en-Champagne",
+        "Créteil",
+        "Colombes",
+        "Chalon-sur-Saône"
+      ],
+      "4": [
+        "Cherbourg-en-Cotentin",
+        "Calais",
+        "Cannes"
+      ],
+      "5": [
+        "Caen",
+        "Chambéry",
+        "Calais",
+        "Chartres",
+        "Compiegne",
+        "Chalon-sur-Saône",
+        "Cannes",
+        "Carcassonne",
+        "Colmar",
+        "Clermont-Ferrand"
+      ],
+      "6": [
+        "Lorient",
+        "Brest",
+        "Saint-Malo",
+        "Vannes",
+        "Quimper",
+        "Rennes",
+        "Saint-Brieuc",
+        "Fougères"
+      ],
+      "7": [
+        "Lorient",
+        "Brest",
+        "Saint-Malo",
+        "Vannes",
+        "Saint-Brieuc"
+      ],
+      "8": [
+        "Lorient",
+        "Brest",
+        "Vannes",
+        "Quimper",
+        "Rennes",
+        "Saint-Brieuc"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-06",
+    "theme": "villes-casu",
+    "difficulte": 0.79,
+    "stats": {
+      "moyenne": 6.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔤"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Rouen",
+        "Narbonne",
+        "Lorient",
+        "Brest",
+        "Toulon",
+        "Nice",
+        "Marseille",
+        "Calais",
+        "Le Havre",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Saint-Nazaire",
+        "Saint-Brieuc"
+      ],
+      "1": [
+        "Rouen",
+        "Marseille",
+        "Saint-Malo",
+        "Bordeaux",
+        "Le Havre"
+      ],
+      "2": [
+        "Antibes",
+        "Ajaccio"
+      ],
+      "3": [
+        "Brive-la-Gaillarde",
+        "Agen",
+        "Dax",
+        "Limoges",
+        "Biarritz",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle",
+        "Angoulême"
+      ],
+      "4": [
+        "Saintes",
+        "Périgueux",
+        "Bordeaux"
+      ],
+      "5": [
+        "Agen",
+        "Angoulême"
+      ],
+      "6": [
+        "Nîmes",
+        "Versailles",
+        "Limoges",
+        "Chartres",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes"
+      ],
+      "7": [
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Chartres",
+        "Saintes",
+        "Arles"
+      ],
+      "8": [
+        "Asnières-sur-Seine",
+        "Antibes",
+        "Arles"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-07",
+    "theme": "villes-casu",
+    "difficulte": 0.84,
+    "stats": {
+      "moyenne": 5.3,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "reg_occ",
+        "label": "Occitanie",
+        "icon": "🌻"
+      },
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Albi",
+        "Nîmes",
+        "Carcassonne"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Narbonne",
+        "Nîmes",
+        "Montpellier",
+        "Béziers",
+        "Montauban",
+        "Albi"
+      ],
+      "2": [
+        "Toulouse",
+        "Perpignan",
+        "Narbonne",
+        "Nîmes",
+        "Montpellier",
+        "Béziers",
+        "Carcassonne"
+      ],
+      "3": [
+        "Nîmes",
+        "Nancy"
+      ],
+      "4": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ],
+      "5": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy"
+      ],
+      "6": [
+        "Dijon",
+        "Lyon",
+        "Avignon",
+        "Besançon"
+      ],
+      "7": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon"
+      ],
+      "8": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "theme": "villes-casu",
+    "difficulte": 0.19,
+    "stats": {
+      "moyenne": 15.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "reg_occ",
+        "label": "Occitanie",
+        "icon": "🌻"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Lille",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Rennes",
+        "Strasbourg"
+      ],
+      "1": [
+        "Toulouse",
+        "Montpellier"
+      ],
+      "2": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ],
+      "3": [
+        "Metz",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Mulhouse",
+        "Mâcon"
+      ],
+      "4": [
+        "Montpellier",
+        "Montauban"
+      ],
+      "5": [
+        "Maubeuge",
+        "Montreuil",
+        "Metz",
+        "Montbéliard",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Menton",
+        "Mont-de-Marsan",
+        "Mulhouse",
+        "Montauban",
+        "Mâcon"
+      ],
+      "6": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "7": [
+        "Toulouse",
+        "Perpignan",
+        "Nîmes",
+        "Montpellier"
+      ],
+      "8": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "theme": "villes-casu",
+    "difficulte": 0.3,
+    "stats": {
+      "moyenne": 13.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔤"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Rouen",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Bordeaux",
+        "Le Havre",
+        "Strasbourg",
+        "Reims"
+      ],
+      "1": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Nîmes",
+        "Avignon",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Dijon",
+        "Lyon",
+        "Avignon",
+        "Besançon"
+      ],
+      "3": [
+        "Lens",
+        "Lyon",
+        "Lille"
+      ],
+      "4": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lille",
+        "Laval"
+      ],
+      "5": [
+        "Laon",
+        "Lyon"
+      ],
+      "6": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "7": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Saint-Etienne",
+        "Saint-Nazaire",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Limoges",
+        "Calais",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "8": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "theme": "villes-casu",
+    "difficulte": 0.43,
+    "stats": {
+      "moyenne": 11.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "fleuve_garonne",
+        "label": "Traversée par la Garonne",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Marseille",
+        "Menton"
+      ],
+      "1": [
+        "Montreuil",
+        "Metz",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Mulhouse"
+      ],
+      "2": [
+        "Montpellier",
+        "Marseille"
+      ],
+      "3": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Menton",
+        "Le Havre",
+        "Saint-Malo",
+        "Dieppe",
+        "Rochefort",
+        "Bastia",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Boulogne-sur-Mer",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Saint-Brieuc",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "4": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "5": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Lens",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "6": [
+        "Bayonne",
+        "Bordeaux"
+      ],
+      "7": [
+        "Toulouse",
+        "Bordeaux"
+      ],
+      "8": [
+        "Toulouse",
+        "Bordeaux"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "theme": "villes-casu",
+    "difficulte": 0.57,
+    "stats": {
+      "moyenne": 9.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fleuve_seine",
+        "label": "Traversée par la Seine",
+        "icon": "🌊"
+      },
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔤"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Asnières-sur-Seine",
+        "Troyes"
+      ],
+      "1": [
+        "Rouen",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Troyes"
+      ],
+      "2": [
+        "Rouen",
+        "Paris",
+        "Boulogne-Billancourt",
+        "Compiegne",
+        "Argenteuil",
+        "Troyes"
+      ],
+      "3": [
+        "Asnières-sur-Seine",
+        "Antibes",
+        "Arles"
+      ],
+      "4": [
+        "Amiens",
+        "Avignon",
+        "Angers",
+        "Antibes",
+        "Asnières-sur-Seine",
+        "Aubervilliers",
+        "Aulnay-sous-Bois",
+        "Argenteuil",
+        "Annecy",
+        "Albi",
+        "Arles",
+        "Aix-en-Provence",
+        "Ajaccio"
+      ],
+      "5": [
+        "Amiens",
+        "Agen",
+        "Avignon",
+        "Angers",
+        "Argenteuil",
+        "Annecy",
+        "Arras",
+        "Aix-en-Provence",
+        "Angoulême"
+      ],
+      "6": [
+        "Antibes",
+        "Nantes",
+        "Cannes",
+        "Vannes"
+      ],
+      "7": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Le Havre",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "8": [
+        "Rouen",
+        "Narbonne",
+        "Lorient",
+        "Brest",
+        "Toulon",
+        "Nice",
+        "Marseille",
+        "Calais",
+        "Le Havre",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Saint-Nazaire",
+        "Saint-Brieuc"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "theme": "villes-casu",
+    "difficulte": 0.65,
+    "stats": {
+      "moyenne": 8.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "reg_hdf",
+        "label": "Hauts-de-France",
+        "icon": "🌾"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Lens",
+        "Lyon",
+        "Lille"
+      ],
+      "1": [
+        "Saint-Etienne",
+        "Strasbourg"
+      ],
+      "2": [
+        "Rouen",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Bordeaux",
+        "Le Havre",
+        "Strasbourg",
+        "Reims"
+      ],
+      "3": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lens",
+        "Lisieux",
+        "Laon",
+        "Lille",
+        "Laval"
+      ],
+      "4": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "Saint-Nazaire",
+        "La Seyne-sur-Mer",
+        "Saint-Malo",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saintes",
+        "Soissons",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "5": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Saint-Malo",
+        "Saintes",
+        "Périgueux",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Soissons",
+        "Lisieux",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "6": [
+        "Lens",
+        "Laon",
+        "Lille"
+      ],
+      "7": [
+        "Saint-Quentin",
+        "Soissons"
+      ],
+      "8": [
+        "Amiens",
+        "Arras",
+        "Beauvais",
+        "Soissons"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "theme": "villes-casu",
+    "difficulte": 0.74,
+    "stats": {
+      "moyenne": 6.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "reg_ara",
+        "label": "Auvergne-Rhône-Alpes",
+        "icon": "⛰️"
+      },
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔤"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Dieppe",
+        "Bastia",
+        "Ajaccio",
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Montpellier",
+        "Antibes",
+        "Menton",
+        "Biarritz",
+        "Saint-Malo",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Fréjus"
+      ],
+      "1": [
+        "Chambéry",
+        "Thonon-les-Bains",
+        "Villeurbanne",
+        "Aurillac",
+        "Lyon",
+        "Roanne",
+        "Saint-Etienne",
+        "Valence",
+        "Annecy",
+        "Clermont-Ferrand",
+        "Vichy",
+        "Bourg-en-Bresse",
+        "Grenoble"
+      ],
+      "2": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lens",
+        "Lisieux",
+        "Laon",
+        "Lille",
+        "Laval"
+      ],
+      "3": [
+        "Menton",
+        "Toulon"
+      ],
+      "4": [
+        "Lyon",
+        "Thonon-les-Bains"
+      ],
+      "5": [
+        "Laon",
+        "Lyon"
+      ],
+      "6": [
+        "Toulon",
+        "Nice",
+        "Montpellier",
+        "Biarritz",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes"
+      ],
+      "7": [
+        "Chambéry",
+        "Lyon",
+        "Saint-Etienne",
+        "Valence",
+        "Annecy",
+        "Clermont-Ferrand",
+        "Bourg-en-Bresse",
+        "Grenoble"
+      ],
+      "8": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lille",
+        "Laval"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-14",
+    "theme": "villes-casu",
+    "difficulte": 0.89,
+    "stats": {
+      "moyenne": 4.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "reg_paca",
+        "label": "PACA",
+        "icon": "☀️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Rennes",
+        "Nantes"
+      ],
+      "1": [
+        "Antibes",
+        "Nantes",
+        "Cannes",
+        "Vannes"
+      ],
+      "2": [
+        "Limoges",
+        "Rennes",
+        "Nantes",
+        "Nîmes"
+      ],
+      "3": [
+        "Nice",
+        "Montpellier"
+      ],
+      "4": [
+        "Dieppe",
+        "Bastia",
+        "Ajaccio",
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Antibes",
+        "Menton",
+        "Saint-Malo",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Fréjus"
+      ],
+      "5": [
+        "Nice",
+        "Toulon",
+        "Montpellier"
+      ],
+      "6": [
+        "Nice",
+        "Marseille"
+      ],
+      "7": [
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Marseille",
+        "Antibes",
+        "Menton",
+        "Cannes",
+        "Fréjus"
+      ],
+      "8": [
+        "Nice",
+        "Marseille",
+        "Toulon",
+        "Aix-en-Provence"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "theme": "villes-casu",
+    "difficulte": 0.22,
+    "stats": {
+      "moyenne": 14.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Rouen",
+        "Amiens",
+        "Nîmes",
+        "Metz",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Bordeaux",
+        "Nancy",
+        "Annecy",
+        "Strasbourg",
+        "Tours",
+        "Aix-en-Provence",
+        "Reims"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "Dijon",
+        "Lyon",
+        "Avignon",
+        "Besançon"
+      ],
+      "4": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "5": [
+        "Toulon",
+        "Avignon",
+        "Thonon-les-Bains",
+        "Lyon",
+        "Menton",
+        "Besançon",
+        "Dijon",
+        "Alençon",
+        "Chalon-sur-Saône",
+        "Laon",
+        "Mâcon"
+      ],
+      "6": [
+        "Nîmes",
+        "Nancy"
+      ],
+      "7": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy"
+      ],
+      "8": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "theme": "villes-casu",
+    "difficulte": 0.28,
+    "stats": {
+      "moyenne": 13.8,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "reg_nor",
+        "label": "Normandie",
+        "icon": "🐄"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Saint-Malo",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "La Seyne-sur-Mer"
+      ],
+      "1": [
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "2": [
+        "Saint-Malo",
+        "Saintes",
+        "Strasbourg",
+        "Soissons"
+      ],
+      "3": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Le Havre",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "4": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Saint-Etienne",
+        "Saint-Nazaire",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Limoges",
+        "Calais",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "5": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "6": [
+        "Rouen",
+        "Cherbourg-en-Cotentin",
+        "Dieppe",
+        "Le Havre"
+      ],
+      "7": [
+        "Rouen",
+        "Caen",
+        "Le Havre"
+      ],
+      "8": [
+        "Rouen",
+        "Lisieux",
+        "Le Havre"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "theme": "villes-casu",
+    "difficulte": 0.46,
+    "stats": {
+      "moyenne": 11.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "reg_bre",
+        "label": "Bretagne",
+        "icon": "⚓"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Etienne",
+        "Strasbourg",
+        "Saint-Denis"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Limoges",
+        "Rennes",
+        "Nantes",
+        "Nîmes"
+      ],
+      "3": [
+        "Saint-Malo",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "La Seyne-sur-Mer"
+      ],
+      "4": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Menton",
+        "Le Havre",
+        "Saint-Malo",
+        "Dieppe",
+        "Rochefort",
+        "Bastia",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Boulogne-sur-Mer",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Saint-Brieuc",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "5": [
+        "Antibes",
+        "Nantes",
+        "Cannes",
+        "Vannes"
+      ],
+      "6": [
+        "Saint-Brieuc",
+        "Saint-Malo"
+      ],
+      "7": [
+        "Lorient",
+        "Brest",
+        "Saint-Malo",
+        "Vannes",
+        "Quimper",
+        "Rennes",
+        "Saint-Brieuc",
+        "Fougères"
+      ],
+      "8": [
+        "Rennes",
+        "Fougères",
+        "Vannes"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "theme": "villes-casu",
+    "difficulte": 0.52,
+    "stats": {
+      "moyenne": 10.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "lettre_r",
+        "label": "Commence par R",
+        "icon": "🔤"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Rouen",
+        "Roubaix",
+        "Rochefort",
+        "Roanne",
+        "La Rochelle",
+        "La Roche-sur-Yon",
+        "Rennes",
+        "Rodez",
+        "Reims"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Dieppe",
+        "Bastia",
+        "Ajaccio",
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Montpellier",
+        "Antibes",
+        "Menton",
+        "Biarritz",
+        "Saint-Malo",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Fréjus"
+      ],
+      "3": [
+        "Rouen",
+        "Rennes",
+        "Reims"
+      ],
+      "4": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "5": [
+        "Nice",
+        "Montpellier"
+      ],
+      "6": [
+        "La Rochelle",
+        "Rochefort"
+      ],
+      "7": [
+        "Limoges",
+        "Bordeaux"
+      ],
+      "8": [
+        "La Rochelle",
+        "Biarritz"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "theme": "villes-casu",
+    "difficulte": 0.59,
+    "stats": {
+      "moyenne": 9.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fleuve_garonne",
+        "label": "Traversée par la Garonne",
+        "icon": "🌊"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Bayonne",
+        "Bordeaux"
+      ],
+      "1": [
+        "Montauban",
+        "Toulouse",
+        "Bayonne",
+        "Bordeaux"
+      ],
+      "2": [
+        "Toulouse",
+        "Agen",
+        "Bordeaux"
+      ],
+      "3": [
+        "La Rochelle",
+        "Bayonne",
+        "Rochefort",
+        "Bordeaux"
+      ],
+      "4": [
+        "Limoges",
+        "Bayonne",
+        "Pau",
+        "Bordeaux",
+        "Poitiers",
+        "La Rochelle",
+        "Niort"
+      ],
+      "5": [
+        "Brive-la-Gaillarde",
+        "Agen",
+        "Dax",
+        "Limoges",
+        "Biarritz",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle",
+        "Angoulême"
+      ],
+      "6": [
+        "Rouen",
+        "Marseille",
+        "Saint-Malo",
+        "Bordeaux",
+        "Le Havre"
+      ],
+      "7": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "8": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Nîmes",
+        "Avignon",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "theme": "villes-casu",
+    "difficulte": 0.73,
+    "stats": {
+      "moyenne": 7.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "reg_occ",
+        "label": "Occitanie",
+        "icon": "🌻"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Castres",
+        "Nîmes",
+        "Tarbes"
+      ],
+      "1": [
+        "Antibes",
+        "Cannes"
+      ],
+      "2": [
+        "Antibes",
+        "Saintes",
+        "Rennes",
+        "Arles",
+        "Valenciennes",
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Castres",
+        "Chartres",
+        "Asnières-sur-Seine",
+        "Limoges",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Colombes",
+        "Fougères",
+        "Tarbes"
+      ],
+      "3": [
+        "Montpellier",
+        "Montauban"
+      ],
+      "4": [
+        "Montpellier",
+        "Menton"
+      ],
+      "5": [
+        "Maubeuge",
+        "Montreuil",
+        "Metz",
+        "Montbéliard",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Menton",
+        "Mont-de-Marsan",
+        "Mulhouse",
+        "Montauban",
+        "Mâcon"
+      ],
+      "6": [
+        "Auch",
+        "Albi"
+      ],
+      "7": [
+        "Antibes",
+        "Ajaccio"
+      ],
+      "8": [
+        "Antibes",
+        "Aubervilliers",
+        "Arles",
+        "Auxerre",
+        "Avignon",
+        "Aurillac",
+        "Angoulême",
+        "Arras",
+        "Aix-en-Provence",
+        "Asnières-sur-Seine",
+        "Alençon",
+        "Auch",
+        "Albi",
+        "Amiens",
+        "Agen",
+        "Angers",
+        "Aulnay-sous-Bois",
+        "Argenteuil",
+        "Annecy",
+        "Ajaccio"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-21",
+    "theme": "villes-casu",
+    "difficulte": 0.9,
+    "stats": {
+      "moyenne": 4.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_t",
+        "label": "Commence par T",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_v",
+        "label": "Commence par V",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Toulon",
+        "Thonon-les-Bains",
+        "Tarbes",
+        "Troyes",
+        "Thionville",
+        "Tours"
+      ],
+      "1": [
+        "Tours",
+        "Toulouse",
+        "Toulon",
+        "Troyes"
+      ],
+      "2": [
+        "Tarbes",
+        "Troyes"
+      ],
+      "3": [
+        "Villeurbanne",
+        "Versailles",
+        "Vannes",
+        "Vitry-sur-Seine",
+        "Valence",
+        "Valenciennes",
+        "Vichy"
+      ],
+      "4": [
+        "Versailles",
+        "Valence",
+        "Vannes"
+      ],
+      "5": [
+        "Versailles",
+        "Valenciennes",
+        "Vannes"
+      ],
+      "6": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ],
+      "7": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy"
+      ],
+      "8": [
+        "Nantes",
+        "Nîmes"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "theme": "villes-casu",
+    "difficulte": 0.21,
+    "stats": {
+      "moyenne": 14.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "3": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "La Seyne-sur-Mer",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Strasbourg"
+      ],
+      "4": [
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "5": [
+        "Saint-Etienne",
+        "Strasbourg"
+      ],
+      "6": [
+        "Nîmes",
+        "Bourges",
+        "Antibes",
+        "Versailles",
+        "Asnières-sur-Seine",
+        "Limoges",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes",
+        "Colombes",
+        "Arles"
+      ],
+      "7": [
+        "Nîmes",
+        "Versailles",
+        "Limoges",
+        "Chartres",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes"
+      ],
+      "8": [
+        "Rennes",
+        "Nantes"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "theme": "villes-casu",
+    "difficulte": 0.3,
+    "stats": {
+      "moyenne": 13.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "fleuve_rhone",
+        "label": "Traversée par le Rhône",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "reg_paca",
+        "label": "PACA",
+        "icon": "☀️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulon",
+        "Avignon",
+        "Thonon-les-Bains",
+        "Lyon",
+        "Menton",
+        "Besançon",
+        "Dijon",
+        "Alençon",
+        "Chalon-sur-Saône",
+        "Laon",
+        "Mâcon"
+      ],
+      "1": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Belfort",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Saint-Etienne",
+        "Boulogne-sur-Mer",
+        "Carcassonne",
+        "Saint-Nazaire",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Dax",
+        "Limoges",
+        "Calais",
+        "Biarritz",
+        "Compiegne",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Saint-Brieuc",
+        "Clermont-Ferrand",
+        "Mâcon",
+        "Tours",
+        "Bourg-en-Bresse",
+        "Reims",
+        "Amiens",
+        "Brive-la-Gaillarde",
+        "Orléans",
+        "Toulon",
+        "Agen",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Laval",
+        "Saint-Denis",
+        "Mulhouse",
+        "Chalon-sur-Saône",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg",
+        "Angoulême"
+      ],
+      "2": [
+        "Toulon",
+        "Avignon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Marseille",
+        "Antibes",
+        "Gap",
+        "Menton",
+        "Cannes",
+        "Arles",
+        "Aix-en-Provence",
+        "Fréjus"
+      ],
+      "3": [
+        "Menton",
+        "Toulon"
+      ],
+      "4": [
+        "Toulon",
+        "Nice",
+        "Montpellier",
+        "Biarritz",
+        "La Rochelle",
+        "Boulogne-sur-Mer",
+        "Cannes"
+      ],
+      "5": [
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Antibes",
+        "Menton",
+        "Cannes",
+        "Fréjus"
+      ],
+      "6": [
+        "Lyon",
+        "Chalon-sur-Saône",
+        "Avignon",
+        "Mâcon"
+      ],
+      "7": [
+        "Avignon",
+        "Lyon",
+        "Valence",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "8": [
+        "Avignon",
+        "Arles"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "theme": "villes-casu",
+    "difficulte": 0.42,
+    "stats": {
+      "moyenne": 11.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      },
+      {
+        "id": "reg_hdf",
+        "label": "Hauts-de-France",
+        "icon": "🌾"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "1": [
+        "Rouen",
+        "Toulon",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Le Havre",
+        "Bordeaux",
+        "Nantes"
+      ],
+      "2": [
+        "Rouen",
+        "Amiens",
+        "Nîmes",
+        "Metz",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Bordeaux",
+        "Nancy",
+        "Annecy",
+        "Strasbourg",
+        "Tours",
+        "Aix-en-Provence",
+        "Reims"
+      ],
+      "3": [
+        "Roubaix",
+        "Saint-Quentin",
+        "Amiens",
+        "Maubeuge",
+        "Calais",
+        "Compiegne",
+        "Dunkerque",
+        "Boulogne-sur-Mer",
+        "Soissons",
+        "Lens",
+        "Laon",
+        "Lille",
+        "Arras",
+        "Valenciennes",
+        "Beauvais"
+      ],
+      "4": [
+        "Calais",
+        "Boulogne-sur-Mer",
+        "Dunkerque"
+      ],
+      "5": [
+        "Amiens",
+        "Arras",
+        "Beauvais",
+        "Soissons"
+      ],
+      "6": [
+        "Toulon",
+        "Avignon",
+        "Thonon-les-Bains",
+        "Lyon",
+        "Menton",
+        "Besançon",
+        "Dijon",
+        "Alençon",
+        "Chalon-sur-Saône",
+        "Laon",
+        "Mâcon"
+      ],
+      "7": [
+        "Menton",
+        "Toulon"
+      ],
+      "8": [
+        "Dijon",
+        "Lyon",
+        "Avignon",
+        "Besançon"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "theme": "villes-casu",
+    "difficulte": 0.55,
+    "stats": {
+      "moyenne": 9.8,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "reg_nor",
+        "label": "Normandie",
+        "icon": "🐄"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "1": [
+        "Toulon",
+        "Avignon",
+        "Thonon-les-Bains",
+        "Lyon",
+        "Menton",
+        "Besançon",
+        "Dijon",
+        "Alençon",
+        "Chalon-sur-Saône",
+        "Laon",
+        "Mâcon"
+      ],
+      "2": [
+        "Dijon",
+        "Lyon",
+        "Avignon",
+        "Besançon"
+      ],
+      "3": [
+        "Rouen",
+        "Narbonne",
+        "Lorient",
+        "Brest",
+        "Toulon",
+        "Nice",
+        "Marseille",
+        "Calais",
+        "Le Havre",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Saint-Nazaire",
+        "Saint-Brieuc"
+      ],
+      "4": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Menton",
+        "Le Havre",
+        "Saint-Malo",
+        "Dieppe",
+        "Rochefort",
+        "Bastia",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Boulogne-sur-Mer",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Saint-Brieuc",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "5": [
+        "Rouen",
+        "Marseille",
+        "Saint-Malo",
+        "Bordeaux",
+        "Le Havre"
+      ],
+      "6": [
+        "Rouen",
+        "Caen",
+        "Le Havre"
+      ],
+      "7": [
+        "Rouen",
+        "Dieppe",
+        "Caen",
+        "Cherbourg-en-Cotentin",
+        "Le Havre",
+        "Alençon",
+        "Évreux",
+        "Lisieux"
+      ],
+      "8": [
+        "Rouen",
+        "Lisieux",
+        "Le Havre"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "theme": "villes-casu",
+    "difficulte": 0.64,
+    "stats": {
+      "moyenne": 8.4,
+      "min": 4
+    },
+    "lignes": [
+      {
+        "id": "lettre_b",
+        "label": "Commence par B",
+        "icon": "🔤"
+      },
+      {
+        "id": "reg_hdf",
+        "label": "Hauts-de-France",
+        "icon": "🌾"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Bourges",
+        "Besançon",
+        "Bordeaux",
+        "Blois",
+        "Beauvais"
+      ],
+      "1": [
+        "Brive-la-Gaillarde",
+        "Brest",
+        "Belfort",
+        "Boulogne-Billancourt",
+        "Besançon",
+        "Biarritz",
+        "Bordeaux",
+        "Béziers",
+        "Boulogne-sur-Mer",
+        "Blois",
+        "Bourg-en-Bresse"
+      ],
+      "2": [
+        "Brest",
+        "Bourges",
+        "Boulogne-Billancourt",
+        "Bayonne",
+        "Besançon",
+        "Bordeaux",
+        "Béziers",
+        "Beauvais"
+      ],
+      "3": [
+        "Amiens",
+        "Arras",
+        "Beauvais",
+        "Soissons"
+      ],
+      "4": [
+        "Amiens",
+        "Calais",
+        "Compiegne",
+        "Boulogne-sur-Mer",
+        "Lille",
+        "Arras"
+      ],
+      "5": [
+        "Roubaix",
+        "Saint-Quentin",
+        "Amiens",
+        "Calais",
+        "Dunkerque",
+        "Lille",
+        "Beauvais"
+      ],
+      "6": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Strasbourg"
+      ],
+      "7": [
+        "Toulouse",
+        "Lille",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Rennes",
+        "Strasbourg"
+      ],
+      "8": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "theme": "villes-casu",
+    "difficulte": 0.77,
+    "stats": {
+      "moyenne": 6.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "1": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "Saint-Nazaire",
+        "La Seyne-sur-Mer",
+        "Saint-Malo",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saintes",
+        "Soissons",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "2": [
+        "Saint-Malo",
+        "La Seyne-sur-Mer"
+      ],
+      "3": [
+        "Metz",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Mulhouse",
+        "Mâcon"
+      ],
+      "4": [
+        "Maubeuge",
+        "Montreuil",
+        "Metz",
+        "Montbéliard",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Menton",
+        "Mont-de-Marsan",
+        "Mulhouse",
+        "Montauban",
+        "Mâcon"
+      ],
+      "5": [
+        "Montpellier",
+        "Menton"
+      ],
+      "6": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ],
+      "7": [
+        "Toulon",
+        "Avignon",
+        "Thonon-les-Bains",
+        "Lyon",
+        "Menton",
+        "Besançon",
+        "Dijon",
+        "Alençon",
+        "Chalon-sur-Saône",
+        "Laon",
+        "Mâcon"
+      ],
+      "8": [
+        "Menton",
+        "Toulon"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-28",
+    "theme": "villes-casu",
+    "difficulte": 0.85,
+    "stats": {
+      "moyenne": 5.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "reg_cor",
+        "label": "Corse",
+        "icon": "🌴"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Antibes",
+        "Saintes",
+        "Rennes",
+        "Arles",
+        "Valenciennes",
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Castres",
+        "Chartres",
+        "Asnières-sur-Seine",
+        "Limoges",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Colombes",
+        "Fougères",
+        "Tarbes"
+      ],
+      "1": [
+        "Antibes",
+        "Cannes"
+      ],
+      "2": [
+        "Antibes",
+        "Nantes",
+        "Cannes",
+        "Vannes"
+      ],
+      "3": [
+        "Bastia",
+        "Ajaccio"
+      ],
+      "4": [
+        "Bastia",
+        "Ajaccio"
+      ],
+      "5": [
+        "Bastia",
+        "Ajaccio"
+      ],
+      "6": [
+        "Maubeuge",
+        "Montreuil",
+        "Metz",
+        "Montbéliard",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Menton",
+        "Mont-de-Marsan",
+        "Mulhouse",
+        "Montauban",
+        "Mâcon"
+      ],
+      "7": [
+        "Montpellier",
+        "Menton"
+      ],
+      "8": [
+        "Marseille",
+        "Menton"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "theme": "villes-casu",
+    "difficulte": 0.19,
+    "stats": {
+      "moyenne": 15.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_b",
+        "label": "Commence par B",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "reg_bfc",
+        "label": "Bourgogne-Franche-Comté",
+        "icon": "🍇"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Belfort",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Saint-Etienne",
+        "Boulogne-sur-Mer",
+        "Carcassonne",
+        "Saint-Nazaire",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Dax",
+        "Limoges",
+        "Calais",
+        "Biarritz",
+        "Compiegne",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Saint-Brieuc",
+        "Clermont-Ferrand",
+        "Mâcon",
+        "Tours",
+        "Bourg-en-Bresse",
+        "Reims",
+        "Amiens",
+        "Brive-la-Gaillarde",
+        "Orléans",
+        "Toulon",
+        "Agen",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Laval",
+        "Saint-Denis",
+        "Mulhouse",
+        "Chalon-sur-Saône",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg",
+        "Angoulême"
+      ],
+      "1": [
+        "Belfort",
+        "Montbéliard",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon",
+        "Auxerre"
+      ],
+      "2": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Menton",
+        "Le Havre",
+        "Saint-Malo",
+        "Dieppe",
+        "Rochefort",
+        "Bastia",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Boulogne-sur-Mer",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Saint-Brieuc",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "3": [
+        "Metz",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Mulhouse",
+        "Mâcon"
+      ],
+      "4": [
+        "Montbéliard",
+        "Mâcon"
+      ],
+      "5": [
+        "Marseille",
+        "Menton"
+      ],
+      "6": [
+        "Brive-la-Gaillarde",
+        "Brest",
+        "Belfort",
+        "Boulogne-Billancourt",
+        "Besançon",
+        "Biarritz",
+        "Bordeaux",
+        "Béziers",
+        "Boulogne-sur-Mer",
+        "Blois",
+        "Bourg-en-Bresse"
+      ],
+      "7": [
+        "Belfort",
+        "Besançon"
+      ],
+      "8": [
+        "Bastia",
+        "Brest",
+        "Bayonne",
+        "Bordeaux",
+        "Boulogne-sur-Mer"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "theme": "villes-casu",
+    "difficulte": 0.28,
+    "stats": {
+      "moyenne": 13.8,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "fleuve_seine",
+        "label": "Traversée par la Seine",
+        "icon": "🌊"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "reg_idf",
+        "label": "Île-de-France",
+        "icon": "🗼"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Paris",
+        "Versailles"
+      ],
+      "1": [
+        "Rouen",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Bordeaux",
+        "Le Havre",
+        "Strasbourg",
+        "Reims"
+      ],
+      "2": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Saint-Malo",
+        "Saintes",
+        "Périgueux",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Soissons",
+        "Lisieux",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie"
+      ],
+      "4": [
+        "Rouen",
+        "Paris"
+      ],
+      "5": [
+        "Rouen",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Compiegne",
+        "Épernay",
+        "Auxerre",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Troyes"
+      ],
+      "6": [
+        "Montreuil",
+        "Paris",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis"
+      ],
+      "7": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "8": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "theme": "villes-casu",
+    "difficulte": 0.39,
+    "stats": {
+      "moyenne": 12.2,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "reg_ara",
+        "label": "Auvergne-Rhône-Alpes",
+        "icon": "⛰️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "metro",
+        "label": "Réseau de métro",
+        "icon": "🚇"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Chambéry",
+        "Thonon-les-Bains",
+        "Villeurbanne",
+        "Aurillac",
+        "Lyon",
+        "Roanne",
+        "Saint-Etienne",
+        "Valence",
+        "Annecy",
+        "Clermont-Ferrand",
+        "Vichy",
+        "Bourg-en-Bresse",
+        "Grenoble"
+      ],
+      "1": [
+        "Lyon",
+        "Annecy"
+      ],
+      "2": [
+        "Chambéry",
+        "Lyon",
+        "Saint-Etienne",
+        "Valence",
+        "Annecy",
+        "Clermont-Ferrand",
+        "Bourg-en-Bresse",
+        "Grenoble"
+      ],
+      "3": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Menton",
+        "Le Havre",
+        "Saint-Malo",
+        "Dieppe",
+        "Rochefort",
+        "Bastia",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Boulogne-sur-Mer",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Saint-Brieuc",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "4": [
+        "Rouen",
+        "Marseille",
+        "Saint-Malo",
+        "Bordeaux",
+        "Le Havre"
+      ],
+      "5": [
+        "Rouen",
+        "Narbonne",
+        "Lorient",
+        "Brest",
+        "Toulon",
+        "Nice",
+        "Marseille",
+        "Calais",
+        "Le Havre",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Boulogne-sur-Mer",
+        "Cannes",
+        "Saint-Nazaire",
+        "Saint-Brieuc"
+      ],
+      "6": [
+        "Toulouse",
+        "Paris",
+        "Montpellier",
+        "Aubervilliers",
+        "Nanterre",
+        "Rennes",
+        "Montreuil",
+        "Lille",
+        "Marseille",
+        "Lyon",
+        "Asnières-sur-Seine",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Colombes",
+        "Créteil",
+        "Villeurbanne",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Strasbourg"
+      ],
+      "7": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Strasbourg"
+      ],
+      "8": [
+        "Toulouse",
+        "Lille",
+        "Paris",
+        "Montpellier",
+        "Marseille",
+        "Lyon",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Rennes",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "theme": "villes-casu",
+    "difficulte": 0.53,
+    "stats": {
+      "moyenne": 10.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "reg_hdf",
+        "label": "Hauts-de-France",
+        "icon": "🌾"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "lettre_a",
+        "label": "Commence par A",
+        "icon": "🔤"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Chartres",
+        "Saintes",
+        "Arles"
+      ],
+      "1": [
+        "Nîmes",
+        "Versailles",
+        "Limoges",
+        "Chartres",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes"
+      ],
+      "2": [
+        "Asnières-sur-Seine",
+        "Antibes",
+        "Arles"
+      ],
+      "3": [
+        "Amiens",
+        "Arras",
+        "Beauvais",
+        "Soissons"
+      ],
+      "4": [
+        "Amiens",
+        "Calais",
+        "Compiegne",
+        "Boulogne-sur-Mer",
+        "Lille",
+        "Arras"
+      ],
+      "5": [
+        "Amiens",
+        "Arras"
+      ],
+      "6": [
+        "Rouen",
+        "Amiens",
+        "Nîmes",
+        "Metz",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Bordeaux",
+        "Nancy",
+        "Annecy",
+        "Strasbourg",
+        "Tours",
+        "Aix-en-Provence",
+        "Reims"
+      ],
+      "7": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "8": [
+        "Amiens",
+        "Angers",
+        "Argenteuil",
+        "Annecy",
+        "Aix-en-Provence"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "theme": "villes-casu",
+    "difficulte": 0.67,
+    "stats": {
+      "moyenne": 8.0,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_r",
+        "label": "Commence par R",
+        "icon": "🔤"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "reg_idf",
+        "label": "Île-de-France",
+        "icon": "🗼"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Rouen",
+        "Roubaix",
+        "La Rochelle",
+        "La Roche-sur-Yon",
+        "Rennes",
+        "Reims"
+      ],
+      "1": [
+        "Rouen",
+        "La Rochelle",
+        "Rennes",
+        "Reims"
+      ],
+      "2": [
+        "Rouen",
+        "Reims"
+      ],
+      "3": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "4": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "5": [
+        "Rouen",
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Bordeaux",
+        "Le Havre",
+        "Strasbourg",
+        "Reims"
+      ],
+      "6": [
+        "Montreuil",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Versailles",
+        "Aubervilliers",
+        "Aulnay-sous-Bois",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Saint-Denis",
+        "Courbevoie",
+        "Nanterre",
+        "Créteil",
+        "Colombes"
+      ],
+      "7": [
+        "Paris",
+        "Boulogne-Billancourt",
+        "Versailles",
+        "Argenteuil",
+        "Saint-Denis"
+      ],
+      "8": [
+        "Paris",
+        "Versailles"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "theme": "villes-casu",
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne": 6.6,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      },
+      {
+        "id": "reg_cvl",
+        "label": "Centre-Val de Loire",
+        "icon": "🏰"
+      },
+      {
+        "id": "lettre_c",
+        "label": "Commence par C",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "pop_10k+",
+        "label": "Plus de 10 000 habitants",
+        "icon": "🏡"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy"
+      ],
+      "1": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ],
+      "2": [
+        "Nantes",
+        "Nîmes"
+      ],
+      "3": [
+        "Blois",
+        "Orléans",
+        "Tours",
+        "Chartres"
+      ],
+      "4": [
+        "Orléans",
+        "Bourges",
+        "Chartres",
+        "Blois",
+        "Châteauroux",
+        "Tours"
+      ],
+      "5": [
+        "Bourges",
+        "Chartres"
+      ],
+      "6": [
+        "Caen",
+        "Chambéry",
+        "Calais",
+        "Chartres",
+        "Compiegne",
+        "Chalon-sur-Saône",
+        "Cannes",
+        "Carcassonne",
+        "Colmar",
+        "Clermont-Ferrand"
+      ],
+      "7": [
+        "Caen",
+        "Cherbourg-en-Cotentin",
+        "Castres",
+        "Chartres",
+        "Carcassonne",
+        "Châteauroux",
+        "Charleville-Mézières",
+        "Chambéry",
+        "Calais",
+        "Compiegne",
+        "Cayenne",
+        "Cannes",
+        "Colmar",
+        "Courbevoie",
+        "Clermont-Ferrand",
+        "Châlons-en-Champagne",
+        "Créteil",
+        "Colombes",
+        "Chalon-sur-Saône"
+      ],
+      "8": [
+        "Castres",
+        "Chartres",
+        "Cannes",
+        "Colombes"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-05",
+    "theme": "villes-casu",
+    "difficulte": 0.84,
+    "stats": {
+      "moyenne": 5.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "reg_hdf",
+        "label": "Hauts-de-France",
+        "icon": "🌾"
+      },
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Roubaix",
+        "Saint-Quentin",
+        "Amiens",
+        "Maubeuge",
+        "Calais",
+        "Compiegne",
+        "Dunkerque",
+        "Boulogne-sur-Mer",
+        "Soissons",
+        "Lens",
+        "Laon",
+        "Lille",
+        "Arras",
+        "Valenciennes",
+        "Beauvais"
+      ],
+      "1": [
+        "Lens",
+        "Lille"
+      ],
+      "2": [
+        "Calais",
+        "Boulogne-sur-Mer",
+        "Dunkerque"
+      ],
+      "3": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "Saint-Nazaire",
+        "La Seyne-sur-Mer",
+        "Saint-Malo",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saintes",
+        "Soissons",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "4": [
+        "Saint-Etienne",
+        "Strasbourg"
+      ],
+      "5": [
+        "Saint-Malo",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "La Seyne-sur-Mer"
+      ],
+      "6": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ],
+      "7": [
+        "Nice",
+        "Nantes"
+      ],
+      "8": [
+        "Nice",
+        "Narbonne",
+        "Nantes"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "theme": "villes-casu",
+    "difficulte": 0.19,
+    "stats": {
+      "moyenne": 15.1,
+      "min": 3
+    },
+    "lignes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Chartres",
+        "Saintes",
+        "Arles"
+      ],
+      "1": [
+        "Antibes",
+        "Nantes",
+        "Cannes",
+        "Vannes"
+      ],
+      "2": [
+        "Nîmes",
+        "Versailles",
+        "Limoges",
+        "Chartres",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes"
+      ],
+      "3": [
+        "Saintes",
+        "Périgueux",
+        "Bordeaux"
+      ],
+      "4": [
+        "La Rochelle",
+        "Bayonne",
+        "Rochefort",
+        "Bordeaux"
+      ],
+      "5": [
+        "Brive-la-Gaillarde",
+        "Agen",
+        "Dax",
+        "Limoges",
+        "Biarritz",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle",
+        "Angoulême"
+      ],
+      "6": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Arles",
+        "Nîmes",
+        "Avignon",
+        "Bourges",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Albi",
+        "Tours",
+        "Beauvais",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "7": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Le Havre",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "8": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Saint-Etienne",
+        "Saint-Nazaire",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Limoges",
+        "Calais",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "theme": "villes-casu",
+    "difficulte": 0.34,
+    "stats": {
+      "moyenne": 12.9,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "lettre_n",
+        "label": "Commence par N",
+        "icon": "🔤"
+      },
+      {
+        "id": "fleuve_seine",
+        "label": "Traversée par la Seine",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Saint-Etienne",
+        "Saint-Nazaire",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Limoges",
+        "Calais",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "1": [
+        "Metz",
+        "Paris",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Nîmes",
+        "Avignon",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Chartres",
+        "Carcassonne",
+        "Arras",
+        "Aix-en-Provence",
+        "Rouen",
+        "Bordeaux",
+        "Colmar",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Nancy",
+        "Blois",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "2": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ],
+      "3": [
+        "Narbonne",
+        "Nîmes",
+        "Nice",
+        "Nantes",
+        "Nancy",
+        "Nanterre",
+        "Niort"
+      ],
+      "4": [
+        "Nîmes",
+        "Nancy"
+      ],
+      "5": [
+        "Nice",
+        "Nantes"
+      ],
+      "6": [
+        "Rouen",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Troyes"
+      ],
+      "7": [
+        "Rouen",
+        "Paris"
+      ],
+      "8": [
+        "Rouen",
+        "Paris"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "theme": "villes-casu",
+    "difficulte": 0.37,
+    "stats": {
+      "moyenne": 12.4,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "reg_naq",
+        "label": "Nouvelle-Aquitaine",
+        "icon": "🍷"
+      },
+      {
+        "id": "fin_on",
+        "label": "Se termine en '-on'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "port_maritime",
+        "label": "Port maritime",
+        "icon": "⚓"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Ajaccio",
+        "Toulon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Montpellier",
+        "Antibes",
+        "La Rochelle",
+        "Cannes",
+        "Fréjus"
+      ],
+      "1": [
+        "Lorient",
+        "Cherbourg-en-Cotentin",
+        "Antibes",
+        "Le Havre",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Saint-Nazaire",
+        "Rouen",
+        "Narbonne",
+        "La Seyne-sur-Mer",
+        "Calais",
+        "Bayonne",
+        "Fort-de-France",
+        "Dunkerque",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Cannes",
+        "Fréjus",
+        "Toulon",
+        "Ajaccio"
+      ],
+      "2": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Lorient",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Lille",
+        "Nîmes",
+        "Avignon",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Versailles",
+        "Saint-Etienne",
+        "Saint-Nazaire",
+        "Aix-en-Provence",
+        "Rouen",
+        "Narbonne",
+        "Chambéry",
+        "Limoges",
+        "Calais",
+        "Bordeaux",
+        "Vannes",
+        "La Rochelle",
+        "Nantes",
+        "Béziers",
+        "Cannes",
+        "Quimper",
+        "Colmar",
+        "Troyes",
+        "Valence",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Poitiers",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "La Rochelle",
+        "Biarritz"
+      ],
+      "4": [
+        "La Rochelle",
+        "Bayonne",
+        "Rochefort",
+        "Bordeaux"
+      ],
+      "5": [
+        "Brive-la-Gaillarde",
+        "Agen",
+        "Dax",
+        "Limoges",
+        "Biarritz",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle",
+        "Angoulême"
+      ],
+      "6": [
+        "Menton",
+        "Toulon"
+      ],
+      "7": [
+        "Menton",
+        "Toulon"
+      ],
+      "8": [
+        "Toulon",
+        "Avignon",
+        "Lyon",
+        "Besançon",
+        "Dijon",
+        "Chalon-sur-Saône",
+        "Mâcon"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "theme": "villes-casu",
+    "difficulte": 0.53,
+    "stats": {
+      "moyenne": 10.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "station_balneaire",
+        "label": "Station balnéaire",
+        "icon": "🏖️"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "pop_100k+",
+        "label": "Plus de 100 000 habitants",
+        "icon": "🏙️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Maubeuge",
+        "Montreuil",
+        "Metz",
+        "Montbéliard",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Menton",
+        "Mont-de-Marsan",
+        "Mulhouse",
+        "Montauban",
+        "Mâcon"
+      ],
+      "1": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "Saint-Nazaire",
+        "La Seyne-sur-Mer",
+        "Saint-Malo",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saintes",
+        "Soissons",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "2": [
+        "Toulouse",
+        "Perpignan",
+        "Caen",
+        "Metz",
+        "Paris",
+        "Montpellier",
+        "Besançon",
+        "Le Havre",
+        "Dijon",
+        "Rennes",
+        "Grenoble",
+        "Montreuil",
+        "Lille",
+        "Nîmes",
+        "Brest",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Saint-Etienne",
+        "Aix-en-Provence",
+        "Rouen",
+        "Saint-Denis (La Réunion)",
+        "Limoges",
+        "Bordeaux",
+        "Nantes",
+        "Clermont-Ferrand",
+        "Tours",
+        "Reims",
+        "Amiens",
+        "Orléans",
+        "Toulon",
+        "Angers",
+        "Villeurbanne",
+        "Le Mans",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Saint-Denis",
+        "Mulhouse",
+        "Nancy",
+        "Annecy",
+        "Strasbourg"
+      ],
+      "3": [
+        "Montpellier",
+        "Menton"
+      ],
+      "4": [
+        "Saint-Malo",
+        "La Seyne-sur-Mer"
+      ],
+      "5": [
+        "Nice",
+        "Toulon",
+        "Montpellier"
+      ],
+      "6": [
+        "Montpellier",
+        "Marseille"
+      ],
+      "7": [
+        "Saint-Etienne",
+        "Strasbourg"
+      ],
+      "8": [
+        "Rouen",
+        "Toulouse",
+        "Strasbourg",
+        "Villeurbanne",
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon",
+        "Montpellier",
+        "Bordeaux",
+        "Le Havre",
+        "Saint-Etienne",
+        "Nantes",
+        "Rennes",
+        "Lille",
+        "Reims"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "theme": "villes-casu",
+    "difficulte": 0.69,
+    "stats": {
+      "moyenne": 7.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_l",
+        "label": "Commence par L",
+        "icon": "🔤"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      },
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "Saint-Nazaire",
+        "La Seyne-sur-Mer",
+        "Saint-Malo",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saintes",
+        "Soissons",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "1": [
+        "Saint-Malo",
+        "Saintes",
+        "Strasbourg",
+        "Soissons"
+      ],
+      "2": [
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saint-Nazaire",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "3": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lens",
+        "Lisieux",
+        "Laon",
+        "Lille",
+        "Laval"
+      ],
+      "4": [
+        "Lisieux",
+        "Lyon"
+      ],
+      "5": [
+        "Lorient",
+        "Limoges",
+        "Lyon",
+        "Lille",
+        "Laval"
+      ],
+      "6": [
+        "Antibes",
+        "Saintes",
+        "Rennes",
+        "Arles",
+        "Valenciennes",
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Castres",
+        "Chartres",
+        "Asnières-sur-Seine",
+        "Limoges",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Colombes",
+        "Fougères",
+        "Tarbes"
+      ],
+      "7": [
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Chartres",
+        "Saintes",
+        "Arles"
+      ],
+      "8": [
+        "Nîmes",
+        "Versailles",
+        "Limoges",
+        "Chartres",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Rennes"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-11",
+    "theme": "villes-casu",
+    "difficulte": 0.76,
+    "stats": {
+      "moyenne": 6.7,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "lettre_m",
+        "label": "Commence par M",
+        "icon": "🔤"
+      },
+      {
+        "id": "lettre_s",
+        "label": "Commence par S",
+        "icon": "🔤"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "pop_20k+",
+        "label": "Plus de 20 000 habitants",
+        "icon": "🏘️"
+      },
+      {
+        "id": "ligue1",
+        "label": "Club en Ligue 1",
+        "icon": "⚽"
+      },
+      {
+        "id": "patrimoine_unesco",
+        "label": "Patrimoine UNESCO",
+        "icon": "🏛️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Antibes",
+        "Saintes",
+        "Rennes",
+        "Arles",
+        "Valenciennes",
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Castres",
+        "Chartres",
+        "Asnières-sur-Seine",
+        "Limoges",
+        "Vannes",
+        "Nantes",
+        "Cannes",
+        "Troyes",
+        "Colombes",
+        "Fougères",
+        "Tarbes"
+      ],
+      "1": [
+        "Rennes",
+        "Nantes"
+      ],
+      "2": [
+        "Nîmes",
+        "Bourges",
+        "Versailles",
+        "Chartres",
+        "Saintes",
+        "Arles"
+      ],
+      "3": [
+        "Maubeuge",
+        "Montreuil",
+        "Metz",
+        "Montbéliard",
+        "Montpellier",
+        "Marseille",
+        "Le Mans",
+        "Menton",
+        "Mont-de-Marsan",
+        "Mulhouse",
+        "Montauban",
+        "Mâcon"
+      ],
+      "4": [
+        "Montpellier",
+        "Marseille"
+      ],
+      "5": [
+        "Marseille",
+        "Metz"
+      ],
+      "6": [
+        "Saint-Denis (La Réunion)",
+        "Saint-Quentin",
+        "Saint-Nazaire",
+        "La Seyne-sur-Mer",
+        "Saint-Malo",
+        "Saint-Etienne",
+        "Saint-Denis",
+        "Saintes",
+        "Soissons",
+        "Saint-Brieuc",
+        "Strasbourg"
+      ],
+      "7": [
+        "Saint-Etienne",
+        "Strasbourg"
+      ],
+      "8": [
+        "Saint-Malo",
+        "Saintes",
+        "Strasbourg",
+        "Soissons"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-12",
+    "theme": "villes-casu",
+    "difficulte": 0.86,
+    "stats": {
+      "moyenne": 5.1,
+      "min": 2
+    },
+    "lignes": [
+      {
+        "id": "reg_paca",
+        "label": "PACA",
+        "icon": "☀️"
+      },
+      {
+        "id": "lettre_v",
+        "label": "Commence par V",
+        "icon": "🔤"
+      },
+      {
+        "id": "fleuve_seine",
+        "label": "Traversée par la Seine",
+        "icon": "🌊"
+      }
+    ],
+    "colonnes": [
+      {
+        "id": "tgv",
+        "label": "Gare TGV",
+        "icon": "🚄"
+      },
+      {
+        "id": "fin_es",
+        "label": "Se termine en '-es'",
+        "icon": "🔡"
+      },
+      {
+        "id": "pop_50k+",
+        "label": "Plus de 50 000 habitants",
+        "icon": "🏘️"
+      }
+    ],
+    "cellules": {
+      "0": [
+        "Toulon",
+        "Avignon",
+        "Nice",
+        "Marseille",
+        "Cannes",
+        "Aix-en-Provence"
+      ],
+      "1": [
+        "Antibes",
+        "Cannes",
+        "Arles"
+      ],
+      "2": [
+        "Toulon",
+        "Avignon",
+        "La Seyne-sur-Mer",
+        "Nice",
+        "Marseille",
+        "Antibes",
+        "Cannes",
+        "Arles",
+        "Aix-en-Provence",
+        "Fréjus"
+      ],
+      "3": [
+        "Versailles",
+        "Valence",
+        "Vannes"
+      ],
+      "4": [
+        "Versailles",
+        "Valenciennes",
+        "Vannes"
+      ],
+      "5": [
+        "Villeurbanne",
+        "Versailles",
+        "Vannes",
+        "Vitry-sur-Seine",
+        "Valence"
+      ],
+      "6": [
+        "Rouen",
+        "Paris",
+        "Boulogne-Billancourt",
+        "Compiegne",
+        "Argenteuil",
+        "Troyes"
+      ],
+      "7": [
+        "Asnières-sur-Seine",
+        "Troyes"
+      ],
+      "8": [
+        "Rouen",
+        "Paris",
+        "Asnières-sur-Seine",
+        "Boulogne-Billancourt",
+        "Argenteuil",
+        "Vitry-sur-Seine",
+        "Courbevoie",
+        "Troyes"
+      ]
+    }
+  }
+]
