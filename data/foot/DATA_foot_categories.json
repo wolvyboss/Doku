@@ -1,0 +1,272 @@
+[
+  {
+    "id": "cdm_1998",
+    "label": "Coupe du Monde 1998",
+    "icon": "🏆",
+    "famille": "cdm"
+  },
+  {
+    "id": "cdm_2002",
+    "label": "Coupe du Monde 2002",
+    "icon": "🏆",
+    "famille": "cdm"
+  },
+  {
+    "id": "cdm_2006",
+    "label": "Coupe du Monde 2006",
+    "icon": "🏆",
+    "famille": "cdm"
+  },
+  {
+    "id": "cdm_2010",
+    "label": "Coupe du Monde 2010",
+    "icon": "🏆",
+    "famille": "cdm"
+  },
+  {
+    "id": "cdm_2014",
+    "label": "Coupe du Monde 2014",
+    "icon": "🏆",
+    "famille": "cdm"
+  },
+  {
+    "id": "cdm_2018",
+    "label": "Coupe du Monde 2018",
+    "icon": "🏆",
+    "famille": "cdm"
+  },
+  {
+    "id": "cdm_2022",
+    "label": "Coupe du Monde 2022",
+    "icon": "🏆",
+    "famille": "cdm"
+  },
+  {
+    "id": "euro_1996",
+    "label": "Euro 1996",
+    "icon": "🥈",
+    "famille": "euro"
+  },
+  {
+    "id": "euro_2000",
+    "label": "Euro 2000",
+    "icon": "🏅",
+    "famille": "euro"
+  },
+  {
+    "id": "euro_2008",
+    "label": "Euro 2008",
+    "icon": "🥈",
+    "famille": "euro"
+  },
+  {
+    "id": "euro_2012",
+    "label": "Euro 2012",
+    "icon": "🥈",
+    "famille": "euro"
+  },
+  {
+    "id": "euro_2016",
+    "label": "Euro 2016",
+    "icon": "🥈",
+    "famille": "euro"
+  },
+  {
+    "id": "euro_2020",
+    "label": "Euro 2020",
+    "icon": "🥈",
+    "famille": "euro"
+  },
+  {
+    "id": "euro_2024",
+    "label": "Euro 2024",
+    "icon": "🥈",
+    "famille": "euro"
+  },
+  {
+    "id": "ch98",
+    "label": "Champion du Monde 1998",
+    "icon": "🥇",
+    "famille": "champion"
+  },
+  {
+    "id": "ch18",
+    "label": "Champion du Monde 2018",
+    "icon": "🥇",
+    "famille": "champion"
+  },
+  {
+    "id": "pl",
+    "label": "Premier League",
+    "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "famille": "ligue"
+  },
+  {
+    "id": "liga",
+    "label": "La Liga",
+    "icon": "🇪🇸",
+    "famille": "ligue"
+  },
+  {
+    "id": "serieA",
+    "label": "Serie A",
+    "icon": "🇮🇹",
+    "famille": "ligue"
+  },
+  {
+    "id": "bund",
+    "label": "Bundesliga",
+    "icon": "🇩🇪",
+    "famille": "ligue"
+  },
+  {
+    "id": "pos_gardien",
+    "label": "Gardien",
+    "icon": "🧤",
+    "famille": "poste"
+  },
+  {
+    "id": "pos_défenseur",
+    "label": "Défenseur",
+    "icon": "🛡️",
+    "famille": "poste"
+  },
+  {
+    "id": "pos_milieu",
+    "label": "Milieu",
+    "icon": "⚙️",
+    "famille": "poste"
+  },
+  {
+    "id": "pos_attaquant",
+    "label": "Attaquant",
+    "icon": "⚡",
+    "famille": "poste"
+  },
+  {
+    "id": "d90",
+    "label": "Actif dans les années 90",
+    "icon": "📅",
+    "famille": "decennie"
+  },
+  {
+    "id": "d00",
+    "label": "Actif dans les années 2000",
+    "icon": "📅",
+    "famille": "decennie"
+  },
+  {
+    "id": "d10",
+    "label": "Actif dans les années 2010",
+    "icon": "📅",
+    "famille": "decennie"
+  },
+  {
+    "id": "d20",
+    "label": "Actif dans les années 2020",
+    "icon": "📅",
+    "famille": "decennie"
+  },
+  {
+    "id": "mrs",
+    "label": "A joué à Marseille",
+    "icon": "🔵",
+    "famille": "club_fr"
+  },
+  {
+    "id": "mco",
+    "label": "A joué à Monaco",
+    "icon": "🔴",
+    "famille": "club_fr"
+  },
+  {
+    "id": "lyon",
+    "label": "A joué à Lyon",
+    "icon": "🦁",
+    "famille": "club_fr"
+  },
+  {
+    "id": "bx",
+    "label": "A joué à Bordeaux",
+    "icon": "🟣",
+    "famille": "club_fr"
+  },
+  {
+    "id": "psg",
+    "label": "A joué au PSG",
+    "icon": "🔵",
+    "famille": "club_fr"
+  },
+  {
+    "id": "rennes",
+    "label": "A joué à Rennes",
+    "icon": "🔴",
+    "famille": "club_fr"
+  },
+  {
+    "id": "nice",
+    "label": "A joué à Nice",
+    "icon": "🔴",
+    "famille": "club_fr"
+  },
+  {
+    "id": "lille",
+    "label": "A joué à Lille",
+    "icon": "🐘",
+    "famille": "club_fr"
+  },
+  {
+    "id": "lens",
+    "label": "A joué à Lens",
+    "icon": "🟡",
+    "famille": "club_fr"
+  },
+  {
+    "id": "nantes",
+    "label": "A joué à Nantes",
+    "icon": "🐦",
+    "famille": "club_fr"
+  },
+  {
+    "id": "mtp",
+    "label": "A joué à Montpellier",
+    "icon": "🟠",
+    "famille": "club_fr"
+  },
+  {
+    "id": "tlse",
+    "label": "A joué à Toulouse",
+    "icon": "🟣",
+    "famille": "club_fr"
+  },
+  {
+    "id": "s21",
+    "label": "21 à 50 sélections",
+    "icon": "👕",
+    "famille": "selections"
+  },
+  {
+    "id": "s51",
+    "label": "51 à 100 sélections",
+    "icon": "👕",
+    "famille": "selections"
+  },
+  {
+    "id": "s100",
+    "label": "100+ sélections",
+    "icon": "⭐",
+    "famille": "selections"
+  },
+  {
+    "id": "tl1",
+    "label": "Vainqueur Ligue 1",
+    "icon": "🏅",
+    "famille": "titre"
+  },
+  {
+    "id": "teu",
+    "label": "Vainqueur Coupe Europe",
+    "icon": "🌟",
+    "famille": "titre"
+  }
+]
