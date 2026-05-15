@@ -1,128 +1,8 @@
 [
   {
-    "id": "carac_arboricole",
-    "label": "Arboricole",
-    "icon": "🌴",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_domestique",
-    "label": "Peut être domestiqué",
-    "icon": "🏠",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_groupe",
-    "label": "Vit en groupe",
-    "icon": "👥",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_menace",
-    "label": "Espèce menacée",
-    "icon": "⚠️",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_migrateur",
-    "label": "Migrateur",
-    "icon": "✈️",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_nageur",
-    "label": "Excellent nageur",
-    "icon": "🏊",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_nocturne",
-    "label": "Nocturne",
-    "icon": "🌙",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_ovipare",
-    "label": "Ovipare",
-    "icon": "🥚",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_solitaire",
-    "label": "Solitaire",
-    "icon": "🚶",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_venimeux",
-    "label": "Venimeux",
-    "icon": "☠️",
-    "famille": "caractere"
-  },
-  {
-    "id": "carac_volant",
-    "label": "Vole",
-    "icon": "🕊️",
-    "famille": "caractere"
-  },
-  {
-    "id": "classe_amphibien",
-    "label": "Amphibien",
-    "icon": "🐸",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_autre",
-    "label": "Autre invertébré",
-    "icon": "🦑",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_insecte",
-    "label": "Insecte",
-    "icon": "🐛",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_mammifere",
-    "label": "Mammifère",
-    "icon": "🦁",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_oiseau",
-    "label": "Oiseau",
-    "icon": "🐦",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_poisson",
-    "label": "Poisson",
-    "icon": "🐟",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_reptile",
-    "label": "Reptile",
-    "icon": "🦎",
-    "famille": "classe"
-  },
-  {
     "id": "cont_afrique",
     "label": "Vit en Afrique",
     "icon": "🌍",
-    "famille": "continent"
-  },
-  {
-    "id": "cont_amerique",
-    "label": "Vit en Amérique",
-    "icon": "🌎",
-    "famille": "continent"
-  },
-  {
-    "id": "cont_arctique",
-    "label": "Vit dans l'Arctique/Antarctique",
-    "icon": "🧊",
     "famille": "continent"
   },
   {
@@ -138,136 +18,76 @@
     "famille": "continent"
   },
   {
-    "id": "cont_oceanie",
-    "label": "Vit en Océanie",
-    "icon": "🦘",
+    "id": "cont_ameriques",
+    "label": "Vit dans les Amériques",
+    "icon": "🌎",
     "famille": "continent"
   },
   {
-    "id": "lettre_a",
-    "label": "Commence par A",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "cont_oceanie",
+    "label": "Vit en Océanie",
+    "icon": "🌏",
+    "famille": "continent"
   },
   {
-    "id": "lettre_b",
-    "label": "Commence par B",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "cont_polaire",
+    "label": "Vit dans les pôles",
+    "icon": "❄️",
+    "famille": "continent"
   },
   {
-    "id": "lettre_c",
-    "label": "Commence par C",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_mammifere",
+    "label": "Mammifère",
+    "icon": "🦁",
+    "famille": "classe"
   },
   {
-    "id": "lettre_e",
-    "label": "Commence par E",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_oiseau",
+    "label": "Oiseau",
+    "icon": "🐦",
+    "famille": "classe"
   },
   {
-    "id": "lettre_f",
-    "label": "Commence par F",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_reptile",
+    "label": "Reptile",
+    "icon": "🦎",
+    "famille": "classe"
   },
   {
-    "id": "lettre_g",
-    "label": "Commence par G",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_poisson",
+    "label": "Poisson",
+    "icon": "🐟",
+    "famille": "classe"
   },
   {
-    "id": "lettre_h",
-    "label": "Commence par H",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_insecte",
+    "label": "Insecte",
+    "icon": "🦋",
+    "famille": "classe"
   },
   {
-    "id": "lettre_l",
-    "label": "Commence par L",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_amphibien",
+    "label": "Amphibien",
+    "icon": "🐸",
+    "famille": "classe"
   },
   {
-    "id": "lettre_m",
-    "label": "Commence par M",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_crustace",
+    "label": "Crustacé",
+    "icon": "🦞",
+    "famille": "classe"
   },
   {
-    "id": "lettre_o",
-    "label": "Commence par O",
-    "icon": "🔡",
-    "famille": "autre"
+    "id": "classe_arachnide",
+    "label": "Arachnide",
+    "icon": "🕷️",
+    "famille": "classe"
   },
   {
-    "id": "lettre_p",
-    "label": "Commence par P",
-    "icon": "🔡",
-    "famille": "autre"
-  },
-  {
-    "id": "lettre_r",
-    "label": "Commence par R",
-    "icon": "🔡",
-    "famille": "autre"
-  },
-  {
-    "id": "lettre_s",
-    "label": "Commence par S",
-    "icon": "🔡",
-    "famille": "autre"
-  },
-  {
-    "id": "lettre_t",
-    "label": "Commence par T",
-    "icon": "🔡",
-    "famille": "autre"
-  },
-  {
-    "id": "lettre_v",
-    "label": "Commence par V",
-    "icon": "🔡",
-    "famille": "autre"
-  },
-  {
-    "id": "milieu_desert",
-    "label": "Vit dans le désert",
-    "icon": "🏜️",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_eau",
-    "label": "Vit en eau douce",
-    "icon": "🏞️",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_foret",
-    "label": "Vit en forêt",
-    "icon": "🌳",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_mer",
-    "label": "Vit en mer",
-    "icon": "🌊",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_montagne",
-    "label": "Vit en montagne",
-    "icon": "⛰️",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_savane",
-    "label": "Vit en savane",
-    "icon": "🌾",
-    "famille": "milieu"
+    "id": "classe_mollusque",
+    "label": "Mollusque",
+    "icon": "🐙",
+    "famille": "classe"
   },
   {
     "id": "regime_carnivore",
@@ -288,39 +108,255 @@
     "famille": "regime"
   },
   {
-    "id": "syl_an",
-    "label": "Contient '-an'",
+    "id": "regime_insectivore",
+    "label": "Insectivore",
+    "icon": "🦟",
+    "famille": "regime"
+  },
+  {
+    "id": "milieu_ocean",
+    "label": "Vit dans l'océan",
+    "icon": "🌊",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_savane",
+    "label": "Vit en savane",
+    "icon": "🌾",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_jungle",
+    "label": "Vit en jungle tropicale",
+    "icon": "🌴",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_desert",
+    "label": "Vit dans le désert",
+    "icon": "🏜️",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_montagne",
+    "label": "Vit en montagne",
+    "icon": "⛰️",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_eau_douce",
+    "label": "Vit en eau douce",
+    "icon": "💧",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_foret_temp",
+    "label": "Vit en forêt tempérée",
+    "icon": "🌲",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_polaire",
+    "label": "Vit dans les pôles",
+    "icon": "🧊",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_ferme",
+    "label": "Animal de ferme",
+    "icon": "🏡",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_mer",
+    "label": "Vit en mer",
+    "icon": "🐋",
+    "famille": "milieu"
+  },
+  {
+    "id": "lettre_a",
+    "label": "Commence par A",
     "icon": "🔤",
-    "famille": "autre"
+    "famille": "lettre"
   },
   {
-    "id": "syl_on",
-    "label": "Contient '-on'",
+    "id": "lettre_b",
+    "label": "Commence par B",
     "icon": "🔤",
-    "famille": "autre"
+    "famille": "lettre"
   },
   {
-    "id": "taille_1000k+",
-    "label": "Plus de 100 kg",
-    "icon": "🏋️",
-    "famille": "taille"
+    "id": "lettre_c",
+    "label": "Commence par C",
+    "icon": "🔤",
+    "famille": "lettre"
   },
   {
-    "id": "taille_100k+",
-    "label": "Moins de 100 kg",
-    "icon": "📦",
-    "famille": "taille"
+    "id": "lettre_d",
+    "label": "Commence par D",
+    "icon": "🔤",
+    "famille": "lettre"
   },
   {
-    "id": "taille_10k+",
-    "label": "Moins de 10 kg",
-    "icon": "📦",
-    "famille": "taille"
+    "id": "lettre_e",
+    "label": "Commence par E",
+    "icon": "🔤",
+    "famille": "lettre"
   },
   {
-    "id": "taille_1k+",
-    "label": "Moins de 1 kg",
-    "icon": "🔬",
-    "famille": "taille"
+    "id": "lettre_f",
+    "label": "Commence par F",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_g",
+    "label": "Commence par G",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_h",
+    "label": "Commence par H",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_i",
+    "label": "Commence par I",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_j",
+    "label": "Commence par J",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_k",
+    "label": "Commence par K",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_l",
+    "label": "Commence par L",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_m",
+    "label": "Commence par M",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_n",
+    "label": "Commence par N",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_o",
+    "label": "Commence par O",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_p",
+    "label": "Commence par P",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_r",
+    "label": "Commence par R",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_s",
+    "label": "Commence par S",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_t",
+    "label": "Commence par T",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_v",
+    "label": "Commence par V",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "lettre_z",
+    "label": "Commence par Z",
+    "icon": "🔤",
+    "famille": "lettre"
+  },
+  {
+    "id": "fin_on",
+    "label": "Se termine en '-on'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_eau",
+    "label": "Se termine en '-eau'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_eur",
+    "label": "Se termine en '-eur'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_in",
+    "label": "Se termine en '-in'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_an",
+    "label": "Se termine en '-an'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ard",
+    "label": "Se termine en '-ard'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ien",
+    "label": "Se termine en '-ien'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_al",
+    "label": "Se termine en '-al'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_ou",
+    "label": "Se termine en '-ou'",
+    "icon": "🔡",
+    "famille": "terminaison"
+  },
+  {
+    "id": "fin_et",
+    "label": "Se termine en '-et'",
+    "icon": "🔡",
+    "famille": "terminaison"
   }
 ]
