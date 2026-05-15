@@ -1,0 +1,119 @@
+[
+  {
+    "id": "foot",
+    "label": "Équipe de France",
+    "description": "Les Bleus depuis 1998. Clubs, palmarès, postes, compétitions.",
+    "icon": "⚽",
+    "active": true,
+    "premium": false,
+    "color": "#2d8c4e",
+    "seuil": 3,
+    "seed_offset": 0,
+    "familles_strictes": [
+      "cdm",
+      "euro",
+      "ligue",
+      "decennie",
+      "poste",
+      "selections"
+    ],
+    "chips": [
+      "Clubs",
+      "Compétitions",
+      "Postes",
+      "Décennies"
+    ]
+  },
+  {
+    "id": "villes-casu",
+    "label": "Villes de France",
+    "description": "136 grandes villes. Régions, population, clubs, fleuves, tourisme.",
+    "icon": "🗺️",
+    "active": true,
+    "premium": false,
+    "color": "#2563eb",
+    "seuil": 2,
+    "seed_offset": 1,
+    "familles_strictes": [
+      "population",
+      "region",
+      "fleuve",
+      "foot",
+      "transport"
+    ],
+    "chips": [
+      "Régions",
+      "Population",
+      "Ligue 1",
+      "Fleuves"
+    ]
+  },
+  {
+    "id": "villes-expert",
+    "label": "Villes de France — Expert",
+    "description": "157 villes dont les petites communes. Pour les vrais géographes.",
+    "icon": "🧭",
+    "active": true,
+    "premium": false,
+    "color": "#7c3aed",
+    "seuil": 2,
+    "seed_offset": 2,
+    "familles_strictes": [
+      "population",
+      "region",
+      "fleuve",
+      "foot",
+      "transport"
+    ],
+    "chips": [
+      "Stations ski",
+      "Thermalisme",
+      "DOM-TOM"
+    ]
+  },
+  {
+    "id": "films",
+    "label": "Films Cultes",
+    "description": "258 chefs-d'œuvre. Réalisateurs, pays, Oscars, box-office, franchises.",
+    "icon": "🎬",
+    "active": true,
+    "premium": false,
+    "color": "#d97706",
+    "seuil": 2,
+    "seed_offset": 3,
+    "familles_strictes": [
+      "decennie",
+      "genre",
+      "pays",
+      "langue"
+    ],
+    "chips": [
+      "Réalisateurs",
+      "Oscars",
+      "Box-office",
+      "Décennies"
+    ]
+  },
+  {
+    "id": "animaux",
+    "label": "Animaux du monde",
+    "description": "131 animaux. Continents, milieux, classes, régimes, caractéristiques.",
+    "icon": "🐾",
+    "active": true,
+    "premium": false,
+    "color": "#e11d48",
+    "seuil": 2,
+    "seed_offset": 4,
+    "familles_strictes": [
+      "continent",
+      "classe",
+      "milieu"
+    ],
+    "chips": [
+      "Continents",
+      "Milieux",
+      "Espèces",
+      "Caractères"
+    ]
+  }
+]
