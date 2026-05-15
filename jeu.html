@@ -818,7 +818,22 @@ async function init(){
   grid.style.opacity='0.4';
   document.getElementById('progLbl').textContent='Chargement de la grille...';
   try{
-    const res=await fetch(THEME_JSON);
+    // Mapping des chemins réels sur GitHub
+    const entriesPaths = {
+      'foot':          'data/foot/foot_entries.json',
+      'villes-casu':   'data/villes casu/villes-casu_entries.json',
+      'villes-expert': 'data/villes expert/villes-expert_entries.json',
+      'films':         'data/films/films_entries.json',
+      'animaux':       'data/animaux/animaux_entries.json',
+    };
+    const entriesPath = entriesPaths[THEME] || ('data/' + THEME + '/entries.json');
+
+    const [entriesRes, res] = await Promise.all([
+      fetch(entriesPath),
+      fetch(THEME_JSON)
+    ]);
+    if(!entriesRes.ok) throw new Error('entries introuvable : ' + entriesPath);
+    DB = await entriesRes.json();
     if(!res.ok)throw new Error('HTTP '+res.status);
     const grilles=await res.json();
     const grille=grilles.find(g=>g.date===TODAY);
