@@ -1,0 +1,911 @@
+[
+  {
+    "name": "Zinedine Zidane",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "cdm_2006",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "liga",
+      "serieA",
+      "d90",
+      "d00",
+      "bx",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Didier Deschamps",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "liga",
+      "serieA",
+      "d90",
+      "d00",
+      "mrs",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Lilian Thuram",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "cdm_2006",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "liga",
+      "serieA",
+      "d90",
+      "d00",
+      "mco",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Marcel Desailly",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "serieA",
+      "d90",
+      "d00",
+      "mrs",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Laurent Blanc",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "liga",
+      "serieA",
+      "d90",
+      "d00",
+      "mrs",
+      "bx",
+      "tl1",
+      "s100"
+    ]
+  },
+  {
+    "name": "Thierry Henry",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "cdm_2006",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "liga",
+      "d90",
+      "d00",
+      "d10",
+      "mco",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Patrick Vieira",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "cdm_2006",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "liga",
+      "serieA",
+      "d90",
+      "d00",
+      "d10",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Robert Pires",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "liga",
+      "d90",
+      "d00",
+      "mrs",
+      "s100"
+    ]
+  },
+  {
+    "name": "David Trezeguet",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "cdm_2006",
+      "euro_2000",
+      "ch98",
+      "liga",
+      "serieA",
+      "d90",
+      "d00",
+      "mco",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Emmanuel Petit",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "liga",
+      "serieA",
+      "d90",
+      "d00",
+      "mco",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Fabien Barthez",
+    "pos": "gardien",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "cdm_2006",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "d90",
+      "d00",
+      "mrs",
+      "tl1",
+      "s100"
+    ]
+  },
+  {
+    "name": "Bixente Lizarazu",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "cdm_2006",
+      "euro_1996",
+      "euro_2000",
+      "ch98",
+      "bund",
+      "d90",
+      "d00",
+      "bx",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Youri Djorkaeff",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_1998",
+      "euro_1996",
+      "ch98",
+      "serieA",
+      "bund",
+      "pl",
+      "d90",
+      "d00",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Sylvain Wiltord",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "euro_2000",
+      "ch98",
+      "pl",
+      "liga",
+      "d90",
+      "d00",
+      "bx",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Christophe Dugarry",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_1998",
+      "cdm_2002",
+      "euro_2000",
+      "ch98",
+      "serieA",
+      "liga",
+      "d90",
+      "d00",
+      "mrs",
+      "bx",
+      "tl1",
+      "s51"
+    ]
+  },
+  {
+    "name": "Frank Leboeuf",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_1998",
+      "ch98",
+      "pl",
+      "liga",
+      "d90",
+      "d00",
+      "teu",
+      "s21"
+    ]
+  },
+  {
+    "name": "Grégory Coupet",
+    "pos": "gardien",
+    "attrs": [
+      "cdm_2002",
+      "cdm_2006",
+      "euro_2000",
+      "d90",
+      "d00",
+      "lyon",
+      "tl1",
+      "s51"
+    ]
+  },
+  {
+    "name": "Willy Sagnol",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2002",
+      "cdm_2006",
+      "euro_2000",
+      "bund",
+      "d90",
+      "d00",
+      "mco",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Mikael Silvestre",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2002",
+      "cdm_2006",
+      "pl",
+      "liga",
+      "d90",
+      "d00",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "William Gallas",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2002",
+      "cdm_2006",
+      "euro_2000",
+      "pl",
+      "liga",
+      "d00",
+      "d10",
+      "mrs",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Franck Ribéry",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2006",
+      "cdm_2010",
+      "cdm_2014",
+      "euro_2008",
+      "bund",
+      "serieA",
+      "d00",
+      "d10",
+      "mrs",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Nicolas Anelka",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2002",
+      "cdm_2006",
+      "cdm_2010",
+      "euro_2000",
+      "pl",
+      "liga",
+      "d90",
+      "d00",
+      "d10",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Florent Malouda",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2006",
+      "cdm_2010",
+      "pl",
+      "d00",
+      "d10",
+      "lyon",
+      "tl1",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Eric Abidal",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2006",
+      "cdm_2010",
+      "euro_2008",
+      "liga",
+      "d00",
+      "d10",
+      "mco",
+      "lyon",
+      "tl1",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Samir Nasri",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2010",
+      "euro_2012",
+      "pl",
+      "liga",
+      "d00",
+      "d10",
+      "mrs",
+      "s51"
+    ]
+  },
+  {
+    "name": "Patrice Evra",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2010",
+      "cdm_2014",
+      "euro_2008",
+      "euro_2012",
+      "pl",
+      "serieA",
+      "liga",
+      "d00",
+      "d10",
+      "mco",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Yoann Gourcuff",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2010",
+      "serieA",
+      "d00",
+      "d10",
+      "bx",
+      "lyon",
+      "tl1",
+      "s21"
+    ]
+  },
+  {
+    "name": "Karim Benzema",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2014",
+      "cdm_2022",
+      "euro_2020",
+      "liga",
+      "d00",
+      "d10",
+      "d20",
+      "lyon",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Hugo Lloris",
+    "pos": "gardien",
+    "attrs": [
+      "cdm_2010",
+      "cdm_2014",
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2012",
+      "euro_2020",
+      "ch18",
+      "pl",
+      "d00",
+      "d10",
+      "d20",
+      "nice",
+      "lyon",
+      "tl1",
+      "s100"
+    ]
+  },
+  {
+    "name": "Raphaël Varane",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2014",
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2016",
+      "euro_2020",
+      "ch18",
+      "pl",
+      "liga",
+      "d10",
+      "d20",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Paul Pogba",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2014",
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2016",
+      "euro_2020",
+      "ch18",
+      "pl",
+      "serieA",
+      "d10",
+      "d20",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Antoine Griezmann",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2014",
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2016",
+      "euro_2020",
+      "ch18",
+      "liga",
+      "d10",
+      "d20",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Olivier Giroud",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2014",
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2012",
+      "euro_2016",
+      "euro_2020",
+      "ch18",
+      "pl",
+      "serieA",
+      "d10",
+      "d20",
+      "mtp",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Blaise Matuidi",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2014",
+      "cdm_2018",
+      "euro_2012",
+      "euro_2016",
+      "ch18",
+      "serieA",
+      "d10",
+      "d20",
+      "psg",
+      "tl1",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "N'Golo Kanté",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2016",
+      "euro_2020",
+      "ch18",
+      "pl",
+      "d10",
+      "d20",
+      "tl1",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Kylian Mbappé",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2020",
+      "ch18",
+      "liga",
+      "d10",
+      "d20",
+      "mco",
+      "psg",
+      "teu",
+      "s100"
+    ]
+  },
+  {
+    "name": "Kingsley Coman",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2016",
+      "euro_2020",
+      "ch18",
+      "serieA",
+      "bund",
+      "d10",
+      "d20",
+      "psg",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Ousmane Dembélé",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2018",
+      "cdm_2022",
+      "euro_2020",
+      "ch18",
+      "bund",
+      "liga",
+      "d10",
+      "d20",
+      "rennes",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Samuel Umtiti",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2018",
+      "euro_2016",
+      "ch18",
+      "liga",
+      "d10",
+      "lyon",
+      "teu",
+      "s21"
+    ]
+  },
+  {
+    "name": "Corentin Tolisso",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2018",
+      "euro_2016",
+      "euro_2020",
+      "ch18",
+      "bund",
+      "d10",
+      "d20",
+      "lyon",
+      "tl1",
+      "teu",
+      "s21"
+    ]
+  },
+  {
+    "name": "Florian Thauvin",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2018",
+      "ch18",
+      "pl",
+      "d10",
+      "mrs",
+      "s21"
+    ]
+  },
+  {
+    "name": "Benjamin Mendy",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2018",
+      "euro_2020",
+      "ch18",
+      "pl",
+      "d10",
+      "d20",
+      "mrs",
+      "mco",
+      "teu",
+      "s21"
+    ]
+  },
+  {
+    "name": "Djibril Sidibé",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2018",
+      "euro_2016",
+      "ch18",
+      "pl",
+      "d10",
+      "mco",
+      "tl1",
+      "teu",
+      "s21"
+    ]
+  },
+  {
+    "name": "Mamadou Sakho",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2014",
+      "euro_2012",
+      "pl",
+      "d10",
+      "psg",
+      "s21"
+    ]
+  },
+  {
+    "name": "Loïc Rémy",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2014",
+      "euro_2012",
+      "pl",
+      "liga",
+      "d10",
+      "mrs",
+      "s21"
+    ]
+  },
+  {
+    "name": "Adrien Rabiot",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2022",
+      "euro_2020",
+      "serieA",
+      "pl",
+      "d10",
+      "d20",
+      "psg",
+      "tl1",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Aurélien Tchouaméni",
+    "pos": "milieu",
+    "attrs": [
+      "cdm_2022",
+      "euro_2020",
+      "liga",
+      "d20",
+      "mco",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Jules Koundé",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2022",
+      "euro_2020",
+      "liga",
+      "d20",
+      "bx",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Dayot Upamecano",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2022",
+      "euro_2020",
+      "bund",
+      "d10",
+      "d20",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Marcus Thuram",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2022",
+      "euro_2020",
+      "bund",
+      "serieA",
+      "d10",
+      "d20",
+      "s51"
+    ]
+  },
+  {
+    "name": "Mike Maignan",
+    "pos": "gardien",
+    "attrs": [
+      "cdm_2022",
+      "euro_2020",
+      "euro_2024",
+      "serieA",
+      "d10",
+      "d20",
+      "lille",
+      "tl1",
+      "s21"
+    ]
+  },
+  {
+    "name": "William Saliba",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2022",
+      "euro_2024",
+      "pl",
+      "d20",
+      "mrs",
+      "s21"
+    ]
+  },
+  {
+    "name": "Theo Hernandez",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2022",
+      "euro_2024",
+      "serieA",
+      "liga",
+      "d10",
+      "d20",
+      "teu",
+      "s51"
+    ]
+  },
+  {
+    "name": "Randal Kolo Muani",
+    "pos": "attaquant",
+    "attrs": [
+      "cdm_2022",
+      "euro_2024",
+      "bund",
+      "d10",
+      "d20",
+      "nantes",
+      "s21"
+    ]
+  },
+  {
+    "name": "Jonathan Clauss",
+    "pos": "défenseur",
+    "attrs": [
+      "cdm_2022",
+      "bund",
+      "d10",
+      "d20",
+      "lens",
+      "mrs",
+      "s21"
+    ]
+  },
+  {
+    "name": "Wissam Ben Yedder",
+    "pos": "attaquant",
+    "attrs": [
+      "liga",
+      "d10",
+      "d20",
+      "tlse",
+      "mco",
+      "s21"
+    ]
+  }
+]
