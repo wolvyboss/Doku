@@ -1,0 +1,326 @@
+[
+  {
+    "id": "carac_arboricole",
+    "label": "Arboricole",
+    "icon": "🌴",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_domestique",
+    "label": "Peut être domestiqué",
+    "icon": "🏠",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_groupe",
+    "label": "Vit en groupe",
+    "icon": "👥",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_menace",
+    "label": "Espèce menacée",
+    "icon": "⚠️",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_migrateur",
+    "label": "Migrateur",
+    "icon": "✈️",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_nageur",
+    "label": "Excellent nageur",
+    "icon": "🏊",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_nocturne",
+    "label": "Nocturne",
+    "icon": "🌙",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_ovipare",
+    "label": "Ovipare",
+    "icon": "🥚",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_solitaire",
+    "label": "Solitaire",
+    "icon": "🚶",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_venimeux",
+    "label": "Venimeux",
+    "icon": "☠️",
+    "famille": "caractere"
+  },
+  {
+    "id": "carac_volant",
+    "label": "Vole",
+    "icon": "🕊️",
+    "famille": "caractere"
+  },
+  {
+    "id": "classe_amphibien",
+    "label": "Amphibien",
+    "icon": "🐸",
+    "famille": "classe"
+  },
+  {
+    "id": "classe_autre",
+    "label": "Autre invertébré",
+    "icon": "🦑",
+    "famille": "classe"
+  },
+  {
+    "id": "classe_insecte",
+    "label": "Insecte",
+    "icon": "🐛",
+    "famille": "classe"
+  },
+  {
+    "id": "classe_mammifere",
+    "label": "Mammifère",
+    "icon": "🦁",
+    "famille": "classe"
+  },
+  {
+    "id": "classe_oiseau",
+    "label": "Oiseau",
+    "icon": "🐦",
+    "famille": "classe"
+  },
+  {
+    "id": "classe_poisson",
+    "label": "Poisson",
+    "icon": "🐟",
+    "famille": "classe"
+  },
+  {
+    "id": "classe_reptile",
+    "label": "Reptile",
+    "icon": "🦎",
+    "famille": "classe"
+  },
+  {
+    "id": "cont_afrique",
+    "label": "Vit en Afrique",
+    "icon": "🌍",
+    "famille": "continent"
+  },
+  {
+    "id": "cont_amerique",
+    "label": "Vit en Amérique",
+    "icon": "🌎",
+    "famille": "continent"
+  },
+  {
+    "id": "cont_arctique",
+    "label": "Vit dans l'Arctique/Antarctique",
+    "icon": "🧊",
+    "famille": "continent"
+  },
+  {
+    "id": "cont_asie",
+    "label": "Vit en Asie",
+    "icon": "🌏",
+    "famille": "continent"
+  },
+  {
+    "id": "cont_europe",
+    "label": "Vit en Europe",
+    "icon": "🌍",
+    "famille": "continent"
+  },
+  {
+    "id": "cont_oceanie",
+    "label": "Vit en Océanie",
+    "icon": "🦘",
+    "famille": "continent"
+  },
+  {
+    "id": "lettre_a",
+    "label": "Commence par A",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_b",
+    "label": "Commence par B",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_c",
+    "label": "Commence par C",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_e",
+    "label": "Commence par E",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_f",
+    "label": "Commence par F",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_g",
+    "label": "Commence par G",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_h",
+    "label": "Commence par H",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_l",
+    "label": "Commence par L",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_m",
+    "label": "Commence par M",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_o",
+    "label": "Commence par O",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_p",
+    "label": "Commence par P",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_r",
+    "label": "Commence par R",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_s",
+    "label": "Commence par S",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_t",
+    "label": "Commence par T",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "lettre_v",
+    "label": "Commence par V",
+    "icon": "🔡",
+    "famille": "autre"
+  },
+  {
+    "id": "milieu_desert",
+    "label": "Vit dans le désert",
+    "icon": "🏜️",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_eau",
+    "label": "Vit en eau douce",
+    "icon": "🏞️",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_foret",
+    "label": "Vit en forêt",
+    "icon": "🌳",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_mer",
+    "label": "Vit en mer",
+    "icon": "🌊",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_montagne",
+    "label": "Vit en montagne",
+    "icon": "⛰️",
+    "famille": "milieu"
+  },
+  {
+    "id": "milieu_savane",
+    "label": "Vit en savane",
+    "icon": "🌾",
+    "famille": "milieu"
+  },
+  {
+    "id": "regime_carnivore",
+    "label": "Carnivore",
+    "icon": "🥩",
+    "famille": "regime"
+  },
+  {
+    "id": "regime_herbivore",
+    "label": "Herbivore",
+    "icon": "🌿",
+    "famille": "regime"
+  },
+  {
+    "id": "regime_omnivore",
+    "label": "Omnivore",
+    "icon": "🍽️",
+    "famille": "regime"
+  },
+  {
+    "id": "syl_an",
+    "label": "Contient '-an'",
+    "icon": "🔤",
+    "famille": "autre"
+  },
+  {
+    "id": "syl_on",
+    "label": "Contient '-on'",
+    "icon": "🔤",
+    "famille": "autre"
+  },
+  {
+    "id": "taille_1000k+",
+    "label": "Plus de 100 kg",
+    "icon": "🏋️",
+    "famille": "taille"
+  },
+  {
+    "id": "taille_100k+",
+    "label": "Moins de 100 kg",
+    "icon": "📦",
+    "famille": "taille"
+  },
+  {
+    "id": "taille_10k+",
+    "label": "Moins de 10 kg",
+    "icon": "📦",
+    "famille": "taille"
+  },
+  {
+    "id": "taille_1k+",
+    "label": "Moins de 1 kg",
+    "icon": "🔬",
+    "famille": "taille"
+  }
+]
