@@ -902,11 +902,13 @@ async function init(){
       fetch(entriesPath),
       fetch(THEME_JSON)
     ]);
-    if(!entriesRes.ok) throw new Error('entries introuvable : ' + entriesPath);
-    DB = await entriesRes.json();
-    loadCategories();
+    // Charger les entries si disponibles — ne bloque pas la grille si absent
+    if(entriesRes.ok){
+      DB = await entriesRes.json();
+      loadCategories();
+    }
     loadThemeData();
-    if(!res.ok)throw new Error('HTTP '+res.status);
+    if(!res.ok) throw new Error('HTTP '+res.status);
     const grilles=await res.json();
     const grille=grilles.find(g=>g.date===TODAY);
     if(!grille){
