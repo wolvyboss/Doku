@@ -1,0 +1,1922 @@
+[
+  {
+    "name": "Paris",
+    "attrs": [
+      "pop_500k+",
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_75",
+      "ligue1",
+      "fleuve_seine",
+      "jo2024",
+      "metro",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_p"
+    ]
+  },
+  {
+    "name": "Lyon",
+    "attrs": [
+      "pop_500k+",
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_69",
+      "ligue1",
+      "fleuve_rhone",
+      "metro",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_l",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Marseille",
+    "attrs": [
+      "pop_500k+",
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_13",
+      "ligue1",
+      "port_maritime",
+      "metro",
+      "tgv",
+      "patrimoine_unesco",
+      "jo2024",
+      "lettre_m",
+      "fin_ille"
+    ]
+  },
+  {
+    "name": "Toulouse",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_31",
+      "ligue1",
+      "fleuve_garonne",
+      "metro",
+      "tgv",
+      "jo2024",
+      "lettre_t"
+    ]
+  },
+  {
+    "name": "Nice",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_06",
+      "ligue1",
+      "station_balneaire",
+      "tgv",
+      "port_maritime",
+      "lettre_n"
+    ]
+  },
+  {
+    "name": "Nantes",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_pdl",
+      "dept_44",
+      "ligue1",
+      "fleuve_loire",
+      "port_maritime",
+      "tgv",
+      "lettre_n",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Montpellier",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_34",
+      "ligue1",
+      "station_balneaire",
+      "metro",
+      "tgv",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Strasbourg",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_67",
+      "ligue1",
+      "fleuve_rhin",
+      "metro",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Bordeaux",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_33",
+      "ligue1",
+      "fleuve_garonne",
+      "port_maritime",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_b",
+      "fin_aux"
+    ]
+  },
+  {
+    "name": "Lille",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_59",
+      "ligue1",
+      "metro",
+      "tgv",
+      "lettre_l",
+      "fin_ille"
+    ]
+  },
+  {
+    "name": "Rennes",
+    "attrs": [
+      "pop_200k+",
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_35",
+      "ligue1",
+      "metro",
+      "tgv",
+      "lettre_r",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Reims",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_51",
+      "ligue1",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Le Havre",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_76",
+      "port_maritime",
+      "ligue1",
+      "tgv",
+      "patrimoine_unesco"
+    ]
+  },
+  {
+    "name": "Saint-Etienne",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_42",
+      "ligue1",
+      "tgv",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Toulon",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_83",
+      "port_maritime",
+      "station_balneaire",
+      "tgv",
+      "lettre_t",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Grenoble",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_38",
+      "tgv",
+      "station_ski",
+      "lettre_g"
+    ]
+  },
+  {
+    "name": "Rouen",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_76",
+      "ligue1",
+      "fleuve_seine",
+      "port_maritime",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Brest",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_29",
+      "port_maritime",
+      "tgv",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Dijon",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bfc",
+      "dept_21",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_d",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Nîmes",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_30",
+      "patrimoine_unesco",
+      "tgv",
+      "lettre_n",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Angers",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_pdl",
+      "dept_49",
+      "fleuve_loire",
+      "tgv",
+      "lettre_a",
+      "fin_ers"
+    ]
+  },
+  {
+    "name": "Villeurbanne",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_69",
+      "ligue1",
+      "metro",
+      "lettre_v"
+    ]
+  },
+  {
+    "name": "Le Mans",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_pdl",
+      "dept_72",
+      "tgv",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Clermont-Ferrand",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_63",
+      "tgv",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Aix-en-Provence",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_13",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Boulogne-Billancourt",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_92",
+      "fleuve_seine",
+      "metro",
+      "tgv",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Perpignan",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_66",
+      "tgv",
+      "lettre_p",
+      "fin_an"
+    ]
+  },
+  {
+    "name": "Nancy",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_54",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_n"
+    ]
+  },
+  {
+    "name": "Saint-Denis",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_93",
+      "jo2024",
+      "metro",
+      "tgv",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Argenteuil",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_95",
+      "fleuve_seine",
+      "metro",
+      "tgv",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Montreuil",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_93",
+      "metro",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Metz",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_57",
+      "ligue2",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Besançon",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bfc",
+      "dept_25",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_b",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Limoges",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_87",
+      "tgv",
+      "lettre_l",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Amiens",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_80",
+      "ligue2",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_a",
+      "fin_ens"
+    ]
+  },
+  {
+    "name": "Caen",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_14",
+      "tgv",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Mulhouse",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_68",
+      "fleuve_rhin",
+      "tgv",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Tours",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cvl",
+      "dept_37",
+      "fleuve_loire",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_t",
+      "fin_ours"
+    ]
+  },
+  {
+    "name": "Orléans",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cvl",
+      "dept_45",
+      "fleuve_loire",
+      "tgv"
+    ]
+  },
+  {
+    "name": "Avignon",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_84",
+      "fleuve_rhone",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_a",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Versailles",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_78",
+      "patrimoine_unesco",
+      "jo2024",
+      "tgv",
+      "lettre_v",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Nanterre",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_92",
+      "jo2024",
+      "metro",
+      "lettre_n"
+    ]
+  },
+  {
+    "name": "Créteil",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_94",
+      "metro",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Pau",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_64",
+      "station_ski",
+      "lettre_p"
+    ]
+  },
+  {
+    "name": "La Rochelle",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_17",
+      "port_maritime",
+      "station_balneaire",
+      "tgv",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Cannes",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_06",
+      "station_balneaire",
+      "port_maritime",
+      "tgv",
+      "lettre_c",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Antibes",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_06",
+      "station_balneaire",
+      "port_maritime",
+      "lettre_a",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Saint-Nazaire",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_pdl",
+      "dept_44",
+      "port_maritime",
+      "tgv",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Dunkerque",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_59",
+      "port_maritime",
+      "ligue2",
+      "lettre_d"
+    ]
+  },
+  {
+    "name": "Colmar",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_68",
+      "patrimoine_unesco",
+      "tgv",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Roubaix",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_59",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Ajaccio",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cor",
+      "dept_2a",
+      "port_maritime",
+      "station_balneaire",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Poitiers",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_86",
+      "tgv",
+      "lettre_p",
+      "fin_ers"
+    ]
+  },
+  {
+    "name": "Calais",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_62",
+      "port_maritime",
+      "tgv",
+      "lettre_c",
+      "fin_ais"
+    ]
+  },
+  {
+    "name": "Bourges",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cvl",
+      "dept_18",
+      "patrimoine_unesco",
+      "lettre_b",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Bayonne",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_64",
+      "port_maritime",
+      "fleuve_garonne",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "La Seyne-sur-Mer",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_83",
+      "port_maritime",
+      "station_balneaire",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Niort",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_79",
+      "lettre_n"
+    ]
+  },
+  {
+    "name": "Fréjus",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_83",
+      "station_balneaire",
+      "port_maritime",
+      "lettre_f"
+    ]
+  },
+  {
+    "name": "Saint-Quentin",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_02",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Beauvais",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_60",
+      "patrimoine_unesco",
+      "lettre_b",
+      "fin_ais"
+    ]
+  },
+  {
+    "name": "Évreux",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_27",
+      "lettre_e"
+    ]
+  },
+  {
+    "name": "Cherbourg-en-Cotentin",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_50",
+      "port_maritime",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Quimper",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_29",
+      "tgv"
+    ]
+  },
+  {
+    "name": "Lorient",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_56",
+      "port_maritime",
+      "tgv",
+      "lettre_l"
+    ]
+  },
+  {
+    "name": "Vannes",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_56",
+      "port_maritime",
+      "tgv",
+      "lettre_v",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Chalon-sur-Saône",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bfc",
+      "dept_71",
+      "fleuve_rhone",
+      "tgv",
+      "lettre_c",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Troyes",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_10",
+      "fleuve_seine",
+      "tgv",
+      "lettre_t",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Dieppe",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_76",
+      "port_maritime",
+      "station_balneaire",
+      "lettre_d"
+    ]
+  },
+  {
+    "name": "Saint-Malo",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_35",
+      "port_maritime",
+      "station_balneaire",
+      "patrimoine_unesco",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Arles",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_13",
+      "fleuve_rhone",
+      "patrimoine_unesco",
+      "lettre_a",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Lens",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_62",
+      "ligue1",
+      "lettre_l",
+      "fin_ens"
+    ]
+  },
+  {
+    "name": "La Roche-sur-Yon",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_pdl",
+      "dept_85",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Béziers",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_34",
+      "tgv",
+      "lettre_b",
+      "fin_ers"
+    ]
+  },
+  {
+    "name": "Laval",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_pdl",
+      "dept_53",
+      "tgv",
+      "lettre_l"
+    ]
+  },
+  {
+    "name": "Saint-Brieuc",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_22",
+      "port_maritime",
+      "tgv",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Chartres",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cvl",
+      "dept_28",
+      "patrimoine_unesco",
+      "tgv",
+      "lettre_c",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Brive-la-Gaillarde",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_19",
+      "tgv",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Angoulême",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_16",
+      "tgv",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Montauban",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_82",
+      "fleuve_garonne",
+      "lettre_m",
+      "fin_an"
+    ]
+  },
+  {
+    "name": "Boulogne-sur-Mer",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_62",
+      "port_maritime",
+      "station_balneaire",
+      "tgv",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Valenciennes",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_59",
+      "lettre_v",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Arras",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_62",
+      "jo2024",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Blois",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cvl",
+      "dept_41",
+      "fleuve_loire",
+      "patrimoine_unesco",
+      "tgv",
+      "lettre_b",
+      "fin_ois"
+    ]
+  },
+  {
+    "name": "Gap",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_05",
+      "station_ski",
+      "lettre_g"
+    ]
+  },
+  {
+    "name": "Carcassonne",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_11",
+      "patrimoine_unesco",
+      "tgv",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Albi",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_81",
+      "patrimoine_unesco",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Tarbes",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_65",
+      "lettre_t",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Narbonne",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_11",
+      "port_maritime",
+      "tgv",
+      "lettre_n"
+    ]
+  },
+  {
+    "name": "Chambéry",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_73",
+      "station_ski",
+      "tgv",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Valence",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_26",
+      "fleuve_rhone",
+      "tgv",
+      "lettre_v"
+    ]
+  },
+  {
+    "name": "Annecy",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_74",
+      "station_ski",
+      "tgv",
+      "patrimoine_unesco",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Agen",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_47",
+      "fleuve_garonne",
+      "tgv",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Périgueux",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_24",
+      "patrimoine_unesco",
+      "lettre_p"
+    ]
+  },
+  {
+    "name": "Rochefort",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_17",
+      "port_maritime",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Saintes",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_17",
+      "patrimoine_unesco",
+      "lettre_s",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Mont-de-Marsan",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_40",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Dax",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_40",
+      "ville_thermale",
+      "tgv",
+      "lettre_d"
+    ]
+  },
+  {
+    "name": "Biarritz",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_naq",
+      "dept_64",
+      "station_balneaire",
+      "tgv",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Bastia",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cor",
+      "dept_2b",
+      "port_maritime",
+      "station_balneaire",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Saint-Denis (La Réunion)",
+    "attrs": [
+      "pop_100k+",
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_reunion",
+      "dept_974",
+      "dom_tom",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Fort-de-France",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_mart",
+      "dept_972",
+      "port_maritime",
+      "dom_tom",
+      "lettre_f"
+    ]
+  },
+  {
+    "name": "Cayenne",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_guy",
+      "dept_973",
+      "dom_tom",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Auxerre",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bfc",
+      "dept_89",
+      "fleuve_seine",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Belfort",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bfc",
+      "dept_90",
+      "tgv",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Mâcon",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bfc",
+      "dept_71",
+      "fleuve_rhone",
+      "tgv",
+      "lettre_m",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Vichy",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_03",
+      "ville_thermale",
+      "fleuve_loire",
+      "lettre_v"
+    ]
+  },
+  {
+    "name": "Thonon-les-Bains",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_74",
+      "ville_thermale",
+      "station_ski",
+      "lettre_t",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Épinal",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_88",
+      "lettre_e"
+    ]
+  },
+  {
+    "name": "Thionville",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_57",
+      "lettre_t",
+      "fin_ille"
+    ]
+  },
+  {
+    "name": "Charleville-Mézières",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_08",
+      "lettre_c",
+      "fin_ille"
+    ]
+  },
+  {
+    "name": "Châlons-en-Champagne",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_51",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Épernay",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_51",
+      "fleuve_seine",
+      "lettre_e"
+    ]
+  },
+  {
+    "name": "Montbéliard",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bfc",
+      "dept_25",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Fougères",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_bre",
+      "dept_35",
+      "lettre_f",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Roanne",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_42",
+      "fleuve_loire",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Bourg-en-Bresse",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_01",
+      "tgv",
+      "lettre_b"
+    ]
+  },
+  {
+    "name": "Rodez",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_12",
+      "lettre_r"
+    ]
+  },
+  {
+    "name": "Auch",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_32",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Castres",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_occ",
+      "dept_81",
+      "lettre_c",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Aurillac",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_ara",
+      "dept_15",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Laon",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_02",
+      "lettre_l",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Compiegne",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_60",
+      "fleuve_seine",
+      "tgv",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Soissons",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_02",
+      "patrimoine_unesco",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Maubeuge",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_hdf",
+      "dept_59",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Lisieux",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_14",
+      "patrimoine_unesco",
+      "lettre_l"
+    ]
+  },
+  {
+    "name": "Alençon",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_nor",
+      "dept_61",
+      "lettre_a",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Châteauroux",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_cvl",
+      "dept_36",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Vitry-sur-Seine",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_94",
+      "fleuve_seine",
+      "metro",
+      "lettre_v"
+    ]
+  },
+  {
+    "name": "Colombes",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_92",
+      "metro",
+      "lettre_c",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Asnières-sur-Seine",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_92",
+      "fleuve_seine",
+      "metro",
+      "lettre_a",
+      "fin_es"
+    ]
+  },
+  {
+    "name": "Aubervilliers",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_93",
+      "metro",
+      "lettre_a",
+      "fin_ers"
+    ]
+  },
+  {
+    "name": "Aulnay-sous-Bois",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_93",
+      "lettre_a",
+      "fin_ois"
+    ]
+  },
+  {
+    "name": "Courbevoie",
+    "attrs": [
+      "pop_50k+",
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_idf",
+      "dept_92",
+      "fleuve_seine",
+      "metro",
+      "lettre_c"
+    ]
+  },
+  {
+    "name": "Menton",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_paca",
+      "dept_06",
+      "station_balneaire",
+      "port_maritime",
+      "lettre_m",
+      "fin_on"
+    ]
+  },
+  {
+    "name": "Forbach",
+    "attrs": [
+      "pop_20k+",
+      "pop_10k+",
+      "pop_5k+",
+      "reg_gest",
+      "dept_57",
+      "lettre_f"
+    ]
+  }
+]
