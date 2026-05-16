@@ -891,22 +891,24 @@ async function init(){
     // Mapping des chemins réels sur GitHub
     const entriesPaths = {
       'foot':          'data/foot/foot_entries.json',
-      'villes-casu':   'data/villes casu/villes-casu_entries.json',
-      'villes-expert': 'data/villes expert/villes-expert_entries.json',
+      'villes-casu':   'data/villes-casu/villes-casu_entries.json',
+      'villes-expert': 'data/villes-expert/villes-expert_entries.json',
       'films':         'data/films/films_entries.json',
       'animaux':       'data/animaux/animaux_entries.json',
     };
     const entriesPath = entriesPaths[THEME] || ('data/' + THEME + '/entries.json');
 
+    // Charger grille et entries en parallèle — la grille ne bloque pas si entries échoue
     const [entriesRes, res] = await Promise.all([
-      fetch(entriesPath),
+      fetch(entriesPath).catch(()=>null),
       fetch(THEME_JSON)
     ]);
-    if(!entriesRes.ok) throw new Error('entries introuvable : ' + entriesPath);
-    DB = await entriesRes.json();
-    loadCategories();
+    if(entriesRes && entriesRes.ok){
+      DB = await entriesRes.json();
+      loadCategories();
+    }
     loadThemeData();
-    if(!res.ok)throw new Error('HTTP '+res.status);
+    if(!res.ok) throw new Error('HTTP '+res.status);
     const grilles=await res.json();
     const grille=grilles.find(g=>g.date===TODAY);
     if(!grille){
