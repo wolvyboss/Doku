@@ -811,13 +811,17 @@ async function loadThemeData(){
     const themes = await fetch('data/themes.json').then(r=>r.json());
     const t = themes.find(t=>t.id===THEME);
     if(t) THEME_DATA = t;
-  } catch(e){ console.warn('themes.json non trouvé', e); }
+  } catch(e){ console.warn('themes.json non chargé'); }
 }
 
 function showRules(){
-  document.getElementById('rulesIcon').textContent  = THEME_DATA.icon || '🎮';
-  document.getElementById('rulesTitle').textContent = THEME_DATA.label || THEME;
-  document.getElementById('rulesText').textContent  = THEME_DATA.regles || 'Aucune règle définie.';
+  // Utilise THEME_DATA si chargé, sinon fallback sur GRILLE
+  const icon  = THEME_DATA.icon  || GRILLE?.lignes?.[0]?.icon || '🎮';
+  const label = THEME_DATA.label || THEME;
+  const regles = THEME_DATA.regles || 'Consulte la page d'accueil pour en savoir plus sur ce thème.';
+  document.getElementById('rulesIcon').textContent  = icon;
+  document.getElementById('rulesTitle').textContent = label;
+  document.getElementById('rulesText').textContent  = regles;
   document.getElementById('rulesPopup').style.display = 'flex';
 }
 
@@ -848,14 +852,15 @@ async function loadCategories(){
     if(!path) return;
     const cats = await fetch(path).then(r=>r.json());
     cats.forEach(c => { CATEGORIES_MAP[c.id] = c; });
-  } catch(e){ console.warn('categories.json non trouvé', e); }
+  } catch(e){ console.warn('categories.json non chargé'); }
 }
 
 function showCatPopup(cat){
   const info = CATEGORIES_MAP[cat.id];
   document.getElementById('catPopupIcon').textContent  = cat.icon || '❓';
   document.getElementById('catPopupLabel').textContent = cat.label;
-  document.getElementById('catPopupDesc').textContent  = info?.description || '';
+  // Si pas de description chargée, affiche quand même le popup avec le label
+  document.getElementById('catPopupDesc').textContent  = info?.description || 'Clique sur une case pour proposer une réponse valide pour cette catégorie.';
   document.getElementById('catPopup').style.display    = 'flex';
 }
 
