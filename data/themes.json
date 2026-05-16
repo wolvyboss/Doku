@@ -22,7 +22,8 @@
       "Compétitions",
       "Postes",
       "Décennies"
-    ]
+    ],
+    "regles": "56 joueurs de l'Équipe de France ayant disputé au moins une compétition majeure (Coupe du Monde ou Euro) depuis 1998. Chaque joueur est classé selon les compétitions disputées, son poste, ses clubs et ses décennies d'activité en sélection."
   },
   {
     "id": "villes-casu",
@@ -46,7 +47,8 @@
       "Population",
       "Ligue 1",
       "Fleuves"
-    ]
+    ],
+    "regles": "136 communes françaises de plus de 20 000 habitants. Chaque ville est classée selon sa région, sa tranche de population, et ses caractéristiques géographiques ou sportives. Les villes d'outre-mer sont incluses."
   },
   {
     "id": "villes-expert",
@@ -69,7 +71,8 @@
       "Stations ski",
       "Thermalisme",
       "DOM-TOM"
-    ]
+    ],
+    "regles": "157 communes françaises de plus de 5 000 habitants, incluant les petites villes et stations. Même règles que le mode standard, avec des villes moins connues et des catégories supplémentaires comme le thermalisme et les stations de ski."
   },
   {
     "id": "films",
@@ -92,7 +95,8 @@
       "Oscars",
       "Box-office",
       "Décennies"
-    ]
+    ],
+    "regles": "258 films internationaux reconnus pour leur impact culturel ou leur succès public. Chaque film est classé selon sa décennie de sortie, son genre, son réalisateur, son pays de production et ses distinctions. Les suites et remakes sont inclus s'ils sont suffisamment connus."
   },
   {
     "id": "animaux",
@@ -114,6 +118,7 @@
       "Milieux",
       "Espèces",
       "Caractères"
-    ]
+    ],
+    "regles": "195 animaux connus du grand public français. Chaque animal appartient à un seul continent principal, une seule classe, un seul régime alimentaire et un seul milieu de vie. Seuls les noms communs génériques sont acceptés — la Tarentule de Guadeloupe n'est pas valide, mais Tarentule l'est."
   }
 ]
