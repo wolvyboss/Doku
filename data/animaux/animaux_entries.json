@@ -5,7 +5,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_l",
       "fin_on"
     ]
@@ -16,7 +16,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_e"
     ]
   },
@@ -26,7 +26,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_g"
     ]
   },
@@ -36,7 +36,8 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane"
+      "milieu_terres_arides",
+      "lettre_z"
     ]
   },
   {
@@ -55,7 +56,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_r"
     ]
   },
@@ -65,7 +66,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_g",
       "fin_ard"
     ]
@@ -76,7 +77,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_foret",
       "lettre_l",
       "fin_ard"
     ]
@@ -87,7 +88,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_h"
     ]
   },
@@ -97,7 +98,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_g"
     ]
   },
@@ -107,7 +108,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_c"
     ]
   },
@@ -117,7 +118,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_b",
       "fin_in"
     ]
@@ -128,7 +129,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_m"
     ]
   },
@@ -138,9 +139,8 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_savane",
-      "lettre_p",
-      "fin_ere"
+      "milieu_terres_arides",
+      "lettre_p"
     ]
   },
   {
@@ -149,7 +149,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_g",
       "fin_ou"
     ]
@@ -160,69 +160,8 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_b"
-    ]
-  },
-  {
-    "name": "Éland",
-    "attrs": [
-      "cont_afrique",
-      "classe_mammifere",
-      "regime_herbivore",
-      "milieu_savane",
-      "lettre_e"
-    ]
-  },
-  {
-    "name": "Okapi",
-    "attrs": [
-      "cont_afrique",
-      "classe_mammifere",
-      "regime_herbivore",
-      "milieu_jungle",
-      "lettre_o"
-    ]
-  },
-  {
-    "name": "Aardvark",
-    "attrs": [
-      "cont_afrique",
-      "classe_mammifere",
-      "regime_insectivore",
-      "milieu_savane",
-      "lettre_a"
-    ]
-  },
-  {
-    "name": "Suricate",
-    "attrs": [
-      "cont_afrique",
-      "classe_mammifere",
-      "regime_omnivore",
-      "milieu_desert",
-      "lettre_s"
-    ]
-  },
-  {
-    "name": "Fennec",
-    "attrs": [
-      "cont_afrique",
-      "classe_mammifere",
-      "regime_omnivore",
-      "milieu_desert",
-      "lettre_f"
-    ]
-  },
-  {
-    "name": "Dromadaire",
-    "attrs": [
-      "cont_afrique",
-      "cont_asie",
-      "classe_mammifere",
-      "regime_herbivore",
-      "milieu_desert",
-      "lettre_d"
     ]
   },
   {
@@ -231,7 +170,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_g"
     ]
   },
@@ -241,7 +180,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_i"
     ]
   },
@@ -251,7 +190,7 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_l",
       "fin_on"
     ]
@@ -262,21 +201,70 @@
       "cont_afrique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_s",
       "fin_al"
+    ]
+  },
+  {
+    "name": "Suricate",
+    "attrs": [
+      "cont_afrique",
+      "classe_mammifere",
+      "regime_omnivore",
+      "milieu_terres_arides",
+      "lettre_s"
+    ]
+  },
+  {
+    "name": "Fennec",
+    "attrs": [
+      "cont_afrique",
+      "classe_mammifere",
+      "regime_omnivore",
+      "milieu_terres_arides",
+      "lettre_f"
+    ]
+  },
+  {
+    "name": "Dromadaire",
+    "attrs": [
+      "cont_afrique",
+      "classe_mammifere",
+      "regime_herbivore",
+      "milieu_terres_arides",
+      "lettre_d"
     ]
   },
   {
     "name": "Pangolin",
     "attrs": [
       "cont_afrique",
-      "cont_asie",
       "classe_mammifere",
       "regime_insectivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_p",
       "fin_in"
+    ]
+  },
+  {
+    "name": "Okapi",
+    "attrs": [
+      "cont_afrique",
+      "classe_mammifere",
+      "regime_herbivore",
+      "milieu_foret",
+      "lettre_o"
+    ]
+  },
+  {
+    "name": "Fourmilier",
+    "attrs": [
+      "cont_afrique",
+      "classe_mammifere",
+      "regime_insectivore",
+      "milieu_terres_arides",
+      "lettre_f"
     ]
   },
   {
@@ -284,8 +272,8 @@
     "attrs": [
       "cont_afrique",
       "classe_oiseau",
-      "regime_herbivore",
-      "milieu_savane",
+      "regime_omnivore",
+      "milieu_terres_arides",
       "lettre_a"
     ]
   },
@@ -293,7 +281,6 @@
     "name": "Flamant rose",
     "attrs": [
       "cont_afrique",
-      "cont_europe",
       "classe_oiseau",
       "regime_omnivore",
       "milieu_eau_douce",
@@ -304,7 +291,6 @@
     "name": "Pélican",
     "attrs": [
       "cont_afrique",
-      "cont_europe",
       "classe_oiseau",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -313,23 +299,12 @@
     ]
   },
   {
-    "name": "Ibis",
-    "attrs": [
-      "cont_afrique",
-      "classe_oiseau",
-      "regime_omnivore",
-      "milieu_eau_douce",
-      "lettre_i",
-      "fin_is"
-    ]
-  },
-  {
     "name": "Marabout",
     "attrs": [
       "cont_afrique",
       "classe_oiseau",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_m"
     ]
   },
@@ -337,26 +312,20 @@
     "name": "Vautour",
     "attrs": [
       "cont_afrique",
-      "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_carnivore",
-      "milieu_savane",
-      "lettre_v",
-      "fin_our"
+      "milieu_terres_arides",
+      "lettre_v"
     ]
   },
   {
-    "name": "Perroquet",
+    "name": "Calao",
     "attrs": [
       "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
       "classe_oiseau",
-      "regime_herbivore",
-      "milieu_jungle",
-      "lettre_p",
-      "fin_et"
+      "regime_omnivore",
+      "milieu_foret",
+      "lettre_c"
     ]
   },
   {
@@ -370,34 +339,13 @@
     ]
   },
   {
-    "name": "Cobra royal",
-    "attrs": [
-      "cont_afrique",
-      "cont_asie",
-      "classe_reptile",
-      "regime_carnivore",
-      "milieu_jungle",
-      "lettre_c"
-    ]
-  },
-  {
     "name": "Mamba noir",
     "attrs": [
       "cont_afrique",
       "classe_reptile",
       "regime_carnivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_m"
-    ]
-  },
-  {
-    "name": "Tortue d'Hermann",
-    "attrs": [
-      "cont_europe",
-      "classe_reptile",
-      "regime_herbivore",
-      "milieu_foret_temp",
-      "lettre_t"
     ]
   },
   {
@@ -406,7 +354,7 @@
       "cont_afrique",
       "classe_reptile",
       "regime_insectivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_c",
       "fin_on"
     ]
@@ -423,12 +371,22 @@
     ]
   },
   {
+    "name": "Cobra royal",
+    "attrs": [
+      "cont_afrique",
+      "classe_reptile",
+      "regime_carnivore",
+      "milieu_foret",
+      "lettre_c"
+    ]
+  },
+  {
     "name": "Tigre",
     "attrs": [
       "cont_asie",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_t"
     ]
   },
@@ -448,7 +406,7 @@
       "cont_asie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_e"
     ]
   },
@@ -458,19 +416,9 @@
       "cont_asie",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_o",
       "fin_an"
-    ]
-  },
-  {
-    "name": "Rhinocéros de Java",
-    "attrs": [
-      "cont_asie",
-      "classe_mammifere",
-      "regime_herbivore",
-      "milieu_jungle",
-      "lettre_r"
     ]
   },
   {
@@ -490,17 +438,17 @@
       "cont_asie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_montagne"
+      "milieu_montagne",
+      "lettre_y"
     ]
   },
   {
     "name": "Chameau",
     "attrs": [
       "cont_asie",
-      "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_desert",
+      "milieu_terres_arides",
       "lettre_c",
       "fin_eau"
     ]
@@ -511,7 +459,7 @@
       "cont_asie",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_montagne",
       "lettre_m"
     ]
   },
@@ -521,30 +469,9 @@
       "cont_asie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_g",
       "fin_on"
-    ]
-  },
-  {
-    "name": "Tapir",
-    "attrs": [
-      "cont_asie",
-      "cont_ameriques",
-      "classe_mammifere",
-      "regime_herbivore",
-      "milieu_jungle",
-      "lettre_t"
-    ]
-  },
-  {
-    "name": "Binturong",
-    "attrs": [
-      "cont_asie",
-      "classe_mammifere",
-      "regime_omnivore",
-      "milieu_jungle",
-      "lettre_b"
     ]
   },
   {
@@ -553,8 +480,18 @@
       "cont_asie",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_d"
+    ]
+  },
+  {
+    "name": "Tapir",
+    "attrs": [
+      "cont_asie",
+      "classe_mammifere",
+      "regime_herbivore",
+      "milieu_foret",
+      "lettre_t"
     ]
   },
   {
@@ -563,7 +500,7 @@
       "cont_asie",
       "classe_oiseau",
       "regime_omnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_p",
       "fin_on"
     ]
@@ -579,23 +516,12 @@
     ]
   },
   {
-    "name": "Calao",
-    "attrs": [
-      "cont_asie",
-      "cont_afrique",
-      "classe_oiseau",
-      "regime_omnivore",
-      "milieu_jungle",
-      "lettre_c"
-    ]
-  },
-  {
     "name": "Python réticulé",
     "attrs": [
       "cont_asie",
       "classe_reptile",
       "regime_carnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_p",
       "fin_on"
     ]
@@ -604,10 +530,9 @@
     "name": "Dragon de Komodo",
     "attrs": [
       "cont_asie",
-      "cont_oceanie",
       "classe_reptile",
       "regime_carnivore",
-      "milieu_jungle",
+      "milieu_terres_arides",
       "lettre_d",
       "fin_on"
     ]
@@ -627,11 +552,9 @@
     "name": "Loup",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_l"
     ]
   },
@@ -639,11 +562,9 @@
     "name": "Renard",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_r",
       "fin_ard"
     ]
@@ -652,10 +573,9 @@
     "name": "Cerf",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_c"
     ]
   },
@@ -663,10 +583,9 @@
     "name": "Sanglier",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_s"
     ]
   },
@@ -674,11 +593,9 @@
     "name": "Ours brun",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_o"
     ]
   },
@@ -686,11 +603,9 @@
     "name": "Lynx",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_l"
     ]
   },
@@ -701,8 +616,7 @@
       "classe_mammifere",
       "regime_herbivore",
       "milieu_montagne",
-      "lettre_c",
-      "fin_is"
+      "lettre_c"
     ]
   },
   {
@@ -720,10 +634,9 @@
     "name": "Blaireau",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_b",
       "fin_eau"
     ]
@@ -732,10 +645,9 @@
     "name": "Hérisson",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_mammifere",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_h",
       "fin_on"
     ]
@@ -744,11 +656,9 @@
     "name": "Écureuil",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_e"
     ]
   },
@@ -756,11 +666,9 @@
     "name": "Lapin",
     "attrs": [
       "cont_europe",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_foret_temp",
-      "milieu_ferme",
+      "milieu_foret",
       "lettre_l",
       "fin_in"
     ]
@@ -769,10 +677,9 @@
     "name": "Lièvre",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_l"
     ]
   },
@@ -780,8 +687,6 @@
     "name": "Castor",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_herbivore",
       "milieu_eau_douce",
@@ -792,8 +697,6 @@
     "name": "Loutre",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -804,33 +707,19 @@
     "name": "Belette",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_b"
-    ]
-  },
-  {
-    "name": "Fouine",
-    "attrs": [
-      "cont_europe",
-      "cont_asie",
-      "classe_mammifere",
-      "regime_omnivore",
-      "milieu_foret_temp",
-      "lettre_f",
-      "fin_ine"
     ]
   },
   {
     "name": "Taupe",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_mammifere",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_t"
     ]
   },
@@ -838,24 +727,16 @@
     "name": "Chauve-souris",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_insectivore",
-      "milieu_foret_temp",
-      "lettre_c",
-      "fin_is"
+      "milieu_foret",
+      "lettre_c"
     ]
   },
   {
     "name": "Dauphin",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
@@ -867,20 +748,16 @@
     "name": "Baleine bleue",
     "attrs": [
       "cont_europe",
-      "cont_polaire",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
-      "lettre_b",
-      "fin_ine"
+      "lettre_b"
     ]
   },
   {
     "name": "Orque",
     "attrs": [
       "cont_europe",
-      "cont_ameriques",
-      "cont_polaire",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
@@ -891,7 +768,6 @@
     "name": "Phoque",
     "attrs": [
       "cont_europe",
-      "cont_polaire",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
@@ -913,7 +789,6 @@
     "name": "Aigle royal",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_carnivore",
       "milieu_montagne",
@@ -924,11 +799,9 @@
     "name": "Hibou",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_oiseau",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_h",
       "fin_ou"
     ]
@@ -937,7 +810,6 @@
     "name": "Cigogne",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
       "classe_oiseau",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -948,8 +820,6 @@
     "name": "Héron",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
       "classe_oiseau",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -961,7 +831,6 @@
     "name": "Mouette",
     "attrs": [
       "cont_europe",
-      "cont_ameriques",
       "classe_oiseau",
       "regime_omnivore",
       "milieu_ocean",
@@ -972,12 +841,9 @@
     "name": "Canard",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_oiseau",
       "regime_omnivore",
       "milieu_eau_douce",
-      "milieu_ferme",
       "lettre_c",
       "fin_ard"
     ]
@@ -986,10 +852,9 @@
     "name": "Pie",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_p"
     ]
   },
@@ -997,11 +862,9 @@
     "name": "Corbeau",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_oiseau",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_c",
       "fin_eau"
     ]
@@ -1010,10 +873,9 @@
     "name": "Mésange",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_m"
     ]
   },
@@ -1021,10 +883,9 @@
     "name": "Merle",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_m"
     ]
   },
@@ -1032,10 +893,9 @@
     "name": "Rouge-gorge",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_r"
     ]
   },
@@ -1043,30 +903,16 @@
     "name": "Hirondelle",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
       "classe_oiseau",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_h"
-    ]
-  },
-  {
-    "name": "Pingouin",
-    "attrs": [
-      "cont_europe",
-      "cont_polaire",
-      "classe_oiseau",
-      "regime_carnivore",
-      "milieu_ocean",
-      "lettre_p",
-      "fin_in"
     ]
   },
   {
     "name": "Cygne",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_herbivore",
       "milieu_eau_douce",
@@ -1077,21 +923,28 @@
     "name": "Faucon",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
       "classe_oiseau",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_f",
       "fin_on"
+    ]
+  },
+  {
+    "name": "Pingouin",
+    "attrs": [
+      "cont_arctique",
+      "classe_oiseau",
+      "regime_carnivore",
+      "milieu_ocean",
+      "lettre_p",
+      "fin_in"
     ]
   },
   {
     "name": "Vache",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_herbivore",
       "milieu_ferme",
@@ -1102,8 +955,6 @@
     "name": "Cheval",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_herbivore",
       "milieu_ferme",
@@ -1115,8 +966,6 @@
     "name": "Cochon",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_mammifere",
       "regime_omnivore",
       "milieu_ferme",
@@ -1128,13 +977,9 @@
     "name": "Mouton",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_oceanie",
       "classe_mammifere",
       "regime_herbivore",
       "milieu_ferme",
-      "milieu_montagne",
       "lettre_m",
       "fin_on"
     ]
@@ -1143,11 +988,8 @@
     "name": "Chèvre",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_ferme",
       "milieu_montagne",
       "lettre_c"
     ]
@@ -1156,21 +998,16 @@
     "name": "Âne",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
       "milieu_ferme",
-      "lettre_a",
-      "fin_ane"
+      "lettre_a"
     ]
   },
   {
     "name": "Poule",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_oiseau",
       "regime_omnivore",
       "milieu_ferme",
@@ -1182,7 +1019,6 @@
     "name": "Coq",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_oiseau",
       "regime_omnivore",
       "milieu_ferme",
@@ -1190,10 +1026,19 @@
     ]
   },
   {
+    "name": "Oie",
+    "attrs": [
+      "cont_europe",
+      "classe_oiseau",
+      "regime_herbivore",
+      "milieu_ferme",
+      "lettre_o"
+    ]
+  },
+  {
     "name": "Dindon",
     "attrs": [
       "cont_ameriques",
-      "cont_europe",
       "classe_oiseau",
       "regime_omnivore",
       "milieu_ferme",
@@ -1202,53 +1047,12 @@
     ]
   },
   {
-    "name": "Oie",
-    "attrs": [
-      "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
-      "classe_oiseau",
-      "regime_herbivore",
-      "milieu_ferme",
-      "milieu_eau_douce",
-      "lettre_o"
-    ]
-  },
-  {
-    "name": "Chien",
-    "attrs": [
-      "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
-      "cont_afrique",
-      "cont_oceanie",
-      "classe_mammifere",
-      "regime_omnivore",
-      "milieu_ferme",
-      "lettre_c",
-      "fin_ien"
-    ]
-  },
-  {
-    "name": "Chat",
-    "attrs": [
-      "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "classe_mammifere",
-      "regime_carnivore",
-      "milieu_ferme",
-      "lettre_c"
-    ]
-  },
-  {
     "name": "Jaguar",
     "attrs": [
       "cont_ameriques",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_j"
     ]
   },
@@ -1268,7 +1072,7 @@
       "cont_ameriques",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_g"
     ]
   },
@@ -1278,7 +1082,7 @@
       "cont_ameriques",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_b",
       "fin_on"
     ]
@@ -1309,19 +1113,9 @@
       "cont_ameriques",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_r",
       "fin_on"
-    ]
-  },
-  {
-    "name": "Mouffette",
-    "attrs": [
-      "cont_ameriques",
-      "classe_mammifere",
-      "regime_omnivore",
-      "milieu_foret_temp",
-      "lettre_m"
     ]
   },
   {
@@ -1330,7 +1124,7 @@
       "cont_ameriques",
       "classe_mammifere",
       "regime_insectivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_t",
       "fin_ou"
     ]
@@ -1341,18 +1135,17 @@
       "cont_ameriques",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_p"
     ]
   },
   {
-    "name": "Fourmilier",
+    "name": "Fourmilier géant",
     "attrs": [
       "cont_ameriques",
-      "cont_afrique",
       "classe_mammifere",
       "regime_insectivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_f"
     ]
   },
@@ -1367,13 +1160,13 @@
     ]
   },
   {
-    "name": "Piranha",
+    "name": "Mouffette",
     "attrs": [
       "cont_ameriques",
-      "classe_poisson",
-      "regime_carnivore",
-      "milieu_eau_douce",
-      "lettre_p"
+      "classe_mammifere",
+      "regime_omnivore",
+      "milieu_foret",
+      "lettre_m"
     ]
   },
   {
@@ -1382,7 +1175,7 @@
       "cont_ameriques",
       "classe_reptile",
       "regime_carnivore",
-      "milieu_jungle",
+      "milieu_eau_douce",
       "lettre_a"
     ]
   },
@@ -1392,9 +1185,8 @@
       "cont_ameriques",
       "classe_reptile",
       "regime_herbivore",
-      "milieu_jungle",
-      "lettre_i",
-      "fin_ane"
+      "milieu_foret",
+      "lettre_i"
     ]
   },
   {
@@ -1409,12 +1201,32 @@
     ]
   },
   {
+    "name": "Alligator",
+    "attrs": [
+      "cont_ameriques",
+      "classe_reptile",
+      "regime_carnivore",
+      "milieu_eau_douce",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Boa",
+    "attrs": [
+      "cont_ameriques",
+      "classe_reptile",
+      "regime_carnivore",
+      "milieu_foret",
+      "lettre_b"
+    ]
+  },
+  {
     "name": "Toucan",
     "attrs": [
       "cont_ameriques",
       "classe_oiseau",
       "regime_omnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_t",
       "fin_an"
     ]
@@ -1435,7 +1247,7 @@
       "cont_ameriques",
       "classe_oiseau",
       "regime_herbivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_c"
     ]
   },
@@ -1443,10 +1255,40 @@
     "name": "Perruche",
     "attrs": [
       "cont_ameriques",
-      "cont_oceanie",
       "classe_oiseau",
       "regime_herbivore",
-      "milieu_jungle",
+      "milieu_foret",
+      "lettre_p"
+    ]
+  },
+  {
+    "name": "Ara",
+    "attrs": [
+      "cont_ameriques",
+      "classe_oiseau",
+      "regime_herbivore",
+      "milieu_foret",
+      "lettre_a"
+    ]
+  },
+  {
+    "name": "Perroquet",
+    "attrs": [
+      "cont_ameriques",
+      "classe_oiseau",
+      "regime_omnivore",
+      "milieu_foret",
+      "lettre_p",
+      "fin_et"
+    ]
+  },
+  {
+    "name": "Piranha",
+    "attrs": [
+      "cont_ameriques",
+      "classe_poisson",
+      "regime_carnivore",
+      "milieu_eau_douce",
       "lettre_p"
     ]
   },
@@ -1456,7 +1298,7 @@
       "cont_oceanie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_k",
       "fin_ou"
     ]
@@ -1467,7 +1309,7 @@
       "cont_oceanie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_k"
     ]
   },
@@ -1477,7 +1319,8 @@
       "cont_oceanie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_foret_temp"
+      "milieu_foret",
+      "lettre_w"
     ]
   },
   {
@@ -1496,7 +1339,7 @@
       "cont_oceanie",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_d"
     ]
   },
@@ -1506,7 +1349,8 @@
       "cont_oceanie",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_foret_temp"
+      "milieu_foret",
+      "lettre_w"
     ]
   },
   {
@@ -1515,42 +1359,8 @@
       "cont_oceanie",
       "classe_mammifere",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_e"
-    ]
-  },
-  {
-    "name": "Manchot",
-    "attrs": [
-      "cont_polaire",
-      "cont_oceanie",
-      "classe_oiseau",
-      "regime_carnivore",
-      "milieu_ocean",
-      "lettre_m",
-      "fin_ot"
-    ]
-  },
-  {
-    "name": "Manchot empereur",
-    "attrs": [
-      "cont_polaire",
-      "classe_oiseau",
-      "regime_carnivore",
-      "milieu_polaire",
-      "lettre_m",
-      "fin_ot"
-    ]
-  },
-  {
-    "name": "Albatros",
-    "attrs": [
-      "cont_polaire",
-      "cont_oceanie",
-      "classe_oiseau",
-      "regime_carnivore",
-      "milieu_ocean",
-      "lettre_a"
     ]
   },
   {
@@ -1559,7 +1369,7 @@
       "cont_oceanie",
       "classe_oiseau",
       "regime_herbivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_c"
     ]
   },
@@ -1569,7 +1379,7 @@
       "cont_oceanie",
       "classe_oiseau",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_k"
     ]
   },
@@ -1579,56 +1389,44 @@
       "cont_oceanie",
       "classe_oiseau",
       "regime_omnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_c"
-    ]
-  },
-  {
-    "name": "Ara",
-    "attrs": [
-      "cont_ameriques",
-      "classe_oiseau",
-      "regime_herbivore",
-      "milieu_jungle",
-      "lettre_a"
     ]
   },
   {
     "name": "Ours polaire",
     "attrs": [
-      "cont_polaire",
+      "cont_arctique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_polaire",
+      "milieu_ocean",
       "lettre_o"
     ]
   },
   {
     "name": "Morse",
     "attrs": [
-      "cont_polaire",
+      "cont_arctique",
       "classe_mammifere",
       "regime_carnivore",
-      "milieu_polaire",
+      "milieu_ocean",
       "lettre_m"
     ]
   },
   {
     "name": "Renne",
     "attrs": [
-      "cont_polaire",
-      "cont_europe",
-      "cont_asie",
+      "cont_arctique",
       "classe_mammifere",
       "regime_herbivore",
-      "milieu_polaire",
+      "milieu_terres_arides",
       "lettre_r"
     ]
   },
   {
     "name": "Béluga",
     "attrs": [
-      "cont_polaire",
+      "cont_arctique",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
@@ -1638,7 +1436,7 @@
   {
     "name": "Narval",
     "attrs": [
-      "cont_polaire",
+      "cont_arctique",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
@@ -1649,33 +1447,48 @@
   {
     "name": "Renard arctique",
     "attrs": [
-      "cont_polaire",
+      "cont_arctique",
       "classe_mammifere",
       "regime_omnivore",
-      "milieu_polaire",
+      "milieu_terres_arides",
       "lettre_r",
       "fin_ard"
     ]
   },
   {
-    "name": "Lemming",
+    "name": "Manchot empereur",
     "attrs": [
-      "cont_polaire",
-      "cont_europe",
-      "classe_mammifere",
-      "regime_herbivore",
-      "milieu_polaire",
-      "lettre_l"
+      "cont_arctique",
+      "classe_oiseau",
+      "regime_carnivore",
+      "milieu_ocean",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Manchot",
+    "attrs": [
+      "cont_arctique",
+      "classe_oiseau",
+      "regime_carnivore",
+      "milieu_ocean",
+      "lettre_m"
+    ]
+  },
+  {
+    "name": "Albatros",
+    "attrs": [
+      "cont_arctique",
+      "classe_oiseau",
+      "regime_carnivore",
+      "milieu_ocean",
+      "lettre_a"
     ]
   },
   {
     "name": "Requin blanc",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
-      "cont_asie",
       "classe_poisson",
       "regime_carnivore",
       "milieu_ocean",
@@ -1687,9 +1500,6 @@
     "name": "Requin marteau",
     "attrs": [
       "cont_afrique",
-      "cont_ameriques",
-      "cont_asie",
-      "cont_oceanie",
       "classe_poisson",
       "regime_carnivore",
       "milieu_ocean",
@@ -1700,10 +1510,7 @@
   {
     "name": "Raie manta",
     "attrs": [
-      "cont_afrique",
       "cont_asie",
-      "cont_ameriques",
-      "cont_oceanie",
       "classe_poisson",
       "regime_omnivore",
       "milieu_ocean",
@@ -1714,8 +1521,6 @@
     "name": "Espadon",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
-      "cont_ameriques",
       "classe_poisson",
       "regime_carnivore",
       "milieu_ocean",
@@ -1727,9 +1532,6 @@
     "name": "Thon",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_asie",
       "classe_poisson",
       "regime_carnivore",
       "milieu_ocean",
@@ -1741,12 +1543,9 @@
     "name": "Saumon",
     "attrs": [
       "cont_europe",
-      "cont_ameriques",
-      "cont_asie",
       "classe_poisson",
       "regime_carnivore",
       "milieu_eau_douce",
-      "milieu_ocean",
       "lettre_s",
       "fin_on"
     ]
@@ -1755,8 +1554,6 @@
     "name": "Truite",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_poisson",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -1767,7 +1564,6 @@
     "name": "Carpe",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_poisson",
       "regime_omnivore",
       "milieu_eau_douce",
@@ -1775,22 +1571,9 @@
     ]
   },
   {
-    "name": "Esturgeon",
-    "attrs": [
-      "cont_europe",
-      "cont_asie",
-      "classe_poisson",
-      "regime_carnivore",
-      "milieu_eau_douce",
-      "lettre_e",
-      "fin_on"
-    ]
-  },
-  {
     "name": "Poisson clown",
     "attrs": [
       "cont_asie",
-      "cont_oceanie",
       "classe_poisson",
       "regime_omnivore",
       "milieu_ocean",
@@ -1802,8 +1585,6 @@
     "name": "Hippocampe",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_poisson",
       "regime_carnivore",
       "milieu_ocean",
@@ -1814,8 +1595,6 @@
     "name": "Murène",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
-      "cont_asie",
       "classe_poisson",
       "regime_carnivore",
       "milieu_ocean",
@@ -1823,23 +1602,9 @@
     ]
   },
   {
-    "name": "Poisson volant",
-    "attrs": [
-      "cont_afrique",
-      "cont_asie",
-      "cont_ameriques",
-      "classe_poisson",
-      "regime_omnivore",
-      "milieu_ocean",
-      "lettre_p",
-      "fin_on"
-    ]
-  },
-  {
     "name": "Lamproie",
     "attrs": [
       "cont_europe",
-      "cont_ameriques",
       "classe_poisson",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -1850,9 +1615,6 @@
     "name": "Tortue marine",
     "attrs": [
       "cont_afrique",
-      "cont_asie",
-      "cont_ameriques",
-      "cont_oceanie",
       "classe_reptile",
       "regime_omnivore",
       "milieu_ocean",
@@ -1863,10 +1625,9 @@
     "name": "Tortue géante",
     "attrs": [
       "cont_afrique",
-      "cont_ameriques",
       "classe_reptile",
       "regime_herbivore",
-      "milieu_ocean",
+      "milieu_terres_arides",
       "lettre_t"
     ]
   },
@@ -1874,12 +1635,9 @@
     "name": "Lézard",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
-      "cont_asie",
-      "cont_ameriques",
       "classe_reptile",
       "regime_insectivore",
-      "milieu_foret_temp",
+      "milieu_terres_arides",
       "lettre_l",
       "fin_ard"
     ]
@@ -1887,69 +1645,40 @@
   {
     "name": "Gecko",
     "attrs": [
-      "cont_afrique",
       "cont_asie",
-      "cont_oceanie",
       "classe_reptile",
       "regime_insectivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_g"
-    ]
-  },
-  {
-    "name": "Boa",
-    "attrs": [
-      "cont_ameriques",
-      "classe_reptile",
-      "regime_carnivore",
-      "milieu_jungle",
-      "lettre_b"
     ]
   },
   {
     "name": "Vipère",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
       "classe_reptile",
       "regime_carnivore",
-      "milieu_foret_temp",
-      "lettre_v",
-      "fin_ere"
+      "milieu_foret",
+      "lettre_v"
     ]
   },
   {
-    "name": "Alligator",
+    "name": "Tortue d'Hermann",
     "attrs": [
-      "cont_ameriques",
-      "classe_reptile",
-      "regime_carnivore",
-      "milieu_eau_douce",
-      "lettre_a"
-    ]
-  },
-  {
-    "name": "Iguane marin",
-    "attrs": [
-      "cont_ameriques",
+      "cont_europe",
       "classe_reptile",
       "regime_herbivore",
-      "milieu_ocean",
-      "lettre_i",
-      "fin_ane"
+      "milieu_terres_arides",
+      "lettre_t"
     ]
   },
   {
     "name": "Abeille",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
       "classe_insecte",
       "regime_herbivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_a"
     ]
   },
@@ -1957,13 +1686,9 @@
     "name": "Fourmi",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
       "classe_insecte",
       "regime_omnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_f"
     ]
   },
@@ -1971,12 +1696,9 @@
     "name": "Papillon",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
       "classe_insecte",
       "regime_herbivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_p",
       "fin_on"
     ]
@@ -1985,9 +1707,6 @@
     "name": "Libellule",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
       "classe_insecte",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -1998,25 +1717,21 @@
   {
     "name": "Moustique",
     "attrs": [
-      "cont_europe",
-      "cont_asie",
       "cont_afrique",
-      "cont_ameriques",
       "classe_insecte",
       "regime_carnivore",
       "milieu_eau_douce",
-      "lettre_m"
+      "lettre_m",
+      "fin_ique"
     ]
   },
   {
     "name": "Scarabée",
     "attrs": [
       "cont_afrique",
-      "cont_europe",
-      "cont_asie",
       "classe_insecte",
       "regime_herbivore",
-      "milieu_foret_temp",
+      "milieu_terres_arides",
       "lettre_s"
     ]
   },
@@ -2024,11 +1739,9 @@
     "name": "Criquet",
     "attrs": [
       "cont_afrique",
-      "cont_asie",
-      "cont_europe",
       "classe_insecte",
       "regime_herbivore",
-      "milieu_savane",
+      "milieu_terres_arides",
       "lettre_c",
       "fin_et"
     ]
@@ -2037,59 +1750,29 @@
     "name": "Coccinelle",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_insecte",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_c"
-    ]
-  },
-  {
-    "name": "Luciole",
-    "attrs": [
-      "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
-      "classe_insecte",
-      "regime_carnivore",
-      "milieu_foret_temp",
-      "lettre_l"
     ]
   },
   {
     "name": "Termite",
     "attrs": [
       "cont_afrique",
-      "cont_asie",
-      "cont_ameriques",
-      "cont_oceanie",
       "classe_insecte",
       "regime_herbivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_t"
-    ]
-  },
-  {
-    "name": "Phasme",
-    "attrs": [
-      "cont_asie",
-      "cont_oceanie",
-      "cont_ameriques",
-      "classe_insecte",
-      "regime_herbivore",
-      "milieu_jungle",
-      "lettre_p"
     ]
   },
   {
     "name": "Mante religieuse",
     "attrs": [
-      "cont_europe",
-      "cont_asie",
       "cont_afrique",
       "classe_insecte",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_m"
     ]
   },
@@ -2097,13 +1780,9 @@
     "name": "Araignée",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
-      "classe_arachnide",
+      "classe_insecte",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_a"
     ]
   },
@@ -2111,11 +1790,9 @@
     "name": "Scorpion",
     "attrs": [
       "cont_afrique",
-      "cont_asie",
-      "cont_ameriques",
-      "classe_arachnide",
+      "classe_insecte",
       "regime_carnivore",
-      "milieu_desert",
+      "milieu_terres_arides",
       "lettre_s",
       "fin_on"
     ]
@@ -2124,11 +1801,9 @@
     "name": "Tarentule",
     "attrs": [
       "cont_ameriques",
-      "cont_afrique",
-      "cont_asie",
-      "classe_arachnide",
+      "classe_insecte",
       "regime_carnivore",
-      "milieu_jungle",
+      "milieu_foret",
       "lettre_t",
       "fin_ule"
     ]
@@ -2137,8 +1812,7 @@
     "name": "Homard",
     "attrs": [
       "cont_europe",
-      "cont_ameriques",
-      "classe_crustace",
+      "classe_invertebré_marin",
       "regime_omnivore",
       "milieu_ocean",
       "lettre_h",
@@ -2149,11 +1823,7 @@
     "name": "Crabe",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
-      "classe_crustace",
+      "classe_invertebré_marin",
       "regime_omnivore",
       "milieu_ocean",
       "lettre_c"
@@ -2163,48 +1833,17 @@
     "name": "Crevette",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "classe_crustace",
+      "classe_invertebré_marin",
       "regime_omnivore",
       "milieu_ocean",
       "lettre_c"
     ]
   },
   {
-    "name": "Langoustine",
-    "attrs": [
-      "cont_europe",
-      "classe_crustace",
-      "regime_omnivore",
-      "milieu_ocean",
-      "lettre_l",
-      "fin_ine"
-    ]
-  },
-  {
-    "name": "Bernard-l'ermite",
-    "attrs": [
-      "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "classe_crustace",
-      "regime_omnivore",
-      "milieu_ocean",
-      "lettre_b"
-    ]
-  },
-  {
     "name": "Pieuvre",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
-      "classe_mollusque",
+      "classe_invertebré_marin",
       "regime_carnivore",
       "milieu_ocean",
       "lettre_p"
@@ -2214,11 +1853,7 @@
     "name": "Calmar",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_oceanie",
-      "classe_mollusque",
+      "classe_invertebré_marin",
       "regime_carnivore",
       "milieu_ocean",
       "lettre_c"
@@ -2228,24 +1863,17 @@
     "name": "Escargot",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "classe_mollusque",
+      "classe_invertebré_marin",
       "regime_herbivore",
-      "milieu_foret_temp",
-      "lettre_e",
-      "fin_ot"
+      "milieu_foret",
+      "lettre_e"
     ]
   },
   {
     "name": "Huître",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "classe_mollusque",
+      "classe_invertebré_marin",
       "regime_omnivore",
       "milieu_ocean",
       "lettre_h"
@@ -2255,10 +1883,7 @@
     "name": "Moule",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
-      "classe_mollusque",
+      "classe_invertebré_marin",
       "regime_omnivore",
       "milieu_ocean",
       "lettre_m",
@@ -2266,23 +1891,29 @@
     ]
   },
   {
-    "name": "Nautile",
+    "name": "Langoustine",
     "attrs": [
-      "cont_asie",
-      "cont_oceanie",
-      "classe_mollusque",
-      "regime_carnivore",
+      "cont_europe",
+      "classe_invertebré_marin",
+      "regime_omnivore",
       "milieu_ocean",
-      "lettre_n"
+      "lettre_l"
+    ]
+  },
+  {
+    "name": "Bernard-l'ermite",
+    "attrs": [
+      "cont_europe",
+      "classe_invertebré_marin",
+      "regime_omnivore",
+      "milieu_ocean",
+      "lettre_b"
     ]
   },
   {
     "name": "Grenouille",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
       "classe_amphibien",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -2293,12 +1924,9 @@
     "name": "Crapaud",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_afrique",
-      "cont_ameriques",
       "classe_amphibien",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_c"
     ]
   },
@@ -2306,11 +1934,9 @@
     "name": "Salamandre",
     "attrs": [
       "cont_europe",
-      "cont_asie",
-      "cont_ameriques",
       "classe_amphibien",
       "regime_carnivore",
-      "milieu_foret_temp",
+      "milieu_foret",
       "lettre_s"
     ]
   },
@@ -2318,7 +1944,6 @@
     "name": "Triton",
     "attrs": [
       "cont_europe",
-      "cont_asie",
       "classe_amphibien",
       "regime_carnivore",
       "milieu_eau_douce",
@@ -2340,22 +1965,16 @@
     "name": "Cachalot",
     "attrs": [
       "cont_europe",
-      "cont_afrique",
-      "cont_ameriques",
-      "cont_asie",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
-      "lettre_c",
-      "fin_ot"
+      "lettre_c"
     ]
   },
   {
     "name": "Dugong",
     "attrs": [
       "cont_asie",
-      "cont_oceanie",
-      "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
       "milieu_ocean",
@@ -2366,7 +1985,6 @@
     "name": "Lamantin",
     "attrs": [
       "cont_ameriques",
-      "cont_afrique",
       "classe_mammifere",
       "regime_herbivore",
       "milieu_ocean",
@@ -2378,8 +1996,6 @@
     "name": "Otarie",
     "attrs": [
       "cont_ameriques",
-      "cont_oceanie",
-      "cont_polaire",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",
@@ -2389,9 +2005,7 @@
   {
     "name": "Éléphant de mer",
     "attrs": [
-      "cont_polaire",
-      "cont_oceanie",
-      "cont_ameriques",
+      "cont_arctique",
       "classe_mammifere",
       "regime_carnivore",
       "milieu_ocean",

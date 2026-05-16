@@ -1,362 +1,345 @@
 [
   {
     "id": "cont_afrique",
-    "label": "Vit en Afrique",
+    "label": "Présent en Afrique",
     "icon": "🌍",
-    "famille": "continent"
+    "famille": "continent",
+    "description": "Animal présent à l'état naturel sur le continent africain."
   },
   {
     "id": "cont_asie",
-    "label": "Vit en Asie",
+    "label": "Présent en Asie",
     "icon": "🌏",
-    "famille": "continent"
+    "famille": "continent",
+    "description": "Animal présent à l'état naturel en Asie (Chine, Inde, Japon, Sibérie...)."
   },
   {
     "id": "cont_europe",
-    "label": "Vit en Europe",
+    "label": "Présent en Europe",
     "icon": "🌍",
-    "famille": "continent"
+    "famille": "continent",
+    "description": "Animal présent à l'état naturel en Europe, y compris les mers européennes."
   },
   {
     "id": "cont_ameriques",
-    "label": "Vit dans les Amériques",
+    "label": "Présent dans les Amériques",
     "icon": "🌎",
-    "famille": "continent"
+    "famille": "continent",
+    "description": "Animal présent à l'état naturel en Amérique du Nord ou du Sud."
   },
   {
     "id": "cont_oceanie",
-    "label": "Vit en Océanie",
+    "label": "Présent en Océanie",
     "icon": "🌏",
-    "famille": "continent"
+    "famille": "continent",
+    "description": "Animal présent à l'état naturel en Australie, Nouvelle-Zélande ou îles du Pacifique."
   },
   {
-    "id": "cont_polaire",
-    "label": "Vit dans les pôles",
+    "id": "cont_arctique",
+    "label": "Présent aux pôles",
     "icon": "❄️",
-    "famille": "continent"
+    "famille": "continent",
+    "description": "Animal présent en Arctique (pôle Nord) ou en Antarctique (pôle Sud)."
   },
   {
     "id": "classe_mammifere",
     "label": "Mammifère",
     "icon": "🦁",
-    "famille": "classe"
+    "famille": "classe",
+    "description": "Animal à sang chaud qui allaite ses petits. Ex : lion, dauphin, chauve-souris."
   },
   {
     "id": "classe_oiseau",
     "label": "Oiseau",
     "icon": "🐦",
-    "famille": "classe"
+    "famille": "classe",
+    "description": "Animal à plumes et bec. Tous les oiseaux sont inclus, même ceux qui ne volent pas (manchot, autruche, kiwi)."
   },
   {
     "id": "classe_reptile",
     "label": "Reptile",
     "icon": "🦎",
-    "famille": "classe"
+    "famille": "classe",
+    "description": "Animal à écailles, à sang froid. Ex : serpent, crocodile, lézard, tortue, caméléon."
   },
   {
     "id": "classe_poisson",
     "label": "Poisson",
     "icon": "🐟",
-    "famille": "classe"
+    "famille": "classe",
+    "description": "Animal aquatique à branchies et nageoires. Ex : requin, saumon, thon, hippocampe."
   },
   {
     "id": "classe_insecte",
-    "label": "Insecte",
+    "label": "Insecte & Arachnide",
     "icon": "🦋",
-    "famille": "classe"
+    "famille": "classe",
+    "description": "Insectes (6 pattes) et arachnides (8 pattes). Ex : abeille, fourmi, papillon, araignée, scorpion."
   },
   {
     "id": "classe_amphibien",
     "label": "Amphibien",
     "icon": "🐸",
-    "famille": "classe"
+    "famille": "classe",
+    "description": "Animal qui vit à la fois en eau et sur terre. Ex : grenouille, crapaud, salamandre, triton."
   },
   {
-    "id": "classe_crustace",
-    "label": "Crustacé",
+    "id": "classe_invertebré_marin",
+    "label": "Invertébré marin",
     "icon": "🦞",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_arachnide",
-    "label": "Arachnide",
-    "icon": "🕷️",
-    "famille": "classe"
-  },
-  {
-    "id": "classe_mollusque",
-    "label": "Mollusque",
-    "icon": "🐙",
-    "famille": "classe"
+    "famille": "classe",
+    "description": "Animal marin sans colonne vertébrale. Ex : crabe, homard, pieuvre, calmar, huître, escargot."
   },
   {
     "id": "regime_carnivore",
     "label": "Carnivore",
     "icon": "🥩",
-    "famille": "regime"
+    "famille": "regime",
+    "description": "Se nourrit exclusivement ou principalement de viande, poisson ou autres animaux."
   },
   {
     "id": "regime_herbivore",
     "label": "Herbivore",
     "icon": "🌿",
-    "famille": "regime"
+    "famille": "regime",
+    "description": "Se nourrit exclusivement de végétaux : herbe, feuilles, fruits, graines."
   },
   {
     "id": "regime_omnivore",
     "label": "Omnivore",
     "icon": "🍽️",
-    "famille": "regime"
+    "famille": "regime",
+    "description": "Se nourrit à la fois de végétaux et d'animaux."
   },
   {
     "id": "regime_insectivore",
     "label": "Insectivore",
     "icon": "🦟",
-    "famille": "regime"
+    "famille": "regime",
+    "description": "Se nourrit principalement d'insectes et de petits invertébrés."
   },
   {
     "id": "milieu_ocean",
     "label": "Vit dans l'océan",
     "icon": "🌊",
-    "famille": "milieu"
+    "famille": "milieu",
+    "description": "Vit en mer ou en plein océan, en eau salée. Ex : requin, dauphin, pieuvre."
   },
   {
-    "id": "milieu_savane",
-    "label": "Vit en savane",
-    "icon": "🌾",
-    "famille": "milieu"
+    "id": "milieu_terres_arides",
+    "label": "Vit en savane ou désert",
+    "icon": "🌵",
+    "famille": "milieu",
+    "description": "Vit dans les grandes plaines herbeuses (savane) ou les zones sèches et arides (désert)."
   },
   {
-    "id": "milieu_jungle",
-    "label": "Vit en jungle tropicale",
-    "icon": "🌴",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_desert",
-    "label": "Vit dans le désert",
-    "icon": "🏜️",
-    "famille": "milieu"
+    "id": "milieu_foret",
+    "label": "Vit en forêt",
+    "icon": "🌲",
+    "famille": "milieu",
+    "description": "Vit en forêt, qu'elle soit tropicale, tempérée ou équatoriale."
   },
   {
     "id": "milieu_montagne",
     "label": "Vit en montagne",
     "icon": "⛰️",
-    "famille": "milieu"
+    "famille": "milieu",
+    "description": "Vit en altitude, dans les zones montagneuses. Ex : chamois, panda, léopard des neiges."
   },
   {
     "id": "milieu_eau_douce",
     "label": "Vit en eau douce",
     "icon": "💧",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_foret_temp",
-    "label": "Vit en forêt tempérée",
-    "icon": "🌲",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_polaire",
-    "label": "Vit dans les pôles",
-    "icon": "🧊",
-    "famille": "milieu"
+    "famille": "milieu",
+    "description": "Vit en rivière, lac, marais ou marécage. Ex : castor, grenouille, piranha, saumon."
   },
   {
     "id": "milieu_ferme",
     "label": "Animal de ferme",
     "icon": "🏡",
-    "famille": "milieu"
-  },
-  {
-    "id": "milieu_mer",
-    "label": "Vit en mer",
-    "icon": "🐋",
-    "famille": "milieu"
+    "famille": "milieu",
+    "description": "Animal domestiqué et élevé par l'homme. Ex : vache, mouton, poule, cheval."
   },
   {
     "id": "lettre_a",
     "label": "Commence par A",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre A."
   },
   {
     "id": "lettre_b",
     "label": "Commence par B",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre B."
   },
   {
     "id": "lettre_c",
     "label": "Commence par C",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre C."
   },
   {
     "id": "lettre_d",
     "label": "Commence par D",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre D."
   },
   {
     "id": "lettre_e",
     "label": "Commence par E",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre E."
   },
   {
     "id": "lettre_f",
     "label": "Commence par F",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre F."
   },
   {
     "id": "lettre_g",
     "label": "Commence par G",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre G."
   },
   {
     "id": "lettre_h",
     "label": "Commence par H",
     "icon": "🔤",
-    "famille": "lettre"
-  },
-  {
-    "id": "lettre_i",
-    "label": "Commence par I",
-    "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre H."
   },
   {
     "id": "lettre_j",
     "label": "Commence par J",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre J."
   },
   {
     "id": "lettre_k",
     "label": "Commence par K",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre K."
   },
   {
     "id": "lettre_l",
     "label": "Commence par L",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre L."
   },
   {
     "id": "lettre_m",
     "label": "Commence par M",
     "icon": "🔤",
-    "famille": "lettre"
-  },
-  {
-    "id": "lettre_n",
-    "label": "Commence par N",
-    "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre M."
   },
   {
     "id": "lettre_o",
     "label": "Commence par O",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre O."
   },
   {
     "id": "lettre_p",
     "label": "Commence par P",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre P."
   },
   {
     "id": "lettre_r",
     "label": "Commence par R",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre R."
   },
   {
     "id": "lettre_s",
     "label": "Commence par S",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre S."
   },
   {
     "id": "lettre_t",
     "label": "Commence par T",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre T."
   },
   {
     "id": "lettre_v",
     "label": "Commence par V",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre V."
   },
   {
     "id": "lettre_z",
     "label": "Commence par Z",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de l'animal commence par la lettre Z."
   },
   {
     "id": "fin_on",
     "label": "Se termine en '-on'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom se termine par '-on'. Ex : lion, bison, dauphin."
   },
   {
     "id": "fin_eau",
     "label": "Se termine en '-eau'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom se termine par '-eau'. Ex : corbeau, chameau, vermisseau."
   },
   {
     "id": "fin_eur",
     "label": "Se termine en '-eur'",
     "icon": "🔡",
-    "famille": "terminaison"
-  },
-  {
-    "id": "fin_in",
-    "label": "Se termine en '-in'",
-    "icon": "🔡",
-    "famille": "terminaison"
-  },
-  {
-    "id": "fin_an",
-    "label": "Se termine en '-an'",
-    "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom se termine par '-eur'. Ex : vautour, dindon."
   },
   {
     "id": "fin_ard",
     "label": "Se termine en '-ard'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom se termine par '-ard'. Ex : canard, renard, léopard."
   },
   {
     "id": "fin_ien",
     "label": "Se termine en '-ien'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom se termine par '-ien'. Ex : chien, caïman."
   },
   {
-    "id": "fin_al",
-    "label": "Se termine en '-al'",
+    "id": "fin_ique",
+    "label": "Se termine en '-ique'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom se termine par '-ique'. Ex : moustique, phasme."
   },
   {
-    "id": "fin_ou",
-    "label": "Se termine en '-ou'",
+    "id": "fin_age",
+    "label": "Se termine en '-age'",
     "icon": "🔡",
-    "famille": "terminaison"
-  },
-  {
-    "id": "fin_et",
-    "label": "Se termine en '-et'",
-    "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom se termine par '-age'. Ex : perroquet."
   }
 ]
