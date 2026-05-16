@@ -165,7 +165,6 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
 <header>
   <a id="backLink" href="index.html" style="display:none;align-items:center;gap:6px;font-size:13px;color:var(--text2);text-decoration:none;border:1px solid var(--border);border-radius:7px;padding:6px 12px;transition:all .15s" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--text2)'">← Accueil</a>
   <div class="header-right">
-    <button class="rules-btn" onclick="showRules()">? Règles</button>
     <div class="nav-links">
       <button class="nav-link active" onclick="showView('game')">Jouer</button>
       <button class="nav-link" onclick="showView('archives')">Archives</button>
@@ -573,15 +572,13 @@ function buildGrid(){
   GRILLE.colonnes.forEach(col=>{
     const h=document.createElement('div');
     h.className='cat-h col-bg';
-    h.innerHTML=`<div class="cat-icon">${col.icon}</div><div class="cat-label">${col.label}</div><div class="cat-sub">${col.sub||''}</div><div class="cat-info-btn">ⓘ</div>`;
-    h.onclick=()=>showCatPopup(col);
+    h.innerHTML=`<div class="cat-icon">${col.icon}</div><div class="cat-label">${col.label}</div><div class="cat-sub">${col.sub||''}</div>`;
     el.appendChild(h);
   });
   GRILLE.lignes.forEach((row,ri)=>{
     const rh=document.createElement('div');
     rh.className='cat-h row-h row-bg';
-    rh.innerHTML=`<div class="cat-icon">${row.icon}</div><div class="cat-label">${row.label}</div><div class="cat-sub">${row.sub||''}</div><div class="cat-info-btn">ⓘ</div>`;
-    rh.onclick=()=>showCatPopup(row);
+    rh.innerHTML=`<div class="cat-icon">${row.icon}</div><div class="cat-label">${row.label}</div><div class="cat-sub">${row.sub||''}</div>`;
     el.appendChild(rh);
     GRILLE.colonnes.forEach((col,ci)=>{
       const idx=ri*3+ci;
@@ -803,73 +800,6 @@ function showToast(msg,type=''){
 }
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 
-// ── POPUP RÈGLES ──
-let THEME_DATA = {};
-
-async function loadThemeData(){
-  try {
-    const themes = await fetch('data/themes.json').then(r=>r.json());
-    const t = themes.find(t=>t.id===THEME);
-    if(t) THEME_DATA = t;
-  } catch(e){ console.warn('themes.json non chargé'); }
-}
-
-function showRules(){
-  // Utilise THEME_DATA si chargé, sinon fallback sur GRILLE
-  const icon  = THEME_DATA.icon  || GRILLE?.lignes?.[0]?.icon || '🎮';
-  const label = THEME_DATA.label || THEME;
-  const regles = THEME_DATA.regles || 'Consulte la page d'accueil pour en savoir plus sur ce thème.';
-  document.getElementById('rulesIcon').textContent  = icon;
-  document.getElementById('rulesTitle').textContent = label;
-  document.getElementById('rulesText').textContent  = regles;
-  document.getElementById('rulesPopup').style.display = 'flex';
-}
-
-function closeRulesPopup(e){
-  if(e.target.id==='rulesPopup') document.getElementById('rulesPopup').style.display='none';
-}
-
-document.addEventListener('keydown', e=>{
-  if(e.key==='Escape'){
-    document.getElementById('rulesPopup').style.display='none';
-    document.getElementById('catPopup').style.display='none';
-  }
-});
-
-// ── POPUP CATÉGORIE ──
-let CATEGORIES_MAP = {};
-
-async function loadCategories(){
-  try {
-    const catPaths = {
-      'foot':          'data/foot/foot_categories.json',
-      'villes-casu':   'data/villes casu/villes-casu_categories.json',
-      'villes-expert': 'data/villes expert/villes-expert_categories.json',
-      'films':         'data/films/films_categories.json',
-      'animaux':       'data/animaux/animaux_categories.json',
-    };
-    const path = catPaths[THEME];
-    if(!path) return;
-    const cats = await fetch(path).then(r=>r.json());
-    cats.forEach(c => { CATEGORIES_MAP[c.id] = c; });
-  } catch(e){ console.warn('categories.json non chargé'); }
-}
-
-function showCatPopup(cat){
-  const info = CATEGORIES_MAP[cat.id];
-  document.getElementById('catPopupIcon').textContent  = cat.icon || '❓';
-  document.getElementById('catPopupLabel').textContent = cat.label;
-  // Si pas de description chargée, affiche quand même le popup avec le label
-  document.getElementById('catPopupDesc').textContent  = info?.description || 'Clique sur une case pour proposer une réponse valide pour cette catégorie.';
-  document.getElementById('catPopup').style.display    = 'flex';
-}
-
-function closeCatPopup(e){
-  if(e.target.id === 'catPopup') document.getElementById('catPopup').style.display='none';
-}
-
-
-
 // ── INIT ──
 const backLink=document.getElementById('backLink');
 if(backLink)backLink.style.display='flex';
@@ -902,13 +832,9 @@ async function init(){
       fetch(entriesPath),
       fetch(THEME_JSON)
     ]);
-    // Charger les entries si disponibles — ne bloque pas la grille si absent
-    if(entriesRes.ok){
-      DB = await entriesRes.json();
-      loadCategories();
-    }
-    loadThemeData();
-    if(!res.ok) throw new Error('HTTP '+res.status);
+    if(!entriesRes.ok) throw new Error('entries introuvable : ' + entriesPath);
+    DB = await entriesRes.json();
+    if(!res.ok)throw new Error('HTTP '+res.status);
     const grilles=await res.json();
     const grille=grilles.find(g=>g.date===TODAY);
     if(!grille){
@@ -932,21 +858,5 @@ async function init(){
 
 init();
 </script>
-<div id="rulesPopup" class="rules-popup-overlay" style="display:none" onclick="closeRulesPopup(event)">
-  <div class="rules-popup">
-    <div class="rules-popup-icon" id="rulesIcon"></div>
-    <div class="rules-popup-title" id="rulesTitle"></div>
-    <div class="rules-popup-text" id="rulesText"></div>
-    <button class="rules-popup-close" onclick="document.getElementById('rulesPopup').style.display='none'">J'ai compris</button>
-  </div>
-</div>
-<div id="catPopup" class="cat-popup-overlay" style="display:none" onclick="closeCatPopup(event)">
-  <div class="cat-popup">
-    <div class="cat-popup-icon" id="catPopupIcon"></div>
-    <div class="cat-popup-label" id="catPopupLabel"></div>
-    <div class="cat-popup-desc" id="catPopupDesc"></div>
-    <button class="cat-popup-close" onclick="document.getElementById('catPopup').style.display='none'">Fermer</button>
-  </div>
-</div>
 </body>
 </html>
