@@ -3,270 +3,315 @@
     "id": "cdm_1998",
     "label": "Coupe du Monde 1998",
     "icon": "🏆",
-    "famille": "cdm"
+    "famille": "cdm",
+    "description": "A participé à la Coupe du Monde 1998 en France avec les Bleus."
   },
   {
     "id": "cdm_2002",
     "label": "Coupe du Monde 2002",
     "icon": "🏆",
-    "famille": "cdm"
+    "famille": "cdm",
+    "description": "A participé à la Coupe du Monde 2002 en Corée/Japon."
   },
   {
     "id": "cdm_2006",
     "label": "Coupe du Monde 2006",
     "icon": "🏆",
-    "famille": "cdm"
+    "famille": "cdm",
+    "description": "A participé à la Coupe du Monde 2006 en Allemagne (finale)."
   },
   {
     "id": "cdm_2010",
     "label": "Coupe du Monde 2010",
     "icon": "🏆",
-    "famille": "cdm"
+    "famille": "cdm",
+    "description": "A participé à la Coupe du Monde 2010 en Afrique du Sud."
   },
   {
     "id": "cdm_2014",
     "label": "Coupe du Monde 2014",
     "icon": "🏆",
-    "famille": "cdm"
+    "famille": "cdm",
+    "description": "A participé à la Coupe du Monde 2014 au Brésil."
   },
   {
     "id": "cdm_2018",
     "label": "Coupe du Monde 2018",
     "icon": "🏆",
-    "famille": "cdm"
+    "famille": "cdm",
+    "description": "A participé à la Coupe du Monde 2018 en Russie."
   },
   {
     "id": "cdm_2022",
     "label": "Coupe du Monde 2022",
     "icon": "🏆",
-    "famille": "cdm"
+    "famille": "cdm",
+    "description": "A participé à la Coupe du Monde 2022 au Qatar."
   },
   {
     "id": "euro_1996",
     "label": "Euro 1996",
     "icon": "🥈",
-    "famille": "euro"
+    "famille": "euro",
+    "description": "A participé à l'Euro 1996 en Angleterre."
   },
   {
     "id": "euro_2000",
     "label": "Euro 2000",
     "icon": "🏅",
-    "famille": "euro"
+    "famille": "euro",
+    "description": "A participé à l'Euro 2000 en Belgique/Pays-Bas."
   },
   {
     "id": "euro_2008",
     "label": "Euro 2008",
     "icon": "🥈",
-    "famille": "euro"
+    "famille": "euro",
+    "description": "A participé à l'Euro 2008 en Autriche/Suisse."
   },
   {
     "id": "euro_2012",
     "label": "Euro 2012",
     "icon": "🥈",
-    "famille": "euro"
+    "famille": "euro",
+    "description": "A participé à l'Euro 2012 en Pologne/Ukraine."
   },
   {
     "id": "euro_2016",
     "label": "Euro 2016",
     "icon": "🥈",
-    "famille": "euro"
+    "famille": "euro",
+    "description": "A participé à l'Euro 2016 en France (finale)."
   },
   {
     "id": "euro_2020",
     "label": "Euro 2020",
     "icon": "🥈",
-    "famille": "euro"
+    "famille": "euro",
+    "description": "A participé à l'Euro 2020 joué en 2021."
   },
   {
     "id": "euro_2024",
     "label": "Euro 2024",
     "icon": "🥈",
-    "famille": "euro"
+    "famille": "euro",
+    "description": "A participé à l'Euro 2024 en Allemagne."
   },
   {
     "id": "ch98",
     "label": "Champion du Monde 1998",
     "icon": "🥇",
-    "famille": "champion"
+    "famille": "champion",
+    "description": "Faisait partie du groupe champion du monde en 1998."
   },
   {
     "id": "ch18",
     "label": "Champion du Monde 2018",
     "icon": "🥇",
-    "famille": "champion"
+    "famille": "champion",
+    "description": "Faisait partie du groupe champion du monde en 2018."
   },
   {
     "id": "pl",
     "label": "Premier League",
     "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "famille": "ligue"
+    "famille": "ligue",
+    "description": "A joué en Premier League anglaise au cours de sa carrière."
   },
   {
     "id": "liga",
     "label": "La Liga",
     "icon": "🇪🇸",
-    "famille": "ligue"
+    "famille": "ligue",
+    "description": "A joué en Liga espagnole au cours de sa carrière."
   },
   {
     "id": "serieA",
     "label": "Serie A",
     "icon": "🇮🇹",
-    "famille": "ligue"
+    "famille": "ligue",
+    "description": "A joué en Serie A italienne au cours de sa carrière."
   },
   {
     "id": "bund",
     "label": "Bundesliga",
     "icon": "🇩🇪",
-    "famille": "ligue"
+    "famille": "ligue",
+    "description": "A joué en Bundesliga allemande au cours de sa carrière."
   },
   {
     "id": "pos_gardien",
     "label": "Gardien",
     "icon": "🧤",
-    "famille": "poste"
+    "famille": "poste",
+    "description": "Poste : gardien de but."
   },
   {
     "id": "pos_défenseur",
     "label": "Défenseur",
     "icon": "🛡️",
-    "famille": "poste"
+    "famille": "poste",
+    "description": "Poste : défenseur (central ou latéral)."
   },
   {
     "id": "pos_milieu",
     "label": "Milieu",
     "icon": "⚙️",
-    "famille": "poste"
+    "famille": "poste",
+    "description": "Poste : milieu de terrain (défensif, box-to-box ou offensif)."
   },
   {
     "id": "pos_attaquant",
     "label": "Attaquant",
     "icon": "⚡",
-    "famille": "poste"
+    "famille": "poste",
+    "description": "Poste : attaquant (avant-centre ou ailier)."
   },
   {
     "id": "d90",
     "label": "Actif dans les années 90",
     "icon": "📅",
-    "famille": "decennie"
+    "famille": "decennie",
+    "description": "A joué en équipe de France durant les années 1990."
   },
   {
     "id": "d00",
     "label": "Actif dans les années 2000",
     "icon": "📅",
-    "famille": "decennie"
+    "famille": "decennie",
+    "description": "A joué en équipe de France durant les années 2000."
   },
   {
     "id": "d10",
     "label": "Actif dans les années 2010",
     "icon": "📅",
-    "famille": "decennie"
+    "famille": "decennie",
+    "description": "A joué en équipe de France durant les années 2010."
   },
   {
     "id": "d20",
     "label": "Actif dans les années 2020",
     "icon": "📅",
-    "famille": "decennie"
+    "famille": "decennie",
+    "description": "A joué en équipe de France durant les années 2020."
   },
   {
     "id": "mrs",
     "label": "A joué à Marseille",
     "icon": "🔵",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué à l'Olympique de Marseille au cours de sa carrière."
   },
   {
     "id": "mco",
     "label": "A joué à Monaco",
     "icon": "🔴",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué à l'AS Monaco au cours de sa carrière."
   },
   {
     "id": "lyon",
     "label": "A joué à Lyon",
     "icon": "🦁",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué à l'Olympique Lyonnais au cours de sa carrière."
   },
   {
     "id": "bx",
     "label": "A joué à Bordeaux",
     "icon": "🟣",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué aux Girondins de Bordeaux au cours de sa carrière."
   },
   {
     "id": "psg",
     "label": "A joué au PSG",
     "icon": "🔵",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué au Paris Saint-Germain au cours de sa carrière."
   },
   {
     "id": "rennes",
     "label": "A joué à Rennes",
     "icon": "🔴",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué au Stade Rennais au cours de sa carrière."
   },
   {
     "id": "nice",
     "label": "A joué à Nice",
     "icon": "🔴",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué à l'OGC Nice au cours de sa carrière."
   },
   {
     "id": "lille",
     "label": "A joué à Lille",
     "icon": "🐘",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué au LOSC Lille au cours de sa carrière."
   },
   {
     "id": "lens",
     "label": "A joué à Lens",
     "icon": "🟡",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué au RC Lens au cours de sa carrière."
   },
   {
     "id": "nantes",
     "label": "A joué à Nantes",
     "icon": "🐦",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué au FC Nantes au cours de sa carrière."
   },
   {
     "id": "mtp",
     "label": "A joué à Montpellier",
     "icon": "🟠",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué à Montpellier HSC au cours de sa carrière."
   },
   {
     "id": "tlse",
     "label": "A joué à Toulouse",
     "icon": "🟣",
-    "famille": "club_fr"
+    "famille": "club_fr",
+    "description": "A joué au Toulouse FC au cours de sa carrière."
   },
   {
     "id": "s21",
     "label": "21 à 50 sélections",
     "icon": "👕",
-    "famille": "selections"
+    "famille": "selections",
+    "description": "Entre 21 et 50 sélections avec l'équipe de France."
   },
   {
     "id": "s51",
     "label": "51 à 100 sélections",
     "icon": "👕",
-    "famille": "selections"
+    "famille": "selections",
+    "description": "Entre 51 et 100 sélections avec l'équipe de France."
   },
   {
     "id": "s100",
     "label": "100+ sélections",
     "icon": "⭐",
-    "famille": "selections"
+    "famille": "selections",
+    "description": "Plus de 100 sélections avec l'équipe de France."
   },
   {
     "id": "tl1",
     "label": "Vainqueur Ligue 1",
     "icon": "🏅",
-    "famille": "titre"
+    "famille": "titre",
+    "description": "A remporté le titre de champion de France (Ligue 1) au cours de sa carrière."
   },
   {
     "id": "teu",
     "label": "Vainqueur Coupe Europe",
     "icon": "🌟",
-    "famille": "titre"
+    "famille": "titre",
+    "description": "A remporté une coupe européenne (Ligue des Champions, Coupe UEFA ou Ligue Europa)."
   }
 ]
