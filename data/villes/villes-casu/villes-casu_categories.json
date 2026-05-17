@@ -3,378 +3,441 @@
     "id": "pop_500k+",
     "label": "Plus de 500 000 habitants",
     "icon": "🏙️",
-    "famille": "population"
+    "famille": "population",
+    "description": "Commune de plus de 500 000 habitants. Paris, Lyon, Marseille."
   },
   {
     "id": "pop_100k+",
     "label": "Plus de 100 000 habitants",
     "icon": "🏙️",
-    "famille": "population"
+    "famille": "population",
+    "description": "Commune de plus de 100 000 habitants."
   },
   {
     "id": "pop_50k+",
     "label": "Plus de 50 000 habitants",
     "icon": "🏘️",
-    "famille": "population"
+    "famille": "population",
+    "description": "Commune de plus de 50 000 habitants."
   },
   {
     "id": "pop_20k+",
     "label": "Plus de 20 000 habitants",
     "icon": "🏘️",
-    "famille": "population"
+    "famille": "population",
+    "description": "Commune de plus de 20 000 habitants."
   },
   {
     "id": "pop_10k+",
     "label": "Plus de 10 000 habitants",
     "icon": "🏡",
-    "famille": "population"
+    "famille": "population",
+    "description": "Commune de plus de 10 000 habitants."
   },
   {
     "id": "reg_idf",
     "label": "Île-de-France",
     "icon": "🗼",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Île-de-France."
   },
   {
     "id": "reg_ara",
     "label": "Auvergne-Rhône-Alpes",
     "icon": "⛰️",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Auvergne-Rhône-Alpes."
   },
   {
     "id": "reg_paca",
     "label": "PACA",
     "icon": "☀️",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Provence-Alpes-Côte d'Azur."
   },
   {
     "id": "reg_occ",
     "label": "Occitanie",
     "icon": "🌻",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Occitanie."
   },
   {
     "id": "reg_naq",
     "label": "Nouvelle-Aquitaine",
     "icon": "🍷",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Nouvelle-Aquitaine."
   },
   {
     "id": "reg_gest",
     "label": "Grand Est",
     "icon": "🥨",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Grand Est (Alsace, Lorraine, Champagne-Ardenne)."
   },
   {
     "id": "reg_hdf",
     "label": "Hauts-de-France",
     "icon": "🌾",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Hauts-de-France."
   },
   {
     "id": "reg_nor",
     "label": "Normandie",
     "icon": "🐄",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Normandie."
   },
   {
     "id": "reg_bre",
     "label": "Bretagne",
     "icon": "⚓",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Bretagne."
   },
   {
     "id": "reg_pdl",
     "label": "Pays de la Loire",
     "icon": "🏰",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Pays de la Loire."
   },
   {
     "id": "reg_cvl",
     "label": "Centre-Val de Loire",
     "icon": "🏰",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Centre-Val de Loire."
   },
   {
     "id": "reg_bfc",
     "label": "Bourgogne-Franche-Comté",
     "icon": "🍇",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Bourgogne-Franche-Comté."
   },
   {
     "id": "reg_cor",
     "label": "Corse",
     "icon": "🌴",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Corse."
   },
   {
     "id": "reg_reunion",
     "label": "La Réunion",
     "icon": "🌋",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située à La Réunion."
   },
   {
     "id": "reg_mart",
     "label": "Martinique",
     "icon": "🌴",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Martinique."
   },
   {
     "id": "reg_guad",
     "label": "Guadeloupe",
     "icon": "🌺",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Guadeloupe."
   },
   {
     "id": "reg_guy",
     "label": "Guyane",
     "icon": "🌿",
-    "famille": "region"
+    "famille": "region",
+    "description": "Située en Guyane."
   },
   {
     "id": "ligue1",
     "label": "Club en Ligue 1",
     "icon": "⚽",
-    "famille": "foot"
+    "famille": "foot",
+    "description": "La ville possède un club évoluant en Ligue 1 (saison de référence 2023-2024)."
   },
   {
     "id": "ligue2",
     "label": "Club en Ligue 2",
     "icon": "🥈",
-    "famille": "foot"
+    "famille": "foot",
+    "description": "La ville possède un club évoluant en Ligue 2 (saison de référence 2023-2024)."
   },
   {
     "id": "port_maritime",
     "label": "Port maritime",
     "icon": "⚓",
-    "famille": "maritime"
+    "famille": "maritime",
+    "description": "La ville dispose d'un port maritime actif (commerce ou voyageurs)."
   },
   {
     "id": "fleuve_seine",
     "label": "Traversée par la Seine",
     "icon": "🌊",
-    "famille": "fleuve"
+    "famille": "fleuve",
+    "description": "La Seine traverse la commune."
   },
   {
     "id": "fleuve_loire",
     "label": "Traversée par la Loire",
     "icon": "🌊",
-    "famille": "fleuve"
+    "famille": "fleuve",
+    "description": "La Loire traverse la commune."
   },
   {
     "id": "fleuve_rhone",
     "label": "Traversée par le Rhône",
     "icon": "🌊",
-    "famille": "fleuve"
+    "famille": "fleuve",
+    "description": "Le Rhône traverse la commune."
   },
   {
     "id": "fleuve_garonne",
     "label": "Traversée par la Garonne",
     "icon": "🌊",
-    "famille": "fleuve"
+    "famille": "fleuve",
+    "description": "La Garonne traverse la commune."
   },
   {
     "id": "fleuve_rhin",
     "label": "Traversée par le Rhin",
     "icon": "🌊",
-    "famille": "fleuve"
+    "famille": "fleuve",
+    "description": "Le Rhin traverse la commune."
   },
   {
     "id": "station_ski",
     "label": "Station de ski",
     "icon": "⛷️",
-    "famille": "tourisme"
+    "famille": "tourisme",
+    "description": "La commune est une station de ski reconnue."
   },
   {
     "id": "station_balneaire",
     "label": "Station balnéaire",
     "icon": "🏖️",
-    "famille": "tourisme"
+    "famille": "tourisme",
+    "description": "La commune est une station balnéaire reconnue."
   },
   {
     "id": "ville_thermale",
     "label": "Ville thermale",
     "icon": "💧",
-    "famille": "tourisme"
+    "famille": "tourisme",
+    "description": "La commune est connue pour ses thermes ou cures thermales."
   },
   {
     "id": "patrimoine_unesco",
     "label": "Patrimoine UNESCO",
     "icon": "🏛️",
-    "famille": "patrimoine"
+    "famille": "patrimoine",
+    "description": "La commune ou son centre historique est classé au patrimoine mondial de l'UNESCO."
   },
   {
     "id": "metro",
     "label": "Réseau de métro",
     "icon": "🚇",
-    "famille": "transport"
+    "famille": "transport",
+    "description": "La commune dispose d'un réseau de métro."
   },
   {
     "id": "tgv",
     "label": "Gare TGV",
     "icon": "🚄",
-    "famille": "transport"
+    "famille": "transport",
+    "description": "La commune possède une gare desservie par le TGV."
   },
   {
     "id": "dom_tom",
     "label": "DOM-TOM",
     "icon": "🌴",
-    "famille": "dom_tom"
+    "famille": "dom_tom",
+    "description": "Commune située dans un département ou territoire d'outre-mer."
   },
   {
     "id": "lettre_a",
     "label": "Commence par A",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre A."
   },
   {
     "id": "lettre_b",
     "label": "Commence par B",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre B."
   },
   {
     "id": "lettre_c",
     "label": "Commence par C",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre C."
   },
   {
     "id": "lettre_d",
     "label": "Commence par D",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre D."
   },
   {
     "id": "lettre_e",
     "label": "Commence par E",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre E."
   },
   {
     "id": "lettre_f",
     "label": "Commence par F",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre F."
   },
   {
     "id": "lettre_g",
     "label": "Commence par G",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre G."
   },
   {
     "id": "lettre_l",
     "label": "Commence par L",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre L."
   },
   {
     "id": "lettre_m",
     "label": "Commence par M",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre M."
   },
   {
     "id": "lettre_n",
     "label": "Commence par N",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre N."
   },
   {
     "id": "lettre_p",
     "label": "Commence par P",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre P."
   },
   {
     "id": "lettre_r",
     "label": "Commence par R",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre R."
   },
   {
     "id": "lettre_s",
     "label": "Commence par S",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre S."
   },
   {
     "id": "lettre_t",
     "label": "Commence par T",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre T."
   },
   {
     "id": "lettre_v",
     "label": "Commence par V",
     "icon": "🔤",
-    "famille": "lettre"
+    "famille": "lettre",
+    "description": "Le nom de la ville commence par la lettre V."
   },
   {
     "id": "fin_on",
     "label": "Se termine en '-on'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-on'. Ex : Lyon, Avignon, Macon."
   },
   {
     "id": "fin_es",
     "label": "Se termine en '-es'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-es'. Ex : Nantes, Cannes, Rennes."
   },
   {
     "id": "fin_ille",
     "label": "Se termine en '-ille'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-ille'. Ex : Lille, Chantilly."
   },
   {
     "id": "fin_ais",
     "label": "Se termine en '-ais'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-ais'. Ex : Calais, Blois."
   },
   {
     "id": "fin_ens",
     "label": "Se termine en '-ens'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-ens'. Ex : Amiens, Vincennes."
   },
   {
     "id": "fin_an",
     "label": "Se termine en '-an'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-an'. Ex : Rouen, Orléan."
   },
   {
     "id": "fin_ois",
     "label": "Se termine en '-ois'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-ois'. Ex : Blois, Chartres."
   },
   {
     "id": "fin_ers",
     "label": "Se termine en '-ers'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-ers'. Ex : Angers, Béziers."
   },
   {
     "id": "fin_aux",
     "label": "Se termine en '-aux'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-aux'. Ex : Bordeaux, Arcachon."
   },
   {
     "id": "fin_ours",
     "label": "Se termine en '-ours'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-ours'. Ex : Bourges, Tours."
   },
   {
     "id": "fin_eau",
     "label": "Se termine en '-eau'",
     "icon": "🔡",
-    "famille": "terminaison"
+    "famille": "terminaison",
+    "description": "Le nom de la ville se termine par '-eau'. Ex : Bordeaux, Chambéry."
   }
 ]
