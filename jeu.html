@@ -841,7 +841,7 @@ function showRules(){
   // Utilise THEME_DATA si chargé, sinon fallback sur GRILLE
   const icon  = THEME_DATA.icon  || GRILLE?.lignes?.[0]?.icon || '🎮';
   const label = THEME_DATA.label || THEME;
-  const regles = THEME_DATA.regles || 'Consulte la page d'accueil pour en savoir plus sur ce thème.';
+  const regles = THEME_DATA.regles || "Consulte la page d'accueil pour en savoir plus sur ce thème.";
   document.getElementById('rulesIcon').textContent  = icon;
   document.getElementById('rulesTitle').textContent = label;
   document.getElementById('rulesText').textContent  = regles;
