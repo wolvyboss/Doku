@@ -1,69 +1,46 @@
-DOKU — Jeu de grille quotidien
-DOKU est un jeu de culture générale quotidien inspiré de Metrodoku. Une grille 3×3 s'affiche chaque jour — chaque ligne et chaque colonne correspond à une catégorie. Le joueur doit trouver une réponse qui satisfait simultanément la catégorie de sa ligne ET de sa colonne. 3 erreurs maximum.
-🌐 doku-mu.vercel.app
+DOKU — Guide contributeur
+Le projet
+Jeu de grille 3×3 quotidien. Site : doku-mu.vercel.app — hébergé sur Vercel, mis à jour automatiquement à chaque commit sur main.
+Architecture
+Tout est statique — fichiers JSON sur GitHub servis par Vercel. Pas de serveur, pas de base de données.
+data/
+├── themes.json          ← catalogue des thèmes (règles, couleurs, chips)
+├── foot/
+│   ├── foot_entries.json      ← réponses possibles + attributs
+│   └── foot_categories.json  ← catégories de la grille + descriptions
+├── films/ animaux/ villes/villes-casu/ villes/villes-expert/
 
-Thèmes disponibles
-ThèmeEntrées⚽Équipe de France56 joueurs depuis 1998🗺️Villes de France136 grandes villes🧭Villes de France Expert157 communes🎬Films Cultes258 films internationaux🐾Animaux du monde209 animaux
+grilles/
+├── foot.json            ← grilles précalculées 60 jours (généré auto)
+├── films.json / villes-casu.json / villes-expert.json / animaux.json
 
-Comment ça marche
-L'architecture est 100% statique — pas de serveur, pas de base de données. Tout repose sur des fichiers JSON hébergés sur GitHub et servis automatiquement par Vercel.
-data/{theme}/entries.json      ← qui peut être une réponse et avec quels attributs
-data/{theme}/categories.json   ← quelles catégories apparaissent sur la grille
-        ↓
-generate.py                    ← calcule toutes les combinaisons valides
-        ↓
-grilles/{theme}.json           ← grilles précalculées pour 60 jours
-        ↓
-GitHub → Vercel → navigateur
-        ↓
-jeu.html charge les données du thème et affiche la grille du jour
-Quand un joueur ouvre jeu.html?theme=foot, le site charge data/foot/foot_entries.json et grilles/foot.json en parallèle, trouve la grille correspondant à la date du jour, et valide les réponses en temps réel côté navigateur.
+index.html               ← page d'accueil (ne pas modifier)
+jeu.html                 ← moteur générique (ne pas modifier sauf mapping)
+generate.py              ← script local uniquement
 
-Structure du repo
-Doku/
-├── data/                              ← tu modifies ici
-│   ├── themes.json                    ← catalogue central des thèmes
-│   ├── foot/
-│   │   ├── foot_entries.json          ← liste des joueurs avec attributs
-│   │   └── foot_categories.json      ← catégories du thème foot
-│   ├── films/
-│   ├── villes/
-│   │   ├── villes casu/
-│   │   └── villes expert/
-│   └── animaux/
-├── grilles/                           ← généré automatiquement
-│   ├── foot.json
-│   ├── films.json
-│   ├── villes-casu.json
-│   ├── villes-expert.json
-│   └── animaux.json
-├── index.html                         ← page d'accueil, ne pas modifier
-├── jeu.html                           ← moteur de jeu générique, ne pas modifier
-└── generate.py                        ← script local uniquement
+**Comment le jeu fonctionne**
+Quand un joueur ouvre jeu.html?theme=foot :
 
-Maintenance
-Regénérer les grilles (une fois par mois)
+Le navigateur charge data/foot/foot_entries.json — la liste des joueurs
+Le navigateur charge grilles/foot.json — les grilles précalculées
+Il trouve la grille dont la date correspond à aujourd'hui
+Il affiche la grille et valide les réponses en comparant avec les entries
+
+jeu.html est un moteur générique. Il ne connaît aucun thème en particulier — il lit juste l'URL, charge les bons fichiers, et fait tourner la logique.
+Maintenance mensuelle
 bashpython generate.py --days 60
-Puis uploader les fichiers du dossier grilles/ sur GitHub. Vercel met à jour le site en 30 secondes.
-Modifier un thème existant
-Ouvrir data/{theme}/{theme}_entries.json, faire les modifications, relancer le script pour ce thème uniquement :
-bashpython generate.py --theme animaux --days 60
-Ajouter un nouveau thème
 
-Créer data/nouveau-theme/ avec deux fichiers : entries.json et categories.json
-Ajouter une entrée dans data/themes.json
-Lancer python generate.py --theme nouveau-theme --days 60
-Uploader grilles/nouveau-theme.json sur GitHub
-Ajouter le chemin dans le mapping de jeu.html
+# Uploader grilles/*.json sur GitHub
+Ajouter un thème
 
-index.html et jeu.html ne changent jamais pour les étapes 1 à 4.
+Créer data/nouveau/nouveau_entries.json + nouveau_categories.json
+Ajouter une ligne dans data/themes.json
+Ajouter le chemin dans entriesPaths et catPaths dans jeu.html
+Lancer generate.py --theme nouveau --days 60
+Uploader grilles/nouveau.json
 
-Stack
+Points critiques
 
-Frontend : HTML / CSS / JavaScript vanilla
-Hébergement : Vercel, déploiement automatique depuis GitHub
-Données : fichiers JSON statiques, aucune base de données
-Génération : Python 3, exécuté localement
-
-
-Contributeurs : wolvyboss · ClementdeLoubresse
+Ne jamais mettre d'apostrophe dans une string JS entre guillemets simples — ça casse tout le JS silencieusement
+Toujours utiliser des tirets dans les noms de dossiers, jamais d'espaces
+Après modification des entries, toujours régénérer les grilles
