@@ -157,6 +157,29 @@ header{display:flex;align-items:center;justify-content:space-between;padding:20p
   .btn-g{font-size:10px;padding:4px 7px}
   .score-n{font-size:24px}
 }
+
+/* ── BOUTON RÈGLES ── */
+.rules-btn{display:inline-flex;align-items:center;gap:5px;background:var(--surface);border:1px solid var(--border2);border-radius:20px;padding:4px 10px;font-size:11px;font-weight:600;color:var(--text2);cursor:pointer;transition:all .15s;}
+.rules-btn:hover{border-color:var(--green);color:var(--green);}
+.rules-popup-overlay{position:fixed;inset:0;z-index:300;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.4);backdrop-filter:blur(3px);}
+.rules-popup{background:var(--surface);border-radius:16px;padding:26px 24px;max-width:380px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.2);}
+.rules-popup-icon{font-size:36px;text-align:center;margin-bottom:10px;}
+.rules-popup-title{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:22px;text-transform:uppercase;text-align:center;margin-bottom:12px;color:var(--text);}
+.rules-popup-text{font-size:14px;color:var(--text2);line-height:1.6;text-align:center;margin-bottom:20px;}
+.rules-popup-close{width:100%;padding:11px;background:var(--green);border:none;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;color:#fff;text-transform:uppercase;letter-spacing:.5px;}
+.rules-popup-close:hover{opacity:.9;}
+
+/* ── POPUP CATÉGORIE ── */
+.cat-h{cursor:pointer;position:relative;}
+.cat-h:hover{opacity:.85;}
+.cat-info-btn{position:absolute;top:4px;right:4px;width:15px;height:15px;border-radius:50%;background:var(--border2);color:var(--text2);font-size:9px;font-weight:700;display:flex;align-items:center;justify-content:center;line-height:1;}
+.cat-popup-overlay{position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.35);backdrop-filter:blur(2px);}
+.cat-popup{background:var(--surface);border-radius:16px;padding:22px 24px;max-width:340px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.2);}
+.cat-popup-icon{font-size:36px;text-align:center;margin-bottom:10px;}
+.cat-popup-label{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:20px;text-transform:uppercase;text-align:center;margin-bottom:10px;color:var(--text);}
+.cat-popup-desc{font-size:14px;color:var(--text2);line-height:1.5;text-align:center;margin-bottom:16px;}
+.cat-popup-close{width:100%;padding:10px;background:var(--surface2);border:1px solid var(--border);border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;color:var(--text2);}
+.cat-popup-close:hover{background:var(--border);}
 </style>
 </head>
 <body>
@@ -818,7 +841,7 @@ function showRules(){
   // Utilise THEME_DATA si chargé, sinon fallback sur GRILLE
   const icon  = THEME_DATA.icon  || GRILLE?.lignes?.[0]?.icon || '🎮';
   const label = THEME_DATA.label || THEME;
-  const regles = THEME_DATA.regles || "Consulte la page d'accueil pour en savoir plus sur ce thème.";
+  const regles = THEME_DATA.regles || 'Consulte la page d'accueil pour en savoir plus sur ce thème.';
   document.getElementById('rulesIcon').textContent  = icon;
   document.getElementById('rulesTitle').textContent = label;
   document.getElementById('rulesText').textContent  = regles;
